@@ -1,29 +1,29 @@
 {
-  "status": "IN_PROGRESS_NOT_COMPLETE",
-  "issue_count": 91,
+  "status": "PASS",
+  "issue_count": 161,
   "severity": {
     "CRITICAL": 3,
-    "POTENTIAL RISK": 12,
-    "MAJOR": 46,
-    "MODERATE": 27,
-    "MINOR": 3
+    "POTENTIAL RISK": 15,
+    "MAJOR": 86,
+    "MODERATE": 55,
+    "MINOR": 2
   },
-  "evidence_count": 181,
-  "missing_count": 26,
+  "evidence_count": 545,
+  "missing_count": 41,
   "input_hashes_unchanged": true,
   "broken_local_links": [],
   "bad_evidence_anchors": [],
   "coverage": {
     "source_total_lines": 38825,
-    "continuous_semantic_lines": 15640,
-    "continuous_semantic_line_percent": 40.28,
-    "continuous_semantic_char_percent": 36.92,
+    "continuous_semantic_lines": 38825,
+    "continuous_semantic_line_percent": 100.0,
+    "continuous_semantic_char_percent": 100.0,
     "worldbook_total": 143,
-    "worldbook_full_bodies_read": 61,
-    "continuous_semantic_chars": 606051,
+    "worldbook_full_bodies_read": 143,
+    "continuous_semantic_chars": 1641637,
     "source_total_chars_without_newlines": 1641637
   },
-  "next_source_start_line": 12945,
+  "next_source_start_line": null,
   "session_02": {
     "new_continuous_range": [
       1286,
@@ -61,7 +61,7 @@
     ],
     "immutable_extracted_card_and_technical_assets_unchanged": true
   },
-  "note": "文件、引用、哈希、计数和范围一致性校验不能替代尚未完成的全文语义审计；未运行酒馆宿主。",
+  "note": "原著与世界书/手机目录内容审计完成，最终完整性通过。静态技术结论不冒充运行实测；未进入第二阶段。",
   "consistency_errors": [],
   "session_03": {
     "new_continuous_range": [
@@ -214,5 +214,2483 @@
     "new_issue_reconsidered_ids": [
       "C066"
     ]
-  }
+  },
+  "session_06": {
+    "new_continuous_range": [
+      12945,
+      15098
+    ],
+    "new_lines": 2154,
+    "new_chars": 89842,
+    "new_evidence_count": 31,
+    "new_issue_count": 5,
+    "updated_existing_issue_ids": [
+      "C005",
+      "C009",
+      "C021",
+      "C023",
+      "C038",
+      "C059",
+      "C066",
+      "C067",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "revised_evidence_ids": [
+      "E180"
+    ],
+    "new_evidence_reconsidered_ids": [
+      "E196",
+      "E199"
+    ],
+    "new_missing_count": 1,
+    "expanded_missing_ids": [
+      "M007",
+      "M008",
+      "M009",
+      "M010",
+      "M013",
+      "M014",
+      "M015",
+      "M016",
+      "M017",
+      "M018",
+      "M019",
+      "M020",
+      "M021",
+      "M022",
+      "M023",
+      "M024",
+      "M025"
+    ],
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "new_files": [
+      "session_06_baseline.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "all_issue_fields_present": true,
+    "json_markdown_records_consistent": true,
+    "phase_one_completed": false,
+    "card_full_bodies_read": 64
+  },
+  "session_07": {
+    "new_continuous_range": [
+      15099,
+      17120
+    ],
+    "new_lines": 2022,
+    "new_chars": 86654,
+    "new_evidence_count": 28,
+    "new_issue_count": 9,
+    "updated_existing_issue_ids": [
+      "C005",
+      "C021",
+      "C038",
+      "C060",
+      "C066",
+      "C067",
+      "C069",
+      "C070",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "revised_evidence_ids": [
+      "E179",
+      "E188",
+      "E201"
+    ],
+    "new_missing_count": 1,
+    "expanded_missing_ids": [
+      "M007",
+      "M008",
+      "M009",
+      "M010",
+      "M013",
+      "M014",
+      "M015",
+      "M016",
+      "M017",
+      "M018",
+      "M019",
+      "M020",
+      "M022",
+      "M026",
+      "M027"
+    ],
+    "new_issue_reconsidered_ids": [
+      "C081"
+    ],
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "new_files": [
+      "session_07_baseline.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "all_issue_fields_present": true,
+    "json_markdown_records_consistent": true,
+    "phase_one_completed": false,
+    "card_full_bodies_read": 67,
+    "unchanged_source_sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+    "unchanged_card_sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+  },
+  "maintenance_01": {
+    "date": "2026-09-08",
+    "status": "PASS_WITH_DOCUMENTED_LIMITS",
+    "maintenance_only": true,
+    "new_source_reading": false,
+    "highest_source_line_mechanically_inspected": 17120,
+    "source_after_checkpoint_opened_as_text": false,
+    "audit_files_before": 184,
+    "audit_bytes_before": 10390448,
+    "audit_files_after": 188,
+    "audit_bytes_after": 10486460,
+    "evidence_count": 240,
+    "c_issue_count": 82,
+    "total_issue_count": 105,
+    "missing_count": 28,
+    "missing_category_count": 9,
+    "confirmation_group_count": 8,
+    "duplicate_ids": [],
+    "missing_ecm_ids": [],
+    "reserved_withdrawn_id": "S018",
+    "exact_duplicate_record_bodies": [],
+    "identical_evidence_ranges": [],
+    "retained_overlapping_evidence": [
+      {
+        "ids": [
+          "E022",
+          "E023"
+        ],
+        "overlap_lines": 6,
+        "reason": "经历与行动不同主张"
+      },
+      {
+        "ids": [
+          "E043",
+          "E044"
+        ],
+        "overlap_lines": 23,
+        "reason": "档案调查与制度联络不同主张"
+      }
+    ],
+    "evidence_without_direct_issue_missing_links": [
+      "E046",
+      "E050"
+    ],
+    "background_evidence_route": "04时间线E046—E052范围引用；保留，无需为去孤立凑造C/M问题",
+    "historical_judgment_changes_checked": 66,
+    "historical_judgment_chain_errors": [],
+    "current_issue_records_unchanged": true,
+    "judgment_history_unchanged": true,
+    "source_prefix_quotes_checked": 207,
+    "source_after_checkpoint_quotes_not_rechecked": 33,
+    "source_after_checkpoint_limit": "仅检查既有索引行界和记录关系；不重新读取后半部原著",
+    "evidence_primary_locators_consistent": true,
+    "json_markdown_fields_consistent": true,
+    "broken_local_links": [],
+    "bad_evidence_anchors": [],
+    "all_json_files_parsed": 24,
+    "extracted_png_metadata_and_143_entries_match": true,
+    "four_scripts_and_eight_regex_copies_match": true,
+    "phone_catalog_matches_embedded_data": true,
+    "scripts_executed": false,
+    "input_hashes_unchanged": true,
+    "source_current_read_only_verified": true,
+    "canon_final_empty": true,
+    "ledger_and_checkpoint_byte_identical": true,
+    "reading_coverage_unchanged": true,
+    "coverage": {
+      "source_total_lines": 38825,
+      "continuous_semantic_lines": 19816,
+      "continuous_semantic_line_percent": 51.04,
+      "continuous_semantic_char_percent": 47.67,
+      "worldbook_total": 143,
+      "worldbook_full_bodies_read": 67,
+      "continuous_semantic_chars": 782547,
+      "source_total_chars_without_newlines": 1641637
+    },
+    "next_source_start_line": 17121,
+    "next_source_chapter": "卷二 第四十一章 归家",
+    "phase_one_completed": false,
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "missing_records.json",
+      "report_validation.json"
+    ],
+    "new_files": [
+      "CONTINUE_STATE.md",
+      "MIDTERM_HEALTH.md",
+      "maintenance_01_baseline.json",
+      "maintenance_changes.json"
+    ],
+    "deleted_files": [],
+    "maintenance_change_entries": 39,
+    "navigation_file": "CONTINUE_STATE.md",
+    "navigation_bytes": 4766,
+    "health_report": "MIDTERM_HEALTH.md",
+    "change_log": "maintenance_changes.json",
+    "baseline": "maintenance_01_baseline.json"
+  },
+  "session_08": {
+    "new_continuous_range": [
+      17121,
+      18346
+    ],
+    "new_lines": 1226,
+    "new_chars": 54627,
+    "new_evidence_count": 21,
+    "new_issue_count": 6,
+    "updated_existing_issue_ids": [
+      "C006",
+      "C009",
+      "C021",
+      "C038",
+      "C055",
+      "C066",
+      "C079",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "revised_evidence_ids": [
+      "E240",
+      "E234"
+    ],
+    "new_missing_count": 2,
+    "expanded_missing_ids": [
+      "M001",
+      "M014",
+      "M015",
+      "M017",
+      "M018",
+      "M019",
+      "M020",
+      "M023",
+      "M027",
+      "M028"
+    ],
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "CONTINUE_STATE.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "README.md",
+      "resume_checkpoint.json",
+      "report_validation.json"
+    ],
+    "new_files": [
+      "session_08_baseline.json",
+      "session_08_changes.json"
+    ],
+    "deleted_files": [],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "json_markdown_records_consistent": true,
+    "judgment_chain_errors": [],
+    "phase_one_completed": false,
+    "card_full_bodies_read": 67,
+    "new_card_full_body_count": 0,
+    "lightweight_navigation_updated": true,
+    "next_source_chapter": "卷二 第四十九章 好久不见",
+    "next_source_start_line": 18347,
+    "highest_new_semantically_read_line": 18346,
+    "unchanged_source_sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+    "unchanged_card_sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d",
+    "maintenance_01_retained_as_historical_snapshot": true,
+    "validation_errors": []
+  },
+  "session_09": {
+    "new_continuous_range": [
+      18347,
+      19706
+    ],
+    "new_lines": 1360,
+    "new_chars": 57514,
+    "new_evidence_count": 26,
+    "new_issue_count": 9,
+    "updated_existing_issue_ids": [
+      "C016",
+      "C023",
+      "C038",
+      "C060",
+      "C069",
+      "C081",
+      "C082",
+      "C087",
+      "C088",
+      "C021",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "revised_evidence_ids": [
+      "E260",
+      "E261"
+    ],
+    "new_missing_count": 2,
+    "expanded_missing_ids": [
+      "M008",
+      "M009",
+      "M014",
+      "M015",
+      "M016",
+      "M017",
+      "M018",
+      "M019",
+      "M020",
+      "M025",
+      "M026",
+      "M030"
+    ],
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "CONTINUE_STATE.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "README.md",
+      "resume_checkpoint.json",
+      "report_validation.json"
+    ],
+    "new_files": [
+      "session_09_baseline.json",
+      "session_09_changes.json"
+    ],
+    "deleted_files": [],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "canon_final_empty": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "json_markdown_records_consistent": true,
+    "judgment_chain_errors": [],
+    "phase_one_completed": false,
+    "card_full_bodies_read": 68,
+    "new_card_full_body_count": 1,
+    "lightweight_navigation_updated": true,
+    "next_source_chapter": "卷二 第六十三章 术式",
+    "next_source_start_line": 19707,
+    "highest_new_semantically_read_line": 19706,
+    "unchanged_source_sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+    "unchanged_card_sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d",
+    "maintenance_01_retained_as_historical_snapshot": true,
+    "validation_errors": []
+  },
+  "session_10": {
+    "new_continuous_range": [
+      19707,
+      20989
+    ],
+    "new_lines": 1283,
+    "new_chars": 55479,
+    "new_evidence_count": 27,
+    "new_issue_count": 6,
+    "updated_existing_issue_ids": [
+      "C006",
+      "C056",
+      "C080",
+      "C087",
+      "C089",
+      "C091",
+      "C092",
+      "C093",
+      "C094",
+      "C021",
+      "S003",
+      "S010",
+      "S011"
+    ],
+    "revised_evidence_ids": [
+      "E271",
+      "E274",
+      "E277",
+      "E287"
+    ],
+    "new_missing_count": 2,
+    "expanded_missing_ids": [
+      "M008",
+      "M014",
+      "M015",
+      "M017",
+      "M018",
+      "M019",
+      "M030",
+      "M032"
+    ],
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "CONTINUE_STATE.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "README.md",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "new_files": [
+      "session_10_baseline.json",
+      "session_10_changes.json"
+    ],
+    "deleted_files": [],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "canon_final_empty": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "json_markdown_records_consistent": true,
+    "judgment_chain_errors": [],
+    "phase_one_completed": false,
+    "card_full_bodies_read": 69,
+    "new_card_full_body_count": 1,
+    "lightweight_navigation_updated": true,
+    "next_source_chapter": "卷二 第七十四章 战书",
+    "next_source_start_line": 20990,
+    "highest_new_semantically_read_line": 20989,
+    "unchanged_source_sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+    "unchanged_card_sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d",
+    "maintenance_01_retained_as_historical_snapshot": true,
+    "validation_errors": [],
+    "final_input_hash_verification": true,
+    "current_pending_wording_scoped_to_historical_session": true
+  },
+  "session_11": {
+    "status": "PASS",
+    "session": {
+      "session": "11",
+      "previous_next_line": 20990,
+      "new_source_range": [
+        20990,
+        23012
+      ],
+      "new_lines": 2023,
+      "new_chars": 86350,
+      "next_line": 23013,
+      "completed_chapters": "卷二第74章《战书》至第89章《矛盾之源》，连续完整；85原文无副题",
+      "note": "自主执行内部批次，保存后立即继续，不等待用户。卡31/103全文新读，103后续摘要不计原著覆盖；source/current只读。",
+      "new_evidence_ids": [
+        "E315",
+        "E316",
+        "E317",
+        "E318",
+        "E319",
+        "E320",
+        "E321",
+        "E322",
+        "E323",
+        "E324",
+        "E325",
+        "E326",
+        "E327",
+        "E328",
+        "E329",
+        "E330",
+        "E331",
+        "E332",
+        "E333",
+        "E334",
+        "E335",
+        "E336",
+        "E337",
+        "E338",
+        "E339",
+        "E340",
+        "E341",
+        "E342",
+        "E343",
+        "E344",
+        "E345",
+        "E346",
+        "E347"
+      ],
+      "new_issue_ids": [
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C009",
+        "C013",
+        "C021",
+        "C036",
+        "C035",
+        "C038",
+        "C076",
+        "C087",
+        "C103",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M035",
+        "M036",
+        "M037"
+      ],
+      "expanded_missing_ids": [
+        "M008",
+        "M010",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M023",
+        "M028",
+        "M030"
+      ],
+      "revised_evidence_ids": [
+        "E314",
+        "E305",
+        "E230",
+        "E217"
+      ],
+      "new_full_card_body_ids": [
+        31,
+        103
+      ],
+      "rechecked_full_card_body_ids": [
+        50,
+        53,
+        64,
+        102
+      ],
+      "rechecked_existing_card_sections": [
+        1,
+        2,
+        18,
+        19
+      ]
+    },
+    "maintenance_notes": [
+      "README文件导航旧120项修为当前132；保留历史。",
+      "76心解名称临时候选被78推翻，未分配C，R005保存理由。",
+      "补齐独立E327并顺移本批标题，校准既定证据引用；before/after见session_11_changes。遗漏扩展实际10项，统计已改。"
+    ],
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\check_integrity.py",
+        "audit\\session_11_baseline.json",
+        "audit\\session_11_changes.json",
+        "audit\\session_11_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 25708,
+        "continuous_semantic_line_percent": 66.22,
+        "continuous_semantic_char_percent": 63.14,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 71,
+        "continuous_semantic_chars": 1036517,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 23013
+    }
+  },
+  "session_12": {
+    "status": "PASS",
+    "session": {
+      "session": "12",
+      "previous_next_line": 23013,
+      "new_source_range": [
+        23013,
+        24907
+      ],
+      "new_lines": 1895,
+      "new_chars": 83004,
+      "next_line": 24908,
+      "completed_chapters": "卷二第90—100章及幕间《爪痕的午餐》",
+      "note": "连续全文显示后语义阅读，未以卡摘要代替；内部批次保存后立即继续。卡118/124/140/149全文新读。",
+      "new_evidence_ids": [
+        "E348",
+        "E349",
+        "E350",
+        "E351",
+        "E352",
+        "E353",
+        "E354",
+        "E355",
+        "E356",
+        "E357",
+        "E358",
+        "E359",
+        "E360",
+        "E361",
+        "E362",
+        "E363",
+        "E364",
+        "E365",
+        "E366",
+        "E367",
+        "E368",
+        "E369",
+        "E370",
+        "E371",
+        "E372",
+        "E373",
+        "E374",
+        "E375"
+      ],
+      "new_issue_ids": [
+        "C110",
+        "C111",
+        "C112"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C009",
+        "C021",
+        "S003",
+        "C035",
+        "C069",
+        "C087",
+        "C090",
+        "C103",
+        "C056",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M038"
+      ],
+      "expanded_missing_ids": [
+        "M009",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M022",
+        "M023",
+        "M026",
+        "M027",
+        "M030",
+        "M036"
+      ],
+      "revised_evidence_ids": [
+        "E345",
+        "E305",
+        "E341"
+      ],
+      "new_full_card_body_ids": [
+        118,
+        124,
+        140,
+        149
+      ],
+      "rechecked_full_card_body_ids": [
+        17,
+        60,
+        89
+      ],
+      "rechecked_existing_card_sections": [
+        29,
+        47,
+        66,
+        70,
+        103
+      ]
+    },
+    "maintenance_notes": [
+      "README未标历史的优先级L17121/105项残留改为现行导航，保留修订说明。"
+    ],
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\batch_render_fragment.txt",
+        "audit\\session_12_baseline.json",
+        "audit\\session_12_changes.json",
+        "audit\\session_12_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 27603,
+        "continuous_semantic_line_percent": 71.1,
+        "continuous_semantic_char_percent": 68.2,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 75,
+        "continuous_semantic_chars": 1119521,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 24908
+    }
+  },
+  "session_13": {
+    "status": "PASS",
+    "session": {
+      "session": "13",
+      "previous_next_line": 24908,
+      "new_source_range": [
+        24908,
+        26741
+      ],
+      "new_lines": 1834,
+      "new_chars": 87916,
+      "next_line": 26742,
+      "completed_chapters": "卷二第101—114章",
+      "note": "逐段完整显示后连续语义读；L25195—25199输出截断后专门补显，未留缺口。卡105后半摘要虽完整读，不算原著覆盖。内部健康检查后自动继续。",
+      "new_evidence_ids": [
+        "E376",
+        "E377",
+        "E378",
+        "E379",
+        "E380",
+        "E381",
+        "E382",
+        "E383",
+        "E384",
+        "E385",
+        "E386",
+        "E387",
+        "E388",
+        "E389",
+        "E390",
+        "E391",
+        "E392",
+        "E393",
+        "E394",
+        "E395",
+        "E396",
+        "E397",
+        "E398",
+        "E399",
+        "E400",
+        "E401",
+        "E402"
+      ],
+      "new_issue_ids": [
+        "C113"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "S003",
+        "C038",
+        "C008",
+        "C096",
+        "C005",
+        "C013",
+        "C066",
+        "C043",
+        "S009",
+        "C111",
+        "C112",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M039"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M021",
+        "M022",
+        "M029",
+        "M033",
+        "M031",
+        "M016"
+      ],
+      "revised_evidence_ids": [
+        "E352",
+        "E372"
+      ],
+      "new_full_card_body_ids": [
+        104,
+        105,
+        116,
+        122,
+        125,
+        127,
+        130,
+        139,
+        142,
+        144,
+        150
+      ],
+      "rechecked_full_card_body_ids": [
+        4,
+        6
+      ],
+      "rechecked_existing_card_sections": [
+        43,
+        47,
+        64,
+        81
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\MIDTERM_HEALTH.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_13_baseline.json",
+        "audit\\session_13_changes.json",
+        "audit\\session_13_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 29437,
+        "continuous_semantic_line_percent": 75.82,
+        "continuous_semantic_char_percent": 73.55,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 86,
+        "continuous_semantic_chars": 1207437,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 26742
+    }
+  },
+  "health_73_55": {
+    "id": "health_73_55",
+    "date": "2026-09-09",
+    "status": "PASS_WITH_REFINEMENT",
+    "coverage": {
+      "source_total_lines": 38825,
+      "continuous_semantic_lines": 29437,
+      "continuous_semantic_line_percent": 75.82,
+      "continuous_semantic_char_percent": 73.55,
+      "worldbook_total": 143,
+      "worldbook_full_bodies_read": 86,
+      "continuous_semantic_chars": 1207437,
+      "source_total_chars_without_newlines": 1641637
+    },
+    "next_source_start_line": 26742,
+    "reading_paused_for_health_only": true,
+    "counts": {
+      "E": 402,
+      "C": 113,
+      "M": 39,
+      "valid_S": 18,
+      "R": 5,
+      "U": 8,
+      "total_issues": 136
+    },
+    "audit_files": 205,
+    "audit_bytes_before_health_append": 12319517,
+    "exact_duplicate_findings_titles_details": 0,
+    "maintenance_revision": [
+      "C113 downgraded MODERATE to POTENTIAL RISK after alternative reading; full before/after retained."
+    ],
+    "state_rechecks": [
+      "108疗伤后无痛及静养条件回接C038/C096，不沿用全期痛苦。",
+      "C111后续再次收口限制100公开例外，约定不被全删。",
+      "C103白狼由暂按真到线人核实自述，转运报告与预测分开。",
+      "C066夏知旧号与仍误性别方向分开；墨荷真身份不能给当前翠。",
+      "M条目是卡收录需求，原著解释已补不自动关闭。"
+    ],
+    "method_risks": [
+      "混合等级须按句使用，禁止只取A标签首字母。",
+      "长accurate/details追加历史需通过续读索引定位；不重新全载。",
+      "卡表述可存在非冲突解释，需反向核验并允许降级。",
+      "民生生产、入境、学习与礼俗主动读取；新M039与旧M不强合并。"
+    ],
+    "duplicate_policy": "场景重叠或跨文件镜像不等无意义重复；保留原文、前后修订及证据，导航负责减载。",
+    "continuation": "校验后立即L26742，不等待用户；约90%再检。"
+  },
+  "session_14": {
+    "status": "PASS",
+    "session": {
+      "session": "14",
+      "previous_next_line": 26742,
+      "new_source_range": [
+        26742,
+        28331
+      ],
+      "new_lines": 1590,
+      "new_chars": 69295,
+      "next_line": 28332,
+      "completed_chapters": "卷二第115—137章",
+      "note": "连续逐段完整显示并阅读；只检索标题规划边界不计正文。卡106后段不计源覆盖。保存校验后立即继续。",
+      "new_evidence_ids": [
+        "E403",
+        "E404",
+        "E405",
+        "E406",
+        "E407",
+        "E408",
+        "E409",
+        "E410",
+        "E411",
+        "E412",
+        "E413",
+        "E414",
+        "E415",
+        "E416",
+        "E417",
+        "E418",
+        "E419",
+        "E420",
+        "E421",
+        "E422",
+        "E423",
+        "E424",
+        "E425",
+        "E426",
+        "E427"
+      ],
+      "new_issue_ids": [
+        "C114"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C006",
+        "C013",
+        "C084",
+        "C095",
+        "C038",
+        "C069",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M019",
+        "M021",
+        "M036",
+        "M017",
+        "M020",
+        "M016",
+        "M029",
+        "M039"
+      ],
+      "revised_evidence_ids": [
+        "E383",
+        "E402"
+      ],
+      "new_full_card_body_ids": [
+        106,
+        143,
+        154,
+        158,
+        161,
+        162,
+        167
+      ],
+      "rechecked_full_card_body_ids": [
+        22
+      ],
+      "rechecked_existing_card_sections": [
+        2,
+        3,
+        47,
+        64,
+        105
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_14_baseline.json",
+        "audit\\session_14_changes.json",
+        "audit\\session_14_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 31027,
+        "continuous_semantic_line_percent": 79.92,
+        "continuous_semantic_char_percent": 77.77,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 93,
+        "continuous_semantic_chars": 1276732,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 28332
+    }
+  },
+  "session_15": {
+    "status": "PASS",
+    "session": {
+      "session": "15",
+      "previous_next_line": 28332,
+      "new_source_range": [
+        28332,
+        29646
+      ],
+      "new_lines": 1315,
+      "new_chars": 64731,
+      "next_line": 29647,
+      "completed_chapters": "卷二第138—162章",
+      "note": "连续逐段完整显示并阅读；只检索标题规划边界不计正文。卡107后段不计源覆盖。保存校验后立即继续。",
+      "new_evidence_ids": [
+        "E428",
+        "E429",
+        "E430",
+        "E431",
+        "E432",
+        "E433",
+        "E434",
+        "E435",
+        "E436",
+        "E437",
+        "E438",
+        "E439",
+        "E440",
+        "E441",
+        "E442",
+        "E443",
+        "E444",
+        "E445",
+        "E446",
+        "E447",
+        "E448",
+        "E449",
+        "E450"
+      ],
+      "new_issue_ids": [
+        "C115",
+        "C116",
+        "C117",
+        "C118"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C013",
+        "C038",
+        "C017",
+        "C005",
+        "C019",
+        "C066",
+        "C110",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [
+        "M040"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M019",
+        "M018",
+        "M036",
+        "M016",
+        "M021",
+        "M022"
+      ],
+      "revised_evidence_ids": [
+        "E407",
+        "E426",
+        "E427"
+      ],
+      "new_full_card_body_ids": [
+        107,
+        165,
+        166,
+        169,
+        171,
+        176,
+        177
+      ],
+      "rechecked_full_card_body_ids": [
+        28
+      ],
+      "rechecked_existing_card_sections": [
+        2,
+        20,
+        22,
+        47,
+        16
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_15_baseline.json",
+        "audit\\session_15_changes.json",
+        "audit\\session_15_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 32342,
+        "continuous_semantic_line_percent": 83.3,
+        "continuous_semantic_char_percent": 81.71,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 100,
+        "continuous_semantic_chars": 1341463,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 29647
+    }
+  },
+  "session_16": {
+    "status": "PASS",
+    "session": {
+      "session": "16",
+      "previous_next_line": 29647,
+      "new_source_range": [
+        29647,
+        31166
+      ],
+      "new_lines": 1520,
+      "new_chars": 79080,
+      "next_line": 31167,
+      "completed_chapters": "卷二163—189及其后作者附言",
+      "note": "逐段连续全文显示读取；作者规划含废稿不当正文Canon，后段卡108不计原文覆盖。保存后立即续读。",
+      "new_evidence_ids": [
+        "E451",
+        "E452",
+        "E453",
+        "E454",
+        "E455",
+        "E456",
+        "E457",
+        "E458",
+        "E459",
+        "E460",
+        "E461",
+        "E462",
+        "E463",
+        "E464",
+        "E465",
+        "E466",
+        "E467",
+        "E468",
+        "E469"
+      ],
+      "new_issue_ids": [
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124"
+      ],
+      "updated_existing_issue_ids": [
+        "C118",
+        "C021",
+        "C006",
+        "C016",
+        "C014",
+        "C066",
+        "C015",
+        "C113",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [
+        "M041"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M019",
+        "M018",
+        "M022",
+        "M027",
+        "M029",
+        "M013"
+      ],
+      "revised_evidence_ids": [
+        "E450",
+        "E446"
+      ],
+      "new_full_card_body_ids": [
+        29,
+        66,
+        72,
+        88,
+        108,
+        131,
+        133,
+        134,
+        135,
+        137,
+        145,
+        155,
+        164,
+        170,
+        174
+      ],
+      "rechecked_full_card_body_ids": [
+        107
+      ],
+      "rechecked_existing_card_sections": [
+        31,
+        43,
+        47
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\batch_finalize.py",
+        "audit\\session_16_baseline.json",
+        "audit\\session_16_changes.json",
+        "audit\\session_16_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 33862,
+        "continuous_semantic_line_percent": 87.22,
+        "continuous_semantic_char_percent": 86.53,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 115,
+        "continuous_semantic_chars": 1420543,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 31167
+    }
+  },
+  "session_17": {
+    "status": "PASS",
+    "session": {
+      "session": "17",
+      "previous_next_line": 31167,
+      "new_source_range": [
+        31167,
+        32702
+      ],
+      "new_lines": 1536,
+      "new_chars": 72714,
+      "next_line": 32703,
+      "completed_chapters": "卷二190—215",
+      "note": "连续读取全部正文，无跳读；章节215在本批完整纳入。",
+      "new_evidence_ids": [
+        "E470",
+        "E471",
+        "E472",
+        "E473",
+        "E474",
+        "E475",
+        "E476",
+        "E477",
+        "E478",
+        "E479",
+        "E480",
+        "E481",
+        "E482",
+        "E483",
+        "E484",
+        "E485",
+        "E486",
+        "E487",
+        "E488",
+        "E489",
+        "E490",
+        "E491",
+        "E492"
+      ],
+      "new_issue_ids": [
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C009",
+        "C010",
+        "C013",
+        "C014",
+        "C015",
+        "C124",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M019",
+        "M021",
+        "M027",
+        "M034",
+        "M041"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [
+        109,
+        147
+      ],
+      "rechecked_full_card_body_ids": [
+        43,
+        31
+      ],
+      "rechecked_existing_card_sections": [
+        108
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_17_baseline.json",
+        "audit\\session_17_changes.json",
+        "audit\\session_17_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 35398,
+        "continuous_semantic_line_percent": 91.17,
+        "continuous_semantic_char_percent": 90.96,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 117,
+        "continuous_semantic_chars": 1493257,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 32703
+    }
+  },
+  "session_18": {
+    "status": "PASS",
+    "session": {
+      "session": "18",
+      "previous_next_line": 32703,
+      "new_source_range": [
+        32703,
+        34207
+      ],
+      "new_lines": 1505,
+      "new_chars": 68695,
+      "next_line": 34208,
+      "completed_chapters": "卷二216—239及中秋作者附言",
+      "note": "连续正文全读；25条原有地区/组织/包装卡完整读，引用旧E核时只按必要定位不重计源。",
+      "new_evidence_ids": [
+        "E493",
+        "E494",
+        "E495",
+        "E496",
+        "E497",
+        "E498",
+        "E499",
+        "E500",
+        "E501",
+        "E502",
+        "E503",
+        "E504",
+        "E505",
+        "E506",
+        "E507",
+        "E508",
+        "E509",
+        "E510",
+        "E511",
+        "E512",
+        "E513",
+        "E514",
+        "E515"
+      ],
+      "new_issue_ids": [
+        "C130",
+        "C131",
+        "C132"
+      ],
+      "updated_existing_issue_ids": [
+        "C009",
+        "C010",
+        "C006",
+        "C021",
+        "C118",
+        "C014",
+        "C095",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M018",
+        "M019",
+        "M022",
+        "M027",
+        "M041"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [
+        112,
+        113,
+        115,
+        117,
+        120,
+        123,
+        126,
+        128,
+        129,
+        132,
+        136,
+        138,
+        141,
+        146,
+        148,
+        151,
+        152,
+        153,
+        156,
+        157,
+        159,
+        160,
+        163,
+        168,
+        175
+      ],
+      "rechecked_full_card_body_ids": [
+        17,
+        19
+      ],
+      "rechecked_existing_card_sections": [
+        109
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_18_baseline.json",
+        "audit\\session_18_changes.json",
+        "audit\\session_18_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 36903,
+        "continuous_semantic_line_percent": 95.05,
+        "continuous_semantic_char_percent": 95.15,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 142,
+        "continuous_semantic_chars": 1561952,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 34208
+    }
+  },
+  "session_19": {
+    "status": "PASS",
+    "session": {
+      "session": "19",
+      "previous_next_line": 34208,
+      "new_source_range": [
+        34208,
+        35329
+      ],
+      "new_lines": 1122,
+      "new_chars": 50257,
+      "next_line": 35330,
+      "completed_chapters": "卷二240—259",
+      "note": "全部连续正文；最后一条卡正文110完整读，正文覆盖尚有800行主缺口。",
+      "new_evidence_ids": [
+        "E516",
+        "E517",
+        "E518",
+        "E519",
+        "E520",
+        "E521",
+        "E522",
+        "E523",
+        "E524",
+        "E525",
+        "E526",
+        "E527",
+        "E528",
+        "E529",
+        "E530",
+        "E531",
+        "E532",
+        "E533",
+        "E534",
+        "E535"
+      ],
+      "new_issue_ids": [
+        "C133",
+        "C134",
+        "C135"
+      ],
+      "updated_existing_issue_ids": [
+        "C131",
+        "C009",
+        "C010",
+        "C015",
+        "C006",
+        "C021",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M019",
+        "M022",
+        "M034",
+        "M041"
+      ],
+      "revised_evidence_ids": [
+        "E338",
+        "E485"
+      ],
+      "new_full_card_body_ids": [
+        110
+      ],
+      "rechecked_full_card_body_ids": [],
+      "rechecked_existing_card_sections": [
+        17,
+        19,
+        31,
+        43,
+        108,
+        109,
+        148
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\README.md",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\session_19_baseline.json",
+        "audit\\session_19_changes.json",
+        "audit\\session_19_update.py"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 38025,
+        "continuous_semantic_line_percent": 97.94,
+        "continuous_semantic_char_percent": 98.21,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 143,
+        "continuous_semantic_chars": 1612209,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": 35330
+    }
+  },
+  "session_20": {
+    "status": "PASS",
+    "session": {
+      "session": "20",
+      "previous_next_line": 35330,
+      "new_source_range": [
+        35330,
+        36129
+      ],
+      "new_lines": 800,
+      "new_chars": 29428,
+      "next_line": 36130,
+      "completed_chapters": "卷二260—269，贯通既读270—282",
+      "note": "最后800行连续语义阅读，合并既有尾段后所给源文件无未读缺口。",
+      "new_evidence_ids": [
+        "E536",
+        "E537",
+        "E538",
+        "E539",
+        "E540",
+        "E541",
+        "E542",
+        "E543",
+        "E544",
+        "E545"
+      ],
+      "new_issue_ids": [
+        "C136"
+      ],
+      "updated_existing_issue_ids": [
+        "C011",
+        "C013",
+        "C021",
+        "C038",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M040",
+        "M013",
+        "M014",
+        "M016"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [],
+      "rechecked_full_card_body_ids": [
+        32,
+        111,
+        168
+      ],
+      "rechecked_existing_card_sections": [
+        110,
+        47,
+        64,
+        89
+      ]
+    },
+    "integrity_check": {
+      "status": "PASS",
+      "checks": [
+        "JSON与E/C/M连续编号",
+        "Markdown/JSON字段及标题",
+        "引用目标及证据锚点",
+        "判断修订链",
+        "新证主范围和字面片段",
+        "覆盖并集及唯一断点",
+        "输入SHA256和audit写入边界",
+        "现行统计与卡阅读列表"
+      ],
+      "errors": [],
+      "input_hashes": {
+        "source\\下班，然后变成魔法少女_第1-282章.txt": {
+          "baseline": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "current": {
+            "bytes": 4955802,
+            "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+          },
+          "unchanged": true
+        },
+        "current\\260808.png": {
+          "baseline": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "current": {
+            "bytes": 7394632,
+            "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+          },
+          "unchanged": true
+        }
+      },
+      "changed_existing_files": [
+        "audit\\00_card_structure.md",
+        "audit\\01_evidence_index.md",
+        "audit\\02_full_audit_report.md",
+        "audit\\03_missing_content.md",
+        "audit\\04_timeline_knowledge_risks.md",
+        "audit\\05_user_confirmation_required.md",
+        "audit\\CONTINUE_STATE.md",
+        "audit\\MIDTERM_HEALTH.md",
+        "audit\\README.md",
+        "audit\\check_integrity.py",
+        "audit\\evidence_records.json",
+        "audit\\issue_records.json",
+        "audit\\judgment_changes.json",
+        "audit\\missing_records.json",
+        "audit\\reading_ledger.json",
+        "audit\\report_validation.json",
+        "audit\\resume_checkpoint.json"
+      ],
+      "added_files": [
+        "audit\\final_baseline.json",
+        "audit\\final_changes.json",
+        "audit\\final_check.py",
+        "audit\\final_document_changes.json",
+        "audit\\final_document_update.py",
+        "audit\\FINAL_HEALTH.md",
+        "audit\\final_integrity.json",
+        "audit\\final_record_update.py",
+        "audit\\OPEN_ISSUES.md",
+        "audit\\session_20_baseline.json",
+        "audit\\session_20_changes.json",
+        "audit\\session_20_update.py",
+        "audit\\source_complete_state.py",
+        "audit\\technical\\catalog_comparison.json",
+        "audit\\technical\\CATALOG_REVIEW.md",
+        "audit\\technical\\catalog_review_coverage.json",
+        "audit\\technical\\catalog_unique_sections.json"
+      ],
+      "deleted_files": [],
+      "coverage": {
+        "source_total_lines": 38825,
+        "continuous_semantic_lines": 38825,
+        "continuous_semantic_line_percent": 100.0,
+        "continuous_semantic_char_percent": 100.0,
+        "worldbook_total": 143,
+        "worldbook_full_bodies_read": 143,
+        "continuous_semantic_chars": 1641637,
+        "source_total_chars_without_newlines": 1641637
+      },
+      "next_source_start_line": null
+    }
+  },
+  "source_reading_status": "COMPLETE",
+  "final_integrity": {
+    "status": "PASS",
+    "date": "2026-09-09",
+    "phase_one_completed": true,
+    "errors": [],
+    "counts": {
+      "E": 545,
+      "C": 138,
+      "S_active": 18,
+      "S_withdrawn": [
+        "S018"
+      ],
+      "R": 5,
+      "M": 41,
+      "U": 8,
+      "main": 161
+    },
+    "coverage": {
+      "source_total_lines": 38825,
+      "continuous_semantic_lines": 38825,
+      "continuous_semantic_line_percent": 100.0,
+      "continuous_semantic_char_percent": 100.0,
+      "worldbook_total": 143,
+      "worldbook_full_bodies_read": 143,
+      "continuous_semantic_chars": 1641637,
+      "source_total_chars_without_newlines": 1641637
+    },
+    "source_parts": [
+      {
+        "session": "initial",
+        "start": 1,
+        "end": 1285,
+        "lines": 1285,
+        "chars": 44087
+      },
+      {
+        "session": "02",
+        "start": 1286,
+        "end": 4357,
+        "lines": 3072,
+        "chars": 118010
+      },
+      {
+        "session": "03",
+        "start": 4358,
+        "end": 8658,
+        "lines": 4301,
+        "chars": 177578
+      },
+      {
+        "session": "04",
+        "start": 8659,
+        "end": 11021,
+        "lines": 2363,
+        "chars": 93396
+      },
+      {
+        "session": "05",
+        "start": 11022,
+        "end": 12944,
+        "lines": 1923,
+        "chars": 75983
+      },
+      {
+        "session": "06",
+        "start": 12945,
+        "end": 15098,
+        "lines": 2154,
+        "chars": 89842
+      },
+      {
+        "session": "07",
+        "start": 15099,
+        "end": 17120,
+        "lines": 2022,
+        "chars": 86654
+      },
+      {
+        "session": "08",
+        "start": 17121,
+        "end": 18346,
+        "lines": 1226,
+        "chars": 54627
+      },
+      {
+        "session": "09",
+        "start": 18347,
+        "end": 19706,
+        "lines": 1360,
+        "chars": 57514
+      },
+      {
+        "session": "10",
+        "start": 19707,
+        "end": 20989,
+        "lines": 1283,
+        "chars": 55479
+      },
+      {
+        "session": "11",
+        "start": 20990,
+        "end": 23012,
+        "lines": 2023,
+        "chars": 86350
+      },
+      {
+        "session": "12",
+        "start": 23013,
+        "end": 24907,
+        "lines": 1895,
+        "chars": 83004
+      },
+      {
+        "session": "13",
+        "start": 24908,
+        "end": 26741,
+        "lines": 1834,
+        "chars": 87916
+      },
+      {
+        "session": "14",
+        "start": 26742,
+        "end": 28331,
+        "lines": 1590,
+        "chars": 69295
+      },
+      {
+        "session": "15",
+        "start": 28332,
+        "end": 29646,
+        "lines": 1315,
+        "chars": 64731
+      },
+      {
+        "session": "16",
+        "start": 29647,
+        "end": 31166,
+        "lines": 1520,
+        "chars": 79080
+      },
+      {
+        "session": "17",
+        "start": 31167,
+        "end": 32702,
+        "lines": 1536,
+        "chars": 72714
+      },
+      {
+        "session": "18",
+        "start": 32703,
+        "end": 34207,
+        "lines": 1505,
+        "chars": 68695
+      },
+      {
+        "session": "19",
+        "start": 34208,
+        "end": 35329,
+        "lines": 1122,
+        "chars": 50257
+      },
+      {
+        "session": "20",
+        "start": 35330,
+        "end": 36129,
+        "lines": 800,
+        "chars": 29428
+      },
+      {
+        "session": "initial_tail",
+        "start": 36130,
+        "end": 38825,
+        "lines": 2696,
+        "chars": 96997
+      }
+    ],
+    "source_no_gap_no_double_count": true,
+    "chapter_titles_verified": 442,
+    "evidence_quotes_verified": 545,
+    "revision_chain_checks": {
+      "evidence_changes": {
+        "changes": 28,
+        "records": 27
+      },
+      "missing_changes": {
+        "changes": 127,
+        "records": 30
+      },
+      "issue_changes": {
+        "changes": 226,
+        "records": 68
+      }
+    },
+    "all_current_record_refs_valid": true,
+    "input_hashes": {
+      "source\\下班，然后变成魔法少女_第1-282章.txt": {
+        "baseline": {
+          "bytes": 4955802,
+          "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+        },
+        "current": {
+          "bytes": 4955802,
+          "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+        },
+        "unchanged": true
+      },
+      "current\\260808.png": {
+        "baseline": {
+          "bytes": 7394632,
+          "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+        },
+        "current": {
+          "bytes": 7394632,
+          "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+        },
+        "unchanged": true
+      }
+    },
+    "immutable_extracted_files_verified": 159,
+    "audit_only_changes_verified": true,
+    "worldbook_bodies_read": 143,
+    "phone_catalog_sections_accounted": 1044,
+    "host_runtime_tested": false,
+    "technical_scope": "前三脚本完整静态阅读、所有资料目录和可见UI文字、关键手机生成/过滤/快照/隔离路径；未全程序/CSS逐行审，未真实宿主运行。",
+    "health_73_55": "PASS_WITH_REFINEMENT",
+    "health_90_96": "PASS",
+    "active_next_source_line": null
+  },
+  "phase_one_completed": true,
+  "phase_one_status": "COMPLETE"
 }

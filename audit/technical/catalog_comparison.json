@@ -1,0 +1,356 @@
+[
+  {
+    "group": "regions",
+    "name": "柏安市",
+    "card_id": 114,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "柏安市地下异策局",
+    "card_id": 115,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "彩云湿地",
+    "card_id": 116,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "东华州域",
+    "card_id": 117,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "方亭市",
+    "card_id": 118,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "方亭市第一福利院",
+    "card_id": 119,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "方亭市下水道蛹兽巢穴",
+    "card_id": 120,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "方亭小队秘密基地",
+    "card_id": 121,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "翡翠书廊",
+    "card_id": 122,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "花园",
+    "card_id": 123,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "荒原",
+    "card_id": 124,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "纪念陵园",
+    "card_id": 125,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "间界",
+    "card_id": 126,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "界门与界桥",
+    "card_id": 127,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "黎星区",
+    "card_id": 128,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "临扬市",
+    "card_id": 129,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "卢恩诺雷",
+    "card_id": 130,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "卢恩诺雷魔事院分院",
+    "card_id": 131,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "珞明区",
+    "card_id": 132,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "魔法国度",
+    "card_id": 133,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "魔法国度五都",
+    "card_id": 134,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "蔷薇宫",
+    "card_id": 135,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "湿地公园",
+    "card_id": 136,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "天都市",
+    "card_id": 137,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "无魔力区",
+    "card_id": 139,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "物质界",
+    "card_id": 140,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "夕照区",
+    "card_id": 141,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "学院区",
+    "card_id": 142,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "燕南市",
+    "card_id": 143,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "银廊",
+    "card_id": 144,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "银廊后花园迷宫",
+    "card_id": 145,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "银屏山",
+    "card_id": 146,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "岳望市",
+    "card_id": 147,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "云境考场",
+    "card_id": 148,
+    "normalized_equal": true
+  },
+  {
+    "group": "regions",
+    "name": "爪痕荒原城堡",
+    "card_id": 149,
+    "normalized_equal": false
+  },
+  {
+    "group": "regions",
+    "name": "祖母绿区",
+    "card_id": 150,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "柏安市小队",
+    "card_id": 153,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "宝石权杖",
+    "card_id": 154,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "财政院",
+    "card_id": 155,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "调查院",
+    "card_id": 156,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "方亭市小队",
+    "card_id": 157,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "国度军",
+    "card_id": 158,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "黑烬黎明",
+    "card_id": 159,
+    "normalized_equal": true
+  },
+  {
+    "group": "factions",
+    "name": "间界联合军",
+    "card_id": 160,
+    "normalized_equal": true
+  },
+  {
+    "group": "factions",
+    "name": "旧方亭市小队",
+    "card_id": 161,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "卢恩诺雷城防军",
+    "card_id": 162,
+    "normalized_equal": true
+  },
+  {
+    "group": "factions",
+    "name": "猫尾小队",
+    "card_id": 163,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "民治院",
+    "card_id": 164,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "魔事院",
+    "card_id": 165,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "魔事院五派",
+    "card_id": 166,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "矢车菊小队",
+    "card_id": 167,
+    "normalized_equal": true
+  },
+  {
+    "group": "factions",
+    "name": "使徒",
+    "card_id": 168,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "王庭",
+    "card_id": 169,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "王庭护卫",
+    "card_id": 170,
+    "normalized_equal": true
+  },
+  {
+    "group": "factions",
+    "name": "研究院",
+    "card_id": 171,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "异策局",
+    "card_id": 172,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "异策局特殊作战部第三小队",
+    "card_id": 173,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "园丁",
+    "card_id": 174,
+    "normalized_equal": false
+  },
+  {
+    "group": "factions",
+    "name": "爪痕",
+    "card_id": 175,
+    "normalized_equal": false
+  }
+]

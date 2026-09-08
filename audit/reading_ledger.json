@@ -1,5 +1,5 @@
 {
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "structure": "all_fields_parsed",
   "card_entries_read": [
     0,
@@ -31,6 +31,8 @@
     26,
     27,
     28,
+    29,
+    31,
     32,
     33,
     34,
@@ -41,13 +43,18 @@
     43,
     46,
     47,
+    50,
     53,
     58,
     59,
     60,
     64,
+    66,
     70,
+    72,
     81,
+    88,
+    89,
     91,
     92,
     93,
@@ -55,11 +62,86 @@
     95,
     96,
     97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
     111,
+    112,
+    113,
     114,
+    115,
+    116,
+    117,
+    118,
     119,
+    120,
     121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
     172,
+    173,
+    174,
+    175,
+    176,
+    177,
     178,
     179,
     180
@@ -67,10 +149,6 @@
   "source_full_read_ranges": [
     [
       1,
-      12944
-    ],
-    [
-      36130,
       38825
     ]
   ],
@@ -116,36 +194,27 @@
       35448
     ]
   ],
-  "note": "已读仅指实际完整显示并语义检查的范围；全文机械索引和关键字检索不计全文阅读。尚未完成全文审计。",
-  "card_entries_targeted": [
-    31,
-    66,
-    115,
-    123,
-    131,
-    136,
-    157,
-    158,
-    160,
-    173
-  ],
+  "note": "所给源文L1—38825连续语义阅读100%，世界书143条和手机完整目录已交叉审计，第一阶段最终完整性检查通过。未进行第二阶段或宿主运行测试。",
+  "card_entries_targeted": [],
   "technical_read": {
     "complete_scripts": [
       0,
       1,
       2
     ],
-    "phone": "资料结构全部解析；生成提示、别名处理、资料白名单、快照读取和跨聊天令牌路径定点语义检查；未全文读完743791字符脚本；未运行",
-    "regex": "8条配置全部检查；HTML全文语义检查尚未完成"
+    "phone": "75人物/36地区/23势力完整内容审计，50CG和10别名键核验，raw无额外语义文本；关键生成/过滤/快照/聊天隔离路径定点代码审计，未逐行读全部743791字符程序，未运行。",
+    "regex": "8条配置全部核对，全部可见UI文字已读；样式和全部内嵌代码未逐行审读，未渲染或宿主测试。",
+    "catalog_coverage_record": "technical/catalog_review_coverage.json",
+    "catalog_review": "technical/CATALOG_REVIEW.md"
   },
   "coverage": {
     "source_total_lines": 38825,
-    "continuous_semantic_lines": 15640,
-    "continuous_semantic_line_percent": 40.28,
-    "continuous_semantic_char_percent": 36.92,
+    "continuous_semantic_lines": 38825,
+    "continuous_semantic_line_percent": 100.0,
+    "continuous_semantic_char_percent": 100.0,
     "worldbook_total": 143,
-    "worldbook_full_bodies_read": 61,
-    "continuous_semantic_chars": 606051,
+    "worldbook_full_bodies_read": 143,
+    "continuous_semantic_chars": 1641637,
     "source_total_chars_without_newlines": 1641637
   },
   "sessions": [
@@ -461,7 +530,1426 @@
       "new_issue_reconsidered_ids": [
         "C066"
       ]
+    },
+    {
+      "session": "06",
+      "previous_next_line": 12945,
+      "new_source_range": [
+        12945,
+        15098
+      ],
+      "new_lines": 2154,
+      "new_chars": 89842,
+      "next_line": 15099,
+      "completed_chapters": "卷二第1—22章及其间作者附记；与卷一已有区间连续相接",
+      "note": "逐段完整显示并连续语义阅读；复查本轮锚点不重复计覆盖。卡89/98/173完整阅读，17/18复核；卡片未来叙述不计原著核验。",
+      "new_evidence_ids": [
+        "E182",
+        "E183",
+        "E184",
+        "E185",
+        "E186",
+        "E187",
+        "E188",
+        "E189",
+        "E190",
+        "E191",
+        "E192",
+        "E193",
+        "E194",
+        "E195",
+        "E196",
+        "E197",
+        "E198",
+        "E199",
+        "E200",
+        "E201",
+        "E202",
+        "E203",
+        "E204",
+        "E205",
+        "E206",
+        "E207",
+        "E208",
+        "E209",
+        "E210",
+        "E211",
+        "E212"
+      ],
+      "new_issue_ids": [
+        "C069",
+        "C070",
+        "C071",
+        "C072",
+        "C073"
+      ],
+      "updated_existing_issue_ids": [
+        "C005",
+        "C009",
+        "C021",
+        "C023",
+        "C038",
+        "C059",
+        "C066",
+        "C067",
+        "S003",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "revised_evidence_ids": [
+        "E180"
+      ],
+      "new_evidence_reconsidered_ids": [
+        "E196",
+        "E199"
+      ],
+      "new_missing_ids": [
+        "M027"
+      ],
+      "expanded_missing_ids": [
+        "M007",
+        "M008",
+        "M009",
+        "M010",
+        "M013",
+        "M014",
+        "M015",
+        "M016",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M021",
+        "M022",
+        "M023",
+        "M024",
+        "M025"
+      ],
+      "new_full_card_body_ids": [
+        89,
+        98,
+        173
+      ]
+    },
+    {
+      "session": "07",
+      "previous_next_line": 15099,
+      "new_source_range": [
+        15099,
+        17120
+      ],
+      "new_lines": 2022,
+      "new_chars": 86654,
+      "next_line": 17121,
+      "completed_chapters": "卷二第23—40章及其间两处作者附记；卷一至卷二40章连续相接",
+      "note": "按既有断点连续完整显示后语义阅读，不跳读不抽样；第23章真实题名曙草，用户写噩草按行号与本地标题校正。卡50/99/100新增全文阅读，36复核；卡100未来41—52章摘要不计原著覆盖。",
+      "new_evidence_ids": [
+        "E213",
+        "E214",
+        "E215",
+        "E216",
+        "E217",
+        "E218",
+        "E219",
+        "E220",
+        "E221",
+        "E222",
+        "E223",
+        "E224",
+        "E225",
+        "E226",
+        "E227",
+        "E228",
+        "E229",
+        "E230",
+        "E231",
+        "E232",
+        "E233",
+        "E234",
+        "E235",
+        "E236",
+        "E237",
+        "E238",
+        "E239",
+        "E240"
+      ],
+      "new_issue_ids": [
+        "C074",
+        "C075",
+        "C076",
+        "C077",
+        "C078",
+        "C079",
+        "C080",
+        "C081",
+        "C082"
+      ],
+      "updated_existing_issue_ids": [
+        "C005",
+        "C021",
+        "C038",
+        "C060",
+        "C066",
+        "C067",
+        "C069",
+        "C070",
+        "S003",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "revised_evidence_ids": [
+        "E179",
+        "E188",
+        "E201"
+      ],
+      "new_missing_ids": [
+        "M028"
+      ],
+      "expanded_missing_ids": [
+        "M007",
+        "M008",
+        "M009",
+        "M010",
+        "M013",
+        "M014",
+        "M015",
+        "M016",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M022",
+        "M026",
+        "M027"
+      ],
+      "new_full_card_body_ids": [
+        50,
+        99,
+        100
+      ],
+      "new_issue_reconsidered_ids": [
+        "C081"
+      ],
+      "reconsideration_note": "C081自复核收窄：祖本有制造无意识备用躯体的说明，卡称无灵魂躯体不单独判错，不把未明说的无魂人格强加给卡；保留记忆复制、虚构时限及尚未执行方案的问题。"
+    },
+    {
+      "session": "08",
+      "previous_next_line": 17121,
+      "new_source_range": [
+        17121,
+        18346
+      ],
+      "new_lines": 1226,
+      "new_chars": 54627,
+      "next_line": 18347,
+      "completed_chapters": "卷二第41—48章及其间恢复更新附言；卷一至卷二48章连续相接",
+      "note": "先由CONTINUE_STATE轻量接管，详细证据与问题按需读取；连续语义阅读本轮全部1226行，作者附言计字符但不当正文Canon。卡53既有全文复核、100事件五至十对照、47生日段定向复核，未新增卡正文覆盖；100未来49—52章摘要不计原著已审。",
+      "new_evidence_ids": [
+        "E241",
+        "E242",
+        "E243",
+        "E244",
+        "E245",
+        "E246",
+        "E247",
+        "E248",
+        "E249",
+        "E250",
+        "E251",
+        "E252",
+        "E253",
+        "E254",
+        "E255",
+        "E256",
+        "E257",
+        "E258",
+        "E259",
+        "E260",
+        "E261"
+      ],
+      "new_issue_ids": [
+        "C083",
+        "C084",
+        "C085",
+        "C086",
+        "C087",
+        "C088"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C009",
+        "C021",
+        "C038",
+        "C055",
+        "C066",
+        "C079",
+        "S003",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "revised_evidence_ids": [
+        "E240",
+        "E234"
+      ],
+      "new_missing_ids": [
+        "M029",
+        "M030"
+      ],
+      "expanded_missing_ids": [
+        "M001",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M023",
+        "M027",
+        "M028"
+      ],
+      "new_full_card_body_ids": [],
+      "rechecked_full_card_body_ids": [
+        53
+      ],
+      "rechecked_existing_card_sections": [
+        47,
+        100
+      ]
+    },
+    {
+      "session": "09",
+      "previous_next_line": 18347,
+      "new_source_range": [
+        18347,
+        19706
+      ],
+      "new_lines": 1360,
+      "new_chars": 57514,
+      "next_line": 19707,
+      "completed_chapters": "卷二第49—62章及第49章后作者延更附言；卷一至卷二62章连续相接",
+      "note": "轻量索引接管，相关详文按ID调阅；连续完整显示本轮全部行并语义阅读。卡101全文新增阅读、53全文复核、100事件十一至幕末及0/7苏胜紫段定向复核。卡101第63—69未来摘要未作为原著证据或新增覆盖。",
+      "new_evidence_ids": [
+        "E262",
+        "E263",
+        "E264",
+        "E265",
+        "E266",
+        "E267",
+        "E268",
+        "E269",
+        "E270",
+        "E271",
+        "E272",
+        "E273",
+        "E274",
+        "E275",
+        "E276",
+        "E277",
+        "E278",
+        "E279",
+        "E280",
+        "E281",
+        "E282",
+        "E283",
+        "E284",
+        "E285",
+        "E286",
+        "E287"
+      ],
+      "new_issue_ids": [
+        "C089",
+        "C090",
+        "C091",
+        "C092",
+        "C093",
+        "C094",
+        "C095",
+        "C096",
+        "C097"
+      ],
+      "updated_existing_issue_ids": [
+        "C016",
+        "C023",
+        "C038",
+        "C060",
+        "C069",
+        "C081",
+        "C082",
+        "C087",
+        "C088",
+        "C021",
+        "S003",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "revised_evidence_ids": [
+        "E260",
+        "E261"
+      ],
+      "new_missing_ids": [
+        "M031",
+        "M032"
+      ],
+      "expanded_missing_ids": [
+        "M008",
+        "M009",
+        "M014",
+        "M015",
+        "M016",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M025",
+        "M026",
+        "M030"
+      ],
+      "new_full_card_body_ids": [
+        101
+      ],
+      "rechecked_full_card_body_ids": [
+        53
+      ],
+      "rechecked_existing_card_sections": [
+        0,
+        7,
+        100
+      ]
+    },
+    {
+      "session": "10",
+      "previous_next_line": 19707,
+      "new_source_range": [
+        19707,
+        20989
+      ],
+      "new_lines": 1283,
+      "new_chars": 55479,
+      "next_line": 20990,
+      "completed_chapters": "卷二第63章《术式》至第73章《酒局》，连续完整阅读；第66章原文无副题",
+      "note": "先轻量续读索引，按具体问题取详文；用户所写朱式按相同行原题核为术式。卡102全文新增阅读，仅70—73源文已核，74—88卡摘要不是原著证据或新增覆盖。source/current只读。",
+      "new_evidence_ids": [
+        "E288",
+        "E289",
+        "E290",
+        "E291",
+        "E292",
+        "E293",
+        "E294",
+        "E295",
+        "E296",
+        "E297",
+        "E298",
+        "E299",
+        "E300",
+        "E301",
+        "E302",
+        "E303",
+        "E304",
+        "E305",
+        "E306",
+        "E307",
+        "E308",
+        "E309",
+        "E310",
+        "E311",
+        "E312",
+        "E313",
+        "E314"
+      ],
+      "new_issue_ids": [
+        "C098",
+        "C099",
+        "C100",
+        "C101",
+        "C102",
+        "C103"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C056",
+        "C080",
+        "C087",
+        "C089",
+        "C091",
+        "C092",
+        "C093",
+        "C094",
+        "C021",
+        "S003",
+        "S010",
+        "S011"
+      ],
+      "revised_evidence_ids": [
+        "E271",
+        "E274",
+        "E277",
+        "E287"
+      ],
+      "new_missing_ids": [
+        "M033",
+        "M034"
+      ],
+      "expanded_missing_ids": [
+        "M008",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M030",
+        "M032"
+      ],
+      "new_full_card_body_ids": [
+        102
+      ],
+      "rechecked_full_card_body_ids": [
+        2,
+        3,
+        33,
+        53,
+        70
+      ],
+      "rechecked_existing_card_sections": [
+        4,
+        50,
+        101
+      ]
+    },
+    {
+      "session": "11",
+      "previous_next_line": 20990,
+      "new_source_range": [
+        20990,
+        23012
+      ],
+      "new_lines": 2023,
+      "new_chars": 86350,
+      "next_line": 23013,
+      "completed_chapters": "卷二第74章《战书》至第89章《矛盾之源》，连续完整；85原文无副题",
+      "note": "自主执行内部批次，保存后立即继续，不等待用户。卡31/103全文新读，103后续摘要不计原著覆盖；source/current只读。",
+      "new_evidence_ids": [
+        "E315",
+        "E316",
+        "E317",
+        "E318",
+        "E319",
+        "E320",
+        "E321",
+        "E322",
+        "E323",
+        "E324",
+        "E325",
+        "E326",
+        "E327",
+        "E328",
+        "E329",
+        "E330",
+        "E331",
+        "E332",
+        "E333",
+        "E334",
+        "E335",
+        "E336",
+        "E337",
+        "E338",
+        "E339",
+        "E340",
+        "E341",
+        "E342",
+        "E343",
+        "E344",
+        "E345",
+        "E346",
+        "E347"
+      ],
+      "new_issue_ids": [
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C009",
+        "C013",
+        "C021",
+        "C036",
+        "C035",
+        "C038",
+        "C076",
+        "C087",
+        "C103",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M035",
+        "M036",
+        "M037"
+      ],
+      "expanded_missing_ids": [
+        "M008",
+        "M010",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M023",
+        "M028",
+        "M030"
+      ],
+      "revised_evidence_ids": [
+        "E314",
+        "E305",
+        "E230",
+        "E217"
+      ],
+      "new_full_card_body_ids": [
+        31,
+        103
+      ],
+      "rechecked_full_card_body_ids": [
+        50,
+        53,
+        64,
+        102
+      ],
+      "rechecked_existing_card_sections": [
+        1,
+        2,
+        18,
+        19
+      ]
+    },
+    {
+      "session": "12",
+      "previous_next_line": 23013,
+      "new_source_range": [
+        23013,
+        24907
+      ],
+      "new_lines": 1895,
+      "new_chars": 83004,
+      "next_line": 24908,
+      "completed_chapters": "卷二第90—100章及幕间《爪痕的午餐》",
+      "note": "连续全文显示后语义阅读，未以卡摘要代替；内部批次保存后立即继续。卡118/124/140/149全文新读。",
+      "new_evidence_ids": [
+        "E348",
+        "E349",
+        "E350",
+        "E351",
+        "E352",
+        "E353",
+        "E354",
+        "E355",
+        "E356",
+        "E357",
+        "E358",
+        "E359",
+        "E360",
+        "E361",
+        "E362",
+        "E363",
+        "E364",
+        "E365",
+        "E366",
+        "E367",
+        "E368",
+        "E369",
+        "E370",
+        "E371",
+        "E372",
+        "E373",
+        "E374",
+        "E375"
+      ],
+      "new_issue_ids": [
+        "C110",
+        "C111",
+        "C112"
+      ],
+      "updated_existing_issue_ids": [
+        "C006",
+        "C009",
+        "C021",
+        "S003",
+        "C035",
+        "C069",
+        "C087",
+        "C090",
+        "C103",
+        "C056",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M038"
+      ],
+      "expanded_missing_ids": [
+        "M009",
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M022",
+        "M023",
+        "M026",
+        "M027",
+        "M030",
+        "M036"
+      ],
+      "revised_evidence_ids": [
+        "E345",
+        "E305",
+        "E341"
+      ],
+      "new_full_card_body_ids": [
+        118,
+        124,
+        140,
+        149
+      ],
+      "rechecked_full_card_body_ids": [
+        17,
+        60,
+        89
+      ],
+      "rechecked_existing_card_sections": [
+        29,
+        47,
+        66,
+        70,
+        103
+      ]
+    },
+    {
+      "session": "13",
+      "previous_next_line": 24908,
+      "new_source_range": [
+        24908,
+        26741
+      ],
+      "new_lines": 1834,
+      "new_chars": 87916,
+      "next_line": 26742,
+      "completed_chapters": "卷二第101—114章",
+      "note": "逐段完整显示后连续语义读；L25195—25199输出截断后专门补显，未留缺口。卡105后半摘要虽完整读，不算原著覆盖。内部健康检查后自动继续。",
+      "new_evidence_ids": [
+        "E376",
+        "E377",
+        "E378",
+        "E379",
+        "E380",
+        "E381",
+        "E382",
+        "E383",
+        "E384",
+        "E385",
+        "E386",
+        "E387",
+        "E388",
+        "E389",
+        "E390",
+        "E391",
+        "E392",
+        "E393",
+        "E394",
+        "E395",
+        "E396",
+        "E397",
+        "E398",
+        "E399",
+        "E400",
+        "E401",
+        "E402"
+      ],
+      "new_issue_ids": [
+        "C113"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "S003",
+        "C038",
+        "C008",
+        "C096",
+        "C005",
+        "C013",
+        "C066",
+        "C043",
+        "S009",
+        "C111",
+        "C112",
+        "R005",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [
+        "M039"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M018",
+        "M019",
+        "M020",
+        "M021",
+        "M022",
+        "M029",
+        "M033",
+        "M031",
+        "M016"
+      ],
+      "revised_evidence_ids": [
+        "E352",
+        "E372"
+      ],
+      "new_full_card_body_ids": [
+        104,
+        105,
+        116,
+        122,
+        125,
+        127,
+        130,
+        139,
+        142,
+        144,
+        150
+      ],
+      "rechecked_full_card_body_ids": [
+        4,
+        6
+      ],
+      "rechecked_existing_card_sections": [
+        43,
+        47,
+        64,
+        81
+      ]
+    },
+    {
+      "session": "14",
+      "previous_next_line": 26742,
+      "new_source_range": [
+        26742,
+        28331
+      ],
+      "new_lines": 1590,
+      "new_chars": 69295,
+      "next_line": 28332,
+      "completed_chapters": "卷二第115—137章",
+      "note": "连续逐段完整显示并阅读；只检索标题规划边界不计正文。卡106后段不计源覆盖。保存校验后立即继续。",
+      "new_evidence_ids": [
+        "E403",
+        "E404",
+        "E405",
+        "E406",
+        "E407",
+        "E408",
+        "E409",
+        "E410",
+        "E411",
+        "E412",
+        "E413",
+        "E414",
+        "E415",
+        "E416",
+        "E417",
+        "E418",
+        "E419",
+        "E420",
+        "E421",
+        "E422",
+        "E423",
+        "E424",
+        "E425",
+        "E426",
+        "E427"
+      ],
+      "new_issue_ids": [
+        "C114"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C006",
+        "C013",
+        "C084",
+        "C095",
+        "C038",
+        "C069",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M019",
+        "M021",
+        "M036",
+        "M017",
+        "M020",
+        "M016",
+        "M029",
+        "M039"
+      ],
+      "revised_evidence_ids": [
+        "E383",
+        "E402"
+      ],
+      "new_full_card_body_ids": [
+        106,
+        143,
+        154,
+        158,
+        161,
+        162,
+        167
+      ],
+      "rechecked_full_card_body_ids": [
+        22
+      ],
+      "rechecked_existing_card_sections": [
+        2,
+        3,
+        47,
+        64,
+        105
+      ]
+    },
+    {
+      "session": "15",
+      "previous_next_line": 28332,
+      "new_source_range": [
+        28332,
+        29646
+      ],
+      "new_lines": 1315,
+      "new_chars": 64731,
+      "next_line": 29647,
+      "completed_chapters": "卷二第138—162章",
+      "note": "连续逐段完整显示并阅读；只检索标题规划边界不计正文。卡107后段不计源覆盖。保存校验后立即继续。",
+      "new_evidence_ids": [
+        "E428",
+        "E429",
+        "E430",
+        "E431",
+        "E432",
+        "E433",
+        "E434",
+        "E435",
+        "E436",
+        "E437",
+        "E438",
+        "E439",
+        "E440",
+        "E441",
+        "E442",
+        "E443",
+        "E444",
+        "E445",
+        "E446",
+        "E447",
+        "E448",
+        "E449",
+        "E450"
+      ],
+      "new_issue_ids": [
+        "C115",
+        "C116",
+        "C117",
+        "C118"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C013",
+        "C038",
+        "C017",
+        "C005",
+        "C019",
+        "C066",
+        "C110",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [
+        "M040"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M019",
+        "M018",
+        "M036",
+        "M016",
+        "M021",
+        "M022"
+      ],
+      "revised_evidence_ids": [
+        "E407",
+        "E426",
+        "E427"
+      ],
+      "new_full_card_body_ids": [
+        107,
+        165,
+        166,
+        169,
+        171,
+        176,
+        177
+      ],
+      "rechecked_full_card_body_ids": [
+        28
+      ],
+      "rechecked_existing_card_sections": [
+        2,
+        20,
+        22,
+        47,
+        16
+      ]
+    },
+    {
+      "session": "16",
+      "previous_next_line": 29647,
+      "new_source_range": [
+        29647,
+        31166
+      ],
+      "new_lines": 1520,
+      "new_chars": 79080,
+      "next_line": 31167,
+      "completed_chapters": "卷二163—189及其后作者附言",
+      "note": "逐段连续全文显示读取；作者规划含废稿不当正文Canon，后段卡108不计原文覆盖。保存后立即续读。",
+      "new_evidence_ids": [
+        "E451",
+        "E452",
+        "E453",
+        "E454",
+        "E455",
+        "E456",
+        "E457",
+        "E458",
+        "E459",
+        "E460",
+        "E461",
+        "E462",
+        "E463",
+        "E464",
+        "E465",
+        "E466",
+        "E467",
+        "E468",
+        "E469"
+      ],
+      "new_issue_ids": [
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124"
+      ],
+      "updated_existing_issue_ids": [
+        "C118",
+        "C021",
+        "C006",
+        "C016",
+        "C014",
+        "C066",
+        "C015",
+        "C113",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [
+        "M041"
+      ],
+      "expanded_missing_ids": [
+        "M014",
+        "M015",
+        "M017",
+        "M019",
+        "M018",
+        "M022",
+        "M027",
+        "M029",
+        "M013"
+      ],
+      "revised_evidence_ids": [
+        "E450",
+        "E446"
+      ],
+      "new_full_card_body_ids": [
+        29,
+        66,
+        72,
+        88,
+        108,
+        131,
+        133,
+        134,
+        135,
+        137,
+        145,
+        155,
+        164,
+        170,
+        174
+      ],
+      "rechecked_full_card_body_ids": [
+        107
+      ],
+      "rechecked_existing_card_sections": [
+        31,
+        43,
+        47
+      ]
+    },
+    {
+      "session": "17",
+      "previous_next_line": 31167,
+      "new_source_range": [
+        31167,
+        32702
+      ],
+      "new_lines": 1536,
+      "new_chars": 72714,
+      "next_line": 32703,
+      "completed_chapters": "卷二190—215",
+      "note": "连续读取全部正文，无跳读；章节215在本批完整纳入。",
+      "new_evidence_ids": [
+        "E470",
+        "E471",
+        "E472",
+        "E473",
+        "E474",
+        "E475",
+        "E476",
+        "E477",
+        "E478",
+        "E479",
+        "E480",
+        "E481",
+        "E482",
+        "E483",
+        "E484",
+        "E485",
+        "E486",
+        "E487",
+        "E488",
+        "E489",
+        "E490",
+        "E491",
+        "E492"
+      ],
+      "new_issue_ids": [
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129"
+      ],
+      "updated_existing_issue_ids": [
+        "C021",
+        "C009",
+        "C010",
+        "C013",
+        "C014",
+        "C015",
+        "C124",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M019",
+        "M021",
+        "M027",
+        "M034",
+        "M041"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [
+        109,
+        147
+      ],
+      "rechecked_full_card_body_ids": [
+        43,
+        31
+      ],
+      "rechecked_existing_card_sections": [
+        108
+      ]
+    },
+    {
+      "session": "18",
+      "previous_next_line": 32703,
+      "new_source_range": [
+        32703,
+        34207
+      ],
+      "new_lines": 1505,
+      "new_chars": 68695,
+      "next_line": 34208,
+      "completed_chapters": "卷二216—239及中秋作者附言",
+      "note": "连续正文全读；25条原有地区/组织/包装卡完整读，引用旧E核时只按必要定位不重计源。",
+      "new_evidence_ids": [
+        "E493",
+        "E494",
+        "E495",
+        "E496",
+        "E497",
+        "E498",
+        "E499",
+        "E500",
+        "E501",
+        "E502",
+        "E503",
+        "E504",
+        "E505",
+        "E506",
+        "E507",
+        "E508",
+        "E509",
+        "E510",
+        "E511",
+        "E512",
+        "E513",
+        "E514",
+        "E515"
+      ],
+      "new_issue_ids": [
+        "C130",
+        "C131",
+        "C132"
+      ],
+      "updated_existing_issue_ids": [
+        "C009",
+        "C010",
+        "C006",
+        "C021",
+        "C118",
+        "C014",
+        "C095",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M018",
+        "M019",
+        "M022",
+        "M027",
+        "M041"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [
+        112,
+        113,
+        115,
+        117,
+        120,
+        123,
+        126,
+        128,
+        129,
+        132,
+        136,
+        138,
+        141,
+        146,
+        148,
+        151,
+        152,
+        153,
+        156,
+        157,
+        159,
+        160,
+        163,
+        168,
+        175
+      ],
+      "rechecked_full_card_body_ids": [
+        17,
+        19
+      ],
+      "rechecked_existing_card_sections": [
+        109
+      ]
+    },
+    {
+      "session": "19",
+      "previous_next_line": 34208,
+      "new_source_range": [
+        34208,
+        35329
+      ],
+      "new_lines": 1122,
+      "new_chars": 50257,
+      "next_line": 35330,
+      "completed_chapters": "卷二240—259",
+      "note": "全部连续正文；最后一条卡正文110完整读，正文覆盖尚有800行主缺口。",
+      "new_evidence_ids": [
+        "E516",
+        "E517",
+        "E518",
+        "E519",
+        "E520",
+        "E521",
+        "E522",
+        "E523",
+        "E524",
+        "E525",
+        "E526",
+        "E527",
+        "E528",
+        "E529",
+        "E530",
+        "E531",
+        "E532",
+        "E533",
+        "E534",
+        "E535"
+      ],
+      "new_issue_ids": [
+        "C133",
+        "C134",
+        "C135"
+      ],
+      "updated_existing_issue_ids": [
+        "C131",
+        "C009",
+        "C010",
+        "C015",
+        "C006",
+        "C021",
+        "S010",
+        "S011"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M019",
+        "M022",
+        "M034",
+        "M041"
+      ],
+      "revised_evidence_ids": [
+        "E338",
+        "E485"
+      ],
+      "new_full_card_body_ids": [
+        110
+      ],
+      "rechecked_full_card_body_ids": [],
+      "rechecked_existing_card_sections": [
+        17,
+        19,
+        31,
+        43,
+        108,
+        109,
+        148
+      ]
+    },
+    {
+      "session": "20",
+      "previous_next_line": 35330,
+      "new_source_range": [
+        35330,
+        36129
+      ],
+      "new_lines": 800,
+      "new_chars": 29428,
+      "next_line": null,
+      "completed_chapters": "卷二260—269，贯通既读270—282",
+      "note": "最后800行连续语义阅读，合并既有尾段后所给源文件无未读缺口。",
+      "new_evidence_ids": [
+        "E536",
+        "E537",
+        "E538",
+        "E539",
+        "E540",
+        "E541",
+        "E542",
+        "E543",
+        "E544",
+        "E545"
+      ],
+      "new_issue_ids": [
+        "C136"
+      ],
+      "updated_existing_issue_ids": [
+        "C011",
+        "C013",
+        "C021",
+        "C038",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "new_missing_ids": [],
+      "expanded_missing_ids": [
+        "M017",
+        "M040",
+        "M013",
+        "M014",
+        "M016"
+      ],
+      "revised_evidence_ids": [],
+      "new_full_card_body_ids": [],
+      "rechecked_full_card_body_ids": [
+        32,
+        111,
+        168
+      ],
+      "rechecked_existing_card_sections": [
+        110,
+        47,
+        64,
+        89
+      ]
     }
   ],
-  "coverage_method": "沿用原口径：完整显示并连续语义阅读的已读区间并集；按UTF-8解码后splitlines各行字符数求和，包含标题和作者附言，不含换行。早前已读末段计入累计覆盖但不假称与开头连续相接；定点片段不额外计入。"
+  "coverage_method": "实际完整阅读区间的并集；按UTF-8解码后splitlines各行字符求和，含标题和作者附言，不含换行。初期末段36130—38825与后续前段1—36129现已贯通，无重计；定点核验不新增字符。",
+  "source_reading_status": "COMPLETE",
+  "final_review": {
+    "date": "2026-09-09",
+    "new_source_chars": 0,
+    "new_issue_ids": [
+      "C137",
+      "C138"
+    ],
+    "evidence_revision": [
+      "E312"
+    ],
+    "record": "final_changes.json",
+    "technical_content_complete": true,
+    "host_runtime_tested": false,
+    "status": "COMPLETE",
+    "integrity_record": "final_integrity.json"
+  },
+  "phase_one_status": "COMPLETE"
 }

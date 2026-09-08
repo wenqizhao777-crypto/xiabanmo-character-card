@@ -1,0 +1,7333 @@
+{
+  "date": "2026-09-09",
+  "method": "全部人物分批完整语义阅读；地区/势力逐段与完整已读世界书相同文本核验，差异段完整读取。原始raw与sections一致性机械复核，元数据并非Canon。CG50项和10别名键完整核对。",
+  "counts": {
+    "profiles": 75,
+    "regions": 36,
+    "factions": 23,
+    "cg": 50,
+    "aliasGroups": 10
+  },
+  "route_counts": {
+    "all_section_text_read": 750,
+    "verbatim_content_in_full_read_worldbook": 248,
+    "full_unique_section_read": 46
+  },
+  "raw_unaccounted_content": [],
+  "sections": [
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 224
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 278
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 180
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 128
+    },
+    {
+      "group": "profiles",
+      "name": "安雅",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 116
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 241
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 180
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 232
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 318
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 159
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 247
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 208
+    },
+    {
+      "group": "profiles",
+      "name": "白静萱",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 96
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 225
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 109
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 203
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 184
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "白狼",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 205
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 156
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 232
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 155
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 92
+    },
+    {
+      "group": "profiles",
+      "name": "薄荷",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 153
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 156
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "兵触三",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 51
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 37
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 143
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 44
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 50
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 44
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂廿五",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 34
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 54
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 195
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 74
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 117
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "兵蜂七",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 97
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 152
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 153
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 142
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 182
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 109
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 188
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 146
+    },
+    {
+      "group": "profiles",
+      "name": "波利",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 102
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 165
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 125
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "大杰克",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 115
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 186
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 164
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 267
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 225
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 136
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 257
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 174
+    },
+    {
+      "group": "profiles",
+      "name": "灯盏",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 113
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 40
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 64
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 56
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "飞燕草",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 46
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 152
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 165
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 118
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "蜂",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 126
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 163
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 146
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 96
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "蜂之使徒",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 106
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 59
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "鸽血红",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 25
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 178
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 56
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 131
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "工触十一",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 102
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 204
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 126
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 213
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "狗尾草",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 106
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 182
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 131
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 218
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 136
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "海蒂·阿比梅尔",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 124
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 206
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 165
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 369
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 238
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 271
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 164
+    },
+    {
+      "group": "profiles",
+      "name": "含羞草",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 113
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 154
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 74
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 103
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "褐鹈",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 11
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 104
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 41
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 104
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 48
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 44
+    },
+    {
+      "group": "profiles",
+      "name": "鹤望兰",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 45
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 131
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 234
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 189
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 207
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 326
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 214
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 170
+    },
+    {
+      "group": "profiles",
+      "name": "红思与",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 107
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 111
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 208
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 97
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 186
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "花烛",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 64
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 162
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 65
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 199
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 109
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "箭根薯",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 56
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 59
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 143
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 124
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 150
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 133
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "江媛",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 98
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 129
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 183
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 118
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 270
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 91
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 161
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "金绿猫眼",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 189
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 179
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 51
+    },
+    {
+      "group": "profiles",
+      "name": "卷丹",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 98
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 116
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "蓝星",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 96
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 221
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 169
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 255
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 257
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 162
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "黎皎然",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 96
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 181
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 239
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 135
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "李雅晴",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 173
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 118
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 144
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 236
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 91
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 162
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "李英伟",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 134
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 130
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 316
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 208
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 350
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 311
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 187
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 272
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 193
+    },
+    {
+      "group": "profiles",
+      "name": "林小璐",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 119
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 238
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 190
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 380
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 280
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 496
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 441
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 207
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 402
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 256
+    },
+    {
+      "group": "profiles",
+      "name": "林昀",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 131
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 128
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 42
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "刘观山",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 158
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 218
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 168
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 139
+    },
+    {
+      "group": "profiles",
+      "name": "刘文琴",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 225
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 214
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 228
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 126
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "陆红豆",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 52
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 128
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 168
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 135
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "吕妍",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 169
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 151
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 123
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 47
+    },
+    {
+      "group": "profiles",
+      "name": "麻雀",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 112
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 91
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 232
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 145
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 207
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 247
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 215
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "麻生圆香",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 33
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 191
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 111
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "马蹄莲",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 56
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 92
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 231
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 182
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 254
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 172
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "迈尔柔娜·阿比梅尔",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 64
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 150
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 141
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 261
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 206
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 124
+    },
+    {
+      "group": "profiles",
+      "name": "猫尾",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 50
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 11
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 41
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 51
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 35
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 50
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 37
+    },
+    {
+      "group": "profiles",
+      "name": "迷迭香",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 177
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 139
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 184
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "摩可",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 123
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 224
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 150
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 159
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 258
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 164
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 101
+    },
+    {
+      "group": "profiles",
+      "name": "摩丝",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 92
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 208
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 187
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 230
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 375
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 136
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 304
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 169
+    },
+    {
+      "group": "profiles",
+      "name": "木百合",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 119
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 193
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 96
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 220
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 178
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 116
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "木棉",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 109
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 136
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 149
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 127
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "穆本生",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 159
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 116
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 162
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 321
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 193
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 129
+    },
+    {
+      "group": "profiles",
+      "name": "妮姆·克瑞吉欧斯",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 91
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 127
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 137
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 245
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 184
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 198
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 335
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 117
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 205
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "妮娜·克瑞吉欧斯",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 97
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 123
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 213
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 130
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "妮妮",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 102
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 117
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 232
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 205
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 105
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 141
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 98
+    },
+    {
+      "group": "profiles",
+      "name": "女王",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 47
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 45
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 113
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "欧培拉",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 74
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 52
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 138
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 74
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 146
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 113
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "裴正昌",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 75
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 64
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 107
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 65
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 68
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 36
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 54
+    },
+    {
+      "group": "profiles",
+      "name": "青葙",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 47
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 216
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 172
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 246
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 402
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 145
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 238
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 165
+    },
+    {
+      "group": "profiles",
+      "name": "邱云",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 114
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 98
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 169
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 147
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 190
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 147
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "塞米",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 219
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 188
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 131
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "山丹",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 74
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 40
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 41
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 37
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 41
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 39
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 28
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 13
+    },
+    {
+      "group": "profiles",
+      "name": "蛇鞭菊",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 39
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 61
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 197
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 97
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 88
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 190
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "苏胜紫",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 51
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 156
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 79
+    },
+    {
+      "group": "profiles",
+      "name": "陶芳",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 69
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 91
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 50
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 169
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 153
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "天牛",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 83
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 80
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 164
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 118
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 188
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 322
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 112
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 188
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 141
+    },
+    {
+      "group": "profiles",
+      "name": "田胜",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 102
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 82
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 152
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 117
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 123
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 258
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 160
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 142
+    },
+    {
+      "group": "profiles",
+      "name": "荼蘼",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 97
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 159
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 129
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 199
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 116
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 123
+    },
+    {
+      "group": "profiles",
+      "name": "王腾飞",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 67
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 78
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 44
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 151
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 54
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 72
+    },
+    {
+      "group": "profiles",
+      "name": "沃波",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 135
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 125
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 278
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 200
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 259
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 333
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 168
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 252
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 181
+    },
+    {
+      "group": "profiles",
+      "name": "夏凉",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 100
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 35
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 11
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 43
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 35
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 52
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 46
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 30
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 36
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 25
+    },
+    {
+      "group": "profiles",
+      "name": "雪毬",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 48
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 45
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 38
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 31
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 40
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 17
+    },
+    {
+      "group": "profiles",
+      "name": "羊踯躅",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 31
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 85
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 62
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 215
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 92
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 112
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 77
+    },
+    {
+      "group": "profiles",
+      "name": "月季",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 54
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 108
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 101
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 226
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 213
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 111
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 303
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 110
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 127
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "折鹤兰",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 89
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 70
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 152
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 94
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 145
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 132
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 40
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 73
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "蛛",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 52
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 71
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 122
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 54
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 120
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 146
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 49
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 87
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 92
+    },
+    {
+      "group": "profiles",
+      "name": "庄洋",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 81
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 112
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 99
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 218
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 95
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 267
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 121
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 144
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 93
+    },
+    {
+      "group": "profiles",
+      "name": "紫钻",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 76
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 104
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 153
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 234
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 120
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 212
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 259
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 134
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 157
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 104
+    },
+    {
+      "group": "profiles",
+      "name": "祖母绿",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 86
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "身份与定位",
+      "route": "all_section_text_read",
+      "chars": 58
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "外貌特征",
+      "route": "all_section_text_read",
+      "chars": 66
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "性格核心",
+      "route": "all_section_text_read",
+      "chars": 166
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "语言与行为习惯",
+      "route": "all_section_text_read",
+      "chars": 84
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "能力与战斗方式",
+      "route": "all_section_text_read",
+      "chars": 161
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "人物经历与阶段变化",
+      "route": "all_section_text_read",
+      "chars": 102
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "目标、欲望与内在矛盾",
+      "route": "all_section_text_read",
+      "chars": 63
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "关键关系",
+      "route": "all_section_text_read",
+      "chars": 90
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "隐藏真相与知情边界",
+      "route": "all_section_text_read",
+      "chars": 53
+    },
+    {
+      "group": "profiles",
+      "name": "醉鱼草",
+      "title": "扮演约束",
+      "route": "all_section_text_read",
+      "chars": 57
+    },
+    {
+      "group": "regions",
+      "name": "柏安市",
+      "title": "定位与城市面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 117
+    },
+    {
+      "group": "regions",
+      "name": "柏安市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 97
+    },
+    {
+      "group": "regions",
+      "name": "柏安市",
+      "title": "魔法侧结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 129
+    },
+    {
+      "group": "regions",
+      "name": "柏安市",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "regions",
+      "name": "柏安市",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 42
+    },
+    {
+      "group": "regions",
+      "name": "柏安市地下异策局",
+      "title": "定位与正常结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 85
+    },
+    {
+      "group": "regions",
+      "name": "柏安市地下异策局",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 112
+    },
+    {
+      "group": "regions",
+      "name": "柏安市地下异策局",
+      "title": "异变结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 136
+    },
+    {
+      "group": "regions",
+      "name": "柏安市地下异策局",
+      "title": "关键事件·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 88
+    },
+    {
+      "group": "regions",
+      "name": "柏安市地下异策局",
+      "title": "未明事项",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 62
+    },
+    {
+      "group": "regions",
+      "name": "彩云湿地",
+      "title": "定位与形态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 101
+    },
+    {
+      "group": "regions",
+      "name": "彩云湿地",
+      "title": "空间特色",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 167
+    },
+    {
+      "group": "regions",
+      "name": "彩云湿地",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 66
+    },
+    {
+      "group": "regions",
+      "name": "彩云湿地",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "彩云湿地",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 31
+    },
+    {
+      "group": "regions",
+      "name": "东华州域",
+      "title": "定位与范围",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 99
+    },
+    {
+      "group": "regions",
+      "name": "东华州域",
+      "title": "社会与文化",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 136
+    },
+    {
+      "group": "regions",
+      "name": "东华州域",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 91
+    },
+    {
+      "group": "regions",
+      "name": "东华州域",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "regions",
+      "name": "东华州域",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 41
+    },
+    {
+      "group": "regions",
+      "name": "方亭市",
+      "title": "定位与城市面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 114
+    },
+    {
+      "group": "regions",
+      "name": "方亭市",
+      "title": "主要分区",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "方亭市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "regions",
+      "name": "方亭市",
+      "title": "魔法侧真相",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 80
+    },
+    {
+      "group": "regions",
+      "name": "方亭市",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "regions",
+      "name": "方亭市第一福利院",
+      "title": "定位与构成",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "regions",
+      "name": "方亭市第一福利院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "方亭市第一福利院",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 103
+    },
+    {
+      "group": "regions",
+      "name": "方亭市第一福利院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 116
+    },
+    {
+      "group": "regions",
+      "name": "方亭市第一福利院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 23
+    },
+    {
+      "group": "regions",
+      "name": "方亭市下水道蛹兽巢穴",
+      "title": "定位与结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "regions",
+      "name": "方亭市下水道蛹兽巢穴",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 96
+    },
+    {
+      "group": "regions",
+      "name": "方亭市下水道蛹兽巢穴",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "regions",
+      "name": "方亭市下水道蛹兽巢穴",
+      "title": "后续揭示·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 73
+    },
+    {
+      "group": "regions",
+      "name": "方亭市下水道蛹兽巢穴",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 31
+    },
+    {
+      "group": "regions",
+      "name": "方亭小队秘密基地",
+      "title": "定位与来源",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "方亭小队秘密基地",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 80
+    },
+    {
+      "group": "regions",
+      "name": "方亭小队秘密基地",
+      "title": "结构与用途",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 125
+    },
+    {
+      "group": "regions",
+      "name": "方亭小队秘密基地",
+      "title": "制度含义",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "regions",
+      "name": "方亭小队秘密基地",
+      "title": "后续变化·剧透",
+      "route": "full_unique_section_read",
+      "chars": 62
+    },
+    {
+      "group": "regions",
+      "name": "翡翠书廊",
+      "title": "定位与形态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 79
+    },
+    {
+      "group": "regions",
+      "name": "翡翠书廊",
+      "title": "真实职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 100
+    },
+    {
+      "group": "regions",
+      "name": "翡翠书廊",
+      "title": "准入规则",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "regions",
+      "name": "翡翠书廊",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 67
+    },
+    {
+      "group": "regions",
+      "name": "翡翠书廊",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 88
+    },
+    {
+      "group": "regions",
+      "name": "花园",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 120
+    },
+    {
+      "group": "regions",
+      "name": "花园",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "regions",
+      "name": "花园",
+      "title": "历史",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 109
+    },
+    {
+      "group": "regions",
+      "name": "花园",
+      "title": "后续影响·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "regions",
+      "name": "花园",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 42
+    },
+    {
+      "group": "regions",
+      "name": "荒原",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 121
+    },
+    {
+      "group": "regions",
+      "name": "荒原",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 104
+    },
+    {
+      "group": "regions",
+      "name": "荒原",
+      "title": "隐秘面",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 101
+    },
+    {
+      "group": "regions",
+      "name": "荒原",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 109
+    },
+    {
+      "group": "regions",
+      "name": "荒原",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 32
+    },
+    {
+      "group": "regions",
+      "name": "纪念陵园",
+      "title": "定位与纪念对象",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 103
+    },
+    {
+      "group": "regions",
+      "name": "纪念陵园",
+      "title": "空间结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 112
+    },
+    {
+      "group": "regions",
+      "name": "纪念陵园",
+      "title": "祭奠习俗",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 108
+    },
+    {
+      "group": "regions",
+      "name": "纪念陵园",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 70
+    },
+    {
+      "group": "regions",
+      "name": "纪念陵园",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 72
+    },
+    {
+      "group": "regions",
+      "name": "间界",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 116
+    },
+    {
+      "group": "regions",
+      "name": "间界",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 103
+    },
+    {
+      "group": "regions",
+      "name": "间界",
+      "title": "历史",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 128
+    },
+    {
+      "group": "regions",
+      "name": "间界",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 72
+    },
+    {
+      "group": "regions",
+      "name": "间界",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 42
+    },
+    {
+      "group": "regions",
+      "name": "界门与界桥",
+      "title": "定位与结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 121
+    },
+    {
+      "group": "regions",
+      "name": "界门与界桥",
+      "title": "守卫与通行",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 146
+    },
+    {
+      "group": "regions",
+      "name": "界门与界桥",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 78
+    },
+    {
+      "group": "regions",
+      "name": "界门与界桥",
+      "title": "历史与后续·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "regions",
+      "name": "界门与界桥",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 41
+    },
+    {
+      "group": "regions",
+      "name": "黎星区",
+      "title": "定位与面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 140
+    },
+    {
+      "group": "regions",
+      "name": "黎星区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 90
+    },
+    {
+      "group": "regions",
+      "name": "黎星区",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 128
+    },
+    {
+      "group": "regions",
+      "name": "黎星区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 76
+    },
+    {
+      "group": "regions",
+      "name": "黎星区",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 22
+    },
+    {
+      "group": "regions",
+      "name": "临扬市",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 80
+    },
+    {
+      "group": "regions",
+      "name": "临扬市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 102
+    },
+    {
+      "group": "regions",
+      "name": "临扬市",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 250
+    },
+    {
+      "group": "regions",
+      "name": "临扬市",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 35
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷",
+      "title": "定位与城市规模",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 112
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷",
+      "title": "城市结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 103
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷",
+      "title": "历史",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 96
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 74
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷魔事院分院",
+      "title": "定位与职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 102
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷魔事院分院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷魔事院分院",
+      "title": "空间与氛围",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 89
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷魔事院分院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 118
+    },
+    {
+      "group": "regions",
+      "name": "卢恩诺雷魔事院分院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 28
+    },
+    {
+      "group": "regions",
+      "name": "珞明区",
+      "title": "定位与面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 99
+    },
+    {
+      "group": "regions",
+      "name": "珞明区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 85
+    },
+    {
+      "group": "regions",
+      "name": "珞明区",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 156
+    },
+    {
+      "group": "regions",
+      "name": "珞明区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 91
+    },
+    {
+      "group": "regions",
+      "name": "珞明区",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 32
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 116
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度",
+      "title": "空间与交通",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 106
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 129
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 29
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度五都",
+      "title": "定位与构成",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 138
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度五都",
+      "title": "治理关系",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 124
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度五都",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 86
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度五都",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 79
+    },
+    {
+      "group": "regions",
+      "name": "魔法国度五都",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 42
+    },
+    {
+      "group": "regions",
+      "name": "蔷薇宫",
+      "title": "定位与权力象征",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 136
+    },
+    {
+      "group": "regions",
+      "name": "蔷薇宫",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 113
+    },
+    {
+      "group": "regions",
+      "name": "蔷薇宫",
+      "title": "历史",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 86
+    },
+    {
+      "group": "regions",
+      "name": "蔷薇宫",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "regions",
+      "name": "蔷薇宫",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 35
+    },
+    {
+      "group": "regions",
+      "name": "湿地公园",
+      "title": "定位与环境",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 143
+    },
+    {
+      "group": "regions",
+      "name": "湿地公园",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 101
+    },
+    {
+      "group": "regions",
+      "name": "湿地公园",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "regions",
+      "name": "湿地公园",
+      "title": "后续揭示·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 77
+    },
+    {
+      "group": "regions",
+      "name": "湿地公园",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 25
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 101
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "魔法少女生态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "行政与文化",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 69
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 61
+    },
+    {
+      "group": "regions",
+      "name": "天都市",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 41
+    },
+    {
+      "group": "regions",
+      "name": "无魔力区",
+      "title": "定位与规则",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 104
+    },
+    {
+      "group": "regions",
+      "name": "无魔力区",
+      "title": "管控方式",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 139
+    },
+    {
+      "group": "regions",
+      "name": "无魔力区",
+      "title": "城市面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "regions",
+      "name": "无魔力区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 58
+    },
+    {
+      "group": "regions",
+      "name": "无魔力区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 63
+    },
+    {
+      "group": "regions",
+      "name": "物质界",
+      "title": "定位与性质",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "regions",
+      "name": "物质界",
+      "title": "地理与生存结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 124
+    },
+    {
+      "group": "regions",
+      "name": "物质界",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 99
+    },
+    {
+      "group": "regions",
+      "name": "物质界",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 85
+    },
+    {
+      "group": "regions",
+      "name": "物质界",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 36
+    },
+    {
+      "group": "regions",
+      "name": "夕照区",
+      "title": "定位与面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 118
+    },
+    {
+      "group": "regions",
+      "name": "夕照区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 104
+    },
+    {
+      "group": "regions",
+      "name": "夕照区",
+      "title": "重要关联",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 150
+    },
+    {
+      "group": "regions",
+      "name": "夕照区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 62
+    },
+    {
+      "group": "regions",
+      "name": "夕照区",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 31
+    },
+    {
+      "group": "regions",
+      "name": "学院区",
+      "title": "定位与构成",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 98
+    },
+    {
+      "group": "regions",
+      "name": "学院区",
+      "title": "核心院校",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 172
+    },
+    {
+      "group": "regions",
+      "name": "学院区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "regions",
+      "name": "学院区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 79
+    },
+    {
+      "group": "regions",
+      "name": "学院区",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 35
+    },
+    {
+      "group": "regions",
+      "name": "燕南市",
+      "title": "定位与城市面貌",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 114
+    },
+    {
+      "group": "regions",
+      "name": "燕南市",
+      "title": "交通地位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 171
+    },
+    {
+      "group": "regions",
+      "name": "燕南市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 66
+    },
+    {
+      "group": "regions",
+      "name": "燕南市",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 69
+    },
+    {
+      "group": "regions",
+      "name": "燕南市",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 35
+    },
+    {
+      "group": "regions",
+      "name": "银廊",
+      "title": "定位与教育",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "regions",
+      "name": "银廊",
+      "title": "设施与群体",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 186
+    },
+    {
+      "group": "regions",
+      "name": "银廊",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 70
+    },
+    {
+      "group": "regions",
+      "name": "银廊",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "regions",
+      "name": "银廊",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 29
+    },
+    {
+      "group": "regions",
+      "name": "银廊后花园迷宫",
+      "title": "定位与辨析",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "regions",
+      "name": "银廊后花园迷宫",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 72
+    },
+    {
+      "group": "regions",
+      "name": "银廊后花园迷宫",
+      "title": "考核规则·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 171
+    },
+    {
+      "group": "regions",
+      "name": "银廊后花园迷宫",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 98
+    },
+    {
+      "group": "regions",
+      "name": "银廊后花园迷宫",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 30
+    },
+    {
+      "group": "regions",
+      "name": "银屏山",
+      "title": "定位与战略意义",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 127
+    },
+    {
+      "group": "regions",
+      "name": "银屏山",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 73
+    },
+    {
+      "group": "regions",
+      "name": "银屏山",
+      "title": "后续事件·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 225
+    },
+    {
+      "group": "regions",
+      "name": "银屏山",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 42
+    },
+    {
+      "group": "regions",
+      "name": "岳望市",
+      "title": "定位与起源",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 110
+    },
+    {
+      "group": "regions",
+      "name": "岳望市",
+      "title": "地质与城市结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 125
+    },
+    {
+      "group": "regions",
+      "name": "岳望市",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 115
+    },
+    {
+      "group": "regions",
+      "name": "岳望市",
+      "title": "后续关联·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 64
+    },
+    {
+      "group": "regions",
+      "name": "岳望市",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 40
+    },
+    {
+      "group": "regions",
+      "name": "云境考场",
+      "title": "定位与形态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "regions",
+      "name": "云境考场",
+      "title": "空间规则",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 135
+    },
+    {
+      "group": "regions",
+      "name": "云境考场",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 64
+    },
+    {
+      "group": "regions",
+      "name": "云境考场",
+      "title": "夺牌规则·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 109
+    },
+    {
+      "group": "regions",
+      "name": "云境考场",
+      "title": "关键事件",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 69
+    },
+    {
+      "group": "regions",
+      "name": "爪痕荒原城堡",
+      "title": "定位与外观",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 80
+    },
+    {
+      "group": "regions",
+      "name": "爪痕荒原城堡",
+      "title": "居民与供养",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 135
+    },
+    {
+      "group": "regions",
+      "name": "爪痕荒原城堡",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 77
+    },
+    {
+      "group": "regions",
+      "name": "爪痕荒原城堡",
+      "title": "内部真相·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 118
+    },
+    {
+      "group": "regions",
+      "name": "爪痕荒原城堡",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 38
+    },
+    {
+      "group": "regions",
+      "name": "祖母绿区",
+      "title": "定位与形态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "regions",
+      "name": "祖母绿区",
+      "title": "准入与消费",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 128
+    },
+    {
+      "group": "regions",
+      "name": "祖母绿区",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "regions",
+      "name": "祖母绿区",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 114
+    },
+    {
+      "group": "regions",
+      "name": "祖母绿区",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 35
+    },
+    {
+      "group": "factions",
+      "name": "柏安市小队",
+      "title": "性质与成员",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 144
+    },
+    {
+      "group": "factions",
+      "name": "柏安市小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 89
+    },
+    {
+      "group": "factions",
+      "name": "柏安市小队",
+      "title": "柏安失踪案",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 93
+    },
+    {
+      "group": "factions",
+      "name": "柏安市小队",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "factions",
+      "name": "柏安市小队",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 43
+    },
+    {
+      "group": "factions",
+      "name": "宝石权杖",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 96
+    },
+    {
+      "group": "factions",
+      "name": "宝石权杖",
+      "title": "五席",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 137
+    },
+    {
+      "group": "factions",
+      "name": "宝石权杖",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 81
+    },
+    {
+      "group": "factions",
+      "name": "宝石权杖",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "factions",
+      "name": "宝石权杖",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 42
+    },
+    {
+      "group": "factions",
+      "name": "财政院",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 85
+    },
+    {
+      "group": "factions",
+      "name": "财政院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "factions",
+      "name": "财政院",
+      "title": "权力风格",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 164
+    },
+    {
+      "group": "factions",
+      "name": "财政院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 74
+    },
+    {
+      "group": "factions",
+      "name": "财政院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 43
+    },
+    {
+      "group": "factions",
+      "name": "调查院",
+      "title": "性质与职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 88
+    },
+    {
+      "group": "factions",
+      "name": "调查院",
+      "title": "组织方式",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 153
+    },
+    {
+      "group": "factions",
+      "name": "调查院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "factions",
+      "name": "调查院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "factions",
+      "name": "调查院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 44
+    },
+    {
+      "group": "factions",
+      "name": "方亭市小队",
+      "title": "性质与成员",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 101
+    },
+    {
+      "group": "factions",
+      "name": "方亭市小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 87
+    },
+    {
+      "group": "factions",
+      "name": "方亭市小队",
+      "title": "运作方式",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 106
+    },
+    {
+      "group": "factions",
+      "name": "方亭市小队",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 115
+    },
+    {
+      "group": "factions",
+      "name": "方亭市小队",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 46
+    },
+    {
+      "group": "factions",
+      "name": "国度军",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 108
+    },
+    {
+      "group": "factions",
+      "name": "国度军",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 133
+    },
+    {
+      "group": "factions",
+      "name": "国度军",
+      "title": "历史结构·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "factions",
+      "name": "国度军",
+      "title": "花园防卫战",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 81
+    },
+    {
+      "group": "factions",
+      "name": "国度军",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 36
+    },
+    {
+      "group": "factions",
+      "name": "黑烬黎明",
+      "title": "性质与起源",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "factions",
+      "name": "黑烬黎明",
+      "title": "结构与纪律",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "factions",
+      "name": "黑烬黎明",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 130
+    },
+    {
+      "group": "factions",
+      "name": "黑烬黎明",
+      "title": "技术与目标",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 91
+    },
+    {
+      "group": "factions",
+      "name": "黑烬黎明",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 60
+    },
+    {
+      "group": "factions",
+      "name": "间界联合军",
+      "title": "性质与构成",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 97
+    },
+    {
+      "group": "factions",
+      "name": "间界联合军",
+      "title": "战略与战术",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 126
+    },
+    {
+      "group": "factions",
+      "name": "间界联合军",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 78
+    },
+    {
+      "group": "factions",
+      "name": "间界联合军",
+      "title": "花园防卫战·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 110
+    },
+    {
+      "group": "factions",
+      "name": "间界联合军",
+      "title": "未明事项",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 36
+    },
+    {
+      "group": "factions",
+      "name": "旧方亭市小队",
+      "title": "性质与成员",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 121
+    },
+    {
+      "group": "factions",
+      "name": "旧方亭市小队",
+      "title": "日常与传统",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 100
+    },
+    {
+      "group": "factions",
+      "name": "旧方亭市小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "factions",
+      "name": "旧方亭市小队",
+      "title": "历史与后续·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "factions",
+      "name": "旧方亭市小队",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 45
+    },
+    {
+      "group": "factions",
+      "name": "卢恩诺雷城防军",
+      "title": "性质与职责",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "factions",
+      "name": "卢恩诺雷城防军",
+      "title": "编制与训练",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "factions",
+      "name": "卢恩诺雷城防军",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 77
+    },
+    {
+      "group": "factions",
+      "name": "卢恩诺雷城防军",
+      "title": "历史战役",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 116
+    },
+    {
+      "group": "factions",
+      "name": "卢恩诺雷城防军",
+      "title": "后续影响·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 64
+    },
+    {
+      "group": "factions",
+      "name": "猫尾小队",
+      "title": "性质与识别",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "factions",
+      "name": "猫尾小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 151
+    },
+    {
+      "group": "factions",
+      "name": "猫尾小队",
+      "title": "柏安行动",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 91
+    },
+    {
+      "group": "factions",
+      "name": "猫尾小队",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 100
+    },
+    {
+      "group": "factions",
+      "name": "猫尾小队",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 30
+    },
+    {
+      "group": "factions",
+      "name": "民治院",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 154
+    },
+    {
+      "group": "factions",
+      "name": "民治院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "factions",
+      "name": "民治院",
+      "title": "政治关系",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 100
+    },
+    {
+      "group": "factions",
+      "name": "民治院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 70
+    },
+    {
+      "group": "factions",
+      "name": "民治院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 39
+    },
+    {
+      "group": "factions",
+      "name": "魔事院",
+      "title": "性质与职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 143
+    },
+    {
+      "group": "factions",
+      "name": "魔事院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 103
+    },
+    {
+      "group": "factions",
+      "name": "魔事院",
+      "title": "内部结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 86
+    },
+    {
+      "group": "factions",
+      "name": "魔事院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 91
+    },
+    {
+      "group": "factions",
+      "name": "魔事院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 37
+    },
+    {
+      "group": "factions",
+      "name": "魔事院五派",
+      "title": "性质与格局",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 93
+    },
+    {
+      "group": "factions",
+      "name": "魔事院五派",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 40
+    },
+    {
+      "group": "factions",
+      "name": "魔事院五派",
+      "title": "五派立场",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 224
+    },
+    {
+      "group": "factions",
+      "name": "魔事院五派",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 67
+    },
+    {
+      "group": "factions",
+      "name": "魔事院五派",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 31
+    },
+    {
+      "group": "factions",
+      "name": "矢车菊小队",
+      "title": "性质与成员",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 102
+    },
+    {
+      "group": "factions",
+      "name": "矢车菊小队",
+      "title": "任务与训练",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 145
+    },
+    {
+      "group": "factions",
+      "name": "矢车菊小队",
+      "title": "战时表现·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 87
+    },
+    {
+      "group": "factions",
+      "name": "矢车菊小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 81
+    },
+    {
+      "group": "factions",
+      "name": "矢车菊小队",
+      "title": "未明事项",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 36
+    },
+    {
+      "group": "factions",
+      "name": "使徒",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 134
+    },
+    {
+      "group": "factions",
+      "name": "使徒",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 93
+    },
+    {
+      "group": "factions",
+      "name": "使徒",
+      "title": "历史行动",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 114
+    },
+    {
+      "group": "factions",
+      "name": "使徒",
+      "title": "后续关联·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 75
+    },
+    {
+      "group": "factions",
+      "name": "使徒",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 41
+    },
+    {
+      "group": "factions",
+      "name": "王庭",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 108
+    },
+    {
+      "group": "factions",
+      "name": "王庭",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "factions",
+      "name": "王庭",
+      "title": "权力结构",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 134
+    },
+    {
+      "group": "factions",
+      "name": "王庭",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 84
+    },
+    {
+      "group": "factions",
+      "name": "王庭",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 36
+    },
+    {
+      "group": "factions",
+      "name": "王庭护卫",
+      "title": "性质与定位",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 79
+    },
+    {
+      "group": "factions",
+      "name": "王庭护卫",
+      "title": "战力门槛",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 92
+    },
+    {
+      "group": "factions",
+      "name": "王庭护卫",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 79
+    },
+    {
+      "group": "factions",
+      "name": "王庭护卫",
+      "title": "历史行动",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 150
+    },
+    {
+      "group": "factions",
+      "name": "王庭护卫",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 65
+    },
+    {
+      "group": "factions",
+      "name": "研究院",
+      "title": "性质与职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 133
+    },
+    {
+      "group": "factions",
+      "name": "研究院",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 96
+    },
+    {
+      "group": "factions",
+      "name": "研究院",
+      "title": "组织与关系",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 105
+    },
+    {
+      "group": "factions",
+      "name": "研究院",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 85
+    },
+    {
+      "group": "factions",
+      "name": "研究院",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 34
+    },
+    {
+      "group": "factions",
+      "name": "异策局",
+      "title": "性质与职能",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 100
+    },
+    {
+      "group": "factions",
+      "name": "异策局",
+      "title": "组织方式",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 107
+    },
+    {
+      "group": "factions",
+      "name": "异策局",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 122
+    },
+    {
+      "group": "factions",
+      "name": "异策局",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 117
+    },
+    {
+      "group": "factions",
+      "name": "异策局",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 33
+    },
+    {
+      "group": "factions",
+      "name": "异策局特殊作战部第三小队",
+      "title": "性质与编制",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 94
+    },
+    {
+      "group": "factions",
+      "name": "异策局特殊作战部第三小队",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 83
+    },
+    {
+      "group": "factions",
+      "name": "异策局特殊作战部第三小队",
+      "title": "灾后状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 111
+    },
+    {
+      "group": "factions",
+      "name": "异策局特殊作战部第三小队",
+      "title": "后续行动·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 118
+    },
+    {
+      "group": "factions",
+      "name": "异策局特殊作战部第三小队",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 39
+    },
+    {
+      "group": "factions",
+      "name": "园丁",
+      "title": "性质与职责",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 97
+    },
+    {
+      "group": "factions",
+      "name": "园丁",
+      "title": "组织与战力",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 95
+    },
+    {
+      "group": "factions",
+      "name": "园丁",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 78
+    },
+    {
+      "group": "factions",
+      "name": "园丁",
+      "title": "历史与后续·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 144
+    },
+    {
+      "group": "factions",
+      "name": "园丁",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 43
+    },
+    {
+      "group": "factions",
+      "name": "爪痕",
+      "title": "性质与起源",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 97
+    },
+    {
+      "group": "factions",
+      "name": "爪痕",
+      "title": "成员与技术",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 125
+    },
+    {
+      "group": "factions",
+      "name": "爪痕",
+      "title": "卷一开局状态",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 123
+    },
+    {
+      "group": "factions",
+      "name": "爪痕",
+      "title": "后续变化·剧透",
+      "route": "verbatim_content_in_full_read_worldbook",
+      "chars": 73
+    },
+    {
+      "group": "factions",
+      "name": "爪痕",
+      "title": "未明事项",
+      "route": "full_unique_section_read",
+      "chars": 48
+    }
+  ],
+  "worldbook_bodies": 143,
+  "catalog_sha256": "e81ccdd9059800025edfd93c900fa55245bfbbd9d61bfc9db25a7bf7df34b49b",
+  "host_executed": false,
+  "full_phone_program_line_by_line_read": false,
+  "full_css_line_by_line_read": false,
+  "all_8_regex_visible_ui_text_read": true
+}

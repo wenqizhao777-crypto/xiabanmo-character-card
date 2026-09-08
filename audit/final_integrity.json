@@ -1,0 +1,228 @@
+{
+  "status": "PASS",
+  "date": "2026-09-09",
+  "phase_one_completed": true,
+  "errors": [],
+  "counts": {
+    "E": 545,
+    "C": 138,
+    "S_active": 18,
+    "S_withdrawn": [
+      "S018"
+    ],
+    "R": 5,
+    "M": 41,
+    "U": 8,
+    "main": 161
+  },
+  "coverage": {
+    "source_total_lines": 38825,
+    "continuous_semantic_lines": 38825,
+    "continuous_semantic_line_percent": 100.0,
+    "continuous_semantic_char_percent": 100.0,
+    "worldbook_total": 143,
+    "worldbook_full_bodies_read": 143,
+    "continuous_semantic_chars": 1641637,
+    "source_total_chars_without_newlines": 1641637
+  },
+  "source_parts": [
+    {
+      "session": "initial",
+      "start": 1,
+      "end": 1285,
+      "lines": 1285,
+      "chars": 44087
+    },
+    {
+      "session": "02",
+      "start": 1286,
+      "end": 4357,
+      "lines": 3072,
+      "chars": 118010
+    },
+    {
+      "session": "03",
+      "start": 4358,
+      "end": 8658,
+      "lines": 4301,
+      "chars": 177578
+    },
+    {
+      "session": "04",
+      "start": 8659,
+      "end": 11021,
+      "lines": 2363,
+      "chars": 93396
+    },
+    {
+      "session": "05",
+      "start": 11022,
+      "end": 12944,
+      "lines": 1923,
+      "chars": 75983
+    },
+    {
+      "session": "06",
+      "start": 12945,
+      "end": 15098,
+      "lines": 2154,
+      "chars": 89842
+    },
+    {
+      "session": "07",
+      "start": 15099,
+      "end": 17120,
+      "lines": 2022,
+      "chars": 86654
+    },
+    {
+      "session": "08",
+      "start": 17121,
+      "end": 18346,
+      "lines": 1226,
+      "chars": 54627
+    },
+    {
+      "session": "09",
+      "start": 18347,
+      "end": 19706,
+      "lines": 1360,
+      "chars": 57514
+    },
+    {
+      "session": "10",
+      "start": 19707,
+      "end": 20989,
+      "lines": 1283,
+      "chars": 55479
+    },
+    {
+      "session": "11",
+      "start": 20990,
+      "end": 23012,
+      "lines": 2023,
+      "chars": 86350
+    },
+    {
+      "session": "12",
+      "start": 23013,
+      "end": 24907,
+      "lines": 1895,
+      "chars": 83004
+    },
+    {
+      "session": "13",
+      "start": 24908,
+      "end": 26741,
+      "lines": 1834,
+      "chars": 87916
+    },
+    {
+      "session": "14",
+      "start": 26742,
+      "end": 28331,
+      "lines": 1590,
+      "chars": 69295
+    },
+    {
+      "session": "15",
+      "start": 28332,
+      "end": 29646,
+      "lines": 1315,
+      "chars": 64731
+    },
+    {
+      "session": "16",
+      "start": 29647,
+      "end": 31166,
+      "lines": 1520,
+      "chars": 79080
+    },
+    {
+      "session": "17",
+      "start": 31167,
+      "end": 32702,
+      "lines": 1536,
+      "chars": 72714
+    },
+    {
+      "session": "18",
+      "start": 32703,
+      "end": 34207,
+      "lines": 1505,
+      "chars": 68695
+    },
+    {
+      "session": "19",
+      "start": 34208,
+      "end": 35329,
+      "lines": 1122,
+      "chars": 50257
+    },
+    {
+      "session": "20",
+      "start": 35330,
+      "end": 36129,
+      "lines": 800,
+      "chars": 29428
+    },
+    {
+      "session": "initial_tail",
+      "start": 36130,
+      "end": 38825,
+      "lines": 2696,
+      "chars": 96997
+    }
+  ],
+  "source_no_gap_no_double_count": true,
+  "chapter_titles_verified": 442,
+  "evidence_quotes_verified": 545,
+  "revision_chain_checks": {
+    "evidence_changes": {
+      "changes": 28,
+      "records": 27
+    },
+    "missing_changes": {
+      "changes": 127,
+      "records": 30
+    },
+    "issue_changes": {
+      "changes": 226,
+      "records": 68
+    }
+  },
+  "all_current_record_refs_valid": true,
+  "input_hashes": {
+    "source\\下班，然后变成魔法少女_第1-282章.txt": {
+      "baseline": {
+        "bytes": 4955802,
+        "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+      },
+      "current": {
+        "bytes": 4955802,
+        "sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+      },
+      "unchanged": true
+    },
+    "current\\260808.png": {
+      "baseline": {
+        "bytes": 7394632,
+        "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+      },
+      "current": {
+        "bytes": 7394632,
+        "sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+      },
+      "unchanged": true
+    }
+  },
+  "immutable_extracted_files_verified": 159,
+  "audit_only_changes_verified": true,
+  "worldbook_bodies_read": 143,
+  "phone_catalog_sections_accounted": 1044,
+  "host_runtime_tested": false,
+  "technical_scope": "前三脚本完整静态阅读、所有资料目录和可见UI文字、关键手机生成/过滤/快照/隔离路径；未全程序/CSS逐行审，未真实宿主运行。",
+  "health_73_55": "PASS_WITH_REFINEMENT",
+  "health_90_96": "PASS",
+  "active_next_source_line": null
+}
