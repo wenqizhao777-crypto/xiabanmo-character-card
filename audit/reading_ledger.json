@@ -41,6 +41,7 @@
     43,
     46,
     47,
+    53,
     58,
     59,
     60,
@@ -66,7 +67,7 @@
   "source_full_read_ranges": [
     [
       1,
-      11021
+      12944
     ],
     [
       36130,
@@ -139,12 +140,12 @@
   },
   "coverage": {
     "source_total_lines": 38825,
-    "continuous_semantic_lines": 13717,
-    "continuous_semantic_line_percent": 35.33,
-    "continuous_semantic_char_percent": 32.29,
+    "continuous_semantic_lines": 15640,
+    "continuous_semantic_line_percent": 40.28,
+    "continuous_semantic_char_percent": 36.92,
     "worldbook_total": 143,
-    "worldbook_full_bodies_read": 60,
-    "continuous_semantic_chars": 530068,
+    "worldbook_full_bodies_read": 61,
+    "continuous_semantic_chars": 606051,
     "source_total_chars_without_newlines": 1641637
   },
   "sessions": [
@@ -367,6 +368,98 @@
       ],
       "new_missing_ids": [
         "M025"
+      ]
+    },
+    {
+      "session": "05",
+      "previous_next_line": 11022,
+      "new_source_range": [
+        11022,
+        12944
+      ],
+      "new_lines": 1923,
+      "new_chars": 75983,
+      "next_line": 12945,
+      "completed_chapters": "卷一第133—142章、独立卷一终章、间奏一/二、其间请假及卷末附言；卷一全部连续读完",
+      "note": "逐行完整显示并语义阅读，150行左右连续批次，无抽样。卡53新增全文阅读、36/59/97复核；未来卡内摘要不计原著阅读。正文、回忆与作者草案分层。",
+      "new_evidence_ids": [
+        "E153",
+        "E154",
+        "E155",
+        "E156",
+        "E157",
+        "E158",
+        "E159",
+        "E160",
+        "E161",
+        "E162",
+        "E163",
+        "E164",
+        "E165",
+        "E166",
+        "E167",
+        "E168",
+        "E169",
+        "E170",
+        "E171",
+        "E172",
+        "E173",
+        "E174",
+        "E175",
+        "E176",
+        "E177",
+        "E178",
+        "E179",
+        "E180",
+        "E181"
+      ],
+      "new_issue_ids": [
+        "C062",
+        "C063",
+        "C064",
+        "C065",
+        "C066",
+        "C067",
+        "C068"
+      ],
+      "updated_existing_issue_ids": [
+        "C003",
+        "C005",
+        "C006",
+        "C038",
+        "C021",
+        "C055",
+        "C059",
+        "C060",
+        "C061",
+        "S010",
+        "S011",
+        "R005"
+      ],
+      "revised_evidence_ids": [
+        "E150",
+        "E151",
+        "E152"
+      ],
+      "new_missing_ids": [
+        "M026"
+      ],
+      "expanded_missing_ids": [
+        "M008",
+        "M010",
+        "M013",
+        "M014",
+        "M015",
+        "M016",
+        "M017",
+        "M018",
+        "M019",
+        "M023",
+        "M024",
+        "M025"
+      ],
+      "new_issue_reconsidered_ids": [
+        "C066"
       ]
     }
   ],

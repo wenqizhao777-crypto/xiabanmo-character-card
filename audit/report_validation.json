@@ -1,29 +1,29 @@
 {
   "status": "IN_PROGRESS_NOT_COMPLETE",
-  "issue_count": 84,
+  "issue_count": 91,
   "severity": {
     "CRITICAL": 3,
     "POTENTIAL RISK": 12,
-    "MAJOR": 42,
-    "MODERATE": 24,
+    "MAJOR": 46,
+    "MODERATE": 27,
     "MINOR": 3
   },
-  "evidence_count": 152,
-  "missing_count": 25,
+  "evidence_count": 181,
+  "missing_count": 26,
   "input_hashes_unchanged": true,
   "broken_local_links": [],
   "bad_evidence_anchors": [],
   "coverage": {
     "source_total_lines": 38825,
-    "continuous_semantic_lines": 13717,
-    "continuous_semantic_line_percent": 35.33,
-    "continuous_semantic_char_percent": 32.29,
+    "continuous_semantic_lines": 15640,
+    "continuous_semantic_line_percent": 40.28,
+    "continuous_semantic_char_percent": 36.92,
     "worldbook_total": 143,
-    "worldbook_full_bodies_read": 60,
-    "continuous_semantic_chars": 530068,
+    "worldbook_full_bodies_read": 61,
+    "continuous_semantic_chars": 606051,
     "source_total_chars_without_newlines": 1641637
   },
-  "next_source_start_line": 11022,
+  "next_source_start_line": 12945,
   "session_02": {
     "new_continuous_range": [
       1286,
@@ -154,5 +154,65 @@
     "new_evidence_ranges_contiguous": true,
     "all_issue_fields_present": true,
     "json_markdown_records_consistent": true
+  },
+  "session_05": {
+    "new_continuous_range": [
+      11022,
+      12944
+    ],
+    "new_lines": 1923,
+    "new_chars": 75983,
+    "new_evidence_count": 29,
+    "new_issue_count": 7,
+    "updated_existing_issue_ids": [
+      "C003",
+      "C005",
+      "C006",
+      "C038",
+      "C021",
+      "C055",
+      "C059",
+      "C060",
+      "C061",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "revised_evidence_ids": [
+      "E150",
+      "E151",
+      "E152"
+    ],
+    "new_missing_count": 1,
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "new_files": [
+      "session_05_baseline.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "all_issue_fields_present": true,
+    "json_markdown_records_consistent": true,
+    "phase_one_completed": false,
+    "card_full_bodies_read": 61,
+    "new_issue_reconsidered_ids": [
+      "C066"
+    ]
   }
 }
