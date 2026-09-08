@@ -1,0 +1,158 @@
+{
+  "status": "IN_PROGRESS_NOT_COMPLETE",
+  "issue_count": 84,
+  "severity": {
+    "CRITICAL": 3,
+    "POTENTIAL RISK": 12,
+    "MAJOR": 42,
+    "MODERATE": 24,
+    "MINOR": 3
+  },
+  "evidence_count": 152,
+  "missing_count": 25,
+  "input_hashes_unchanged": true,
+  "broken_local_links": [],
+  "bad_evidence_anchors": [],
+  "coverage": {
+    "source_total_lines": 38825,
+    "continuous_semantic_lines": 13717,
+    "continuous_semantic_line_percent": 35.33,
+    "continuous_semantic_char_percent": 32.29,
+    "worldbook_total": 143,
+    "worldbook_full_bodies_read": 60,
+    "continuous_semantic_chars": 530068,
+    "source_total_chars_without_newlines": 1641637
+  },
+  "next_source_start_line": 11022,
+  "session_02": {
+    "new_continuous_range": [
+      1286,
+      4357
+    ],
+    "new_lines": 3072,
+    "new_evidence_count": 37,
+    "new_issue_count": 10,
+    "updated_issue_ids": [
+      "C005",
+      "C006",
+      "C019",
+      "C020",
+      "C021",
+      "S003",
+      "S010",
+      "S011"
+    ],
+    "new_missing_count": 4,
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "evidence_records.json",
+      "input_verification.json",
+      "issue_records.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "README.md",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true
+  },
+  "note": "文件、引用、哈希、计数和范围一致性校验不能替代尚未完成的全文语义审计；未运行酒馆宿主。",
+  "consistency_errors": [],
+  "session_03": {
+    "new_continuous_range": [
+      4358,
+      8658
+    ],
+    "new_lines": 4301,
+    "new_chars": 177578,
+    "new_evidence_count": 44,
+    "new_issue_count": 18,
+    "updated_existing_issue_ids": [
+      "C001",
+      "C004",
+      "C005",
+      "C006",
+      "C009",
+      "C021",
+      "C025",
+      "C031",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "new_issue_reconsidered_ids": [
+      "C045"
+    ],
+    "new_missing_count": 4,
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true
+  },
+  "session_04": {
+    "new_continuous_range": [
+      8659,
+      11021
+    ],
+    "new_lines": 2363,
+    "new_chars": 93396,
+    "new_evidence_count": 29,
+    "new_issue_count": 12,
+    "updated_existing_issue_ids": [
+      "C049",
+      "C038",
+      "C019",
+      "C021",
+      "S003",
+      "S010",
+      "S011",
+      "R005"
+    ],
+    "new_missing_count": 1,
+    "modified_existing_files": [
+      "00_card_structure.md",
+      "01_evidence_index.md",
+      "02_full_audit_report.md",
+      "03_missing_content.md",
+      "04_timeline_knowledge_risks.md",
+      "05_user_confirmation_required.md",
+      "README.md",
+      "evidence_records.json",
+      "issue_records.json",
+      "judgment_changes.json",
+      "missing_records.json",
+      "reading_ledger.json",
+      "report_validation.json",
+      "resume_checkpoint.json"
+    ],
+    "new_files": [
+      "session_04_baseline.json"
+    ],
+    "immutable_extracted_card_and_technical_assets_unchanged": true,
+    "source_current_read_only_verified": true,
+    "coverage_recomputed_from_source": true,
+    "new_evidence_ranges_contiguous": true,
+    "all_issue_fields_present": true,
+    "json_markdown_records_consistent": true
+  }
+}

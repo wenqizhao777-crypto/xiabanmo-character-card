@@ -1,0 +1,515 @@
+```html
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《下班，然后成为魔法少女》开局声明</title>
+<style>
+  :root {
+    color-scheme: normal;
+    --mgd-night: #111531;
+    --mgd-night-deep: #090c20;
+    --mgd-ink: #20264d;
+    --mgd-gold: #ddbf73;
+    --mgd-gold-bright: #f4dfa3;
+    --mgd-rose: #d98da9;
+    --mgd-lilac: #b9b4da;
+    --mgd-paper: #f4efff;
+    --mgd-muted: #aaa5c7;
+    --mgd-line: rgba(221, 191, 115, 0.28);
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    min-width: 0;
+    background: transparent;
+  }
+
+  body {
+    padding: 12px 6px;
+    color: var(--mgd-paper);
+    font-family:
+      "Noto Serif SC",
+      "Source Han Serif SC",
+      "Songti SC",
+      "STSong",
+      "SimSun",
+      serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .mgd-card {
+    position: relative;
+    isolation: isolate;
+    width: min(100%, 640px);
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid rgba(221, 191, 115, 0.66);
+    border-radius: 18px 18px 28px 18px;
+    background:
+      radial-gradient(circle at 86% 5%, rgba(217, 141, 169, 0.22), transparent 26%),
+      radial-gradient(circle at 8% 98%, rgba(90, 83, 157, 0.28), transparent 35%),
+      linear-gradient(145deg, rgba(32, 38, 77, 0.98), rgba(9, 12, 32, 0.99) 62%);
+    box-shadow:
+      0 20px 55px rgba(3, 5, 18, 0.46),
+      inset 0 0 0 1px rgba(244, 223, 163, 0.08);
+  }
+
+  .mgd-card::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image:
+      linear-gradient(90deg, transparent 49.7%, rgba(244, 223, 163, 0.04) 50%, transparent 50.3%),
+      linear-gradient(rgba(244, 223, 163, 0.025) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 34px;
+    content: "";
+    pointer-events: none;
+  }
+
+  .mgd-card::after {
+    position: absolute;
+    top: -58px;
+    right: -58px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(221, 191, 115, 0.3);
+    border-radius: 50%;
+    box-shadow:
+      inset 0 0 0 14px rgba(221, 191, 115, 0.025),
+      inset 0 0 0 15px rgba(221, 191, 115, 0.11);
+    content: "";
+    pointer-events: none;
+  }
+
+  .mgd-rail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px clamp(18px, 5vw, 34px);
+    border-bottom: 1px solid var(--mgd-line);
+    color: var(--mgd-gold);
+    font-size: 10px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+
+  .mgd-rail::before {
+    width: 7px;
+    height: 7px;
+    flex: 0 0 auto;
+    border: 1px solid var(--mgd-gold);
+    background: rgba(217, 141, 169, 0.34);
+    box-shadow: 0 0 12px rgba(217, 141, 169, 0.65);
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  .mgd-rail-line {
+    height: 1px;
+    min-width: 20px;
+    flex: 1;
+    background: linear-gradient(90deg, var(--mgd-line), transparent);
+  }
+
+  .mgd-body {
+    padding: clamp(28px, 7vw, 48px) clamp(20px, 7vw, 48px) 30px;
+  }
+
+  .mgd-heading {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(16px, 4vw, 26px);
+    margin-bottom: 30px;
+  }
+
+  .mgd-seal {
+    position: relative;
+    display: grid;
+    width: clamp(68px, 18vw, 92px);
+    aspect-ratio: 1;
+    place-items: center;
+    flex: 0 0 auto;
+    border: 1px solid rgba(221, 191, 115, 0.6);
+    border-radius: 50%;
+    background:
+      radial-gradient(circle, rgba(217, 141, 169, 0.24) 0 16%, transparent 17%),
+      conic-gradient(
+        from 22.5deg,
+        transparent 0 11%,
+        rgba(221, 191, 115, 0.22) 12% 13%,
+        transparent 14% 24%,
+        rgba(221, 191, 115, 0.22) 25% 26%,
+        transparent 27% 100%
+      );
+    box-shadow:
+      inset 0 0 0 7px rgba(221, 191, 115, 0.04),
+      0 0 32px rgba(217, 141, 169, 0.13);
+  }
+
+  .mgd-seal::before,
+  .mgd-seal::after {
+    position: absolute;
+    inset: 13%;
+    border: 1px solid rgba(221, 191, 115, 0.28);
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  .mgd-seal::after {
+    inset: 26%;
+    border-color: rgba(244, 223, 163, 0.5);
+  }
+
+  .mgd-seal-mark {
+    z-index: 1;
+    color: var(--mgd-gold-bright);
+    font-size: clamp(22px, 6vw, 31px);
+    line-height: 1;
+    text-shadow: 0 0 16px rgba(244, 223, 163, 0.34);
+  }
+
+  .mgd-kicker {
+    margin: 0 0 7px;
+    color: var(--mgd-rose);
+    font-size: 10px;
+    letter-spacing: 0.28em;
+  }
+
+  .mgd-title {
+    margin: 0;
+    color: var(--mgd-paper);
+    font-size: clamp(26px, 7vw, 40px);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.14em;
+    text-wrap: balance;
+  }
+
+  .mgd-subtitle {
+    margin: 9px 0 0;
+    color: var(--mgd-gold);
+    font-size: clamp(10px, 2.6vw, 12px);
+    letter-spacing: 0.16em;
+    line-height: 1.7;
+  }
+
+  .mgd-rules {
+    position: relative;
+    display: grid;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .mgd-rules::before {
+    position: absolute;
+    top: 25px;
+    bottom: 25px;
+    left: 22px;
+    width: 1px;
+    background: linear-gradient(180deg, transparent, var(--mgd-line) 12% 88%, transparent);
+    content: "";
+  }
+
+  .mgd-rule {
+    position: relative;
+    display: grid;
+    grid-template-columns: 45px minmax(0, 1fr);
+    align-items: center;
+    gap: 16px;
+    min-width: 0;
+    padding: 14px 0;
+  }
+
+  .mgd-rule + .mgd-rule {
+    border-top: 1px solid rgba(221, 191, 115, 0.12);
+  }
+
+  .mgd-index {
+    z-index: 1;
+    display: grid;
+    width: 45px;
+    height: 45px;
+    place-items: center;
+    border: 1px solid rgba(221, 191, 115, 0.45);
+    border-radius: 50%;
+    background: rgba(17, 21, 49, 0.94);
+    color: var(--mgd-gold-bright);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    box-shadow: 0 0 0 5px rgba(17, 21, 49, 0.68);
+  }
+
+  .mgd-rule-text {
+    min-width: 0;
+    margin: 0;
+    color: #e5e0f3;
+    font-size: clamp(13px, 3.6vw, 15px);
+    line-height: 1.85;
+    letter-spacing: 0.035em;
+    overflow-wrap: anywhere;
+  }
+
+  .mgd-rule strong {
+    color: var(--mgd-gold-bright);
+    font-weight: 600;
+  }
+
+  .mgd-note {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 25px 0 0;
+    padding: 13px 15px;
+    border: 1px solid rgba(217, 141, 169, 0.25);
+    border-radius: 3px 12px 12px 12px;
+    background: linear-gradient(90deg, rgba(217, 141, 169, 0.1), rgba(185, 180, 218, 0.04));
+    color: var(--mgd-muted);
+    font-size: 11px;
+    line-height: 1.75;
+    letter-spacing: 0.08em;
+  }
+
+  .mgd-note-symbol {
+    flex: 0 0 auto;
+    color: var(--mgd-rose);
+    font-size: 18px;
+  }
+
+  .mgd-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 18px;
+    margin-top: 26px;
+    padding-top: 24px;
+    border-top: 1px solid var(--mgd-line);
+  }
+
+  .mgd-credit-label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--mgd-muted);
+    font-size: 9px;
+    letter-spacing: 0.24em;
+  }
+
+  .mgd-credit-names {
+    color: var(--mgd-gold-bright);
+    font-size: clamp(14px, 4vw, 17px);
+    letter-spacing: 0.14em;
+  }
+
+  .mgd-discord {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 17px;
+    border: 1px solid rgba(244, 223, 163, 0.62);
+    border-radius: 4px 14px 14px 14px;
+    background:
+      linear-gradient(135deg, rgba(217, 141, 169, 0.2), rgba(91, 101, 216, 0.26)),
+      rgba(17, 21, 49, 0.85);
+    color: #fff5d8;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-decoration: none;
+    box-shadow:
+      inset 0 0 18px rgba(244, 223, 163, 0.04),
+      0 7px 24px rgba(4, 6, 20, 0.24);
+    transition:
+      border-color 180ms ease,
+      box-shadow 180ms ease,
+      transform 180ms ease;
+  }
+
+  .mgd-discord:hover {
+    border-color: var(--mgd-gold-bright);
+    box-shadow:
+      inset 0 0 22px rgba(244, 223, 163, 0.09),
+      0 9px 28px rgba(4, 6, 20, 0.32),
+      0 0 20px rgba(217, 141, 169, 0.16);
+    transform: translateY(-2px);
+  }
+
+  .mgd-discord:focus-visible {
+    outline: 3px solid rgba(244, 223, 163, 0.42);
+    outline-offset: 3px;
+  }
+
+  .mgd-discord-icon {
+    width: 22px;
+    height: 17px;
+    flex: 0 0 auto;
+    fill: currentColor;
+  }
+
+  .mgd-discord-copy {
+    display: grid;
+    gap: 2px;
+  }
+
+  .mgd-discord-small {
+    color: var(--mgd-lilac);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+  }
+
+  @media (max-width: 440px) {
+    body {
+      padding: 7px 3px;
+    }
+
+    .mgd-card {
+      border-radius: 13px 13px 22px 13px;
+    }
+
+    .mgd-rail {
+      padding-inline: 15px;
+      letter-spacing: 0.16em;
+    }
+
+    .mgd-body {
+      padding-inline: 17px;
+    }
+
+    .mgd-heading {
+      grid-template-columns: 58px minmax(0, 1fr);
+      gap: 14px;
+      margin-bottom: 23px;
+    }
+
+    .mgd-seal {
+      width: 58px;
+    }
+
+    .mgd-title {
+      letter-spacing: 0.08em;
+    }
+
+    .mgd-rule {
+      grid-template-columns: 38px minmax(0, 1fr);
+      gap: 12px;
+      padding: 12px 0;
+    }
+
+    .mgd-rules::before {
+      left: 18px;
+    }
+
+    .mgd-index {
+      width: 38px;
+      height: 38px;
+      box-shadow: 0 0 0 4px rgba(17, 21, 49, 0.72);
+    }
+
+    .mgd-footer {
+      grid-template-columns: 1fr;
+    }
+
+    .mgd-discord {
+      width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mgd-discord {
+      transition: none;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="mgd-card" data-mgd-declaration>
+  <div class="mgd-rail" aria-hidden="true">
+    <span>MAGICAL GIRL ARCHIVE · 1999</span>
+    <span class="mgd-rail-line"></span>
+    <span>00</span>
+  </div>
+
+  <div class="mgd-body">
+    <header class="mgd-heading">
+      <div class="mgd-seal" aria-hidden="true">
+        <span class="mgd-seal-mark">✦</span>
+      </div>
+      <div>
+        <p class="mgd-kicker">在故事开始之前</p>
+        <h1 class="mgd-title">开局声明</h1>
+        <p class="mgd-subtitle">自由创作 · 拒绝商业化</p>
+      </div>
+    </header>
+
+    <ol class="mgd-rules" aria-label="角色卡使用声明">
+      <li class="mgd-rule">
+        <span class="mgd-index" aria-hidden="true">01</span>
+        <p class="mgd-rule-text">本角色卡<strong>完全免费</strong>，严禁任何形式的商业化使用。</p>
+      </li>
+      <li class="mgd-rule">
+        <span class="mgd-index" aria-hidden="true">02</span>
+        <p class="mgd-rule-text">欢迎并允许基于本卡进行任意形式的<strong>二次创作</strong>。</p>
+      </li>
+      <li class="mgd-rule">
+        <span class="mgd-index" aria-hidden="true">03</span>
+        <p class="mgd-rule-text">允许二次转载；转载时请保留作者署名并<strong>标注原始出处</strong>。</p>
+      </li>
+      <li class="mgd-rule">
+        <span class="mgd-index" aria-hidden="true">04</span>
+        <p class="mgd-rule-text">“小手机”仅为沉浸式辅助功能，对剧情发展、走向与结局<strong>没有任何影响</strong>。</p>
+      </li>
+      <li class="mgd-rule">
+        <span class="mgd-index" aria-hidden="true">05</span>
+        <p class="mgd-rule-text">本卡的<strong>唯一更新地点</strong>为下方 Discord 频道。</p>
+      </li>
+    </ol>
+
+    <p class="mgd-note">
+      <span class="mgd-note-symbol" aria-hidden="true">☾</span>
+      <span>愿每一次改写与分享，都让这段故事抵达更远的地方。</span>
+    </p>
+
+    <footer class="mgd-footer">
+      <div class="mgd-credit">
+        <span class="mgd-credit-label">AUTHORS / 作者</span>
+        <span class="mgd-credit-names">顾清寒 · 景</span>
+      </div>
+
+      <!-- 将下方 href 中的 xxx 替换为实际 Discord 链接。 -->
+      <a
+        class="mgd-discord"
+        href="https://discord.com/channels/1380075940285124724/1532652032190582834"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="前往 Discord 唯一更新地点"
+      >
+        <svg class="mgd-discord-icon" viewBox="0 0 127.14 96.36" aria-hidden="true">
+          <path d="M107.7 8.07A105.15 105.15 0 0 0 81.47 0a72.06 72.06 0 0 0-3.36 6.83 97.68 97.68 0 0 0-29.11 0A72.37 72.37 0 0 0 45.64 0 105.89 105.89 0 0 0 19.39 8.09C2.79 32.65-1.71 56.6.54 80.21a105.73 105.73 0 0 0 32.17 16.15 77.7 77.7 0 0 0 6.89-11.19 68.42 68.42 0 0 1-10.85-5.18c.91-.66 1.8-1.34 2.66-2a75.57 75.57 0 0 0 64.32 0c.87.71 1.76 1.39 2.66 2a68.68 68.68 0 0 1-10.87 5.19 77 77 0 0 0 6.89 11.18 105.25 105.25 0 0 0 32.19-16.14c2.64-27.38-4.51-51.11-18.9-72.15ZM42.45 65.69C36.18 65.69 31 59.96 31 52.91s5-12.8 11.43-12.8 11.54 5.78 11.43 12.8-5.04 12.78-11.41 12.78Zm42.24 0c-6.27 0-11.43-5.73-11.43-12.78s5-12.8 11.43-12.8 11.54 5.78 11.43 12.8-5.02 12.78-11.43 12.78Z"/>
+        </svg>
+        <span class="mgd-discord-copy">
+          <span>唯一更新地点</span>
+          <span class="mgd-discord-small">DISCORD</span>
+        </span>
+      </a>
+    </footer>
+  </div>
+</main>
+</body>
+</html>
+```

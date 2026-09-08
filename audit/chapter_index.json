@@ -1,0 +1,3538 @@
+[
+  {
+    "ordinal": 1,
+    "title": "# 第一章 通勤，电车，魔法少女",
+    "start_line": 1,
+    "end_line": 62,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 2,
+    "title": "# 第二章 餐厅与后辈",
+    "start_line": 63,
+    "end_line": 160,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 3,
+    "title": "# 第三章 面面对谈",
+    "start_line": 161,
+    "end_line": 289,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 4,
+    "title": "# 第四章 不明通话",
+    "start_line": 290,
+    "end_line": 364,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 5,
+    "title": "# 第五章 危机",
+    "start_line": 365,
+    "end_line": 438,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 6,
+    "title": "# 第六章 往日，歧途",
+    "start_line": 439,
+    "end_line": 526,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 7,
+    "title": "# 第七章 公园暗影",
+    "start_line": 527,
+    "end_line": 616,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 8,
+    "title": "# 第八章 魔法少女翠雀",
+    "start_line": 617,
+    "end_line": 689,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 9,
+    "title": "# 第九章 激战之后",
+    "start_line": 690,
+    "end_line": 842,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 10,
+    "title": "# 第十章 疑点",
+    "start_line": 843,
+    "end_line": 910,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 11,
+    "title": "# 第十一章 魔法少女的第一课",
+    "start_line": 911,
+    "end_line": 986,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 12,
+    "title": "# 第十二章 电器街",
+    "start_line": 987,
+    "end_line": 1047,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 13,
+    "title": "# 第十三章 试探",
+    "start_line": 1048,
+    "end_line": 1108,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 14,
+    "title": "# 第十四章 坦白",
+    "start_line": 1109,
+    "end_line": 1183,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 15,
+    "title": "# 第十五章 选择",
+    "start_line": 1184,
+    "end_line": 1285,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 16,
+    "title": "# 第十六章 怪谈调查",
+    "start_line": 1286,
+    "end_line": 1375,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 17,
+    "title": "# 第十七章 魔法少女小锦",
+    "start_line": 1376,
+    "end_line": 1428,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 18,
+    "title": "# 第十八章 初次配合",
+    "start_line": 1429,
+    "end_line": 1477,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 19,
+    "title": "# 第十九章 如雨般落下之物",
+    "start_line": 1478,
+    "end_line": 1547,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 20,
+    "title": "# 第二十章 去你家",
+    "start_line": 1548,
+    "end_line": 1603,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 21,
+    "title": "# 第二十一章 事后清理",
+    "start_line": 1604,
+    "end_line": 1670,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 22,
+    "title": "# 第二十二章 同伴与信任",
+    "start_line": 1671,
+    "end_line": 1742,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 23,
+    "title": "# 第二十三章 虚与委蛇",
+    "start_line": 1743,
+    "end_line": 1808,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 24,
+    "title": "# 第二十四章 林小璐的回忆",
+    "start_line": 1809,
+    "end_line": 1886,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 25,
+    "title": "# 第二十五章 荼蘼",
+    "start_line": 1887,
+    "end_line": 1960,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 26,
+    "title": "# 第二十六章 本相与魔力构装",
+    "start_line": 1961,
+    "end_line": 2021,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 27,
+    "title": "# 第二十七章 盛大欢迎",
+    "start_line": 2022,
+    "end_line": 2076,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 28,
+    "title": "# 第二十八章 合唱团与舞者",
+    "start_line": 2077,
+    "end_line": 2132,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 29,
+    "title": "# 第二十九章 曲终人散",
+    "start_line": 2133,
+    "end_line": 2185,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 30,
+    "title": "# 第三十章 晚睡晚起与谈话结果",
+    "start_line": 2186,
+    "end_line": 2226,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 31,
+    "title": "# 第三十一章 晨间琐事",
+    "start_line": 2227,
+    "end_line": 2295,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 32,
+    "title": "# 第三十二章 堵车之后",
+    "start_line": 2296,
+    "end_line": 2383,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 33,
+    "title": "# 第三十三章 异策局",
+    "start_line": 2384,
+    "end_line": 2435,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 34,
+    "title": "# 第三十四章 爪痕",
+    "start_line": 2436,
+    "end_line": 2490,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 35,
+    "title": "# 第三十五章 电车事变",
+    "start_line": 2491,
+    "end_line": 2562,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 36,
+    "title": "# 第三十六章 家长会前",
+    "start_line": 2563,
+    "end_line": 2622,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 37,
+    "title": "# 第三十七章 雨伞",
+    "start_line": 2623,
+    "end_line": 2727,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 38,
+    "title": "# 第三十八章 魔法少女的魔力修习",
+    "start_line": 2728,
+    "end_line": 2784,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 39,
+    "title": "# 第三十九章 白牌，字牌，花牌",
+    "start_line": 2785,
+    "end_line": 2850,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 40,
+    "title": "# 第四十章 夏夜学习会",
+    "start_line": 2851,
+    "end_line": 2920,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 41,
+    "title": "# 第四十一章 深夜家访",
+    "start_line": 2921,
+    "end_line": 2989,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 42,
+    "title": "# 第四十二章 乖孩子",
+    "start_line": 2990,
+    "end_line": 3061,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 43,
+    "title": "# 第四十三章 名为“任性”的特权",
+    "start_line": 3062,
+    "end_line": 3182,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 44,
+    "title": "# 第四十四章 同眠",
+    "start_line": 3183,
+    "end_line": 3254,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 45,
+    "title": "# 第四十五章 留宿之后",
+    "start_line": 3255,
+    "end_line": 3317,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 46,
+    "title": "# 第四十六章 红思与的猜测",
+    "start_line": 3318,
+    "end_line": 3398,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 47,
+    "title": "# 第四十七章 初夏",
+    "start_line": 3399,
+    "end_line": 3459,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 48,
+    "title": "# 第四十八章 前辈的后辈",
+    "start_line": 3460,
+    "end_line": 3521,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 49,
+    "title": "# 第四十九章 意外的访客",
+    "start_line": 3522,
+    "end_line": 3573,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 50,
+    "title": "# 第五十章 巡查使的含义",
+    "start_line": 3574,
+    "end_line": 3629,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 51,
+    "title": "# 第五十一章 宝石权杖",
+    "start_line": 3630,
+    "end_line": 3717,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 52,
+    "title": "# 第五十二章 电梯门口",
+    "start_line": 3718,
+    "end_line": 3792,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 53,
+    "title": "# 第五十三章 林小璐放弃了思考",
+    "start_line": 3793,
+    "end_line": 3854,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 54,
+    "title": "# 第五十四章 跟踪",
+    "start_line": 3855,
+    "end_line": 3921,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 55,
+    "title": "# 第五十五章 反跟踪",
+    "start_line": 3922,
+    "end_line": 3983,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 56,
+    "title": "# 第五十六章 闹剧一场",
+    "start_line": 3984,
+    "end_line": 4076,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 57,
+    "title": "# 第五十七章 午餐之后",
+    "start_line": 4077,
+    "end_line": 4127,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 58,
+    "title": "# 第五十八章 女儿的坦白",
+    "start_line": 4128,
+    "end_line": 4204,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 59,
+    "title": "# 第五十九章 手机风波",
+    "start_line": 4205,
+    "end_line": 4277,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 60,
+    "title": "# 第六十章 兑现的承诺",
+    "start_line": 4278,
+    "end_line": 4357,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 61,
+    "title": "# 第六十一章 旧照片",
+    "start_line": 4358,
+    "end_line": 4422,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 62,
+    "title": "# 第六十二章 芽级",
+    "start_line": 4423,
+    "end_line": 4470,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 63,
+    "title": "# 第六十三章 引离",
+    "start_line": 4471,
+    "end_line": 4539,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 64,
+    "title": "# 第六十四章 夜谈（上）",
+    "start_line": 4540,
+    "end_line": 4603,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 65,
+    "title": "# 第六十五章 夜谈（中）",
+    "start_line": 4604,
+    "end_line": 4660,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 66,
+    "title": "# 第六十六章 夜谈（下）",
+    "start_line": 4661,
+    "end_line": 4768,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 67,
+    "title": "# 第六十七章 妖精与朋友",
+    "start_line": 4769,
+    "end_line": 4819,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 68,
+    "title": "# 第六十八章 摩可的心思",
+    "start_line": 4820,
+    "end_line": 4876,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 69,
+    "title": "# 第六十九章 事变",
+    "start_line": 4877,
+    "end_line": 4933,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 70,
+    "title": "# 第七十章 各自奔逃",
+    "start_line": 4934,
+    "end_line": 4990,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 71,
+    "title": "# 第七十一章 结伴而走",
+    "start_line": 4991,
+    "end_line": 5049,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 72,
+    "title": "# 第七十二章 危难之中",
+    "start_line": 5050,
+    "end_line": 5141,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 73,
+    "title": "# 第七十三章 生机的光辉",
+    "start_line": 5142,
+    "end_line": 5197,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 74,
+    "title": "# 第七十四章 魔法少女薄雪",
+    "start_line": 5198,
+    "end_line": 5249,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 75,
+    "title": "# 第七十五章 强敌",
+    "start_line": 5250,
+    "end_line": 5394,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 76,
+    "title": "# 第七十六章 锄奸伐逆之时",
+    "start_line": 5395,
+    "end_line": 5552,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 77,
+    "title": "# 第七十七章 写字楼外",
+    "start_line": 5553,
+    "end_line": 5618,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 78,
+    "title": "# 第七十八章 翠雀与麻雀",
+    "start_line": 5619,
+    "end_line": 5674,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 79,
+    "title": "# 第七十九章 埃癸斯",
+    "start_line": 5675,
+    "end_line": 5730,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 80,
+    "title": "# 第八十章 塞斯特斯",
+    "start_line": 5731,
+    "end_line": 5833,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 81,
+    "title": "# 第八十一章 黑烬黎明（4k）",
+    "start_line": 5834,
+    "end_line": 5918,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 82,
+    "title": "# 第八十二章 王腾飞",
+    "start_line": 5919,
+    "end_line": 5977,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 83,
+    "title": "# 第八十三章 粉丝",
+    "start_line": 5978,
+    "end_line": 6036,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 84,
+    "title": "# 第八十四章 愤怒（5k）",
+    "start_line": 6037,
+    "end_line": 6185,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 85,
+    "title": "# 上架感言",
+    "start_line": 6186,
+    "end_line": 6209,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 86,
+    "title": "# 第八十五章 罪恶的尽头（4k）",
+    "start_line": 6210,
+    "end_line": 6319,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 87,
+    "title": "# 第八十六章 危机落幕",
+    "start_line": 6320,
+    "end_line": 6386,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 88,
+    "title": "# 第八十七章 刘文琴",
+    "start_line": 6387,
+    "end_line": 6430,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 89,
+    "title": "# 第八十八章 签名",
+    "start_line": 6431,
+    "end_line": 6479,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 90,
+    "title": "# 第八十九章 与白静萱的初次谈话",
+    "start_line": 6480,
+    "end_line": 6543,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 91,
+    "title": "# 第九十章 忌日",
+    "start_line": 6544,
+    "end_line": 6609,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 92,
+    "title": "# 第九十一章 国度来客",
+    "start_line": 6610,
+    "end_line": 6676,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 93,
+    "title": "# 第九十二章 金绿猫眼",
+    "start_line": 6677,
+    "end_line": 6724,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 94,
+    "title": "# 第九十三章 通话结束",
+    "start_line": 6725,
+    "end_line": 6778,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 95,
+    "title": "# 第九十四章 暑假的尾声（4k）",
+    "start_line": 6779,
+    "end_line": 6885,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 96,
+    "title": "# 第九十五章 林小璐的危机意识",
+    "start_line": 6886,
+    "end_line": 6958,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 97,
+    "title": "# 第九十六章 秘密基地（4k）",
+    "start_line": 6959,
+    "end_line": 7059,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 98,
+    "title": "# 第九十七章 最难的题目（5k）",
+    "start_line": 7060,
+    "end_line": 7174,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 99,
+    "title": "# 第九十八章 处暑夏凉（4k5）",
+    "start_line": 7175,
+    "end_line": 7291,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 100,
+    "title": "# 第九十九章 新家与恶作剧",
+    "start_line": 7292,
+    "end_line": 7396,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 101,
+    "title": "# 第一百章 秘密基地的第一个早晨",
+    "start_line": 7397,
+    "end_line": 7471,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 102,
+    "title": "# 第一百零一章 出游（3k）",
+    "start_line": 7472,
+    "end_line": 7573,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 103,
+    "title": "# 第一百零二章 复行电器街",
+    "start_line": 7574,
+    "end_line": 7677,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 104,
+    "title": "# 第一百零三章 街机厅的比试（6k）",
+    "start_line": 7678,
+    "end_line": 7947,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 105,
+    "title": "# 第一百零四章 雨过天晴",
+    "start_line": 7948,
+    "end_line": 8004,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 106,
+    "title": "# 第一百零五章 约会（上）（5k）",
+    "start_line": 8005,
+    "end_line": 8131,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 107,
+    "title": "# 第一百零六章 约会（中）（4k5）",
+    "start_line": 8132,
+    "end_line": 8238,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 108,
+    "title": "# 第一百零七章 约会（下）（3k）",
+    "start_line": 8239,
+    "end_line": 8324,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 109,
+    "title": "# 第一百零八章 夏凉的疑惑",
+    "start_line": 8325,
+    "end_line": 8438,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 110,
+    "title": "# 第一百零九章 一份惊喜",
+    "start_line": 8439,
+    "end_line": 8549,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 111,
+    "title": "# 第一百一十章 生日会",
+    "start_line": 8550,
+    "end_line": 8658,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 112,
+    "title": "# 第一百一十一章 柏安市",
+    "start_line": 8659,
+    "end_line": 8717,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 113,
+    "title": "# 第一百一十二章 偶遇",
+    "start_line": 8718,
+    "end_line": 8825,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 114,
+    "title": "# 第一百一十三章 过于简单的战斗",
+    "start_line": 8826,
+    "end_line": 8916,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 115,
+    "title": "# 第一百一十四章 失踪的魔法少女",
+    "start_line": 8917,
+    "end_line": 9027,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 116,
+    "title": "# 第一百一十五章 柏安市异策局",
+    "start_line": 9028,
+    "end_line": 9120,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 117,
+    "title": "# 第一百一十六章 大厅",
+    "start_line": 9121,
+    "end_line": 9208,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 118,
+    "title": "# 第一百一十七章 巢穴",
+    "start_line": 9209,
+    "end_line": 9282,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 119,
+    "title": "# 第一百一十八章 事件的经过",
+    "start_line": 9283,
+    "end_line": 9348,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 120,
+    "title": "# 第一百一十九章 联合进攻",
+    "start_line": 9349,
+    "end_line": 9454,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 121,
+    "title": "# 第一百二十章 蛛",
+    "start_line": 9455,
+    "end_line": 9580,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 122,
+    "title": "# 状态不佳，更新推迟一下",
+    "start_line": 9581,
+    "end_line": 9585,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 123,
+    "title": "# 第一百二十一章 规则",
+    "start_line": 9586,
+    "end_line": 9685,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 124,
+    "title": "# 第一百二十二章 蛛网",
+    "start_line": 9686,
+    "end_line": 9805,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 125,
+    "title": "# 第一百二十三章 送别演出",
+    "start_line": 9806,
+    "end_line": 9904,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 126,
+    "title": "# 第一百二十四章 节日之前",
+    "start_line": 9905,
+    "end_line": 10008,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 127,
+    "title": "# 第一百二十五章 应急晚餐",
+    "start_line": 10009,
+    "end_line": 10169,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 128,
+    "title": "# 第一百二十六章 招聘考试",
+    "start_line": 10170,
+    "end_line": 10247,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 129,
+    "title": "# 第一百二十七章 再一次的不明通话",
+    "start_line": 10248,
+    "end_line": 10326,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 130,
+    "title": "# 拉跨条",
+    "start_line": 10327,
+    "end_line": 10333,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 131,
+    "title": "# 第一百二十八章 归家",
+    "start_line": 10334,
+    "end_line": 10417,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 132,
+    "title": "# 第一百二十九章 端倪（8k）",
+    "start_line": 10418,
+    "end_line": 10644,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 133,
+    "title": "# 第一百三十章 追寻",
+    "start_line": 10645,
+    "end_line": 10730,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 134,
+    "title": "# 第一百三十一章 天花板上",
+    "start_line": 10731,
+    "end_line": 10862,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 135,
+    "title": "# 第一百三十二章 对不起",
+    "start_line": 10863,
+    "end_line": 11021,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 136,
+    "title": "# 第一百三十三章 那个奇怪的男生",
+    "start_line": 11022,
+    "end_line": 11148,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 137,
+    "title": "# 第一百三十四章 那个特别的女孩",
+    "start_line": 11149,
+    "end_line": 11280,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 138,
+    "title": "# 第一百三十五章 那段奇妙的关系",
+    "start_line": 11281,
+    "end_line": 11425,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 139,
+    "title": "# 第一百三十六章 那段回家的路途",
+    "start_line": 11426,
+    "end_line": 11552,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 140,
+    "title": "# 写不动了，拉个跨",
+    "start_line": 11553,
+    "end_line": 11557,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 141,
+    "title": "# 第一百三十七章 樊笼下的蓝翠雀",
+    "start_line": 11558,
+    "end_line": 11758,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 142,
+    "title": "# 第一百三十八章 光柱之下",
+    "start_line": 11759,
+    "end_line": 11869,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 143,
+    "title": "# 第一百三十九章",
+    "start_line": 11870,
+    "end_line": 12003,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 144,
+    "title": "# 第一百四十章 质问",
+    "start_line": 12004,
+    "end_line": 12091,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 145,
+    "title": "# 第一百四十一章 恶战",
+    "start_line": 12092,
+    "end_line": 12209,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 146,
+    "title": "# 第一百四十二章 猎物",
+    "start_line": 12210,
+    "end_line": 12363,
+    "volume": "卷一",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 147,
+    "title": "# 卷一终章 黑夜，黎明，魔法少女",
+    "start_line": 12364,
+    "end_line": 12696,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 148,
+    "title": "# 间奏一 客归柏安",
+    "start_line": 12697,
+    "end_line": 12779,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 149,
+    "title": "# 间奏二 幕后交易",
+    "start_line": 12780,
+    "end_line": 12883,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 150,
+    "title": "# 卷末语暨请假条",
+    "start_line": 12884,
+    "end_line": 12936,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 151,
+    "title": "# 恢复更新与书评区活动相关事宜",
+    "start_line": 12937,
+    "end_line": 12944,
+    "volume": "卷一",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 152,
+    "title": "# 第一章 异策局来了个新局长",
+    "start_line": 12945,
+    "end_line": 13064,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 153,
+    "title": "# 第二章 后遗症",
+    "start_line": 13065,
+    "end_line": 13164,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 154,
+    "title": "# 第三章 演讲",
+    "start_line": 13165,
+    "end_line": 13271,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 155,
+    "title": "# 第四章 祖母绿",
+    "start_line": 13272,
+    "end_line": 13357,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 156,
+    "title": "# 第五章 交易",
+    "start_line": 13358,
+    "end_line": 13467,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 157,
+    "title": "# 家里有点事，今天更新晚点",
+    "start_line": 13468,
+    "end_line": 13471,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 158,
+    "title": "# 第六章 车站偶遇",
+    "start_line": 13472,
+    "end_line": 13528,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 159,
+    "title": "# 第七章 妮妮",
+    "start_line": 13529,
+    "end_line": 13592,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 160,
+    "title": "# 第八章 小小来客",
+    "start_line": 13593,
+    "end_line": 13700,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 161,
+    "title": "# 第九章 辩驳",
+    "start_line": 13701,
+    "end_line": 13817,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 162,
+    "title": "# 第十章 林小璐的猜想",
+    "start_line": 13818,
+    "end_line": 13876,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 163,
+    "title": "# 第十一章 林小璐的决心",
+    "start_line": 13877,
+    "end_line": 14010,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 164,
+    "title": "# 第十二章 抽屉里的糖果",
+    "start_line": 14011,
+    "end_line": 14075,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 165,
+    "title": "# 第十三章 偏移者",
+    "start_line": 14076,
+    "end_line": 14162,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 166,
+    "title": "# 拉跨，稍微请假一天",
+    "start_line": 14163,
+    "end_line": 14168,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 167,
+    "title": "# 第十四章 体验",
+    "start_line": 14169,
+    "end_line": 14288,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 168,
+    "title": "# 第十五章 爪痕之源",
+    "start_line": 14289,
+    "end_line": 14393,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 169,
+    "title": "# 第十六章 暗中异动",
+    "start_line": 14394,
+    "end_line": 14502,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 170,
+    "title": "# 第十七章",
+    "start_line": 14503,
+    "end_line": 14555,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 171,
+    "title": "# 第十八章 真相",
+    "start_line": 14556,
+    "end_line": 14704,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 172,
+    "title": "# 第十九章 苏醒时刻",
+    "start_line": 14705,
+    "end_line": 14856,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 173,
+    "title": "# 第二十章 身体检查",
+    "start_line": 14857,
+    "end_line": 14962,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 174,
+    "title": "# 第二十一章 陌生的告白",
+    "start_line": 14963,
+    "end_line": 15028,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 175,
+    "title": "# 第二十二章 《魔法少女战队》",
+    "start_line": 15029,
+    "end_line": 15098,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 176,
+    "title": "# 第二十三章 曙草",
+    "start_line": 15099,
+    "end_line": 15234,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 177,
+    "title": "# 第二十四章 翠雀的打算",
+    "start_line": 15235,
+    "end_line": 15358,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 178,
+    "title": "# 更新推到明天中午",
+    "start_line": 15359,
+    "end_line": 15363,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 179,
+    "title": "# 第二十五章 荒原",
+    "start_line": 15364,
+    "end_line": 15474,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 180,
+    "title": "# 第二十六章 修行无岁月",
+    "start_line": 15475,
+    "end_line": 15607,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 181,
+    "title": "# 第二十七章 招待",
+    "start_line": 15608,
+    "end_line": 15712,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 182,
+    "title": "# 第二十八章 狭路相逢",
+    "start_line": 15713,
+    "end_line": 15812,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 183,
+    "title": "# 第二十九章 危机",
+    "start_line": 15813,
+    "end_line": 15902,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 184,
+    "title": "# 第三十章 百武",
+    "start_line": 15903,
+    "end_line": 15986,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 185,
+    "title": "# 第三十一章 忆海百记",
+    "start_line": 15987,
+    "end_line": 16101,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 186,
+    "title": "# 身体不舒服，今晚拉跨了",
+    "start_line": 16102,
+    "end_line": 16107,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 187,
+    "title": "# 第三十二章 气",
+    "start_line": 16108,
+    "end_line": 16203,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 188,
+    "title": "# 第三十三章 欢迎回来",
+    "start_line": 16204,
+    "end_line": 16331,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 189,
+    "title": "# 第三十四章 新成员",
+    "start_line": 16332,
+    "end_line": 16445,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 190,
+    "title": "# 第三十五章 林小璐的猜疑",
+    "start_line": 16446,
+    "end_line": 16554,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 191,
+    "title": "# 第三十六章 妖精仙人",
+    "start_line": 16555,
+    "end_line": 16671,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 192,
+    "title": "# 第三十七章 第二次跟踪",
+    "start_line": 16672,
+    "end_line": 16756,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 193,
+    "title": "# 第三十八章 意外连连",
+    "start_line": 16757,
+    "end_line": 16870,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 194,
+    "title": "# 第三十九章 乞讨",
+    "start_line": 16871,
+    "end_line": 16971,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 195,
+    "title": "# 第四十章 临时本体",
+    "start_line": 16972,
+    "end_line": 17120,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 196,
+    "title": "# 第四十一章 归家",
+    "start_line": 17121,
+    "end_line": 17400,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 197,
+    "title": "# 第四十二章 薄雪轻扬",
+    "start_line": 17401,
+    "end_line": 17608,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 198,
+    "title": "# 第四十三章 演唱会",
+    "start_line": 17609,
+    "end_line": 17708,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 199,
+    "title": "# 第四十四章 又如雨般四散之物",
+    "start_line": 17709,
+    "end_line": 17795,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 200,
+    "title": "# 第四十五章 名字",
+    "start_line": 17796,
+    "end_line": 17902,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 201,
+    "title": "# 第四十六章 舞台上的一等星",
+    "start_line": 17903,
+    "end_line": 18105,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 202,
+    "title": "# 第四十七章 舞台背后",
+    "start_line": 18106,
+    "end_line": 18179,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 203,
+    "title": "# 今日恢复更新通知以及道歉",
+    "start_line": 18180,
+    "end_line": 18221,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 204,
+    "title": "# 第四十八章 聚光灯下",
+    "start_line": 18222,
+    "end_line": 18346,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 205,
+    "title": "# 第四十九章 好久不见",
+    "start_line": 18347,
+    "end_line": 18450,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 206,
+    "title": "# 多拉胯一天",
+    "start_line": 18451,
+    "end_line": 18454,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 207,
+    "title": "# 第五十章 交流",
+    "start_line": 18455,
+    "end_line": 18537,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 208,
+    "title": "# 第五十一章 应去之地",
+    "start_line": 18538,
+    "end_line": 18644,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 209,
+    "title": "# 第五十二章 战斗的理由",
+    "start_line": 18645,
+    "end_line": 18779,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 210,
+    "title": "# 第五十三章 新住户",
+    "start_line": 18780,
+    "end_line": 18889,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 211,
+    "title": "# 第五十四章 女王年",
+    "start_line": 18890,
+    "end_line": 18984,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 212,
+    "title": "# 第五十五章 焦虑",
+    "start_line": 18985,
+    "end_line": 19095,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 213,
+    "title": "# 第五十六章 麻生圆香的提案",
+    "start_line": 19096,
+    "end_line": 19175,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 214,
+    "title": "# 第五十七章 闲谈",
+    "start_line": 19176,
+    "end_line": 19231,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 215,
+    "title": "# 第五十八章 局长秘书",
+    "start_line": 19232,
+    "end_line": 19290,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 216,
+    "title": "# 第五十九章 再聚首恍然如梦",
+    "start_line": 19291,
+    "end_line": 19378,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 217,
+    "title": "# 第六十章 计划",
+    "start_line": 19379,
+    "end_line": 19483,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 218,
+    "title": "# 第六十一章 争执与真心",
+    "start_line": 19484,
+    "end_line": 19585,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 219,
+    "title": "# 第六十二章 规则变更",
+    "start_line": 19586,
+    "end_line": 19706,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 220,
+    "title": "# 第六十三章 术式",
+    "start_line": 19707,
+    "end_line": 19797,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 221,
+    "title": "# 第六十四章 比试日",
+    "start_line": 19798,
+    "end_line": 19879,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 222,
+    "title": "# 第六十五章 第一回合",
+    "start_line": 19880,
+    "end_line": 20024,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 223,
+    "title": "# 第六十六章",
+    "start_line": 20025,
+    "end_line": 20187,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 224,
+    "title": "# 第六十七章 白蓟与白玫",
+    "start_line": 20188,
+    "end_line": 20297,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 225,
+    "title": "# 第六十八章 比试落幕",
+    "start_line": 20298,
+    "end_line": 20427,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 226,
+    "title": "# 第六十九章 白狼",
+    "start_line": 20428,
+    "end_line": 20552,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 227,
+    "title": "# 第七十章 年关之前",
+    "start_line": 20553,
+    "end_line": 20644,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 228,
+    "title": "# 第七十一章 情感商谈",
+    "start_line": 20645,
+    "end_line": 20751,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 229,
+    "title": "# 第七十二章 值班",
+    "start_line": 20752,
+    "end_line": 20884,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 230,
+    "title": "# 第七十三章 酒局",
+    "start_line": 20885,
+    "end_line": 20989,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 231,
+    "title": "# 第七十四章 战书",
+    "start_line": 20990,
+    "end_line": 21143,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 232,
+    "title": "# 第七十五章 阻拦",
+    "start_line": 21144,
+    "end_line": 21294,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 233,
+    "title": "# 第七十六章 兽心解放",
+    "start_line": 21295,
+    "end_line": 21383,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 234,
+    "title": "# 第七十七章 唐菖蒲",
+    "start_line": 21384,
+    "end_line": 21491,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 235,
+    "title": "# 第七十八章 百势成武",
+    "start_line": 21492,
+    "end_line": 21578,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 236,
+    "title": "# 第七十九章 恶战",
+    "start_line": 21579,
+    "end_line": 21679,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 237,
+    "title": "# 第八十章 酌情热醉",
+    "start_line": 21680,
+    "end_line": 21766,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 238,
+    "title": "# 第八十一章 围猎",
+    "start_line": 21767,
+    "end_line": 21876,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 239,
+    "title": "# 第八十二章 塞米",
+    "start_line": 21877,
+    "end_line": 21988,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 240,
+    "title": "# 第八十三章 家园",
+    "start_line": 21989,
+    "end_line": 22090,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 241,
+    "title": "# 第八十四章 白热化",
+    "start_line": 22091,
+    "end_line": 22177,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 242,
+    "title": "# 第八十五章",
+    "start_line": 22178,
+    "end_line": 22283,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 243,
+    "title": "# 第八十六章 王钥",
+    "start_line": 22284,
+    "end_line": 22410,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 244,
+    "title": "# 第八十七章 破解规则",
+    "start_line": 22411,
+    "end_line": 22600,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 245,
+    "title": "# 第八十八章 终夜的新年祝福",
+    "start_line": 22601,
+    "end_line": 22767,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 246,
+    "title": "# 第八十九章 矛盾之源",
+    "start_line": 22768,
+    "end_line": 23012,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 247,
+    "title": "# 第九十章 归还",
+    "start_line": 23013,
+    "end_line": 23176,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 248,
+    "title": "# 第九十一章 秘密承诺",
+    "start_line": 23177,
+    "end_line": 23347,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 249,
+    "title": "# 第九十二章 悠闲白日",
+    "start_line": 23348,
+    "end_line": 23484,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 250,
+    "title": "# 第九十三章 迟到太久的芽级第一课",
+    "start_line": 23485,
+    "end_line": 23626,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 251,
+    "title": "# 第九十四章 特训开始",
+    "start_line": 23627,
+    "end_line": 23762,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 252,
+    "title": "# 第九十五章 奇怪的竞争",
+    "start_line": 23763,
+    "end_line": 23883,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 253,
+    "title": "# 第九十六章 小偷",
+    "start_line": 23884,
+    "end_line": 24060,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 254,
+    "title": "# 第九十七章 登王之门",
+    "start_line": 24061,
+    "end_line": 24246,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 255,
+    "title": "# 第九十八章 伪造衣装",
+    "start_line": 24247,
+    "end_line": 24364,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 256,
+    "title": "# 第九十九章 一夜",
+    "start_line": 24365,
+    "end_line": 24603,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 257,
+    "title": "# 第一百章 庙会祈愿",
+    "start_line": 24604,
+    "end_line": 24792,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 258,
+    "title": "# 幕间 爪痕的午餐",
+    "start_line": 24793,
+    "end_line": 24907,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 259,
+    "title": "# 第一百零一章 离开方亭",
+    "start_line": 24908,
+    "end_line": 24999,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 260,
+    "title": "# 第一百零二章 在路上",
+    "start_line": 25000,
+    "end_line": 25153,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 261,
+    "title": "# 第一百零三章 土丁桂",
+    "start_line": 25154,
+    "end_line": 25304,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 262,
+    "title": "# 第一百零四章 界门",
+    "start_line": 25305,
+    "end_line": 25445,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 263,
+    "title": "# 第一百零五章 边境检查所",
+    "start_line": 25446,
+    "end_line": 25587,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 264,
+    "title": "# 第一百零六章 彩云湿地",
+    "start_line": 25588,
+    "end_line": 25795,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 265,
+    "title": "# 第一百零七章 翡翠书廊的祖母绿",
+    "start_line": 25796,
+    "end_line": 25946,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 266,
+    "title": "# 第一百零八章 战时旧梦",
+    "start_line": 25947,
+    "end_line": 26139,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 267,
+    "title": "# 第一百零九章 纪念陵园",
+    "start_line": 26140,
+    "end_line": 26361,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 268,
+    "title": "# 第一百一十章 节日预热",
+    "start_line": 26362,
+    "end_line": 26493,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 269,
+    "title": "# 第一百一十一章 应允",
+    "start_line": 26494,
+    "end_line": 26563,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 270,
+    "title": "# 第一百一十二章 红思与的工作汇报",
+    "start_line": 26564,
+    "end_line": 26609,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 271,
+    "title": "# 第一百一十三章 林小璐的“阴谋”",
+    "start_line": 26610,
+    "end_line": 26680,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 272,
+    "title": "# 第一百一十四章 碰面",
+    "start_line": 26681,
+    "end_line": 26741,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 273,
+    "title": "# 第一百一十五章 餐厅",
+    "start_line": 26742,
+    "end_line": 26805,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 274,
+    "title": "# 第一百一十六章 用餐礼仪",
+    "start_line": 26806,
+    "end_line": 26879,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 275,
+    "title": "# 第一百一十七章 对墨荷的回答",
+    "start_line": 26880,
+    "end_line": 26945,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 276,
+    "title": "# 第一百一十八章 分歧",
+    "start_line": 26946,
+    "end_line": 27003,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 277,
+    "title": "# 第一百一十九章 优惠券",
+    "start_line": 27004,
+    "end_line": 27075,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 278,
+    "title": "# 第一百二十章 梦想家",
+    "start_line": 27076,
+    "end_line": 27148,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 279,
+    "title": "# 第一百二十一章 你的特别",
+    "start_line": 27149,
+    "end_line": 27222,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 280,
+    "title": "# 第一百二十二章 队霸林小璐",
+    "start_line": 27223,
+    "end_line": 27275,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 281,
+    "title": "# 第一百二十三章 友谊证明会",
+    "start_line": 27276,
+    "end_line": 27355,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 282,
+    "title": "# 第一百二十四章 谢礼巧克力",
+    "start_line": 27356,
+    "end_line": 27413,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 283,
+    "title": "# 第一百二十五章 白静萱的巧克力",
+    "start_line": 27414,
+    "end_line": 27468,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 284,
+    "title": "# 第一百二十六章 夏凉的巧克力",
+    "start_line": 27469,
+    "end_line": 27552,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 285,
+    "title": "# 第一百二十七章 糖果和镜子",
+    "start_line": 27553,
+    "end_line": 27649,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 286,
+    "title": "# 第一百二十八章 林小璐的巧克力",
+    "start_line": 27650,
+    "end_line": 27736,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 287,
+    "title": "# 第一百二十九章 蛋糕",
+    "start_line": 27737,
+    "end_line": 27794,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 288,
+    "title": "# 第一百三十章 借车",
+    "start_line": 27795,
+    "end_line": 27837,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 289,
+    "title": "# 第一百三十一章 郁金香",
+    "start_line": 27838,
+    "end_line": 27896,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 290,
+    "title": "# 第一百三十二章 寻找",
+    "start_line": 27897,
+    "end_line": 27941,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 291,
+    "title": "# 第一百三十三章 生日快乐",
+    "start_line": 27942,
+    "end_line": 28060,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 292,
+    "title": "# 第一百三十四章 提醒",
+    "start_line": 28061,
+    "end_line": 28130,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 293,
+    "title": "# 第一百三十五章 将错就错",
+    "start_line": 28131,
+    "end_line": 28189,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 294,
+    "title": "# 第一百三十六章 魔力出力与魔力占用",
+    "start_line": 28190,
+    "end_line": 28285,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 295,
+    "title": "# 第一百三十七章 妮娜和妮姆",
+    "start_line": 28286,
+    "end_line": 28331,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 296,
+    "title": "# 第一百三十八章 握今",
+    "start_line": 28332,
+    "end_line": 28389,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 297,
+    "title": "# 第一百三十九章 突发通告",
+    "start_line": 28390,
+    "end_line": 28444,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 298,
+    "title": "# 第一百四十章 破笼而出",
+    "start_line": 28445,
+    "end_line": 28503,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 299,
+    "title": "# 第一百四十一章 丈量",
+    "start_line": 28504,
+    "end_line": 28551,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 300,
+    "title": "# 第一百四十二章 融化",
+    "start_line": 28552,
+    "end_line": 28604,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 301,
+    "title": "# 第一百四十三章 逆转",
+    "start_line": 28605,
+    "end_line": 28663,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 302,
+    "title": "# 第一百四十四章 处决",
+    "start_line": 28664,
+    "end_line": 28714,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 303,
+    "title": "# 第一百四十五章 坦白",
+    "start_line": 28715,
+    "end_line": 28762,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 304,
+    "title": "# 第一百四十六章 复诊",
+    "start_line": 28763,
+    "end_line": 28813,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 305,
+    "title": "# 第一百四十七章 翠雀的决定",
+    "start_line": 28814,
+    "end_line": 28872,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 306,
+    "title": "# 第一百四十八章 赴宴",
+    "start_line": 28873,
+    "end_line": 28923,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 307,
+    "title": "# 第一百四十九章 拜见",
+    "start_line": 28924,
+    "end_line": 28976,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 308,
+    "title": "# 第一百五十章 权利",
+    "start_line": 28977,
+    "end_line": 29017,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 309,
+    "title": "# 第一百五十一章 摊牌",
+    "start_line": 29018,
+    "end_line": 29063,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 310,
+    "title": "# 第一百五十二章 说服",
+    "start_line": 29064,
+    "end_line": 29124,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 311,
+    "title": "# 第一百五十三章 争端的理由",
+    "start_line": 29125,
+    "end_line": 29175,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 312,
+    "title": "# 第一百五十四章 计划",
+    "start_line": 29176,
+    "end_line": 29216,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 313,
+    "title": "# 第一百五十五章 串联出的真相",
+    "start_line": 29217,
+    "end_line": 29264,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 314,
+    "title": "# 第一百五十六章 密谈",
+    "start_line": 29265,
+    "end_line": 29303,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 315,
+    "title": "# 第一百五十七章 归程与对峙",
+    "start_line": 29304,
+    "end_line": 29363,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 316,
+    "title": "# 第一百五十八章 逐渐明晰的想法",
+    "start_line": 29364,
+    "end_line": 29420,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 317,
+    "title": "# 第一百五十九章 对后辈们的询问",
+    "start_line": 29421,
+    "end_line": 29474,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 318,
+    "title": "# 第一百六十章 资源",
+    "start_line": 29475,
+    "end_line": 29505,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 319,
+    "title": "# 第一百六十一章 后辈的表态",
+    "start_line": 29506,
+    "end_line": 29568,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 320,
+    "title": "# 第一百六十二章 卢恩诺雷魔事院分院",
+    "start_line": 29569,
+    "end_line": 29646,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 321,
+    "title": "# 第一百六十三章 派别",
+    "start_line": 29647,
+    "end_line": 29677,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 322,
+    "title": "# 第一百六十四章 防卫计划",
+    "start_line": 29678,
+    "end_line": 29735,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 323,
+    "title": "# 第一百六十五章 银廊之夜",
+    "start_line": 29736,
+    "end_line": 29786,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 324,
+    "title": "# 第一百六十六章 大腿榜",
+    "start_line": 29787,
+    "end_line": 29829,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 325,
+    "title": "# 第一百六十七章 魔事分院的这半月",
+    "start_line": 29830,
+    "end_line": 29864,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 326,
+    "title": "# 第一百六十八章 考前",
+    "start_line": 29865,
+    "end_line": 29921,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 327,
+    "title": "# 第一百六十九章 笔试",
+    "start_line": 29922,
+    "end_line": 29952,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 328,
+    "title": "# 第一百七十章 林小璐的事故",
+    "start_line": 29953,
+    "end_line": 30016,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 329,
+    "title": "# 第一百七十一章 异常状况",
+    "start_line": 30017,
+    "end_line": 30076,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 330,
+    "title": "# 第一百七十二章 “聪明术”",
+    "start_line": 30077,
+    "end_line": 30113,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 331,
+    "title": "# 第一百七十三章 分数出炉",
+    "start_line": 30114,
+    "end_line": 30195,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 332,
+    "title": "# 第一百七十四章 临时组队",
+    "start_line": 30196,
+    "end_line": 30251,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 333,
+    "title": "# 第一百七十五章 模仿者",
+    "start_line": 30252,
+    "end_line": 30303,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 334,
+    "title": "# 第一百七十六章 狗尾草",
+    "start_line": 30304,
+    "end_line": 30357,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 335,
+    "title": "# 第一百七十七章 组队邀请",
+    "start_line": 30358,
+    "end_line": 30416,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 336,
+    "title": "# 第一百七十八章 第三名队友",
+    "start_line": 30417,
+    "end_line": 30464,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 337,
+    "title": "# 第一百七十九章 山丹与卷丹",
+    "start_line": 30465,
+    "end_line": 30520,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 338,
+    "title": "# 第一百八十章 薄荷",
+    "start_line": 30521,
+    "end_line": 30581,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 339,
+    "title": "# 第一百八十一章 情报专家",
+    "start_line": 30582,
+    "end_line": 30645,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 340,
+    "title": "# 第一百八十二章 到来",
+    "start_line": 30646,
+    "end_line": 30708,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 341,
+    "title": "# 第一百八十三章 第一场考核",
+    "start_line": 30709,
+    "end_line": 30759,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 342,
+    "title": "# 第一百八十四章 迷宫",
+    "start_line": 30760,
+    "end_line": 30813,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 343,
+    "title": "# 第一百八十五章 分析",
+    "start_line": 30814,
+    "end_line": 30873,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 344,
+    "title": "# 第一百八十六章 探索",
+    "start_line": 30874,
+    "end_line": 30926,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 345,
+    "title": "# 第一百八十七章 解谜",
+    "start_line": 30927,
+    "end_line": 30981,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 346,
+    "title": "# 第一百八十八章 偷袭",
+    "start_line": 30982,
+    "end_line": 31066,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 347,
+    "title": "# 第一百八十九章 观礼者们",
+    "start_line": 31067,
+    "end_line": 31125,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 348,
+    "title": "# 三千字请假条，聊聊第二卷",
+    "start_line": 31126,
+    "end_line": 31166,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 349,
+    "title": "# 第一百九十章 糟糕的偶遇",
+    "start_line": 31167,
+    "end_line": 31242,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 350,
+    "title": "# 第一百九十一章 互相试探",
+    "start_line": 31243,
+    "end_line": 31298,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 351,
+    "title": "# 第一百九十二章 求风",
+    "start_line": 31299,
+    "end_line": 31350,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 352,
+    "title": "# 第一百九十三章 十秒博弈",
+    "start_line": 31351,
+    "end_line": 31406,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 353,
+    "title": "# 第一百九十四章 通路谜题",
+    "start_line": 31407,
+    "end_line": 31459,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 354,
+    "title": "# 第一百九十五章 关于岳望",
+    "start_line": 31460,
+    "end_line": 31530,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 355,
+    "title": "# 第一百九十六章 破冰",
+    "start_line": 31531,
+    "end_line": 31598,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 356,
+    "title": "# 第一百九十七章 空洞之中",
+    "start_line": 31599,
+    "end_line": 31664,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 357,
+    "title": "# 第一百九十八章 旌徽",
+    "start_line": 31665,
+    "end_line": 31743,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 358,
+    "title": "# 第一百九十九章 第五条规则",
+    "start_line": 31744,
+    "end_line": 31814,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 359,
+    "title": "# 第二百章 各显神通",
+    "start_line": 31815,
+    "end_line": 31855,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 360,
+    "title": "# 第二百零一章 来自暗中的试探",
+    "start_line": 31856,
+    "end_line": 31903,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 361,
+    "title": "# 第二百零二章 蜂",
+    "start_line": 31904,
+    "end_line": 31954,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 362,
+    "title": "# 第二百零三章 不速之客",
+    "start_line": 31955,
+    "end_line": 32014,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 363,
+    "title": "# 第二百零四章 箭根薯",
+    "start_line": 32015,
+    "end_line": 32066,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 364,
+    "title": "# 第二百零五章 简单的战术",
+    "start_line": 32067,
+    "end_line": 32111,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 365,
+    "title": "# 第二百零六章 夏凉的困境",
+    "start_line": 32112,
+    "end_line": 32188,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 366,
+    "title": "# 第二百零七章 陪聊机器人龙胆",
+    "start_line": 32189,
+    "end_line": 32231,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 367,
+    "title": "# 第二百零八章 不和",
+    "start_line": 32232,
+    "end_line": 32294,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 368,
+    "title": "# 第二百零九章 “调停”",
+    "start_line": 32295,
+    "end_line": 32357,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 369,
+    "title": "# 第二百一十章 都觉得自己“赢了”的交易",
+    "start_line": 32358,
+    "end_line": 32417,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 370,
+    "title": "# 第二百一十一章 情绪引导者龙胆",
+    "start_line": 32418,
+    "end_line": 32474,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 371,
+    "title": "# 第二百一十二章 怀疑",
+    "start_line": 32475,
+    "end_line": 32528,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 372,
+    "title": "# 第二百一十三章 第一名",
+    "start_line": 32529,
+    "end_line": 32593,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 373,
+    "title": "# 第二百一十四章 考后反省",
+    "start_line": 32594,
+    "end_line": 32653,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 374,
+    "title": "# 第二百一十五章 考核间隙",
+    "start_line": 32654,
+    "end_line": 32702,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 375,
+    "title": "# 第二百一十六章 推论",
+    "start_line": 32703,
+    "end_line": 32750,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 376,
+    "title": "# 第二百一十七章 薄荷的懊恼",
+    "start_line": 32751,
+    "end_line": 32805,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 377,
+    "title": "# 第二百一十八章 祭子",
+    "start_line": 32806,
+    "end_line": 32893,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 378,
+    "title": "# 第二百一十九章 薄荷的条件",
+    "start_line": 32894,
+    "end_line": 32970,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 379,
+    "title": "# 第二百二十章 观察",
+    "start_line": 32971,
+    "end_line": 33023,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 380,
+    "title": "# 第二百二十一章 魔装考核",
+    "start_line": 33024,
+    "end_line": 33078,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 381,
+    "title": "# 第二百二十二章 攀谈",
+    "start_line": 33079,
+    "end_line": 33133,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 382,
+    "title": "# 第二百二十三章 魔装考核间的杂谈",
+    "start_line": 33134,
+    "end_line": 33179,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 383,
+    "title": "# 第二百二十四章 白静萱的检测",
+    "start_line": 33180,
+    "end_line": 33225,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 384,
+    "title": "# 第二百二十五章 结果出炉",
+    "start_line": 33226,
+    "end_line": 33289,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 385,
+    "title": "# 第二百二十六章 林小璐的测试",
+    "start_line": 33290,
+    "end_line": 33353,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 386,
+    "title": "# 第二百二十七章 翠雀的担忧",
+    "start_line": 33354,
+    "end_line": 33441,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 387,
+    "title": "# 中秋节快乐，明天更新",
+    "start_line": 33442,
+    "end_line": 33446,
+    "volume": "卷二",
+    "kind": "其他标题（含幕间、卷终或作者附记；待逐项分类）"
+  },
+  {
+    "ordinal": 388,
+    "title": "# 第二百二十八章 看法",
+    "start_line": 33447,
+    "end_line": 33508,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 389,
+    "title": "# 第二百二十九章 意外发生的理由",
+    "start_line": 33509,
+    "end_line": 33572,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 390,
+    "title": "# 第二百三十章 打一场吗",
+    "start_line": 33573,
+    "end_line": 33627,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 391,
+    "title": "# 第二百三十一章 反思",
+    "start_line": 33628,
+    "end_line": 33729,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 392,
+    "title": "# 第二百三十二章 成绩公布",
+    "start_line": 33730,
+    "end_line": 33789,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 393,
+    "title": "# 第二百三十三章 汇报与指示",
+    "start_line": 33790,
+    "end_line": 33844,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 394,
+    "title": "# 第二百三十四章 舆论发酵",
+    "start_line": 33845,
+    "end_line": 33887,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 395,
+    "title": "# 第二百三十五章 “怪物”们的相遇",
+    "start_line": 33888,
+    "end_line": 33934,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 396,
+    "title": "# 第二百三十六章 所谓切磋",
+    "start_line": 33935,
+    "end_line": 34019,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 397,
+    "title": "# 第二百三十七章 不圆满",
+    "start_line": 34020,
+    "end_line": 34092,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 398,
+    "title": "# 第二百三十八章 结果",
+    "start_line": 34093,
+    "end_line": 34166,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 399,
+    "title": "# 第二百三十九章 夺牌战",
+    "start_line": 34167,
+    "end_line": 34207,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 400,
+    "title": "# 第二百四十章 见面",
+    "start_line": 34208,
+    "end_line": 34266,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 401,
+    "title": "# 第二百四十一章 紫钻的要求",
+    "start_line": 34267,
+    "end_line": 34318,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 402,
+    "title": "# 第二百四十二章 商量",
+    "start_line": 34319,
+    "end_line": 34389,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 403,
+    "title": "# 第二百四十三章 计划拟定",
+    "start_line": 34390,
+    "end_line": 34445,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 404,
+    "title": "# 第二百四十四章 再遇",
+    "start_line": 34446,
+    "end_line": 34493,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 405,
+    "title": "# 第二百四十五章 兽子的魔装",
+    "start_line": 34494,
+    "end_line": 34550,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 406,
+    "title": "# 第二百四十六章 互相的算计",
+    "start_line": 34551,
+    "end_line": 34601,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 407,
+    "title": "# 第二百四十七章 战斗后的思考",
+    "start_line": 34602,
+    "end_line": 34656,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 408,
+    "title": "# 第二百四十八章 收获的夜晚",
+    "start_line": 34657,
+    "end_line": 34707,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 409,
+    "title": "# 第二百四十九章 打听",
+    "start_line": 34708,
+    "end_line": 34755,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 410,
+    "title": "# 第二百五十章 找人",
+    "start_line": 34756,
+    "end_line": 34815,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 411,
+    "title": "# 第二百五十一章 土丁桂的推测",
+    "start_line": 34816,
+    "end_line": 34863,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 412,
+    "title": "# 第二百五十二章 善后",
+    "start_line": 34864,
+    "end_line": 34917,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 413,
+    "title": "# 第二百五十三章 圆谎的办法",
+    "start_line": 34918,
+    "end_line": 34967,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 414,
+    "title": "# 第二百五十四章 再战箭根薯",
+    "start_line": 34968,
+    "end_line": 35033,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 415,
+    "title": "# 第二百五十五章 破解术式",
+    "start_line": 35034,
+    "end_line": 35100,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 416,
+    "title": "# 第二百五十六章 复仇一战",
+    "start_line": 35101,
+    "end_line": 35157,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 417,
+    "title": "# 第二百五十七章 战后收尾",
+    "start_line": 35158,
+    "end_line": 35216,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 418,
+    "title": "# 第二百五十八章 逃跑的夏凉",
+    "start_line": 35217,
+    "end_line": 35275,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 419,
+    "title": "# 第二百五十九章 最后一日",
+    "start_line": 35276,
+    "end_line": 35329,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 420,
+    "title": "# 第二百六十章 金蛇的疑惑",
+    "start_line": 35330,
+    "end_line": 35391,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 421,
+    "title": "# 第二百六十一章 备战",
+    "start_line": 35392,
+    "end_line": 35441,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 422,
+    "title": "# 第二百六十二章 迫近的阴霾",
+    "start_line": 35442,
+    "end_line": 35509,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 423,
+    "title": "# 第二百六十三章 卢恩诺雷守卫战",
+    "start_line": 35510,
+    "end_line": 35592,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 424,
+    "title": "# 第二百六十四章 十万火急",
+    "start_line": 35593,
+    "end_line": 35639,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 425,
+    "title": "# 第二百六十五章 羽声",
+    "start_line": 35640,
+    "end_line": 35743,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 426,
+    "title": "# 第二百六十六章 界门殇",
+    "start_line": 35744,
+    "end_line": 35859,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 427,
+    "title": "# 第二百六十七章 诀别",
+    "start_line": 35860,
+    "end_line": 35959,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 428,
+    "title": "# 第二百六十八章 死战",
+    "start_line": 35960,
+    "end_line": 36033,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 429,
+    "title": "# 第二百六十九章 各自的选择",
+    "start_line": 36034,
+    "end_line": 36129,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 430,
+    "title": "# 第二百七十章 舞台",
+    "start_line": 36130,
+    "end_line": 36218,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 431,
+    "title": "# 第二百七十一章 天罗地网",
+    "start_line": 36219,
+    "end_line": 36309,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 432,
+    "title": "# 第二百七十二章 双边异动",
+    "start_line": 36310,
+    "end_line": 36407,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 433,
+    "title": "# 第二百七十三章 阿比梅尔之名",
+    "start_line": 36408,
+    "end_line": 36490,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 434,
+    "title": "# 第二百七十四章 永恒的奥古斯都",
+    "start_line": 36491,
+    "end_line": 36618,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 435,
+    "title": "# 第二百七十五章 真正的能力",
+    "start_line": 36619,
+    "end_line": 36736,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 436,
+    "title": "# 第二百七十六章 食祭",
+    "start_line": 36737,
+    "end_line": 36838,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 437,
+    "title": "# 第二百七十七章 蝙蝠与老鼠",
+    "start_line": 36839,
+    "end_line": 37162,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 438,
+    "title": "# 第二百七十八章 乱局",
+    "start_line": 37163,
+    "end_line": 37388,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 439,
+    "title": "# 第二百七十九章 刺杀",
+    "start_line": 37389,
+    "end_line": 37702,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 440,
+    "title": "# 第二百八十章 战争的真相",
+    "start_line": 37703,
+    "end_line": 38236,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 441,
+    "title": "# 第二百八十一章 墨荷、矢车菊与翠雀",
+    "start_line": 38237,
+    "end_line": 38520,
+    "volume": "卷二",
+    "kind": "编号正文"
+  },
+  {
+    "ordinal": 442,
+    "title": "# 第二百八十二章 琥珀",
+    "start_line": 38521,
+    "end_line": 38825,
+    "volume": "卷二",
+    "kind": "编号正文"
+  }
+]

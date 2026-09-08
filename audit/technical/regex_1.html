@@ -1,0 +1,1679 @@
+```html
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.7.0/style.css">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { background:transparent; }
+  body {
+    font-family:'LXGW WenKai Lite','霞鹜文楷',Georgia,'STZhongsong','SimSun',serif;
+    -webkit-font-smoothing:antialiased;
+    display:flex; justify-content:center; align-items:flex-start; padding:10px 6px;
+  }
+  button { font-family:inherit; }
+  input,select,textarea { font-family:inherit; }
+
+  /* ============ 卡体:一张会翻页的昼夜长卷 ============ */
+  .mg-card {
+    --px: clamp(14px,4.5vw,30px);
+    position:relative; width:100%; max-width:640px; margin:0 auto;
+    border-radius:14px; overflow:hidden;
+    box-shadow:0 0 0 1px #c9a55e, inset 0 0 0 1px rgba(201,165,94,.28), 0 10px 34px rgba(19,23,53,.45);
+    background-image:linear-gradient(180deg,
+      #d6e5ec 0%, #e9e7d9 10%, #f0e5cc 22%, #ecd0b4 32%,
+      #dba9a5 42%, #c98fa4 50%, #8a6394 58%, #4b4480 66%,
+      #333a6e 74%, #232a5f 82%, #1b2050 90%, #131735 100%);
+    background-size:100% 560%;
+    background-position:50% 0%;
+    transition:background-position .9s ease;
+  }
+
+  /* ============ 顶栏:时刻与进度 ============ */
+  .topbar { display:flex; align-items:center; gap:10px; padding:12px var(--px) 10px; }
+  .tp-time {
+    flex-shrink:0; font-size:10px; letter-spacing:2px; padding:3px 10px; border-radius:2px;
+    border:1px solid rgba(92,114,134,.5); color:#5c7286; background:rgba(255,255,255,.35);
+    transition:color .5s, border-color .5s, background .5s;
+  }
+  .dots { display:flex; align-items:center; gap:7px; flex:1; justify-content:center; }
+  .dot {
+    width:11px; height:11px; border-radius:50%; cursor:pointer; padding:0;
+    border:1px solid rgba(92,114,134,.55); background:rgba(255,255,255,.35);
+    transition:transform .3s, background .3s, border-color .3s, box-shadow .3s;
+  }
+  .dot:hover { transform:scale(1.25); }
+  .dot.cur {
+    background:linear-gradient(150deg,#f2dfae,#d9a648); border-color:#b0812f;
+    box-shadow:0 0 8px rgba(201,165,94,.6); transform:scale(1.3);
+  }
+  .dot.done { background:rgba(201,165,94,.55); border-color:rgba(176,129,47,.6); }
+  .dot.skip { border-style:dashed; opacity:.35; cursor:default; }
+  .dot.skip:hover { transform:none; }
+  .gear {
+    flex-shrink:0; width:40px; height:40px; border-radius:50%; border:1px solid rgba(92,114,134,.4);
+    background:rgba(255,255,255,.4); color:#5c7286; font-size:16px; cursor:pointer;
+    transition:transform .5s ease, box-shadow .3s ease, color .5s, border-color .5s, background .5s;
+  }
+  .gear:hover { transform:rotate(60deg); box-shadow:0 0 0 3px rgba(201,165,94,.25); }
+  .gear.ok { color:#a8823c; border-color:rgba(201,165,94,.65); }
+  .mg-card.dk .tp-time { color:#cbb98a; border-color:rgba(201,165,94,.5); background:rgba(19,23,53,.4); }
+  .mg-card.dk .dot { border-color:rgba(201,165,94,.5); background:rgba(19,23,53,.4); }
+  .mg-card.dk .gear { color:#cbb98a; border-color:rgba(201,165,94,.5); background:rgba(19,23,53,.4); }
+
+  /* ============ 页 ============ */
+  .page { display:none; padding:6px var(--px) 10px; color:#3d3a45; }
+  .page.zd { color:#e9e5f7; }
+  .page.on { display:block; animation:pgIn .5s ease; }
+  @keyframes pgIn { from { opacity:0; transform:translateX(16px); } to { opacity:1; transform:none; } }
+  .page.on.back { animation:pgBack .5s ease; }
+  @keyframes pgBack { from { opacity:0; transform:translateX(-16px); } to { opacity:1; transform:none; } }
+
+  /* ============ 晨:扉页 ============ */
+  .hero { padding:12px 2px 6px; text-align:center; position:relative; }
+  .hero-era {
+    display:inline-block; font-size:11px; letter-spacing:4px; color:#5c7286;
+    border:1px solid rgba(92,114,134,.45); border-radius:2px; padding:3px 14px 3px 18px;
+    background:rgba(255,255,255,.35);
+  }
+  .hero-title { margin-top:18px; line-height:1.32; color:#33404e; }
+  .hero-title .t1 { display:block; font-size:clamp(19px,5.2vw,26px); letter-spacing:8px; text-indent:8px; }
+  .hero-title .t2 {
+    display:block; font-size:clamp(26px,7.4vw,38px); letter-spacing:5px; margin-top:2px;
+    color:#2d3a52;
+  }
+  .hero-title .t2 b {
+    font-weight:normal;
+    background:linear-gradient(120deg,#b0812f 0%,#d9a648 38%,#c9739a 78%,#b95f8e 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .hero-sub { margin-top:13px; font-size:11.5px; letter-spacing:6px; text-indent:6px; color:#7d7386; }
+  .hero-sub::before,.hero-sub::after { content:'— '; letter-spacing:0; color:#c9a55e; }
+  .hero-sub::after { content:' —'; }
+  .skyline { margin:22px calc(-1 * var(--px)) 0; opacity:.62; display:block; width:calc(100% + var(--px) * 2); }
+  .prose {
+    margin:20px auto 0; max-width:470px; text-align:left;
+    font-size:13.5px; line-height:2.02; color:#48505c; letter-spacing:.4px;
+  }
+  .prose p + p { margin-top:9px; }
+  .prose .lead { color:#33404e; }
+
+  /* ============ 分区骨架 ============ */
+  .sec { padding:16px 2px 20px; }
+  .sec-head { display:flex; align-items:center; gap:10px; margin-bottom:16px; }
+  .sec-time {
+    flex-shrink:0; font-size:10px; letter-spacing:2px; padding:3px 9px; border-radius:2px;
+    border:1px solid currentColor; opacity:.75;
+  }
+  .sec-name { font-size:16.5px; letter-spacing:4px; font-weight:normal; }
+  .sec-name:focus-visible { outline:2px solid #c9a55e; outline-offset:3px; }
+  .sec-line { flex:1; height:1px; background:linear-gradient(90deg,currentColor,transparent); opacity:.3; }
+  .sec-num { font-size:11px; letter-spacing:2px; opacity:.55; }
+  .sec-note { font-size:11px; line-height:1.8; opacity:.72; margin:-8px 0 14px; letter-spacing:.5px; }
+
+  /* ============ 表单基件(昼侧为默认) ============ */
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+  .field { min-width:0; }
+  .field-lb { display:flex; align-items:center; gap:6px; font-size:12px; letter-spacing:2px; margin-bottom:6px; }
+  .field-lb .req { color:#b95f8e; font-size:11px; }
+  .fwrap { position:relative; display:flex; gap:6px; align-items:stretch; }
+  .fwrap > input, .fwrap > textarea, .fwrap > select { flex:1; min-width:0; }
+  input[type=text], select, textarea {
+    width:100%; min-height:44px; padding:10px 12px; font-size:13.5px; color:inherit;
+    background:rgba(255,255,255,.55); border:1px solid rgba(90,90,110,.35); border-radius:8px;
+    letter-spacing:.5px; transition:border-color .25s, box-shadow .25s, background .25s;
+  }
+  textarea { resize:vertical; min-height:76px; line-height:1.8; }
+  input::placeholder, textarea::placeholder { color:rgba(80,80,100,.45); letter-spacing:.5px; }
+  input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible {
+    outline:none; border-color:#c9a55e; box-shadow:0 0 0 3px rgba(201,165,94,.22);
+  }
+  button:focus-visible { outline:2px solid #c9a55e; outline-offset:2px; }
+
+  /* 夜侧表单基件 */
+  .zd input[type=text], .zd select, .zd textarea {
+    background:rgba(19,23,53,.5); border-color:rgba(201,165,94,.4); color:#eee9fb;
+  }
+  .zd input::placeholder, .zd textarea::placeholder { color:rgba(210,205,235,.38); }
+  .zd option { background:#1b2050; color:#eee9fb; }
+
+  /* ✦ 单字段 AI 按钮 */
+  .spark {
+    flex-shrink:0; width:44px; min-height:44px; border-radius:8px; cursor:pointer;
+    border:1px solid rgba(176,129,47,.55); background:rgba(255,255,255,.35);
+    color:#a8823c; font-size:15px; transition:box-shadow .25s, background .25s;
+  }
+  .spark:hover { background:rgba(232,197,107,.22); box-shadow:0 0 10px rgba(201,165,94,.35); }
+  .zd .spark { background:rgba(19,23,53,.5); border-color:rgba(201,165,94,.5); color:#e8c56b; }
+  .zd .spark:hover { background:rgba(201,165,94,.14); }
+  .spark:disabled, button:disabled { opacity:.45; cursor:default; box-shadow:none; }
+  .spark.busy { animation:mgSpin 1s linear infinite; }
+  @keyframes mgSpin { to { transform:rotate(360deg); } }
+
+  /* 快捷小签 */
+  .chips { display:flex; gap:6px; margin-top:6px; flex-wrap:wrap; }
+  .chip {
+    font-size:11px; letter-spacing:1px; padding:5px 12px; border-radius:20px; cursor:pointer;
+    border:1px solid rgba(90,90,110,.35); background:rgba(255,255,255,.4); color:inherit;
+  }
+  .chip:hover { border-color:#c9a55e; }
+
+  /* ============ 构思台 ============ */
+  .muse {
+    margin-top:20px;
+    border:1px solid rgba(176,129,47,.5); border-radius:12px; padding:16px 14px 14px;
+    background:linear-gradient(160deg,rgba(255,252,240,.6),rgba(248,236,205,.45));
+    position:relative;
+  }
+  .muse::before {
+    content:'✦'; position:absolute; top:-9px; left:16px; color:#b0812f; font-size:12px;
+    background:#e9e2cf; padding:0 7px;
+  }
+  .muse-lb { font-size:13px; letter-spacing:3px; color:#7a5c22; margin-bottom:9px; }
+  .muse-row { display:flex; gap:8px; flex-wrap:wrap; }
+  .muse-row input { flex:1 1 200px; }
+  .muse-btn {
+    flex-shrink:0; min-height:44px; padding:0 20px; border-radius:8px; cursor:pointer; font-size:13.5px;
+    letter-spacing:2px; color:#5c4413; border:1px solid #b0812f;
+    background:linear-gradient(150deg,#f2dfae,#e2bd72); transition:box-shadow .3s, transform .15s;
+  }
+  .muse-btn:hover { box-shadow:0 0 14px rgba(201,165,94,.5); transform:translateY(-1px); }
+  .muse-hint { font-size:10.5px; margin-top:8px; color:#8a7a58; letter-spacing:1px; line-height:1.7; }
+
+  /* ============ 路线卡 ============ */
+  .routes { display:grid; grid-template-columns:repeat(auto-fit,minmax(136px,1fr)); gap:11px; }
+  .route input { position:absolute; opacity:0; pointer-events:none; }
+  .route { position:relative; }
+  .route label {
+    display:block; padding:14px 12px 12px; border-radius:10px; cursor:pointer; text-align:center;
+    border:1px solid rgba(90,80,100,.32); background:rgba(255,255,255,.42);
+    transition:border-color .25s, box-shadow .25s, background .25s, transform .15s;
+    min-height:96px;
+  }
+  .route label:hover { transform:translateY(-2px); border-color:rgba(176,129,47,.6); }
+  .route .rg { font-size:20px; display:block; color:#8a6a9a; }
+  .route .rn { display:block; font-size:14.5px; letter-spacing:3px; margin-top:7px; }
+  .route .rd { display:block; font-size:10.5px; line-height:1.65; margin-top:6px; opacity:.7; letter-spacing:.5px; }
+  .route input:checked + label {
+    border-color:#b0812f; background:linear-gradient(160deg,rgba(255,250,235,.75),rgba(244,224,180,.55));
+    box-shadow:0 0 0 1px #b0812f, 0 4px 16px rgba(176,129,47,.25);
+  }
+  .route input:checked + label .rg { color:#a8823c; }
+  .route input:focus-visible + label { outline:2px solid #c9a55e; outline-offset:2px; }
+  .route input:checked + label::after {
+    content:'✓'; position:absolute; top:6px; right:9px; font-size:12px; color:#a8823c;
+  }
+
+  /* ============ 暮:页尾装饰 ============ */
+  .dusk-deco { position:relative; height:118px; margin:20px calc(-1 * var(--px)) -10px; overflow:hidden; }
+  .dusk-line {
+    position:absolute; left:0; right:0; bottom:56px; text-align:center;
+    font-size:11px; letter-spacing:5px; color:rgba(90,58,88,.75);
+  }
+  .skyline2 { position:absolute; left:0; right:0; bottom:0; width:100%; opacity:.85; display:block; }
+  .stars-t span { position:absolute; color:rgba(176,129,47,.8); font-size:8px; animation:mgTw 2.6s ease-in-out infinite; }
+  @keyframes mgTw { 0%,100%{opacity:.15} 50%{opacity:.95} }
+
+  /* ============ 夜:魔法侧 ============ */
+  .variant { border:1px dashed rgba(201,165,94,.4); border-radius:12px; padding:16px 13px 14px; position:relative; }
+  .variant + .variant { margin-top:12px; }
+  .variant-t { font-size:12px; letter-spacing:3px; color:#e8c56b; margin-bottom:12px; }
+  .seg { display:flex; gap:7px; flex-wrap:wrap; }
+  .seg .sg { position:relative; }
+  .seg input { position:absolute; opacity:0; pointer-events:none; }
+  .seg label, .seg .lock {
+    display:inline-flex; align-items:center; justify-content:center; min-width:52px; min-height:40px;
+    padding:6px 13px; border-radius:8px; font-size:13px; letter-spacing:2px; cursor:pointer;
+    border:1px solid rgba(201,165,94,.42); background:rgba(19,23,53,.5); color:#d9d3ef;
+    transition:box-shadow .25s, background .25s;
+  }
+  .seg input:checked + label {
+    background:linear-gradient(150deg,rgba(232,197,107,.28),rgba(201,165,94,.16));
+    border-color:#e8c56b; color:#ffe9b0; box-shadow:0 0 10px rgba(201,165,94,.3);
+  }
+  .seg input:focus-visible + label { outline:2px solid #c9a55e; outline-offset:2px; }
+  .seg .lock { cursor:default; opacity:.4; border-style:dashed; }
+  .seg .lock::before { content:'✧ '; font-size:10px; }
+  .m-hint { font-size:10.5px; margin-top:9px; color:#9a94bb; letter-spacing:1px; line-height:1.7; }
+  .g-hint { display:none; }
+  .g-hint.show { display:block; color:#e0a9be; }
+
+  /* ============ 人物关系 ============ */
+  .bonds { display:grid; grid-template-columns:1fr; gap:9px; }
+  .bond { border:1px solid rgba(201,165,94,.3); border-radius:10px; background:rgba(19,23,53,.42); overflow:hidden; }
+  .bond-head {
+    display:flex; align-items:center; gap:10px; width:100%; padding:11px 13px; cursor:pointer;
+    background:none; border:none; color:inherit; text-align:left; min-height:52px;
+  }
+  .bond-head:hover { background:rgba(201,165,94,.07); }
+  .bond-mark { flex-shrink:0; width:10px; text-align:center; color:rgba(201,165,94,.55); font-size:11px; transition:transform .3s; }
+  .bond.on .bond-mark { color:#e8c56b; text-shadow:0 0 8px rgba(232,197,107,.8); }
+  .bond-name { font-size:14.5px; letter-spacing:2px; color:#f3efff; flex-shrink:0; }
+  .bond-desc { font-size:10.5px; color:#9a94bb; letter-spacing:.5px; line-height:1.5; flex:1; min-width:0; }
+  .bond-st { flex-shrink:0; font-size:10px; letter-spacing:1px; color:rgba(201,165,94,.0); transition:color .3s; }
+  .bond.on .bond-st { color:#e8c56b; }
+  .bond-body { display:none; padding:2px 13px 13px; }
+  .bond.on .bond-body { display:flex; gap:8px; flex-wrap:wrap; }
+  .bond-body select { flex:0 1 128px; }
+  .bond-body input { flex:1 1 170px; }
+  .bond-add-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+  .bond-add-row input.bn { flex:0 1 120px; }
+  .bond-add-row select { flex:0 1 116px; }
+  .bond-add-row input.bnote { flex:1 1 150px; }
+  .bond-del {
+    flex-shrink:0; width:44px; min-height:44px; border-radius:8px; cursor:pointer;
+    border:1px solid rgba(224,106,138,.4); background:rgba(19,23,53,.5); color:#d98aa4;
+  }
+  .bond-more {
+    margin-top:10px; min-height:44px; width:100%; border-radius:10px; cursor:pointer; font-size:12.5px;
+    letter-spacing:3px; color:#cbb98a; border:1px dashed rgba(201,165,94,.45); background:none;
+  }
+  .bond-more:hover { background:rgba(201,165,94,.07); }
+
+  /* ============ 星夜:入场白 ============ */
+  .final-wrap { position:relative; padding-top:2px; }
+  .magic-circle {
+    position:absolute; top:-70px; left:50%; width:300px; height:300px; margin-left:-150px;
+    border:1px dashed rgba(201,165,94,.32); border-radius:50%;
+    animation:mgSpinSlow 90s linear infinite; pointer-events:none;
+  }
+  .magic-circle::before { content:''; position:absolute; inset:20px; border:1px solid rgba(201,165,94,.18); border-radius:50%; }
+  .magic-circle::after {
+    content:'✦ ✧ ✦ ✧ ✦ ✧ ✦ ✧'; position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-size:10px; color:rgba(232,197,107,.4); letter-spacing:20px; text-indent:20px;
+  }
+  @keyframes mgSpinSlow { to { transform:rotate(360deg); } }
+  .stars-c span { position:absolute; color:#e8c56b; font-size:9px; animation:mgTw 3.1s ease-in-out infinite; pointer-events:none; }
+
+  .person-bar { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:14px; }
+  .person-lb { font-size:12px; letter-spacing:2px; color:#cbb98a; }
+  .person-hint { flex-basis:100%; font-size:10px; color:#9a94bb; letter-spacing:1px; margin-top:-2px; }
+
+  .scroll-panel {
+    position:relative; border-radius:10px; padding:16px 14px;
+    background:linear-gradient(168deg,rgba(19,23,53,.72),rgba(27,32,80,.72));
+    box-shadow:0 0 0 1px #c9a55e, inset 0 0 0 1px rgba(201,165,94,.3);
+  }
+  .corner { position:absolute; width:18px; height:18px; border:1.5px solid #c9a55e; z-index:3; }
+  .c-tl { top:5px; left:5px; border-right:none; border-bottom:none; }
+  .c-tr { top:5px; right:5px; border-left:none; border-bottom:none; }
+  .c-bl { bottom:5px; left:5px; border-right:none; border-top:none; }
+  .c-br { bottom:5px; right:5px; border-left:none; border-top:none; }
+  .corner::after { content:'◆'; position:absolute; font-size:5px; color:#e8c56b; }
+  .c-tl::after { top:-4px; left:-4px; } .c-tr::after { top:-4px; right:-4px; }
+  .c-bl::after { bottom:-4px; left:-4px; } .c-br::after { bottom:-4px; right:-4px; }
+
+  .pv-head { display:flex; align-items:center; gap:8px; margin-bottom:10px; }
+  .pv-t { font-size:12px; letter-spacing:3px; color:#cbb98a; }
+  .pv-badge {
+    display:none; font-size:9.5px; letter-spacing:1px; color:#ffd7e8;
+    border:1px solid rgba(242,166,200,.6); border-radius:2px; padding:2px 8px;
+  }
+  .pv-badge.show { display:inline-block; }
+  .preview {
+    white-space:pre-wrap; word-break:break-word; font-size:12.5px; line-height:1.95; color:#e6e2f5;
+    letter-spacing:.4px; max-height:300px; overflow-y:auto; padding:4px 2px;
+  }
+  .preview:empty::before { content:'(落笔之前,这里会映出你的入场白……)'; color:#9a94bb; }
+
+  .act-row { display:flex; gap:9px; margin-top:14px; flex-wrap:wrap; }
+  .btn2 {
+    flex:1 1 130px; min-height:46px; border-radius:9px; cursor:pointer; font-size:13px; letter-spacing:2px;
+    border:1px solid rgba(201,165,94,.55); background:rgba(19,23,53,.55); color:#e8c56b;
+    transition:box-shadow .3s, background .3s;
+  }
+  .btn2:hover { background:rgba(201,165,94,.12); box-shadow:0 0 12px rgba(201,165,94,.3); }
+  .submit {
+    width:100%; margin-top:11px; min-height:54px; border-radius:10px; cursor:pointer;
+    font-size:16px; letter-spacing:8px; text-indent:8px; color:#ffe9b0;
+    border:1px solid #e8c56b;
+    background:linear-gradient(160deg,#2a2f66,#1b2050 55%,#271d4f);
+    box-shadow:0 0 0 1px rgba(201,165,94,.4), inset 0 0 22px rgba(201,165,94,.12);
+    transition:box-shadow .35s, transform .15s;
+  }
+  .submit:hover { box-shadow:0 0 0 1px #e8c56b, 0 0 26px rgba(232,197,107,.4), inset 0 0 26px rgba(201,165,94,.2); transform:translateY(-1px); }
+  .status { min-height:20px; margin-top:11px; font-size:11.5px; letter-spacing:1px; line-height:1.7; color:#9a94bb; text-align:center; }
+  .status.ok { color:#a9d9b4; }
+  .status.err { color:#e0a9be; }
+  .fine { margin-top:9px; font-size:10px; letter-spacing:1.5px; color:#6f6a94; text-align:center; line-height:1.8; }
+  .foot { padding:18px 0 4px; text-align:center; font-size:9.5px; letter-spacing:3px; color:#565179; }
+  .foot b { color:#8a8154; font-weight:normal; }
+
+  /* ============ 翻页栏 ============ */
+  .pager { display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px var(--px) 20px; }
+  .pg-btn {
+    min-height:46px; padding:0 18px; border-radius:9px; cursor:pointer; font-size:13px; letter-spacing:2px;
+    border:1px solid rgba(122,100,60,.5); background:rgba(255,255,255,.4); color:#7a5c22;
+    transition:box-shadow .3s, background .3s, transform .15s;
+  }
+  .pg-btn:hover { box-shadow:0 0 10px rgba(201,165,94,.35); transform:translateY(-1px); }
+  .pg-btn.next {
+    border-color:#b0812f; background:linear-gradient(150deg,#f2dfae,#e2bd72); color:#5c4413;
+  }
+  .pg-btn[hidden] { display:none; }
+  .mg-card.dk .pg-btn { border-color:rgba(201,165,94,.55); background:rgba(19,23,53,.55); color:#e8c56b; }
+  .mg-card.dk .pg-btn.next {
+    border-color:#e8c56b; color:#ffe9b0;
+    background:linear-gradient(160deg,#2a2f66,#1b2050 55%,#271d4f);
+    box-shadow:0 0 0 1px rgba(201,165,94,.4), inset 0 0 16px rgba(201,165,94,.12);
+  }
+  .pg-spacer { flex:1; }
+
+  /* ============ 覆层(设置/确认) ============ */
+  .ovl {
+    position:fixed; inset:0; z-index:50; display:none;
+    background:rgba(9,11,28,.78); padding:20px 12px; overflow-y:auto;
+  }
+  .ovl.open { display:flex; align-items:flex-start; justify-content:center; }
+  .panel {
+    width:100%; max-width:430px; margin:auto 0; border-radius:12px; padding:20px 16px 16px;
+    background:linear-gradient(168deg,#171b3f,#1e2452); color:#e9e5f7; position:relative;
+    box-shadow:0 0 0 1px #c9a55e, inset 0 0 0 1px rgba(201,165,94,.3), 0 14px 40px rgba(0,0,0,.6);
+  }
+  .panel h2 { font-size:14.5px; letter-spacing:4px; color:#e8c56b; font-weight:normal; margin-bottom:4px; }
+  .panel .p-sub { font-size:10.5px; color:#9a94bb; letter-spacing:1px; margin-bottom:14px; line-height:1.7; }
+  .panel .field { margin-bottom:11px; }
+  .panel .field-lb { color:#cbb98a; }
+  .panel input[type=text], .panel select {
+    background:rgba(10,13,34,.6); border-color:rgba(201,165,94,.4); color:#eee9fb;
+  }
+  .p-row { display:flex; gap:8px; }
+  .p-row > * { flex:1; }
+  .p-btn {
+    min-height:44px; border-radius:8px; cursor:pointer; font-size:12.5px; letter-spacing:2px;
+    border:1px solid rgba(201,165,94,.55); background:rgba(19,23,53,.6); color:#e8c56b; padding:0 14px;
+  }
+  .p-btn:hover { background:rgba(201,165,94,.12); }
+  .p-btn.warn { border-color:rgba(224,106,138,.55); color:#ffb9c8; }
+  .p-close {
+    position:absolute; top:10px; right:10px; width:38px; height:38px; border-radius:50%;
+    border:1px solid rgba(201,165,94,.4); background:none; color:#cbb98a; cursor:pointer; font-size:13px;
+  }
+  .p-status { min-height:18px; font-size:11px; letter-spacing:1px; margin-top:8px; color:#9a94bb; line-height:1.6; }
+  .p-status.ok { color:#a9d9b4; } .p-status.err { color:#e0a9be; }
+  .p-div { height:1px; margin:16px 0 12px; background:linear-gradient(90deg,transparent,rgba(201,165,94,.5),transparent); }
+  .copybox { width:100%; min-height:120px; margin-top:8px; }
+
+  /* ============ 响应式与动效偏好 ============ */
+  @media (max-width:380px) {
+    .routes { grid-template-columns:repeat(2,1fr); }
+    .hero-title .t1 { letter-spacing:5px; }
+    .hero-title .t2 { letter-spacing:2px; }
+    .submit { letter-spacing:5px; text-indent:5px; }
+    .dots { gap:5px; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .page.on, .page.on.back { animation:none; }
+    .magic-circle, .spark.busy { animation:none; }
+    .stars-t span, .stars-c span { animation:none; opacity:.6; }
+    * { transition:none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="mg-card" id="mg-card">
+
+  <!-- 顶栏:时刻 · 进度 · 设置 -->
+  <div class="topbar">
+    <span class="tp-time" id="mg-tp-time">晨 · 06:47</span>
+    <nav class="dots" id="mg-dots" aria-label="入场手续步骤"></nav>
+    <button type="button" class="gear" id="mg-gear" aria-label="打开 AI 与草稿设置">⛭</button>
+  </div>
+
+  <!-- 页一 · 晨:序章与构思 -->
+  <section class="page zl pg-1" data-pg="1" aria-label="序章">
+    <header class="hero">
+      <span class="hero-era">女王历 1999 · 初春 · 方亭市</span>
+      <h1 class="hero-title">
+        <span class="t1">下班，</span>
+        <span class="t2">然后变成<b>魔法少女</b></span>
+      </h1>
+      <p class="hero-sub">晨昏之扉 · 入场手续</p>
+      <svg class="skyline" viewBox="0 0 640 78" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#a8bfcc" d="M0,78 L0,54 L26,54 L26,40 L54,40 L54,58 L78,58 L78,30 L92,30 L92,24 L104,24 L104,30 L118,30 L118,58 L146,58 L146,46 L176,46 L176,58 L200,58 L200,20 L214,20 L214,14 L219,8 L224,14 L224,20 L238,20 L238,58 L262,58 L262,44 L292,44 L292,58 L318,58 L318,36 L348,36 L348,58 L372,58 L372,48 L402,48 L402,58 L428,58 L428,26 L444,26 L444,20 L458,20 L458,26 L472,26 L472,58 L498,58 L498,44 L526,44 L526,58 L552,58 L552,38 L582,38 L582,58 L608,58 L608,48 L640,48 L640,78 Z"/>
+        <path fill="none" stroke="#8fa9b8" stroke-width="1" d="M0,62 L640,62" opacity=".5"/>
+      </svg>
+      <div class="prose" id="mg-prose">
+        <p class="lead">方亭市在薄青色的晨光里醒来。通勤电车碾过高架，站台广播报着晚点三分钟，便利店的关东煮升起白汽——这座城市看起来与任何一座城市没有分别，除了极少数人知道的那一面。</p>
+        <p>市频道昨晚的新闻里，新任魔法少女「白玫」的采访被反复重播。雾气后的城市深处，某些东西也正在苏醒。而你，也在这座城市的某个角落，开始了这一天。</p>
+        <p class="lead">请翻页办理入场——写下你是谁。你落笔之处，便是故事的开端。</p>
+      </div>
+    </header>
+    <div class="muse">
+      <div class="muse-lb">让魔导书替你构思</div>
+      <div class="muse-row">
+        <label for="mg-intent" style="position:absolute;left:-9999px;">角色意向</label>
+        <input type="text" id="mg-intent" placeholder="一句话意向,可留空——例:开夜班出租车的大叔">
+        <button type="button" class="muse-btn" id="mg-gen-all">✦ 一键构思</button>
+      </div>
+      <div class="muse-hint">构思只补空格,不覆盖你已写下的内容,完成后自动翻到下一页;也可以无视它,翻页亲手填写。</div>
+    </div>
+  </section>
+
+  <!-- 页二 · 昼:基本信息与身份路线 -->
+  <section class="page zl pg-2" data-pg="2" aria-label="基本信息与身份路线">
+    <div class="sec">
+      <div class="sec-head">
+        <span class="sec-time">晨 · 07:12</span>
+        <h2 class="sec-name" tabindex="-1">基本信息</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">壹</span>
+      </div>
+      <div class="grid">
+        <div class="field">
+          <label class="field-lb" for="mg-name">姓名 <span class="req">＊必填</span></label>
+          <div class="fwrap"><input type="text" id="mg-name" maxlength="20" autocomplete="off"></div>
+        </div>
+        <div class="field">
+          <label class="field-lb" for="mg-gender">性别</label>
+          <div class="fwrap"><input type="text" id="mg-gender" maxlength="10" autocomplete="off"></div>
+          <div class="chips">
+            <button type="button" class="chip" data-g="女">女</button>
+            <button type="button" class="chip" data-g="男">男</button>
+          </div>
+        </div>
+        <div class="field">
+          <label class="field-lb" for="mg-age">年龄</label>
+          <div class="fwrap"><input type="text" id="mg-age" maxlength="12" autocomplete="off" placeholder="如:26"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sec">
+      <div class="sec-head">
+        <span class="sec-time">昼 · 09:12</span>
+        <h2 class="sec-name">身份路线</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">贰</span>
+      </div>
+      <p class="sec-note">你以怎样的身份行走在这座城市? <span style="color:#b95f8e;">＊必选</span>——选魔法侧路线会多一页「秘密的一面」。</p>
+      <div class="routes" role="radiogroup" aria-label="身份路线">
+        <span class="route">
+          <input type="radio" name="mg-route" id="mg-r-1" value="普通人">
+          <label for="mg-r-1"><span class="rg">○</span><span class="rn">普通人</span><span class="rd">上班族、店主、学生……城市烟火中的一员</span></label>
+        </span>
+        <span class="route">
+          <input type="radio" name="mg-route" id="mg-r-2" value="魔法少女">
+          <label for="mg-r-2"><span class="rg">❀</span><span class="rn">魔法少女</span><span class="rd">与心之种缔约,在人潮背后变身而战</span></label>
+        </span>
+        <span class="route">
+          <input type="radio" name="mg-route" id="mg-r-3" value="魔术使">
+          <label for="mg-r-3"><span class="rg">✦</span><span class="rn">魔术使</span><span class="rd">以媒介行使术式的求知者,无需变身</span></label>
+        </span>
+        <span class="route">
+          <input type="radio" name="mg-route" id="mg-r-4" value="异策局相关">
+          <label for="mg-r-4"><span class="rg">▣</span><span class="rn">异策局相关</span><span class="rd">统筹魔法侧事务的官方机构一员</span></label>
+        </span>
+      </div>
+      <div class="field" id="mg-duty-wrap" style="display:none; margin-top:12px;">
+        <label class="field-lb" for="mg-duty">职务</label>
+        <div class="fwrap">
+          <input type="text" id="mg-duty" maxlength="30" placeholder="如:档案科小职员 / 外勤联络员">
+          <button type="button" class="spark" data-gen="duty" aria-label="AI 生成职务">✦</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页三 · 暮:样貌过往与此刻 -->
+  <section class="page zl pg-3" data-pg="3" aria-label="样貌过往与此刻">
+    <div class="sec">
+      <div class="sec-head">
+        <span class="sec-time">暮 · 17:45</span>
+        <h2 class="sec-name" tabindex="-1">样貌与过往</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">叁</span>
+      </div>
+      <div class="field" style="margin-bottom:12px;">
+        <label class="field-lb" for="mg-look">外观</label>
+        <div class="fwrap">
+          <textarea id="mg-look" maxlength="200" placeholder="身形、发色、穿着,一两句即可"></textarea>
+          <button type="button" class="spark" data-gen="look" aria-label="AI 生成外观">✦</button>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-lb" for="mg-story">背景</label>
+        <div class="fwrap">
+          <textarea id="mg-story" maxlength="300" placeholder="你从哪里来?为什么在方亭市?有什么放不下的事?"></textarea>
+          <button type="button" class="spark" data-gen="story" aria-label="AI 生成背景">✦</button>
+        </div>
+      </div>
+      <div class="field" style="margin-top:12px;">
+        <label class="field-lb" for="mg-scene">此刻——你在方亭市的哪里、正在做什么?</label>
+        <div class="fwrap">
+          <textarea id="mg-scene" maxlength="200" placeholder="如:早高峰的通勤电车上,盯着车窗外发呆"></textarea>
+          <button type="button" class="spark" data-gen="scene" aria-label="AI 生成此刻场景">✦</button>
+        </div>
+      </div>
+    </div>
+    <div class="dusk-deco" aria-hidden="true">
+      <div class="stars-t">
+        <span style="top:14%;left:12%;">✦</span>
+        <span style="top:28%;left:78%;animation-delay:.8s;">✧</span>
+        <span style="top:8%;left:55%;animation-delay:1.4s;">✦</span>
+        <span style="top:40%;left:32%;animation-delay:2s;">✧</span>
+      </div>
+      <div class="dusk-line">日暮——城市换上另一副面孔</div>
+      <svg class="skyline2" viewBox="0 0 640 64" preserveAspectRatio="none">
+        <path fill="#241a3e" d="M0,64 L0,44 L30,44 L30,32 L58,32 L58,48 L84,48 L84,22 L98,22 L98,16 L112,16 L112,22 L126,22 L126,48 L154,48 L154,38 L184,38 L184,48 L210,48 L210,12 L224,12 L224,6 L229,1 L234,6 L234,12 L248,12 L248,48 L274,48 L274,36 L304,36 L304,48 L330,48 L330,28 L360,28 L360,48 L386,48 L386,40 L416,40 L416,48 L442,48 L442,18 L458,18 L458,12 L472,12 L472,18 L486,18 L486,48 L512,48 L512,36 L540,36 L540,48 L566,48 L566,30 L596,30 L596,48 L622,48 L622,40 L640,40 L640,64 Z"/>
+        <g fill="#e8c56b" opacity=".65">
+          <rect x="90" y="28" width="3" height="3"/><rect x="160" y="42" width="3" height="3"/>
+          <rect x="290" y="40" width="3" height="3"/><rect x="340" y="34" width="3" height="3"/>
+          <rect x="450" y="24" width="3" height="3"/><rect x="530" y="40" width="3" height="3"/>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 页四 · 夜:魔法侧(条件页) -->
+  <section class="page zd pg-4" data-pg="4" aria-label="秘密的一面">
+    <div class="sec" id="mg-magic">
+      <div class="sec-head">
+        <span class="sec-time">夜 · 20:41</span>
+        <h2 class="sec-name" tabindex="-1">秘密的一面</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">肆</span>
+      </div>
+      <p class="sec-note">白日的身份之下,你还有另一个名字。</p>
+      <div class="g-hint m-hint" id="mg-g-hint">※ 魔法少女向来是少女。若有例外,请在「背景」里写明缘由。</div>
+
+      <div class="variant" id="mg-var-mahou" style="display:none;">
+        <div class="variant-t">❀ 契约之名</div>
+        <div class="grid">
+          <div class="field">
+            <label class="field-lb" for="mg-code">代号</label>
+            <div class="fwrap">
+              <input type="text" id="mg-code" maxlength="12" placeholder="如:星岚">
+              <button type="button" class="spark" data-gen="mgCode" aria-label="AI 生成代号">✦</button>
+            </div>
+          </div>
+          <div class="field">
+            <label class="field-lb" for="mg-arm-name">魔装之名</label>
+            <div class="fwrap">
+              <input type="text" id="mg-arm-name" maxlength="12" placeholder="如:流萤">
+              <button type="button" class="spark" data-gen="mgArmName" aria-label="AI 生成魔装名">✦</button>
+            </div>
+          </div>
+        </div>
+        <div class="field" style="margin-top:11px;">
+          <label class="field-lb" for="mg-arm-form">魔装形态</label>
+          <div class="fwrap">
+            <input type="text" id="mg-arm-form" maxlength="40" placeholder="趁手器物所化,如:一柄收拢的折伞">
+            <button type="button" class="spark" data-gen="mgArmForm" aria-label="AI 生成魔装形态">✦</button>
+          </div>
+        </div>
+        <div class="grid" style="margin-top:11px;">
+          <div class="field">
+            <label class="field-lb" for="mg-core">心核</label>
+            <div class="fwrap">
+              <select id="mg-core">
+                <option value="心之种" selected>心之种(初拥)</option>
+                <option value="心之芽">心之芽</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <span class="field-lb" id="mg-bloom-lb">开华阶段</span>
+            <div class="seg" role="radiogroup" aria-labelledby="mg-bloom-lb">
+              <span class="sg"><input type="radio" name="mg-bloom" id="mg-b-1" value="种" checked><label for="mg-b-1">种</label></span>
+              <span class="sg"><input type="radio" name="mg-bloom" id="mg-b-2" value="芽"><label for="mg-b-2">芽</label></span>
+              <span class="lock" title="更高的开华,请在剧情中绽放">叶·蕾·花</span>
+            </div>
+          </div>
+        </div>
+        <p class="m-hint">开华五阶:种→芽→叶→蕾→花。新人自「种」始——更高的绽放,留给往后的故事。</p>
+      </div>
+
+      <div class="variant" id="mg-var-wizard" style="display:none;">
+        <div class="variant-t">✦ 术式之径</div>
+        <div class="field">
+          <label class="field-lb" for="mg-medium">媒介</label>
+          <div class="fwrap">
+            <input type="text" id="mg-medium" maxlength="40" placeholder="承载术式的随身之物,如:一块停走的怀表">
+            <button type="button" class="spark" data-gen="wzMedium" aria-label="AI 生成媒介">✦</button>
+          </div>
+        </div>
+        <div class="field" style="margin-top:11px;">
+          <label class="field-lb" for="mg-style">术式方向</label>
+          <div class="fwrap">
+            <input type="text" id="mg-style" maxlength="40" placeholder="你的术式擅长什么,如:感知与追迹">
+            <button type="button" class="spark" data-gen="wzStyle" aria-label="AI 生成术式方向">✦</button>
+          </div>
+        </div>
+        <div class="field" style="margin-top:11px;">
+          <span class="field-lb" id="mg-rank-lb">位阶</span>
+          <div class="seg" role="radiogroup" aria-labelledby="mg-rank-lb">
+            <span class="sg"><input type="radio" name="mg-rank" id="mg-k-1" value="窥探" checked><label for="mg-k-1">窥探</label></span>
+            <span class="sg"><input type="radio" name="mg-rank" id="mg-k-2" value="接触"><label for="mg-k-2">接触</label></span>
+            <span class="lock" title="掌控之境,请在剧情中抵达">掌控</span>
+          </div>
+          <p class="m-hint">魔术使三段:窥探→接触→掌控。求知之路没有捷径。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页五 · 夜:人物关系 -->
+  <section class="page zd pg-5" data-pg="5" aria-label="人物关系">
+    <div class="sec">
+      <div class="sec-head">
+        <span class="sec-time">夜 · 21:30</span>
+        <h2 class="sec-name" tabindex="-1">人间灯火</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">伍</span>
+      </div>
+      <p class="sec-note">这座城市里,是否已有你认识的面孔?全部可留空;关系只代表你单方面的认知,登记以剧情为准。</p>
+      <div class="bonds" id="mg-bonds"></div>
+      <div id="mg-bond-customs"></div>
+      <button type="button" class="bond-more" id="mg-bond-add">＋ 添上一位不在名单里的人</button>
+    </div>
+  </section>
+
+  <!-- 页六 · 星夜:入场白 -->
+  <section class="page zd pg-6" data-pg="6" aria-label="入场白">
+    <div class="sec final-wrap">
+      <div class="magic-circle" aria-hidden="true"></div>
+      <div class="stars-c" aria-hidden="true">
+        <span style="top:2%;left:8%;">✦</span>
+        <span style="top:6%;right:12%;animation-delay:1.1s;">✧</span>
+        <span style="top:1%;left:46%;animation-delay:2.2s;">✧</span>
+      </div>
+      <div class="sec-head" style="position:relative;">
+        <span class="sec-time">星夜 · 23:59</span>
+        <h2 class="sec-name" tabindex="-1">入场白</h2>
+        <span class="sec-line"></span>
+        <span class="sec-num">终</span>
+      </div>
+      <div class="person-bar">
+        <span class="person-lb" id="mg-person-lb">叙述人称</span>
+        <div class="seg" role="radiogroup" aria-labelledby="mg-person-lb">
+          <span class="sg"><input type="radio" name="mg-person" id="mg-p-1" value="一" checked><label for="mg-p-1">第一人称·我</label></span>
+          <span class="sg"><input type="radio" name="mg-person" id="mg-p-2" value="二"><label for="mg-p-2">第二人称·你</label></span>
+          <span class="sg"><input type="radio" name="mg-person" id="mg-p-3" value="三"><label for="mg-p-3">第三人称·TA</label></span>
+        </div>
+        <span class="person-hint">入场白骨架与 AI 润色都会跟随所选人称;括号里的说明行始终是玩家口吻。</span>
+      </div>
+      <div class="scroll-panel">
+        <i class="corner c-tl"></i><i class="corner c-tr"></i><i class="corner c-bl"></i><i class="corner c-br"></i>
+        <div class="pv-head">
+          <span class="pv-t">☾ 你将说出的话</span>
+          <span class="pv-badge" id="mg-pv-badge">✦ 已润色</span>
+        </div>
+        <div class="preview" id="mg-preview" aria-live="off"></div>
+        <div class="act-row">
+          <button type="button" class="btn2" id="mg-polish">✦ 润色入场白</button>
+          <button type="button" class="btn2" id="mg-copy">复制文本</button>
+        </div>
+        <button type="button" class="submit" id="mg-submit">落笔入场</button>
+        <div class="status" id="mg-status" role="status" aria-live="polite"></div>
+        <div class="fine">入场白将填进下方输入框——检查后按发送,故事开始。你的档案将随首段剧情登记进魔导书。</div>
+      </div>
+      <footer class="foot">晨昏之扉 · <b>星夜魔导书</b> 系列 · 女王历一九九九</footer>
+    </div>
+  </section>
+
+  <!-- 翻页栏 -->
+  <nav class="pager" aria-label="翻页">
+    <button type="button" class="pg-btn" id="mg-prev">← 回上一页</button>
+    <span class="pg-spacer"></span>
+    <button type="button" class="pg-btn next" id="mg-next">开始入场手续 →</button>
+  </nav>
+</div>
+
+<!-- 设置覆层 -->
+<div class="ovl" id="mg-ovl-set" role="dialog" aria-modal="true" aria-labelledby="mg-set-t">
+  <div class="panel">
+    <button type="button" class="p-close" id="mg-set-close" aria-label="关闭设置">✕</button>
+    <h2 id="mg-set-t">魔导书设置</h2>
+    <p class="p-sub">AI 生成默认借道酒馆助手,走你当前的主 API,无需任何配置。若想改用更快或更省的模型,在下方填一个 OpenAI 兼容接口,填了就优先直连。密钥只存在你自己的浏览器里。</p>
+    <div class="field">
+      <label class="field-lb" for="mg-api-url">API 地址</label>
+      <input type="text" id="mg-api-url" placeholder="https://例:中转站地址(自动补 /v1/…)" autocomplete="off">
+    </div>
+    <div class="field">
+      <label class="field-lb" for="mg-api-key">API Key</label>
+      <input type="text" id="mg-api-key" placeholder="sk-…(可留空)" autocomplete="off">
+    </div>
+    <div class="field">
+      <label class="field-lb" for="mg-api-model">模型</label>
+      <div class="p-row">
+        <input type="text" id="mg-api-model" list="mg-model-list" placeholder="如:gemini-2.5-flash" autocomplete="off">
+        <button type="button" class="p-btn" id="mg-api-fetch" style="flex:0 0 auto;">拉取列表</button>
+      </div>
+      <datalist id="mg-model-list"></datalist>
+    </div>
+    <div class="field">
+      <label class="field-lb" for="mg-api-temp">温度(0–1.2)</label>
+      <input type="text" id="mg-api-temp" placeholder="0.85" autocomplete="off">
+    </div>
+    <div class="p-row">
+      <button type="button" class="p-btn" id="mg-api-test">测试连接</button>
+      <button type="button" class="p-btn" id="mg-api-save">保存配置</button>
+      <button type="button" class="p-btn warn" id="mg-api-clear">清除配置</button>
+    </div>
+    <div class="p-status" id="mg-api-status"></div>
+    <div class="p-div"></div>
+    <div class="p-row">
+      <button type="button" class="p-btn warn" id="mg-draft-clear">清空表单草稿</button>
+    </div>
+    <div class="p-status" id="mg-draft-status"></div>
+  </div>
+</div>
+
+<!-- 覆盖确认覆层 -->
+<div class="ovl" id="mg-ovl-confirm" role="dialog" aria-modal="true" aria-labelledby="mg-cf-t">
+  <div class="panel">
+    <h2 id="mg-cf-t">输入框里已有文字</h2>
+    <p class="p-sub">酒馆输入框中已存在你写过的内容。要用入场白覆盖它吗?</p>
+    <div class="p-row">
+      <button type="button" class="p-btn warn" id="mg-cf-over">覆盖</button>
+      <button type="button" class="p-btn" id="mg-cf-copy">改为复制</button>
+      <button type="button" class="p-btn" id="mg-cf-cancel">取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- 手动复制覆层 -->
+<div class="ovl" id="mg-ovl-copy" role="dialog" aria-modal="true" aria-labelledby="mg-cp-t">
+  <div class="panel">
+    <button type="button" class="p-close" id="mg-cp-close" aria-label="关闭">✕</button>
+    <h2 id="mg-cp-t">请手动复制</h2>
+    <p class="p-sub">没能碰到输入框,也没能写入剪贴板。全选下面的文字,复制后粘贴到输入框发送。</p>
+    <label for="mg-copybox" style="position:absolute;left:-9999px;">入场白文本</label>
+    <textarea class="copybox" id="mg-copybox" readonly></textarea>
+  </div>
+</div>
+
+<!--MG_TEST_HOOK-->
+<script>
+(function () {
+  'use strict';
+
+  /* ================= 工具 ================= */
+  function byId(id) { return document.getElementById(id); }
+  function txt(el, s) { el.textContent = s; }
+  function show(el, on) { el.style.display = on ? '' : 'none'; }
+  function val(id) { var el = byId(id); return el ? el.value.trim() : ''; }
+  function setVal(id, v) { var el = byId(id); if (el) el.value = v == null ? '' : String(v); }
+
+  /* ================= 常量 ================= */
+  var DRAFT_KEY = 'mg1999_opening_draft_v1';
+  var CFG_KEY = 'mg1999_opening_aicfg_v1';
+  var CLOSING = '(以上为我的角色设定。请顺着「此刻」的场景开始叙事,并按规则为我完成入场建档。)';
+
+  var LORE =
+    '《下班,然后变成魔法少女》世界观速览:现代都市奇幻,女王历1999年初春,方亭市。' +
+    '城市表面如常——通勤电车、便利店、写字楼;暗面有以负面魔力滋生的怪物「残兽」,由魔法少女讨伐。' +
+    '魔法少女:与心之种缔约变身的少女,各有独一无二的魔装(趁手器物形态的武器)与代号;成长称「开华」,五阶:种→芽→叶→蕾→花;心核由心之种渐次生长。' +
+    '魔术使:不变身,以「媒介」(随身器物)行使术式,位阶三段:窥探→接触→掌控。' +
+    '异策局:统筹魔法侧事务的官方机构,有公开的市政门面。' +
+    '多数市民对魔法侧知之甚少,只当新闻奇谈;昨晚电视里,方亭市新任魔法少女「白玫」的采访反复重播。';
+
+  var RULES =
+    '创作守则:只创作原创角色,不得冒用或改写原作人物(林昀、林小璐、夏凉、白静萱、红思与、安雅、摩可等)的身份与秘密;' +
+    '力量保持新人档(开华限种或芽,位阶限窥探或接触);语言是贴近烟火气的中文日常,具体、克制,避免翻译腔与陈词滥调。';
+
+  var CANON = [
+    { who: '林昀',   desc: '高升电梯公司的售后主任;沉稳内敛的单亲爸爸,厨艺很好' },
+    { who: '林小璐', desc: '初二女生,林昀的女儿;嘴硬心软,最近总和爸爸吵架' },
+    { who: '夏凉',   desc: '与小璐同校的少女;辣妹打扮混在不良团体里,眼神却很空' },
+    { who: '白静萱', desc: '福利院里病弱安静的11岁女孩,像一座休眠的火山' },
+    { who: '红思与', desc: '异策局的年轻职员;干练可靠,据说厨艺是灾难级' },
+    { who: '摩可',   desc: '一只粉色带翼的猫形妖精?——非魔法侧的人恐怕无从得见' },
+    { who: '安雅',   desc: '两年前病故的温柔女性;或许你曾与她有过一面之缘' }
+  ];
+  var RELS = ['邻里', '同事', '同学', '亲友', '旧识', '常客与店主', '仰慕', '其他'];
+
+  /* 翻页:步序与昼夜刻度 */
+  var STEP_POS = { 1: '0%', 2: '18%', 3: '38%', 4: '64%', 5: '82%', 6: '100%' };
+  var STEP_TIME = { 1: '晨 · 06:47', 2: '昼 · 09:12', 3: '暮 · 17:45', 4: '夜 · 20:41', 5: '夜 · 21:30', 6: '星夜 · 23:59' };
+  var STEP_NAME = { 1: '序章', 2: '基本与路线', 3: '样貌与此刻', 4: '秘密的一面', 5: '人间灯火', 6: '入场白' };
+
+  /* ================= 状态 ================= */
+  var draft = blankDraft();
+  var curStep = 1;
+  var busyCtrl = null;
+  var lastFilled = '';
+  var saveTimer = null;
+  var lastFocusEl = null;
+
+  function blankDraft() {
+    return {
+      v: 1, intent: '', name: '', gender: '', age: '', route: '', duty: '',
+      look: '', story: '', scene: '',
+      mgCode: '', mgArmName: '', mgArmForm: '', mgCore: '心之种', mgBloom: '种',
+      wzMedium: '', wzStyle: '', wzRank: '窥探',
+      person: '一',
+      bonds: {}, customs: [], polished: ''
+    };
+  }
+
+  /* ================= 草稿存取 ================= */
+  function saveDraftNow() {
+    try { localStorage.setItem(DRAFT_KEY, JSON.stringify(draft)); } catch (e) {}
+  }
+  function saveDraft() {
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(saveDraftNow, 400);
+  }
+  function loadDraft() {
+    try {
+      var raw = localStorage.getItem(DRAFT_KEY);
+      if (!raw) return;
+      var d = JSON.parse(raw);
+      if (!d || d.v !== 1) return;
+      var base = blankDraft(), k;
+      for (k in base) { if (Object.prototype.hasOwnProperty.call(d, k)) base[k] = d[k]; }
+      if (typeof base.bonds !== 'object' || base.bonds === null || Array.isArray(base.bonds)) base.bonds = {};
+      if (!Array.isArray(base.customs)) base.customs = [];
+      if (['一', '二', '三'].indexOf(base.person) === -1) base.person = '一';
+      draft = base;
+    } catch (e) { draft = blankDraft(); }
+  }
+  function loadCfg() {
+    var def = { apiUrl: '', apiKey: '', model: '', temperature: 0.85 };
+    try {
+      var raw = localStorage.getItem(CFG_KEY);
+      if (!raw) return def;
+      var c = JSON.parse(raw), k;
+      for (k in def) { if (Object.prototype.hasOwnProperty.call(c, k)) def[k] = c[k]; }
+      return def;
+    } catch (e) { return def; }
+  }
+
+  /* ================= 表单同步 ================= */
+  function formToDraft() {
+    draft.intent = val('mg-intent');
+    draft.name = val('mg-name'); draft.gender = val('mg-gender'); draft.age = val('mg-age');
+    var r = document.querySelector('input[name="mg-route"]:checked');
+    draft.route = r ? r.value : '';
+    draft.duty = val('mg-duty');
+    draft.look = val('mg-look'); draft.story = val('mg-story'); draft.scene = val('mg-scene');
+    draft.mgCode = val('mg-code'); draft.mgArmName = val('mg-arm-name'); draft.mgArmForm = val('mg-arm-form');
+    draft.mgCore = val('mg-core') || '心之种';
+    var b = document.querySelector('input[name="mg-bloom"]:checked');
+    draft.mgBloom = b ? b.value : '种';
+    draft.wzMedium = val('mg-medium'); draft.wzStyle = val('mg-style');
+    var kk = document.querySelector('input[name="mg-rank"]:checked');
+    draft.wzRank = kk ? kk.value : '窥探';
+    var p = document.querySelector('input[name="mg-person"]:checked');
+    draft.person = p ? p.value : '一';
+    readCustomRows();
+  }
+  function draftToForm() {
+    setVal('mg-intent', draft.intent);
+    setVal('mg-name', draft.name); setVal('mg-gender', draft.gender); setVal('mg-age', draft.age);
+    var rid = { '普通人': 'mg-r-1', '魔法少女': 'mg-r-2', '魔术使': 'mg-r-3', '异策局相关': 'mg-r-4' }[draft.route];
+    if (rid && byId(rid)) byId(rid).checked = true;
+    setVal('mg-duty', draft.duty);
+    setVal('mg-look', draft.look); setVal('mg-story', draft.story); setVal('mg-scene', draft.scene);
+    setVal('mg-code', draft.mgCode); setVal('mg-arm-name', draft.mgArmName); setVal('mg-arm-form', draft.mgArmForm);
+    setVal('mg-core', draft.mgCore || '心之种');
+    var bid = { '种': 'mg-b-1', '芽': 'mg-b-2' }[draft.mgBloom];
+    if (bid && byId(bid)) byId(bid).checked = true;
+    setVal('mg-medium', draft.wzMedium); setVal('mg-style', draft.wzStyle);
+    var kid = { '窥探': 'mg-k-1', '接触': 'mg-k-2' }[draft.wzRank];
+    if (kid && byId(kid)) byId(kid).checked = true;
+    var pid = { '一': 'mg-p-1', '二': 'mg-p-2', '三': 'mg-p-3' }[draft.person || '一'];
+    if (pid && byId(pid)) byId(pid).checked = true;
+    renderCanonBonds(); renderCustomBonds();
+  }
+
+  /* ================= 翻页 ================= */
+  function magicNeeded() { return draft.route === '魔法少女' || draft.route === '魔术使'; }
+  function stepList() { return magicNeeded() ? [1, 2, 3, 4, 5, 6] : [1, 2, 3, 5, 6]; }
+
+  function renderDots() {
+    var box = byId('mg-dots');
+    while (box.firstChild) box.removeChild(box.firstChild);
+    var list = stepList();
+    for (var n = 1; n <= 6; n++) {
+      (function (n) {
+        var d = document.createElement('button');
+        d.type = 'button';
+        var skipped = list.indexOf(n) === -1;
+        d.className = 'dot' + (n === curStep ? ' cur' : (n < curStep ? ' done' : '')) + (skipped ? ' skip' : '');
+        d.setAttribute('aria-label', '第' + n + '页 · ' + STEP_NAME[n] + (skipped ? '(此路线跳过)' : ''));
+        if (n === curStep) d.setAttribute('aria-current', 'step');
+        if (skipped) { d.disabled = true; }
+        else d.addEventListener('click', function () { showStep(n); });
+        box.appendChild(d);
+      })(n);
+    }
+  }
+
+  function showStep(n, backward) {
+    var list = stepList();
+    if (list.indexOf(n) === -1) n = list[0];
+    var pages = document.querySelectorAll('.page'), i;
+    for (i = 0; i < pages.length; i++) {
+      pages[i].classList.remove('on'); pages[i].classList.remove('back');
+    }
+    var pg = document.querySelector('.page[data-pg="' + n + '"]');
+    if (backward) pg.classList.add('back');
+    pg.classList.add('on');
+    curStep = n;
+    var card = byId('mg-card');
+    card.style.backgroundPosition = '50% ' + STEP_POS[n];
+    card.classList[n >= 4 ? 'add' : 'remove']('dk');
+    txt(byId('mg-tp-time'), STEP_TIME[n]);
+    renderDots();
+    var prev = byId('mg-prev'), next = byId('mg-next');
+    var idx = list.indexOf(n);
+    prev.hidden = idx === 0;
+    next.hidden = idx === list.length - 1;
+    txt(next, n === 1 ? '开始入场手续 →' : '下一页 →');
+    try { card.scrollIntoView({ behavior: 'auto', block: 'start' }); } catch (e) {}
+    var h = pg.querySelector('.sec-name[tabindex]');
+    if (h) { try { h.focus({ preventScroll: true }); } catch (e) {} }
+  }
+  function nextStep() {
+    var list = stepList(), idx = list.indexOf(curStep);
+    if (idx < list.length - 1) showStep(list[idx + 1]);
+  }
+  function prevStep() {
+    var list = stepList(), idx = list.indexOf(curStep);
+    if (idx > 0) showStep(list[idx - 1], true);
+  }
+
+  /* ================= 人物关系 ================= */
+  function renderCanonBonds() {
+    var box = byId('mg-bonds');
+    while (box.firstChild) box.removeChild(box.firstChild);
+    CANON.forEach(function (p) {
+      var sel = draft.bonds[p.who];
+      var card = document.createElement('div');
+      card.className = 'bond' + (sel ? ' on' : '');
+      card.setAttribute('data-who', p.who);
+
+      var head = document.createElement('button');
+      head.type = 'button'; head.className = 'bond-head';
+      head.setAttribute('aria-expanded', sel ? 'true' : 'false');
+      var mk = document.createElement('span'); mk.className = 'bond-mark'; txt(mk, sel ? '✦' : '✧');
+      var nm = document.createElement('span'); nm.className = 'bond-name'; txt(nm, p.who);
+      var ds = document.createElement('span'); ds.className = 'bond-desc'; txt(ds, p.desc);
+      var st = document.createElement('span'); st.className = 'bond-st'; txt(st, '已相识');
+      head.appendChild(mk); head.appendChild(nm); head.appendChild(ds); head.appendChild(st);
+
+      var body = document.createElement('div'); body.className = 'bond-body';
+      var slb = document.createElement('label');
+      slb.style.position = 'absolute'; slb.style.left = '-9999px';
+      slb.setAttribute('for', 'mg-bond-rel-' + p.who); txt(slb, p.who + ' 的关系');
+      var s = document.createElement('select'); s.id = 'mg-bond-rel-' + p.who;
+      RELS.forEach(function (rname) {
+        var o = document.createElement('option'); o.value = rname; txt(o, rname); s.appendChild(o);
+      });
+      if (sel && sel.rel) s.value = sel.rel;
+      var note = document.createElement('input');
+      note.type = 'text'; note.maxLength = 60; note.id = 'mg-bond-note-' + p.who;
+      note.placeholder = '你们如何认识?(可留空)';
+      note.setAttribute('aria-label', p.who + ' 的关系备注');
+      if (sel && sel.note) note.value = sel.note;
+
+      s.addEventListener('change', function () { ensureBond(p.who); draft.bonds[p.who].rel = s.value; onEdit(); });
+      note.addEventListener('input', function () { ensureBond(p.who); draft.bonds[p.who].note = note.value.trim(); onEdit(); });
+      head.addEventListener('click', function () {
+        if (draft.bonds[p.who]) { delete draft.bonds[p.who]; }
+        else { ensureBond(p.who); draft.bonds[p.who].rel = s.value || RELS[0]; }
+        onEdit(); renderCanonBonds();
+      });
+
+      body.appendChild(slb); body.appendChild(s); body.appendChild(note);
+      card.appendChild(head); card.appendChild(body);
+      box.appendChild(card);
+    });
+  }
+  function ensureBond(who) {
+    if (!draft.bonds[who]) draft.bonds[who] = { rel: RELS[0], note: '' };
+  }
+
+  function renderCustomBonds() {
+    var box = byId('mg-bond-customs');
+    while (box.firstChild) box.removeChild(box.firstChild);
+    draft.customs.forEach(function (c, i) { box.appendChild(customRow(c, i)); });
+  }
+  function customRow(c, i) {
+    var row = document.createElement('div'); row.className = 'bond-add-row';
+    var nm = document.createElement('input');
+    nm.type = 'text'; nm.className = 'bn'; nm.maxLength = 16; nm.placeholder = '姓名';
+    nm.value = c.who || ''; nm.setAttribute('aria-label', '自定义人物姓名');
+    var s = document.createElement('select'); s.setAttribute('aria-label', '自定义人物关系');
+    RELS.forEach(function (rname) {
+      var o = document.createElement('option'); o.value = rname; txt(o, rname); s.appendChild(o);
+    });
+    if (c.rel) s.value = c.rel;
+    var note = document.createElement('input');
+    note.type = 'text'; note.className = 'bnote'; note.maxLength = 60;
+    note.placeholder = '备注(可留空)'; note.value = c.note || '';
+    note.setAttribute('aria-label', '自定义人物备注');
+    var del = document.createElement('button');
+    del.type = 'button'; del.className = 'bond-del'; txt(del, '✕');
+    del.setAttribute('aria-label', '移除这位人物');
+    nm.addEventListener('input', onEdit); s.addEventListener('change', onEdit); note.addEventListener('input', onEdit);
+    del.addEventListener('click', function () { readCustomRows(); draft.customs.splice(i, 1); onEdit(); renderCustomBonds(); });
+    row.appendChild(nm); row.appendChild(s); row.appendChild(note); row.appendChild(del);
+    return row;
+  }
+  function readCustomRows() {
+    var rows = byId('mg-bond-customs').children, out = [], i;
+    for (i = 0; i < rows.length; i++) {
+      var ins = rows[i].querySelectorAll('input'), sel = rows[i].querySelector('select');
+      out.push({ who: ins[0].value.trim(), rel: sel.value, note: ins[1].value.trim() });
+    }
+    draft.customs = out;
+  }
+
+  /* ================= 消息构建(唯一真相源) ================= */
+  function pronoun(d) {
+    if ((d.gender || '').indexOf('女') !== -1) return '她';
+    if ((d.gender || '').indexOf('男') !== -1) return '他';
+    return d.name || 'TA';
+  }
+  function subjectOf(d) {
+    var p = d.person || '一';
+    if (p === '一') return '我';
+    if (p === '二') return '你';
+    return pronoun(d);
+  }
+  function routeSentence(d, S) {
+    if (d.route === '魔法少女') {
+      var parts = S + '是一名魔法少女';
+      if (d.mgCode) parts += '——代号「' + d.mgCode + '」';
+      parts += '。';
+      if (d.mgArmName || d.mgArmForm) {
+        parts += '魔装「' + (d.mgArmName || '未名') + '」';
+        if (d.mgArmForm) parts += '(' + d.mgArmForm + ')';
+        parts += ',';
+      }
+      parts += '心核·' + (d.mgCore || '心之种') + ',开华·' + (d.mgBloom || '种') + '。';
+      return parts;
+    }
+    if (d.route === '魔术使') {
+      var w = S + '是一名魔术使,位阶·' + (d.wzRank || '窥探') + '。';
+      if (d.wzMedium) w += '媒介是' + d.wzMedium + '。';
+      if (d.wzStyle) w += '术式长于' + d.wzStyle + '。';
+      return w;
+    }
+    if (d.route === '异策局相关') {
+      return S + '在异策局供职' + (d.duty ? '——' + d.duty : '') + '。';
+    }
+    if (d.route === '普通人') {
+      return S + '是方亭市的一名普通市民' + (d.duty ? ',' + d.duty : '') + '。';
+    }
+    return '';
+  }
+  function bondLines(d) {
+    var lines = [];
+    CANON.forEach(function (p) {
+      var b = d.bonds[p.who];
+      if (!b) return;
+      var s = '· ' + p.who + ':' + (b.rel || '相识');
+      if (b.note) s += '——' + b.note;
+      lines.push(s);
+    });
+    d.customs.forEach(function (c) {
+      if (!c.who) return;
+      var s = '· ' + c.who + ':' + (c.rel || '相识');
+      if (c.note) s += '——' + c.note;
+      lines.push(s);
+    });
+    return lines;
+  }
+  function assembleRaw(d) {
+    var p = d.person || '一';
+    var S = subjectOf(d);
+    var name = d.name || '(未具名)';
+    var out = [];
+    out.push('(入场自白' + (p === '一' ? '' : p === '二' ? '·第二人称' : '·第三人称') + ')');
+    var head;
+    if (p === '三') {
+      head = name;
+      if (d.gender) head += ',' + d.gender;
+      if (d.age) head += ',' + d.age + (/^\d+$/.test(d.age) ? '岁' : '');
+      head += '。';
+    } else {
+      head = S + '叫' + name;
+      if (d.gender) head += ',' + d.gender;
+      if (d.age) head += ',' + d.age + (/^\d+$/.test(d.age) ? '岁' : '');
+      head += '。';
+    }
+    var rs = routeSentence(d, p === '三' ? pronoun(d) : S);
+    if (rs) head += rs;
+    out.push(head);
+    if (d.look) out.push('外观:' + d.look);
+    if (d.story) out.push('过往:' + d.story);
+    if (d.scene) out.push('此刻:' + d.scene);
+    var bl = bondLines(d);
+    if (bl.length) {
+      var lead = p === '一' ? '我认识的人——' : p === '二' ? '你认识的人——' : S + '认识的人——';
+      out.push(lead + '\n' + bl.join('\n'));
+    }
+    out.push(CLOSING);
+    return out.join('\n\n');
+  }
+  function buildOpeningMessage(d) {
+    if (d.polished) return d.polished;
+    return assembleRaw(d);
+  }
+
+  /* ================= 视图刷新 ================= */
+  function refreshMagicZone() {
+    var isM = draft.route === '魔法少女', isW = draft.route === '魔术使';
+    show(byId('mg-var-mahou'), isM);
+    show(byId('mg-var-wizard'), isW);
+    show(byId('mg-duty-wrap'), draft.route === '异策局相关' || draft.route === '普通人');
+    var dutyLb = document.querySelector('#mg-duty-wrap .field-lb');
+    if (dutyLb) txt(dutyLb, draft.route === '普通人' ? '营生(可留空)' : '职务');
+    var dutyIn = byId('mg-duty');
+    if (dutyIn) dutyIn.placeholder = draft.route === '普通人'
+      ? '如:便利店夜班店员 / 高中二年级学生'
+      : '如:档案科小职员 / 外勤联络员';
+    var gh = byId('mg-g-hint');
+    if (gh) gh.className = 'g-hint m-hint' + (isM && draft.gender && draft.gender.indexOf('男') !== -1 ? ' show' : '');
+    if (!magicNeeded() && curStep === 4) showStep(5);
+    renderDots();
+  }
+  function refreshPreview() {
+    txt(byId('mg-preview'), buildOpeningMessage(draft));
+    byId('mg-pv-badge').className = 'pv-badge' + (draft.polished ? ' show' : '');
+    var pol = byId('mg-polish');
+    txt(pol, draft.polished ? '↺ 恢复原稿' : '✦ 润色入场白');
+  }
+  function onEdit() {
+    formToDraft();
+    if (draft.polished) { draft.polished = ''; setStatus('表单有改动,润色稿已失效——可重新润色。', ''); }
+    refreshMagicZone(); refreshPreview(); saveDraft();
+  }
+  function setStatus(s, cls) {
+    var el = byId('mg-status');
+    txt(el, s); el.className = 'status' + (cls ? ' ' + cls : '');
+  }
+
+  /* ================= AI 通道 ================= */
+  function hostWindow() {
+    try { if (window.parent && window.parent !== window) return window.parent; } catch (e) {}
+    return window;
+  }
+  function findHelper() {
+    var cands = [window, hostWindow()], i, t;
+    try { if (window.top && window.top !== window) cands.push(window.top); } catch (e) {}
+    for (i = 0; i < cands.length; i++) {
+      t = cands[i];
+      try {
+        if (t && t.TavernHelper && typeof t.TavernHelper.generateRaw === 'function') return t.TavernHelper;
+        if (t && typeof t.generateRaw === 'function') return t;
+      } catch (e) {}
+    }
+    return null;
+  }
+  function normUrl(u) {
+    u = (u || '').trim().replace(/\/+$/, '');
+    u = u.replace(/\/v1\/chat\/completions\/?$/, '').replace(/\/v1\/models\/?$/, '').replace(/\/v1\/?$/, '');
+    return u;
+  }
+  function cfgReady(c) { return !!(c.apiUrl && c.model); }
+
+  function callCustom(c, sys, usr, ctrl) {
+    var headers = { 'Content-Type': 'application/json' };
+    if (c.apiKey) headers['Authorization'] = 'Bearer ' + c.apiKey;
+    var body = {
+      model: c.model,
+      messages: [{ role: 'system', content: sys }, { role: 'user', content: usr }],
+      temperature: (c.temperature == null ? 0.85 : c.temperature),
+      max_tokens: 2000
+    };
+    return fetch(normUrl(c.apiUrl) + '/v1/chat/completions', {
+      method: 'POST', headers: headers, body: JSON.stringify(body), signal: ctrl.signal
+    }).then(function (res) {
+      if (!res.ok) {
+        return res.json().then(function (e) {
+          var m = 'HTTP ' + res.status;
+          if (e && e.error && e.error.message) m += ':' + e.error.message;
+          throw new Error(m);
+        }, function () { throw new Error('HTTP ' + res.status); });
+      }
+      return res.json();
+    }).then(function (data) {
+      var s = data && data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
+      if (!s) throw new Error('接口返回为空');
+      return String(s);
+    });
+  }
+  function callHelper(sys, usr) {
+    var h = findHelper();
+    if (!h) return Promise.reject(new Error('未检测到酒馆助手——请安装酒馆助手,或在⛭设置里配置自定义 API。'));
+    return Promise.resolve(h.generateRaw({
+      should_silence: true,
+      max_chat_history: 0,
+      ordered_prompts: [
+        { role: 'system', content: sys },
+        { role: 'user', content: usr }
+      ]
+    })).then(function (s) {
+      s = String(s == null ? '' : s).trim();
+      if (!s) throw new Error('生成结果为空');
+      return s;
+    });
+  }
+  function callAI(sys, usr) {
+    if (busyCtrl) { busyCtrl.abort(); busyCtrl = null; }
+    var ctrl = new AbortController();
+    busyCtrl = ctrl;
+    var timer = setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 90000);
+    var cfg = loadCfg();
+    var p = cfgReady(cfg) ? callCustom(cfg, sys, usr, ctrl) : callHelper(sys, usr);
+    return p.finally(function () {
+      clearTimeout(timer);
+      if (busyCtrl === ctrl) busyCtrl = null;
+    });
+  }
+
+  function setBusy(btn, on) {
+    var sparks = document.querySelectorAll('.spark'), i;
+    for (i = 0; i < sparks.length; i++) sparks[i].disabled = on;
+    byId('mg-gen-all').disabled = on;
+    byId('mg-polish').disabled = on;
+    byId('mg-submit').disabled = on;
+    if (btn) btn.classList[on ? 'add' : 'remove']('busy');
+  }
+
+  /* ================= AI 三件套 ================= */
+  function parseAiJsonLoose(s) {
+    s = String(s || '').replace(/^[\s\S]*?\{/, '{');
+    var end = s.lastIndexOf('}');
+    if (end === -1) throw new Error('结果中没有 JSON');
+    s = s.slice(0, end + 1);
+    return JSON.parse(s);
+  }
+  function draftBrief(d) {
+    var lines = [], map = {
+      name: '姓名', gender: '性别', age: '年龄', route: '身份路线', duty: '职务/营生',
+      look: '外观', story: '背景', scene: '此刻场景',
+      mgCode: '代号', mgArmName: '魔装名', mgArmForm: '魔装形态',
+      wzMedium: '媒介', wzStyle: '术式方向'
+    }, k;
+    for (k in map) { if (d[k]) lines.push(map[k] + ':' + d[k]); }
+    if (d.route === '魔法少女') lines.push('开华:' + d.mgBloom + ';心核:' + d.mgCore);
+    if (d.route === '魔术使') lines.push('位阶:' + d.wzRank);
+    return lines.length ? lines.join('\n') : '(尚未填写任何内容)';
+  }
+
+  function genAll() {
+    formToDraft();
+    var btn = byId('mg-gen-all');
+    var sys = LORE + '\n' + RULES + '\n' +
+      '任务:你是入场向导,为玩家补全一名原创角色。已填内容视为定案,一字不改;只为空缺字段创作。' +
+      '只输出一个 JSON 对象,不要任何其他文字。字段:' +
+      '{"name":"","gender":"","age":"","route":"普通人|魔法少女|魔术使|异策局相关","duty":"","look":"","story":"","scene":"",' +
+      '"mgCode":"","mgArmName":"","mgArmForm":"","wzMedium":"","wzStyle":""}。' +
+      'route 不是魔法少女时 mgCode/mgArmName/mgArmForm 给空字符串;不是魔术使时 wzMedium/wzStyle 给空字符串;' +
+      '普通人与异策局相关请在 duty 里给职业。look 不超过60字,story 不超过120字,scene 不超过60字且必须落在此刻的方亭市。';
+    var usr = '玩家意向:' + (draft.intent || '(未提供,自由发挥,但要有生活气)') + '\n已填内容:\n' + draftBrief(draft);
+    setBusy(btn, true); setStatus('魔导书正在构思……', '');
+    callAI(sys, usr).then(function (s) {
+      var j = parseAiJsonLoose(s);
+      var keys = ['name', 'gender', 'age', 'route', 'duty', 'look', 'story', 'scene', 'mgCode', 'mgArmName', 'mgArmForm', 'wzMedium', 'wzStyle'];
+      keys.forEach(function (k) {
+        if (draft[k]) return;
+        var v = j[k];
+        if (typeof v === 'string' && v.trim()) draft[k] = v.trim();
+      });
+      if (['普通人', '魔法少女', '魔术使', '异策局相关'].indexOf(draft.route) === -1) draft.route = '普通人';
+      draft.polished = '';
+      draftToForm(); refreshMagicZone(); refreshPreview(); saveDraftNow();
+      setStatus('已为你落笔——逐页检阅,不合意处尽管改。', 'ok');
+      showStep(2);
+    }).catch(function (e) {
+      setStatus('构思失败:' + (e && e.message ? e.message : e), 'err');
+      alertMuse('构思失败:' + (e && e.message ? e.message : e));
+    }).finally(function () { setBusy(btn, false); });
+  }
+  function alertMuse(s) {
+    var el = byId('mg-gen-all');
+    var old = el.textContent;
+    txt(el, '✦ 重试一次');
+    var hint = document.querySelector('.muse-hint');
+    if (hint) { txt(hint, s); hint.style.color = '#b95f8e'; }
+  }
+
+  var FIELD_SPEC = {
+    duty:      { id: 'mg-duty',     ask: '职务或营生', limit: '不超过15字' },
+    look:      { id: 'mg-look',     ask: '外观描写', limit: '不超过60字,一两句,具体可感' },
+    story:     { id: 'mg-story',    ask: '背景经历', limit: '不超过120字,给一个放不下的心事' },
+    scene:     { id: 'mg-scene',    ask: '此刻场景(在方亭市哪里、做什么)', limit: '不超过60字,清晨,烟火气' },
+    mgCode:    { id: 'mg-code',     ask: '魔法少女代号(清丽的二三字词,忌俗套)', limit: '2-4字' },
+    mgArmName: { id: 'mg-arm-name', ask: '魔装之名(器物之名,含蓄有余味)', limit: '2-4字' },
+    mgArmForm: { id: 'mg-arm-form', ask: '魔装形态(日常器物所化的武器)', limit: '不超过20字' },
+    wzMedium:  { id: 'mg-medium',   ask: '魔术使的媒介(一件随身旧物)', limit: '不超过20字' },
+    wzStyle:   { id: 'mg-style',    ask: '术式方向(一个具体的小方向)', limit: '不超过15字' }
+  };
+  function genField(key, btn) {
+    formToDraft();
+    var spec = FIELD_SPEC[key];
+    if (!spec) return;
+    var sys = LORE + '\n' + RULES + '\n任务:只为这名角色生成「' + spec.ask + '」。' +
+      '要求:' + spec.limit + '。只输出内容本身,不要引号、解释或标点收尾的说明。';
+    var usr = '角色现有资料:\n' + draftBrief(draft);
+    setBusy(btn, true); setStatus('正在生成……', '');
+    callAI(sys, usr).then(function (s) {
+      s = s.trim().replace(/^["'「『]+/, '').replace(/["'」』]+$/, '').split('\n')[0].trim();
+      draft[key] = s; draft.polished = '';
+      setVal(spec.id, s);
+      refreshPreview(); saveDraftNow();
+      setStatus('已生成——不合意就再点一次 ✦。', 'ok');
+    }).catch(function (e) {
+      setStatus('生成失败:' + (e && e.message ? e.message : e), 'err');
+    }).finally(function () { setBusy(btn, false); });
+  }
+
+  function personClause(d) {
+    var p = d.person || '一';
+    if (p === '二') return '通篇以第二人称「你」称呼这名角色(入场白由玩家写就,「你」指代角色自身,不指代读者以外的任何人)。';
+    if (p === '三') return '通篇以第三人称书写,用名字或' + pronoun(d) + '指代角色,冷静的旁观笔触。';
+    return '通篇以第一人称「我」书写。';
+  }
+  function polish() {
+    formToDraft();
+    if (draft.polished) {
+      draft.polished = '';
+      refreshPreview(); saveDraftNow();
+      setStatus('已恢复原稿。', '');
+      return;
+    }
+    if (!draft.name) { setStatus('先写下姓名,再来润色。', 'err'); gotoName(); return; }
+    var btn = byId('mg-polish');
+    var raw = assembleRaw(draft);
+    var sys = LORE + '\n' + RULES + '\n' +
+      '任务:把玩家的入场资料改写成入场自白。' + personClause(draft) +
+      '结构:先写1-2段有画面感的叙事(以「此刻」的场景收束,不写他人反应,不替世界做决定);' +
+      '然后另起一行输出「——」,再逐行列出关键事实(姓名/身份路线及魔法侧信息/外观要点/此刻位置,认识的人若有也逐行列出)。' +
+      '保留全部事实,不新增设定。全文不超过500字。最后原样保留这一行:' + CLOSING;
+    setBusy(btn, true); setStatus('润色中——魔导书在斟酌词句……', '');
+    callAI(sys, raw).then(function (s) {
+      s = s.trim();
+      if (s.indexOf(CLOSING) === -1) s = s + '\n\n' + CLOSING;
+      draft.polished = s;
+      refreshPreview(); saveDraftNow();
+      setStatus('润色完成。改动表单会使润色稿失效。', 'ok');
+    }).catch(function (e) {
+      setStatus('润色失败:' + (e && e.message ? e.message : e), 'err');
+    }).finally(function () { setBusy(btn, false); });
+  }
+
+  /* ================= 提交 ================= */
+  function gotoName() {
+    showStep(2);
+    setTimeout(function () {
+      var el = byId('mg-name');
+      if (el) { try { el.focus(); } catch (e) {} }
+    }, 60);
+  }
+  function findTextarea() {
+    var wins = [window], i, w, el;
+    try { if (window.parent && window.parent !== window) wins.push(window.parent); } catch (e) {}
+    try { if (window.top && window.top !== window && wins.indexOf(window.top) === -1) wins.push(window.top); } catch (e) {}
+    for (i = 0; i < wins.length; i++) {
+      w = wins[i];
+      try {
+        el = w.document.getElementById('send_textarea');
+        if (el) return el;
+      } catch (e) {}
+    }
+    return null;
+  }
+  function writeTextarea(el, text) {
+    el.value = text;
+    try { el.dispatchEvent(new Event('input', { bubbles: true })); } catch (e) {}
+    try { el.dispatchEvent(new Event('change', { bubbles: true })); } catch (e) {}
+    try { el.focus(); } catch (e) {}
+  }
+  function copyText(text, doneMsg) {
+    var p = (navigator.clipboard && navigator.clipboard.writeText)
+      ? navigator.clipboard.writeText(text)
+      : Promise.reject(new Error('no-clipboard'));
+    p.then(function () {
+      setStatus(doneMsg || '已复制到剪贴板——粘贴到输入框发送即可。', 'ok');
+    }, function () {
+      setVal('mg-copybox', text);
+      openOvl('mg-ovl-copy');
+      var box = byId('mg-copybox');
+      try { box.focus(); box.select(); } catch (e) {}
+    });
+  }
+  function submit() {
+    formToDraft();
+    if (!draft.name) { setStatus('姓名是必填的——魔导书需要一个称呼。', 'err'); gotoName(); return; }
+    if (!draft.route) { setStatus('请先选择身份路线。', 'err'); showStep(2); return; }
+    if (!draft.scene) setStatus('提示:「此刻」空着,开场将由叙事自行安排。', '');
+    var text = buildOpeningMessage(draft);
+    var el = findTextarea();
+    if (!el) { copyText(text, '没能碰到输入框,已复制到剪贴板——粘贴发送即可。'); return; }
+    var cur = (el.value || '').trim();
+    if (cur && cur !== lastFilled.trim()) {
+      pendingText = text; pendingEl = el;
+      openOvl('mg-ovl-confirm');
+      return;
+    }
+    writeTextarea(el, text);
+    lastFilled = text;
+    saveDraftNow();
+    setStatus('已填入输入框——检查后按发送,故事开始。', 'ok');
+  }
+  var pendingText = '', pendingEl = null;
+
+  /* ================= 覆层 ================= */
+  function openOvl(id) {
+    lastFocusEl = document.activeElement;
+    byId(id).classList.add('open');
+    var f = byId(id).querySelector('input,select,textarea,button');
+    if (f) { try { f.focus(); } catch (e) {} }
+  }
+  function closeOvl(id) {
+    byId(id).classList.remove('open');
+    if (lastFocusEl && lastFocusEl.focus) { try { lastFocusEl.focus(); } catch (e) {} }
+  }
+
+  /* ================= 设置面板 ================= */
+  function setApiStatus(s, cls) {
+    var el = byId('mg-api-status');
+    txt(el, s); el.className = 'p-status' + (cls ? ' ' + cls : '');
+  }
+  function openSettings() {
+    var c = loadCfg();
+    setVal('mg-api-url', c.apiUrl); setVal('mg-api-key', c.apiKey);
+    setVal('mg-api-model', c.model); setVal('mg-api-temp', String(c.temperature));
+    setApiStatus(cfgReady(c) ? '当前:直连 ' + c.model : '当前:借道酒馆助手(未配置直连)', '');
+    openOvl('mg-ovl-set');
+  }
+  function saveApi() {
+    var t = parseFloat(val('mg-api-temp'));
+    if (isNaN(t) || t < 0) t = 0.85;
+    if (t > 1.2) t = 1.2;
+    var c = { apiUrl: normUrl(val('mg-api-url')), apiKey: val('mg-api-key'), model: val('mg-api-model'), temperature: t };
+    try { localStorage.setItem(CFG_KEY, JSON.stringify(c)); } catch (e) {}
+    refreshGear();
+    setApiStatus(cfgReady(c) ? '已保存:直连 ' + c.model : '已保存:未配置直连,将借道酒馆助手。', 'ok');
+  }
+  function clearApi() {
+    try { localStorage.removeItem(CFG_KEY); } catch (e) {}
+    setVal('mg-api-url', ''); setVal('mg-api-key', ''); setVal('mg-api-model', ''); setVal('mg-api-temp', '0.85');
+    refreshGear();
+    setApiStatus('已清除,回到借道酒馆助手。', 'ok');
+  }
+  function fetchModels() {
+    var url = normUrl(val('mg-api-url')), key = val('mg-api-key');
+    if (!url) { setApiStatus('先填写 API 地址。', 'err'); return; }
+    var headers = {};
+    if (key) headers['Authorization'] = 'Bearer ' + key;
+    var ctrl = new AbortController();
+    var timer = setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 30000);
+    setApiStatus('拉取模型列表中……', '');
+    fetch(url + '/v1/models', { headers: headers, signal: ctrl.signal }).then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    }).then(function (data) {
+      var list = byId('mg-model-list');
+      while (list.firstChild) list.removeChild(list.firstChild);
+      var arr = (data && data.data) || [];
+      arr.forEach(function (m) {
+        var o = document.createElement('option');
+        o.value = m && m.id ? m.id : String(m);
+        list.appendChild(o);
+      });
+      setApiStatus('拉到 ' + arr.length + ' 个模型——在模型框里点选或输入。', 'ok');
+    }).catch(function (e) {
+      setApiStatus('拉取失败:' + (e && e.message ? e.message : e), 'err');
+    }).finally(function () { clearTimeout(timer); });
+  }
+  function testApi() {
+    var c = { apiUrl: normUrl(val('mg-api-url')), apiKey: val('mg-api-key'), model: val('mg-api-model'), temperature: 0 };
+    setApiStatus('测试中……', '');
+    if (!cfgReady(c)) {
+      var h = findHelper();
+      setApiStatus(h ? '未配置直连;已检测到酒馆助手,可直接使用。' : '未配置直连,也没检测到酒馆助手——AI 功能暂不可用。', h ? 'ok' : 'err');
+      return;
+    }
+    var ctrl = new AbortController();
+    var timer = setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 30000);
+    callCustom(c, '你是连通性测试。', '只回复:通', ctrl).then(function (s) {
+      setApiStatus('连通:' + s.slice(0, 40), 'ok');
+    }).catch(function (e) {
+      setApiStatus('测试失败:' + (e && e.message ? e.message : e), 'err');
+    }).finally(function () { clearTimeout(timer); });
+  }
+  function refreshGear() {
+    byId('mg-gear').className = 'gear' + (cfgReady(loadCfg()) ? ' ok' : '');
+  }
+
+  /* ================= 绑定 ================= */
+  function bindAll() {
+    ['mg-intent', 'mg-name', 'mg-gender', 'mg-age', 'mg-duty', 'mg-look', 'mg-story', 'mg-scene',
+     'mg-code', 'mg-arm-name', 'mg-arm-form', 'mg-medium', 'mg-style'].forEach(function (id) {
+      var el = byId(id);
+      if (el) el.addEventListener('input', onEdit);
+    });
+    byId('mg-core').addEventListener('change', onEdit);
+    ['mg-r-1', 'mg-r-2', 'mg-r-3', 'mg-r-4', 'mg-b-1', 'mg-b-2', 'mg-k-1', 'mg-k-2',
+     'mg-p-1', 'mg-p-2', 'mg-p-3'].forEach(function (id) {
+      var el = byId(id);
+      if (el) el.addEventListener('change', onEdit);
+    });
+    var chips = document.querySelectorAll('.chip'), i;
+    for (i = 0; i < chips.length; i++) {
+      (function (c) {
+        c.addEventListener('click', function () { setVal('mg-gender', c.getAttribute('data-g')); onEdit(); });
+      })(chips[i]);
+    }
+    var sparks = document.querySelectorAll('.spark');
+    for (i = 0; i < sparks.length; i++) {
+      (function (b) {
+        b.addEventListener('click', function () { genField(b.getAttribute('data-gen'), b); });
+      })(sparks[i]);
+    }
+    byId('mg-gen-all').addEventListener('click', genAll);
+    byId('mg-polish').addEventListener('click', polish);
+    byId('mg-copy').addEventListener('click', function () {
+      formToDraft();
+      copyText(buildOpeningMessage(draft));
+    });
+    byId('mg-submit').addEventListener('click', submit);
+    byId('mg-prev').addEventListener('click', prevStep);
+    byId('mg-next').addEventListener('click', nextStep);
+    byId('mg-bond-add').addEventListener('click', function () {
+      readCustomRows();
+      draft.customs.push({ who: '', rel: RELS[0], note: '' });
+      renderCustomBonds(); saveDraft();
+      var rows = byId('mg-bond-customs').children;
+      if (rows.length) { var f = rows[rows.length - 1].querySelector('input'); if (f) f.focus(); }
+    });
+
+    byId('mg-gear').addEventListener('click', openSettings);
+    byId('mg-set-close').addEventListener('click', function () { closeOvl('mg-ovl-set'); });
+    byId('mg-api-save').addEventListener('click', saveApi);
+    byId('mg-api-clear').addEventListener('click', clearApi);
+    byId('mg-api-fetch').addEventListener('click', fetchModels);
+    byId('mg-api-test').addEventListener('click', testApi);
+    byId('mg-draft-clear').addEventListener('click', function () {
+      draft = blankDraft();
+      try { localStorage.removeItem(DRAFT_KEY); } catch (e) {}
+      draftToForm(); refreshMagicZone(); refreshPreview();
+      var el = byId('mg-draft-status');
+      txt(el, '草稿已清空。'); el.className = 'p-status ok';
+    });
+
+    byId('mg-cf-over').addEventListener('click', function () {
+      closeOvl('mg-ovl-confirm');
+      if (pendingEl) {
+        writeTextarea(pendingEl, pendingText);
+        lastFilled = pendingText; saveDraftNow();
+        setStatus('已覆盖填入输入框——检查后按发送。', 'ok');
+      }
+    });
+    byId('mg-cf-copy').addEventListener('click', function () {
+      closeOvl('mg-ovl-confirm');
+      copyText(pendingText);
+    });
+    byId('mg-cf-cancel').addEventListener('click', function () {
+      closeOvl('mg-ovl-confirm');
+      setStatus('已取消,输入框保持原样。', '');
+    });
+    byId('mg-cp-close').addEventListener('click', function () { closeOvl('mg-ovl-copy'); });
+
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key !== 'Escape') return;
+      ['mg-ovl-set', 'mg-ovl-confirm', 'mg-ovl-copy'].forEach(function (id) {
+        if (byId(id).classList.contains('open')) closeOvl(id);
+      });
+    });
+    var ovls = ['mg-ovl-set', 'mg-ovl-confirm', 'mg-ovl-copy'];
+    ovls.forEach(function (id) {
+      byId(id).addEventListener('mousedown', function (ev) {
+        if (ev.target === byId(id)) closeOvl(id);
+      });
+    });
+
+    window.addEventListener('pagehide', function () {
+      if (saveTimer) { clearTimeout(saveTimer); saveTimer = null; }
+      saveDraftNow();
+      if (busyCtrl) { try { busyCtrl.abort(); } catch (e) {} }
+    });
+  }
+
+  /* ================= 启动 ================= */
+  function init() {
+    loadDraft();
+    draftToForm();
+    refreshMagicZone();
+    refreshPreview();
+    refreshGear();
+    bindAll();
+    showStep(1);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  /* 测试钩子(生产环境无副作用) */
+  window.__mg1999 = {
+    getDraft: function () { return draft; },
+    setDraft: function (d) { draft = d; draftToForm(); refreshMagicZone(); refreshPreview(); },
+    blankDraft: blankDraft,
+    assembleRaw: assembleRaw,
+    buildOpeningMessage: buildOpeningMessage,
+    parseAiJsonLoose: parseAiJsonLoose,
+    findTextarea: findTextarea,
+    findHelper: findHelper,
+    submit: submit,
+    formToDraft: formToDraft,
+    showStep: showStep,
+    getStep: function () { return curStep; },
+    stepList: stepList
+  };
+})();
+</script>
+</body>
+</html>
+```

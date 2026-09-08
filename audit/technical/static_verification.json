@@ -1,0 +1,9 @@
+{
+  "standardJSOnly": true,
+  "hostNotExecuted": true,
+  "startMarkerReplacement": "$1",
+  "completeVariableMatches": true,
+  "oldVariableRemovalPatternMatches": true,
+  "narrativeMatches": true,
+  "plotMatcherCount": 0
+}

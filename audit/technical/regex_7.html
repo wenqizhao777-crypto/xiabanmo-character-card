@@ -1,0 +1,1013 @@
+```html
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https: data: blob: file:; style-src 'nonce-mg-prose' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://cdn.jsdelivr.net https://fonts.gstatic.com data:; script-src 'nonce-mg-prose'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.7.0/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&amp;family=Noto+Serif+SC:wght@400;500;600;700&amp;display=swap">
+<style nonce="mg-prose">
+  :root {
+    color-scheme:light dark;
+    --mg-radius:18px;
+    --mg-gold:#b8924f;
+    --mg-gold-rgb:184,146,79;
+    --mg-focus:#b56b8d;
+    --mg-ease:cubic-bezier(.22,.8,.3,1);
+  }
+  * { box-sizing:border-box; min-width:0; }
+  html,body { margin:0; padding:0; background:transparent; overflow-x:hidden; }
+  body { padding:8px 5px 18px; -webkit-font-smoothing:antialiased; }
+  button { font:inherit; color:inherit; }
+  button:focus-visible,[tabindex]:focus-visible { outline:2px solid var(--mg-focus); outline-offset:3px; }
+  [hidden] { display:none !important; }
+  #mg-source,#mg-assets { display:none !important; }
+
+  .mg-app {
+    --page:#f7f3e9;
+    --page-2:#eef4f4;
+    --ink:#39424d;
+    --muted:#78808d;
+    --line:rgba(104,118,134,.24);
+    --panel:rgba(255,255,255,.62);
+    --panel-strong:rgba(255,255,255,.82);
+    --bubble:rgba(255,255,255,.68);
+    --shadow:rgba(67,75,91,.16);
+    --star:rgba(184,146,79,.34);
+    position:relative;
+    width:min(100%,840px);
+    margin:0 auto;
+    color:var(--ink);
+    border:1px solid rgba(var(--mg-gold-rgb),.55);
+    border-radius:var(--mg-radius);
+    overflow:hidden;
+    isolation:isolate;
+    background:
+      radial-gradient(circle at 8% -5%,rgba(160,194,207,.28),transparent 29%),
+      radial-gradient(circle at 95% 3%,rgba(224,174,191,.22),transparent 25%),
+      linear-gradient(155deg,var(--page),var(--page-2));
+    box-shadow:0 15px 42px var(--shadow),inset 0 0 0 1px rgba(255,255,255,.45);
+  }
+  .mg-app::before {
+    content:'';
+    position:absolute;
+    inset:0;
+    z-index:-2;
+    opacity:.2;
+    pointer-events:none;
+    background-image:
+      repeating-linear-gradient(0deg,transparent 0 3px,rgba(72,82,96,.035) 4px),
+      radial-gradient(circle at 18% 24%,var(--star) 0 1px,transparent 1.5px),
+      radial-gradient(circle at 80% 46%,var(--star) 0 1px,transparent 1.5px);
+    background-size:auto,92px 92px,137px 137px;
+  }
+  .mg-app::after {
+    content:'';
+    position:absolute;
+    inset:7px;
+    z-index:-1;
+    border:1px solid rgba(var(--mg-gold-rgb),.18);
+    border-radius:12px;
+    pointer-events:none;
+  }
+  .mg-app[data-theme="night"] {
+    --page:#10142f;
+    --page-2:#2b1e50;
+    --ink:#f1edff;
+    --muted:#aaa4c8;
+    --line:rgba(212,182,110,.25);
+    --panel:rgba(255,255,255,.045);
+    --panel-strong:rgba(255,255,255,.075);
+    --bubble:rgba(14,17,48,.58);
+    --shadow:rgba(0,0,0,.5);
+    --star:rgba(242,166,200,.38);
+    --mg-gold:#d4b66e;
+    --mg-gold-rgb:212,182,110;
+    --mg-focus:#ffe18f;
+    background:
+      radial-gradient(circle at 8% -5%,rgba(242,166,200,.12),transparent 30%),
+      radial-gradient(circle at 94% 7%,rgba(135,157,255,.16),transparent 28%),
+      linear-gradient(160deg,var(--page),#1a2050 57%,var(--page-2));
+  }
+  .mg-app[data-font="wenkai"] { font-family:'LXGW WenKai Lite','霞鹜文楷','STKaiti','KaiTi',serif; }
+  .mg-app[data-font="serif"] { font-family:'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',serif; }
+  .mg-app[data-font="sans"] { font-family:'Noto Sans SC','Source Han Sans SC','Microsoft YaHei','PingFang SC',sans-serif; }
+  .mg-app[data-font="system"] { font-family:system-ui,-apple-system,'Microsoft YaHei','PingFang SC',sans-serif; }
+  .mg-app[data-font-size="14"] .mg-reading { font-size:14px; }
+  .mg-app[data-font-size="15"] .mg-reading { font-size:15px; }
+  .mg-app[data-font-size="16"] .mg-reading { font-size:16px; }
+  .mg-app[data-font-size="17"] .mg-reading { font-size:17px; }
+  .mg-app[data-font-size="18"] .mg-reading { font-size:18px; }
+  .mg-app[data-font-size="19"] .mg-reading { font-size:19px; }
+  .mg-app[data-font-size="20"] .mg-reading { font-size:20px; }
+  .mg-app[data-font-size="21"] .mg-reading { font-size:21px; }
+  .mg-app[data-font-size="22"] .mg-reading { font-size:22px; }
+  .mg-app[data-font-size="23"] .mg-reading { font-size:23px; }
+  .mg-app[data-font-size="24"] .mg-reading { font-size:24px; }
+
+  .mg-topbar {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    min-height:92px;
+    padding:14px clamp(15px,4vw,30px) 12px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,var(--panel-strong),transparent);
+  }
+  .mg-brand { display:flex; align-items:center; min-height:58px; }
+  .mg-logo { display:block; width:clamp(158px,30vw,242px); max-height:78px; object-fit:contain; object-position:left center; filter:drop-shadow(0 3px 8px rgba(80,75,122,.2)); }
+  .mg-logo-fallback { font-family:'Noto Serif SC',serif; color:var(--ink); letter-spacing:.18em; line-height:1.25; }
+  .mg-logo-fallback strong { display:block; font-size:clamp(18px,4vw,28px); font-weight:600; }
+  .mg-logo-fallback small { display:block; margin-top:3px; color:var(--muted); font-size:10px; letter-spacing:.35em; }
+  .mg-settings-button {
+    width:44px;
+    height:44px;
+    flex:0 0 44px;
+    display:grid;
+    place-items:center;
+    border:1px solid rgba(var(--mg-gold-rgb),.48);
+    border-radius:50%;
+    background:var(--panel);
+    cursor:pointer;
+    transition:transform .25s var(--mg-ease),background .2s,border-color .2s;
+  }
+  .mg-settings-button:hover { transform:rotate(24deg); border-color:var(--mg-gold); background:var(--panel-strong); }
+  .mg-settings-button svg { width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:1.6; }
+
+  .mg-settings {
+    position:absolute;
+    z-index:20;
+    top:70px;
+    right:clamp(12px,3vw,26px);
+    width:min(312px,calc(100% - 24px));
+    padding:15px;
+    border:1px solid rgba(var(--mg-gold-rgb),.56);
+    border-radius:14px;
+    color:var(--ink);
+    background:color-mix(in srgb,var(--page) 90%,transparent);
+    box-shadow:0 18px 44px var(--shadow);
+    backdrop-filter:blur(16px);
+  }
+  @supports not (background:color-mix(in srgb,white,black)) { .mg-settings { background:var(--page); } }
+  .mg-settings-head { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
+  .mg-settings-title { margin:0; font-size:14px; font-weight:600; letter-spacing:.16em; }
+  .mg-settings-close { width:36px; height:36px; border:0; border-radius:50%; background:transparent; cursor:pointer; }
+  .mg-setting-group { padding:11px 0; border-top:1px solid var(--line); }
+  .mg-setting-label { display:block; margin-bottom:8px; color:var(--muted); font-size:11px; letter-spacing:.15em; }
+  .mg-choice-row { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
+  .mg-choice-row--fonts { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .mg-choice {
+    min-height:40px;
+    padding:6px 9px;
+    border:1px solid var(--line);
+    border-radius:8px;
+    background:var(--panel);
+    cursor:pointer;
+  }
+  .mg-choice[aria-pressed="true"] { color:var(--ink); border-color:var(--mg-gold); box-shadow:inset 0 0 0 1px rgba(var(--mg-gold-rgb),.25); background:rgba(var(--mg-gold-rgb),.1); }
+  .mg-size-row { display:grid; grid-template-columns:44px 1fr 44px; gap:8px; align-items:center; }
+  .mg-size-button { min-height:40px; border:1px solid var(--line); border-radius:8px; background:var(--panel); cursor:pointer; font-size:18px; }
+  .mg-size-value { text-align:center; color:var(--ink); font-variant-numeric:tabular-nums; }
+  .mg-motion-row { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .mg-toggle {
+    position:relative;
+    width:48px;
+    height:28px;
+    border:1px solid var(--line);
+    border-radius:999px;
+    background:rgba(100,105,125,.22);
+    cursor:pointer;
+  }
+  .mg-toggle::after { content:''; position:absolute; top:3px; left:3px; width:20px; height:20px; border-radius:50%; background:#fff; box-shadow:0 2px 7px rgba(0,0,0,.24); transition:transform .2s; }
+  .mg-toggle[aria-pressed="true"] { background:rgba(var(--mg-gold-rgb),.55); }
+  .mg-toggle[aria-pressed="true"]::after { transform:translateX(20px); }
+
+  .mg-reading { padding:clamp(22px,5vw,46px) clamp(17px,6vw,56px) clamp(34px,7vw,64px); line-height:2.05; transition:font-size .2s; }
+  .mg-narrative { margin:0 0 1.45em; color:var(--ink); text-indent:2em; letter-spacing:.025em; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .mg-narrative strong,.mg-dialogue-line strong { color:var(--mg-gold); font-weight:600; }
+  .mg-chapter {
+    position:relative;
+    min-height:154px;
+    margin:0 0 2.35em;
+    padding:34px clamp(30px,7vw,74px);
+    display:grid;
+    place-items:center;
+    overflow:hidden;
+    isolation:isolate;
+    border:1px solid rgba(var(--mg-gold-rgb),.38);
+    border-radius:20px 6px 20px 6px;
+    background:
+      radial-gradient(ellipse at 50% 48%,rgba(var(--mg-gold-rgb),.12),transparent 66%),
+      linear-gradient(135deg,var(--panel-strong),var(--panel));
+    box-shadow:inset 0 0 34px rgba(var(--mg-gold-rgb),.08),0 10px 30px rgba(47,55,82,.1);
+  }
+  .mg-chapter::before {
+    content:'';
+    position:absolute;
+    inset:8px;
+    z-index:1;
+    border:1px solid rgba(var(--mg-gold-rgb),.17);
+    border-radius:14px 3px 14px 3px;
+    pointer-events:none;
+  }
+  .mg-chapter-art {
+    position:absolute;
+    inset:0;
+    z-index:0;
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:fill;
+    opacity:.82;
+    pointer-events:none;
+    filter:drop-shadow(0 3px 8px rgba(54,71,104,.16));
+  }
+  .mg-chapter-art--night { display:none; }
+  .mg-app[data-theme="night"] .mg-chapter-art--day { display:none; }
+  .mg-app[data-theme="night"] .mg-chapter-art--night { display:block; }
+  .mg-chapter-content {
+    position:relative;
+    z-index:3;
+    max-width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:clamp(10px,2.2vw,22px);
+    text-align:center;
+    text-shadow:0 1px 10px var(--page),0 1px 4px var(--page);
+  }
+  .mg-chapter-main {
+    display:flex;
+    align-items:baseline;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:.18em;
+    max-width:100%;
+  }
+  .mg-chapter-kicker {
+    padding:.05em .65em;
+    border:1px solid rgba(var(--mg-gold-rgb),.45);
+    border-radius:999px;
+    color:var(--mg-gold);
+    font-size:.65em;
+    font-weight:600;
+    letter-spacing:.26em;
+  }
+  .mg-chapter-separator { color:var(--mg-gold); opacity:.72; }
+  .mg-chapter-index { color:var(--muted); font-size:.86em; letter-spacing:.08em; white-space:nowrap; }
+  .mg-chapter-title {
+    max-width:100%;
+    color:var(--ink);
+    font-family:'Noto Serif SC','Source Han Serif SC','Songti SC',serif;
+    font-size:clamp(1.04em,3.1vw,1.35em);
+    font-weight:600;
+    letter-spacing:.1em;
+    line-height:1.55;
+    overflow-wrap:anywhere;
+  }
+  .mg-chapter-divider {
+    flex:0 0 auto;
+    color:var(--mg-gold);
+    font-size:.8em;
+    opacity:.62;
+  }
+  .mg-chapter-date {
+    flex:0 0 auto;
+    color:var(--muted);
+    font-size:.74em;
+    letter-spacing:.08em;
+    white-space:nowrap;
+  }
+  .mg-chapter--missing,.mg-chapter--invalid { min-height:112px; padding-block:28px; }
+  .mg-chapter--missing .mg-chapter-content { color:var(--muted); font-size:.8em; letter-spacing:.14em; }
+  .mg-chapter-raw {
+    position:relative;
+    z-index:3;
+    max-width:100%;
+    color:var(--muted);
+    font-size:.78em;
+    line-height:1.65;
+    letter-spacing:.04em;
+    text-align:center;
+    white-space:pre-wrap;
+    overflow-wrap:anywhere;
+    text-shadow:0 1px 8px var(--page);
+  }
+  .mg-chapter-shine {
+    position:absolute;
+    inset:-45% auto -45% -32%;
+    z-index:2;
+    width:22%;
+    opacity:0;
+    pointer-events:none;
+    transform:skewX(-18deg);
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.42),transparent);
+  }
+  .mg-narrative em,.mg-dialogue-line em { color:var(--muted); }
+  .mg-empty { padding:42px 12px; text-align:center; color:var(--muted); letter-spacing:.18em; }
+
+  .mg-dialogue {
+    --char:#738096;
+    --char-soft:rgba(115,128,150,.18);
+    --char-glow:rgba(115,128,150,.28);
+    display:grid;
+    grid-template-columns:78px minmax(0,1fr);
+    gap:17px;
+    align-items:start;
+    margin:1.75em 0;
+  }
+  .mg-avatar-shell {
+    position:relative;
+    width:76px;
+    height:76px;
+    display:grid;
+    place-items:center;
+    overflow:visible;
+    border:1px solid color-mix(in srgb,var(--char) 60%,transparent);
+    border-radius:22px 12px 22px 12px;
+    background:radial-gradient(circle at 50% 38%,var(--char-soft),transparent 70%),var(--panel);
+    box-shadow:0 8px 22px var(--char-glow),inset 0 0 0 3px var(--panel);
+  }
+  .mg-avatar-shell::before,.mg-avatar-shell::after { content:''; position:absolute; pointer-events:none; }
+  .mg-avatar-shell::before { inset:-5px; border-top:1px solid var(--char); border-bottom:1px solid var(--char); border-radius:26px 14px; opacity:.45; }
+  .mg-avatar-shell::after { width:9px; height:9px; top:-5px; right:5px; transform:rotate(45deg); background:var(--char); box-shadow:0 0 12px var(--char); }
+  .mg-avatar-image { position:absolute; inset:-5px; width:86px; height:86px; object-fit:contain; object-position:center bottom; filter:drop-shadow(0 5px 6px rgba(15,20,44,.23)); }
+  .mg-avatar-fallback { position:relative; z-index:1; display:grid; place-items:center; width:100%; height:100%; color:var(--char); font-family:'Noto Serif SC',serif; font-size:27px; font-weight:600; }
+  .mg-avatar-shell[data-has-image="true"] .mg-avatar-fallback { opacity:0; }
+  .mg-dialogue-body { min-width:0; }
+  .mg-character-name { display:flex; align-items:center; gap:9px; min-height:23px; margin:0 0 7px; color:var(--char); font-size:.86em; font-weight:600; letter-spacing:.16em; }
+  .mg-character-name::after { content:''; width:38px; height:1px; background:linear-gradient(90deg,var(--char),transparent); }
+  .mg-bubble {
+    position:relative;
+    padding:.86em 1.08em .9em;
+    border:1px solid color-mix(in srgb,var(--char) 40%,var(--line));
+    border-radius:5px 16px 16px 16px;
+    background:linear-gradient(135deg,var(--char-soft),transparent 42%),var(--bubble);
+    box-shadow:0 8px 24px rgba(32,37,60,.08),inset 3px 0 0 color-mix(in srgb,var(--char) 68%,transparent);
+    overflow:hidden;
+  }
+  .mg-bubble::after { content:''; position:absolute; width:80px; height:80px; right:-48px; bottom:-55px; border:1px solid var(--char); border-radius:50%; opacity:.12; }
+  .mg-dialogue-line { margin:0; color:var(--ink); line-height:1.9; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .mg-dialogue-line + .mg-dialogue-line { margin-top:.72em; padding-top:.72em; border-top:1px dashed color-mix(in srgb,var(--char) 28%,transparent); }
+
+  .char-linyun { --char:#4e6582; --char-soft:rgba(78,101,130,.14); --char-glow:rgba(78,101,130,.2); }
+  .char-cuique { --char:#53b7d4; --char-soft:rgba(83,183,212,.15); --char-glow:rgba(83,183,212,.33); }
+  .char-linxiaolu { --char:#d6922e; --char-soft:rgba(214,146,46,.14); --char-glow:rgba(219,92,65,.22); }
+  .char-baimei { --char:#7da9eb; --char-soft:rgba(184,213,255,.18); --char-glow:rgba(148,182,255,.3); }
+  .char-xialiang { --char:#9b708e; --char-soft:rgba(155,112,142,.15); --char-glow:rgba(155,112,142,.26); }
+  .char-xiaojin { --char:#9a78d6; --char-soft:rgba(154,120,214,.16); --char-glow:rgba(211,173,64,.25); }
+  .char-baijingxuan { --char:#789071; --char-soft:rgba(120,144,113,.14); --char-glow:rgba(120,144,113,.2); }
+  .char-baoxue { --char:#79b894; --char-soft:rgba(121,184,148,.17); --char-glow:rgba(121,214,174,.29); }
+  .char-hongsiyu { --char:#8f4058; --char-soft:rgba(143,64,88,.15); --char-glow:rgba(106,45,86,.25); }
+  .char-chaoyan { --char:#d05268; --char-soft:rgba(208,82,104,.17); --char-glow:rgba(225,154,85,.3); }
+  .char-moke { --char:#e371a3; --char-soft:rgba(227,113,163,.17); --char-glow:rgba(111,177,235,.28); }
+  .char-longdan { --char:#526fbd; --char-soft:rgba(82,111,189,.17); --char-glow:rgba(49,190,218,.27); }
+  /* 安雅与樱是同一身份风格：柔和的樱粉、花瓣边角和金色细线。 */
+  .char-anya { --char:#c26d9d; --char-soft:rgba(194,109,157,.17); --char-glow:rgba(153,128,220,.28); }
+  /* 鸢使用冷靛与朱红的飞羽配色，边角更利落。 */
+  .char-yuan { --char:#9c4d68; --char-soft:rgba(62,84,139,.2); --char-glow:rgba(205,67,77,.29); }
+  /* 麻生圆香与玛格丽特是同一身份风格：暖橙、香槟金与丝绒红。 */
+  .char-margaret { --char:#d47b45; --char-soft:rgba(212,123,69,.18); --char-glow:rgba(234,166,83,.29); }
+  .char-cuique .mg-avatar-shell::before { border-style:dashed; animation:mg-thread 7s linear infinite; }
+  .char-baimei .mg-avatar-shell { border-radius:50% 50% 46% 54%; }
+  .char-xiaojin .mg-avatar-shell { border-radius:12px; transform:rotate(-2deg); }
+  .char-xiaojin .mg-avatar-image,.char-xiaojin .mg-avatar-fallback { transform:rotate(2deg); }
+  .char-xialiang .mg-avatar-shell { border-radius:24px 8px 24px 8px; }
+  .char-baoxue .mg-avatar-shell::after { border-radius:65% 35% 65% 35%; }
+  .char-hongsiyu .mg-avatar-shell { border-radius:8px 22px 8px 22px; }
+  .char-chaoyan .mg-avatar-shell { border-radius:50% 18% 52% 22%; }
+  .char-moke .mg-avatar-shell { border-radius:50% 43% 52% 45%; }
+  .char-moke .mg-avatar-shell::before { border-style:dotted; }
+  .char-longdan .mg-avatar-shell { border-radius:10px 24px 10px 24px; }
+  .char-longdan .mg-avatar-shell::before { transform:rotate(3deg); }
+  .char-anya .mg-avatar-shell { border-radius:50% 18px 50% 18px; }
+  .char-anya .mg-avatar-shell::before { border-style:dotted; border-radius:52% 18px 52% 18px; }
+  .char-anya .mg-bubble { border-radius:18px 5px 18px 18px; }
+  .char-yuan .mg-avatar-shell { border-radius:8px 28px 8px 28px; transform:rotate(-1deg); }
+  .char-yuan .mg-avatar-shell::before { transform:rotate(-5deg); border-style:dashed; }
+  .char-yuan .mg-bubble { border-radius:4px 18px 4px 18px; }
+  .char-margaret .mg-avatar-shell { border-radius:28px 10px 28px 10px; }
+  .char-margaret .mg-avatar-shell::before { border-radius:30px 12px 30px 12px; }
+  .char-margaret .mg-bubble { border-radius:12px 20px 6px 20px; }
+  .char-linxiaolu .mg-character-name::before { content:'☆'; color:#c74e45; letter-spacing:0; }
+  .char-baimei .mg-character-name::before { content:'◇'; color:#d9b86a; letter-spacing:0; }
+  .char-xiaojin .mg-character-name::before { content:'✦'; color:#d3ad40; letter-spacing:0; }
+  .char-baoxue .mg-character-name::before { content:'❄'; color:#a8d7c1; letter-spacing:0; }
+  .char-cuique .mg-character-name::before { content:'╱'; color:#70d8ed; letter-spacing:0; }
+  .char-xialiang .mg-character-name::before { content:'⌁'; color:#cda1bf; letter-spacing:0; }
+  .char-baijingxuan .mg-character-name::before { content:'▧'; color:#9daa83; letter-spacing:0; }
+  .char-linyun .mg-character-name::before { content:'∕'; color:#7189a2; letter-spacing:0; }
+  .char-hongsiyu .mg-character-name::before { content:'▤'; color:#a34b62; letter-spacing:0; }
+  .char-chaoyan .mg-character-name::before { content:'✿'; color:#dd6c74; letter-spacing:0; }
+  .char-moke .mg-character-name::before { content:'♡'; color:#e982b1; letter-spacing:0; }
+  .char-longdan .mg-character-name::before { content:'◆'; color:#55bdd6; letter-spacing:0; }
+  .char-anya .mg-character-name::before { content:'❀'; color:#eaa5c8; letter-spacing:0; }
+  .char-yuan .mg-character-name::before { content:'➶'; color:#df6c65; letter-spacing:0; }
+  .char-margaret .mg-character-name::before { content:'✧'; color:#e7b55c; letter-spacing:0; }
+
+  .tone-0 { --char:#6d8fa3; --char-soft:rgba(109,143,163,.14); --char-glow:rgba(109,143,163,.2); }
+  .tone-1 { --char:#8b7aa7; --char-soft:rgba(139,122,167,.14); --char-glow:rgba(139,122,167,.2); }
+  .tone-2 { --char:#718e79; --char-soft:rgba(113,142,121,.14); --char-glow:rgba(113,142,121,.2); }
+  .tone-3 { --char:#a47c69; --char-soft:rgba(164,124,105,.14); --char-glow:rgba(164,124,105,.2); }
+  .tone-4 { --char:#9a7882; --char-soft:rgba(154,120,130,.14); --char-glow:rgba(154,120,130,.2); }
+  .tone-5 { --char:#72889f; --char-soft:rgba(114,136,159,.14); --char-glow:rgba(114,136,159,.2); }
+  .tone-6 { --char:#8b8667; --char-soft:rgba(139,134,103,.14); --char-glow:rgba(139,134,103,.2); }
+  .tone-7 { --char:#6f8f8b; --char-soft:rgba(111,143,139,.14); --char-glow:rgba(111,143,139,.2); }
+
+  .mg-dialogue--user { display:flex; justify-content:flex-end; margin:1.65em 0; }
+  .mg-dialogue--user .mg-dialogue-body { width:min(86%,620px); }
+  .mg-dialogue--user .mg-bubble { border-color:rgba(var(--mg-gold-rgb),.38); border-radius:16px 5px 16px 16px; background:linear-gradient(225deg,rgba(var(--mg-gold-rgb),.1),transparent 48%),var(--bubble); box-shadow:0 8px 24px rgba(32,37,60,.08),inset -3px 0 0 rgba(var(--mg-gold-rgb),.5); }
+
+  .mg-scene {
+    position:relative;
+    display:grid;
+    place-items:center;
+    min-height:92px;
+    margin:2.4em 0 2.1em;
+    overflow:hidden;
+    color:var(--muted);
+    text-align:center;
+    letter-spacing:.28em;
+  }
+  .mg-scene::before,.mg-scene::after { content:''; position:absolute; top:50%; width:31%; height:1px; background:linear-gradient(90deg,transparent,var(--mg-gold),transparent); opacity:.65; }
+  .mg-scene::before { left:0; }
+  .mg-scene::after { right:0; }
+  .mg-scene-title { position:relative; z-index:2; padding:8px 15px; font-size:.88em; }
+  .mg-scene-title::before { content:'✦'; display:block; margin-bottom:2px; color:var(--mg-gold); font-size:11px; }
+
+  .mg-effect-image { position:absolute; inset:50% auto auto 50%; width:min(100%,640px); height:160%; object-fit:contain; transform:translate(-50%,-50%); opacity:.34; pointer-events:none; mix-blend-mode:screen; }
+  .mg-app[data-theme="day"] .mg-effect-image { mix-blend-mode:multiply; opacity:.2; }
+  .mg-callout {
+    --callout:#8c92cf;
+    position:relative;
+    display:grid;
+    place-items:center;
+    min-height:132px;
+    margin:2em 0;
+    padding:25px 18px;
+    overflow:hidden;
+    border:1px solid color-mix(in srgb,var(--callout) 55%,var(--line));
+    border-radius:16px 4px 16px 4px;
+    text-align:center;
+    background:
+      radial-gradient(circle at 50% 50%,color-mix(in srgb,var(--callout) 19%,transparent),transparent 64%),
+      var(--panel);
+    box-shadow:inset 0 0 32px color-mix(in srgb,var(--callout) 12%,transparent),0 9px 30px rgba(28,32,66,.1);
+  }
+  .mg-callout::before { content:''; position:absolute; width:155px; height:155px; border:1px solid var(--callout); border-radius:50%; opacity:.18; transform:rotate(22deg); }
+  .mg-callout::after { content:''; position:absolute; width:112px; height:112px; border:1px dashed var(--callout); border-radius:50%; opacity:.2; }
+  .mg-callout-content { position:relative; z-index:3; max-width:92%; text-shadow:0 2px 12px var(--page); }
+  .mg-callout-kicker { display:block; margin-bottom:8px; color:var(--callout); font-size:.68em; letter-spacing:.32em; text-transform:uppercase; }
+  .mg-callout-name { display:block; color:var(--ink); font-family:'Noto Serif SC',serif; font-size:clamp(1.05em,4vw,1.42em); font-weight:600; letter-spacing:.12em; overflow-wrap:anywhere; }
+  .mg-move[data-character="翠雀"] { --callout:#55c1dc; }
+  .mg-move[data-character="白玫"] { --callout:#9bbcf2; }
+  .mg-move[data-character="小锦"] { --callout:#ac83e7; }
+  .mg-move[data-character="薄雪"] { --callout:#83c9a1; }
+  .mg-move[data-character="朝颜"] { --callout:#dc6072; }
+  .mg-transform { min-height:164px; border-radius:50% 8px 50% 8px; }
+  .mg-transform[data-character="翠雀"] { --callout:#55c1dc; }
+  .mg-transform[data-character="白玫"] { --callout:#a8c7f4; }
+  .mg-transform[data-character="小锦"] { --callout:#b08ae6; }
+  .mg-transform[data-character="薄雪"] { --callout:#8bcaa6; }
+  .mg-transform[data-character="朝颜"] { --callout:#df6574; }
+
+  .mg-app[data-motion="on"] .mg-chapter { animation:mg-chapter-in .8s var(--mg-ease) both; }
+  .mg-app[data-motion="on"] .mg-chapter .mg-chapter-art { animation:mg-chapter-art-in .8s var(--mg-ease) both; }
+  .mg-app[data-motion="on"] .mg-chapter .mg-chapter-shine { animation:mg-chapter-shine .8s var(--mg-ease) both; }
+  .mg-app[data-motion="on"] .mg-dialogue,.mg-app[data-motion="on"] .mg-scene,.mg-app[data-motion="on"] .mg-callout { animation:mg-rise .58s var(--mg-ease) both; }
+  .mg-app[data-motion="on"] .mg-scene .mg-effect-image { animation:mg-sweep .9s var(--mg-ease) both; }
+  .mg-app[data-motion="on"] .mg-callout .mg-effect-image { animation:mg-burst .88s var(--mg-ease) both; }
+  .mg-app[data-motion="off"] *,
+  .mg-app[data-motion="off"] *::before,
+  .mg-app[data-motion="off"] *::after { animation:none !important; transition-duration:0s !important; }
+  @keyframes mg-rise { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+  @keyframes mg-chapter-in { from { opacity:0; transform:translateY(-7px); } to { opacity:1; transform:none; } }
+  @keyframes mg-chapter-art-in { from { opacity:0; transform:scale(.96); } to { opacity:.82; transform:none; } }
+  @keyframes mg-chapter-shine { 0%,18% { opacity:0; transform:translateX(0) skewX(-18deg); } 44% { opacity:.72; } 100% { opacity:0; transform:translateX(650%) skewX(-18deg); } }
+  @keyframes mg-sweep { from { opacity:0; transform:translate(-62%,-50%) scale(.86); } to { opacity:.34; transform:translate(-50%,-50%) scale(1); } }
+  @keyframes mg-burst { 0% { opacity:0; transform:translate(-50%,-50%) scale(.55) rotate(-7deg); } 60% { opacity:.47; } 100% { opacity:.34; transform:translate(-50%,-50%) scale(1); } }
+  @keyframes mg-thread { to { transform:rotate(360deg); } }
+  @media (prefers-reduced-motion:reduce) {
+    .mg-app *,
+    .mg-app *::before,
+    .mg-app *::after { animation:none !important; transition-duration:0s !important; }
+  }
+
+  @media (max-width:560px) {
+    body { padding:4px 2px 12px; }
+    .mg-app { border-radius:13px; }
+    .mg-topbar { min-height:73px; padding:9px 13px; }
+    .mg-logo { width:clamp(145px,53vw,172px); max-height:58px; }
+    .mg-settings { top:61px; right:9px; width:calc(100% - 18px); }
+    .mg-reading { padding:22px 14px 38px; line-height:1.92; }
+    .mg-chapter { min-height:146px; margin-bottom:2em; padding:31px 25px 27px; }
+    .mg-chapter-content { display:grid; gap:8px; }
+    .mg-chapter-main { line-height:1.55; }
+    .mg-chapter-title { flex-basis:100%; font-size:1.08em; }
+    .mg-chapter-divider { width:58px; height:1px; margin:auto; overflow:hidden; font-size:0; background:linear-gradient(90deg,transparent,var(--mg-gold),transparent); }
+    .mg-chapter-date { font-size:.7em; }
+    .mg-chapter--missing,.mg-chapter--invalid { min-height:104px; padding:25px 22px; }
+    .mg-narrative { text-indent:1.5em; margin-bottom:1.25em; }
+    .mg-dialogue { grid-template-columns:56px minmax(0,1fr); gap:11px; margin:1.45em 0; }
+    .mg-avatar-shell { width:54px; height:54px; border-radius:16px 8px 16px 8px; }
+    .mg-avatar-image { inset:-4px; width:62px; height:62px; }
+    .mg-avatar-fallback { font-size:21px; }
+    .mg-character-name { font-size:.78em; margin-bottom:5px; }
+    .mg-bubble { padding:.76em .86em; border-radius:4px 13px 13px 13px; }
+    .mg-dialogue--user .mg-dialogue-body { width:91%; }
+    .mg-callout { min-height:116px; padding:20px 12px; }
+    .mg-scene::before,.mg-scene::after { width:23%; }
+  }
+</style>
+</head>
+<body>
+<script type="application/octet-stream" id="mg-assets">eyJzY2hlbWFWZXJzaW9uIjoyLCJ0aXRsZUxvZ28iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+agh+mimC90aXRsZS1sb2dvLnBuZyIsImNoYXB0ZXJIZWFkZXJEYXkiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+agh+mimC9jaGFwdGVyLWhlYWRlci1kYXkucG5nIiwiY2hhcHRlckhlYWRlck5pZ2h0IjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/moIfpopgvY2hhcHRlci1oZWFkZXItbmlnaHQucG5nIiwiYXZhdGFycyI6eyLnmb3pnZnokLEiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v55m96Z2Z6JCxL+eZvemdmeiQsS3lq4zlvIMucG5nIn0sIueZveeOqyI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/nmb3njqsv55m9546rLeWrjOW8gy5wbmcifSwi6JaE6ZuqIjp7IueIseaBiyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot54ix5oGLLnBuZyIsIuaCsuS8pCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5oKy5LykLnBuZyIsIuaEpOaAkiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5oSk5oCSLnBuZyIsIuWus+e+niI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5a6z576eLnBuZyIsIue0p+W8oCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot57Sn5bygLnBuZyIsIuW5s+WSjCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5bmz5ZKMLnBuZyIsIuWWnOaCpiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5Zac5oKmLnBuZyIsIuWrjOW8gyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+iWhOmbqi/oloTpm6ot5auM5byDLnBuZyJ9LCLnv6Dpm4AiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v57+g6ZuAL+e/oOmbgC3lq4zlvIMucG5nIn0sIuael+Wwj+eSkCI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mnpflsI/nkpAv5p6X5bCP55KQLeWrjOW8gy5wbmcifSwi5p6X5piAIjp7IueIseaBiyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt54ix5oGLLnBuZyIsIuaCsuS8pCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5oKy5LykLnBuZyIsIuaEpOaAkiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5oSk5oCSLnBuZyIsIuWus+e+niI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5a6z576eLnBuZyIsIue0p+W8oCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt57Sn5bygLnBuZyIsIuW5s+WSjCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5bmz5ZKMLnBuZyIsIuWWnOaCpiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5Zac5oKmLnBuZyIsIuWrjOW8gyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+ael+aYgC/mnpfmmIAt5auM5byDLnBuZyJ9LCLlpI/lh4kiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5aSP5YeJL+Wkj+WHiS3lq4zlvIMucG5nIn0sIuWwj+mUpiI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/lsI/plKYv5bCP6ZSmLeWrjOW8gy5wbmcifSwi57qi5oCd5LiOIjp7IueIseaBiyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t54ix5oGLLnBuZyIsIuaCsuS8pCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5oKy5LykLnBuZyIsIuaEpOaAkiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5oSk5oCSLnBuZyIsIuWus+e+niI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5a6z576eLnBuZyIsIue0p+W8oCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t57Sn5bygLnBuZyIsIuW5s+WSjCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5bmz5ZKMLnBuZyIsIuWWnOaCpiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5Zac5oKmLnBuZyIsIuWrjOW8gyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+e6ouaAneS4ji/nuqLmgJ3kuI4t5auM5byDLnBuZyJ9LCLmnJ3popwiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5pyd6aKcL+acneminC3lq4zlvIMucG5nIn0sIuaRqeWPryI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mkanlj68v5pGp5Y+vLeWrjOW8gy5wbmcifSwi6b6Z6IOGIjp7IueIseaBiyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt54ix5oGLLnBuZyIsIuaCsuS8pCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5oKy5LykLnBuZyIsIuaEpOaAkiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5oSk5oCSLnBuZyIsIuWus+e+niI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5a6z576eLnBuZyIsIue0p+W8oCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt57Sn5bygLnBuZyIsIuW5s+WSjCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5bmz5ZKMLnBuZyIsIuWWnOaCpiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5Zac5oKmLnBuZyIsIuWrjOW8gyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m+meiDhi/pvpnog4Yt5auM5byDLnBuZyJ9LCLlronpm4UiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v5a6J6ZuFL+WuiembhS3lq4zlvIMucG5nIn0sIuaosSI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/mqLEv5qixLeWrjOW8gy5wbmcifSwi6biiIjp7IueIseaBiyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt54ix5oGLLnBuZyIsIuaCsuS8pCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5oKy5LykLnBuZyIsIuaEpOaAkiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5oSk5oCSLnBuZyIsIuWus+e+niI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5a6z576eLnBuZyIsIue0p+W8oCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt57Sn5bygLnBuZyIsIuW5s+WSjCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5bmz5ZKMLnBuZyIsIuWWnOaCpiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5Zac5oKmLnBuZyIsIuWrjOW8gyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv5aS05YOPL+m4oi/puKIt5auM5byDLnBuZyJ9LCLpurvnlJ/lnIbpppkiOnsi54ix5oGLIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3niLHmgYsucG5nIiwi5oKy5LykIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3mgrLkvKQucG5nIiwi5oSk5oCSIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3mhKTmgJIucG5nIiwi5a6z576eIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3lrrPnvp4ucG5nIiwi57Sn5bygIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3ntKflvKAucG5nIiwi5bmz5ZKMIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3lubPlkowucG5nIiwi5Zac5oKmIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3llpzmgqYucG5nIiwi5auM5byDIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/lpLTlg48v6bq755Sf5ZyG6aaZL+m6u+eUn+WchummmS3lq4zlvIMucG5nIn0sIueOm+agvOS4veeJuSI6eyLniLHmgYsiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeeIseaBiy5wbmciLCLmgrLkvKQiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeaCsuS8pC5wbmciLCLmhKTmgJIiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeaEpOaAki5wbmciLCLlrrPnvp4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeWus+e+ni5wbmciLCLntKflvKAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5Lee0p+W8oC5wbmciLCLlubPlkowiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeW5s+WSjC5wbmciLCLllpzmgqYiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeWWnOaCpi5wbmciLCLlq4zlvIMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+WktOWDjy/njpvmoLzkuL3nibkv546b5qC85Li954m5LeWrjOW8gy5wbmcifX0sImVmZmVjdHMiOnsic2NlbmVTdGFyZHVzdCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL3NjZW5lLXN0YXJkdXN0LnBuZyIsInNjZW5lVGhyZWFkU3dlZXAiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9zY2VuZS10aHJlYWQtc3dlZXAucG5nIiwidHJhbnNmb3JtQ3VpY3VpIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/nibnmlYgvdHJhbnNmb3JtLWN1aWN1aS5wbmciLCJ0cmFuc2Zvcm1CYWltZWkiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC90cmFuc2Zvcm0tYmFpbWVpLnBuZyIsInRyYW5zZm9ybVhpYW9qaW4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC90cmFuc2Zvcm0teGlhb2ppbi5wbmciLCJ0cmFuc2Zvcm1CYW94dWUiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC90cmFuc2Zvcm0tYmFveHVlLnBuZyIsInRyYW5zZm9ybUNoYW95YW4iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC90cmFuc2Zvcm0tY2hhb3lhbi5wbmciLCJhdXJhQ3VpY3VpIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/nibnmlYgvYXVyYS1jdWljdWkucG5nIiwiYXVyYUJhaW1laSI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL2F1cmEtYmFpbWVpLnBuZyIsImF1cmFYaWFvamluIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/nibnmlYgvYXVyYS14aWFvamluLnBuZyIsImF1cmFCYW94dWUiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9hdXJhLWJhb3h1ZS5wbmciLCJhdXJhQ2hhb3lhbiI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL2F1cmEtY2hhb3lhbi5wbmciLCJzbGFzaCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL3NsYXNoLnBuZyIsImltcGFjdCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL2ltcGFjdC5wbmciLCJzcGVhciI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL3NwZWFyLnBuZyIsInNoaWVsZCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL3NoaWVsZC5wbmciLCJtaXJyb3IiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9taXJyb3IucG5nIiwiaGVhbGluZyI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL2hlYWxpbmcucG5nIiwibXVzaWMiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9tdXNpYy5wbmciLCJ3aGl0ZUZsYW1lIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzE3OTg1NDc5ODN0dC9QcmluY2Vzcy9tYWluL3hpYWJhbm1vL2Fzc2V0cy/nibnmlYgvd2hpdGUtZmxhbWUucG5nIiwibWFnaWNDaXJjbGUiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9tYWdpYy1jaXJjbGUucG5nIiwic2FtZUZhdGUiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vMTc5ODU0Nzk4M3R0L1ByaW5jZXNzL21haW4veGlhYmFubW8vYXNzZXRzL+eJueaViC9zYW1lLWZhdGUucG5nIiwibWVtb3J5QXJjaGl2ZSI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL21lbW9yeS1hcmNoaXZlLnBuZyIsImdlbmVyaWNCdXJzdCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8xNzk4NTQ3OTgzdHQvUHJpbmNlc3MvbWFpbi94aWFiYW5tby9hc3NldHMv54m55pWIL2dlbmVyaWMtYnVyc3QucG5nIn19</script>
+<textarea id="mg-source" aria-hidden="true">$1</textarea>
+
+<main class="mg-app" id="mg-app" data-theme="day" data-font="wenkai" data-font-size="18" data-motion="on">
+  <header class="mg-topbar">
+    <div class="mg-brand" id="mg-brand" aria-label="《下班，然后变成魔法少女》"></div>
+    <button class="mg-settings-button" type="button" data-action="settings" aria-label="阅读设置" aria-expanded="false" aria-controls="mg-settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.1"></circle><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.86 2.86-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21H9.5v-.1A1.7 1.7 0 0 0 8.4 19.3a1.7 1.7 0 0 0-1.88.34l-.06.06-2.86-2.86.06-.06A1.7 1.7 0 0 0 4 14.9a1.7 1.7 0 0 0-1.6-1H2.3V9.8h.1A1.7 1.7 0 0 0 4 8.7a1.7 1.7 0 0 0-.34-1.88l-.06-.06L6.46 3.9l.06.06A1.7 1.7 0 0 0 8.4 4.3a1.7 1.7 0 0 0 1-1.6v-.1h4.1v.1a1.7 1.7 0 0 0 1.1 1.6 1.7 1.7 0 0 0 1.88-.34l.06-.06 2.86 2.86-.06.06A1.7 1.7 0 0 0 19 8.7a1.7 1.7 0 0 0 1.6 1h.1v4.1h-.1a1.7 1.7 0 0 0-1.2 1.2Z"></path></svg>
+    </button>
+    <section class="mg-settings" id="mg-settings" role="dialog" aria-label="阅读设置" hidden>
+      <div class="mg-settings-head"><h2 class="mg-settings-title">阅读设置</h2><button class="mg-settings-close" type="button" data-action="close-settings" aria-label="关闭设置">×</button></div>
+      <div class="mg-setting-group">
+        <span class="mg-setting-label">色调</span>
+        <div class="mg-choice-row"><button class="mg-choice" type="button" data-theme-choice="day">日 · 晨雾</button><button class="mg-choice" type="button" data-theme-choice="night">夜 · 星夜</button></div>
+      </div>
+      <div class="mg-setting-group">
+        <span class="mg-setting-label">字体</span>
+        <div class="mg-choice-row mg-choice-row--fonts"><button class="mg-choice" type="button" data-font-choice="wenkai">霞鹜文楷</button><button class="mg-choice" type="button" data-font-choice="serif">思源宋体</button><button class="mg-choice" type="button" data-font-choice="sans">思源黑体</button><button class="mg-choice" type="button" data-font-choice="system">系统字体</button></div>
+      </div>
+      <div class="mg-setting-group">
+        <span class="mg-setting-label">字号</span>
+        <div class="mg-size-row"><button class="mg-size-button" type="button" data-size-action="decrease" aria-label="减小字号">−</button><output class="mg-size-value" id="mg-size-value">18px</output><button class="mg-size-button" type="button" data-size-action="increase" aria-label="增大字号">＋</button></div>
+      </div>
+      <div class="mg-setting-group mg-motion-row"><span class="mg-setting-label">动态特效</span><button class="mg-toggle" type="button" data-motion-toggle aria-label="切换动态特效" aria-pressed="true"></button></div>
+    </section>
+  </header>
+  <article class="mg-reading" id="mg-content" aria-live="polite"></article>
+</main>
+
+<script nonce="mg-prose">
+(function () {
+  'use strict';
+
+  var APP = document.getElementById('mg-app');
+  var CONTENT = document.getElementById('mg-content');
+  var SOURCE = document.getElementById('mg-source');
+  var SETTINGS = document.getElementById('mg-settings');
+  var SETTINGS_BUTTON = document.querySelector('[data-action="settings"]');
+  var SIZE_OUTPUT = document.getElementById('mg-size-value');
+  var STORAGE_PREFIX = 'mg-prose.';
+  var CHANNEL = null;
+
+  var CHARACTER_CLASSES = {
+    '林昀':'char-linyun','翠雀':'char-cuique','林小璐':'char-linxiaolu','白玫':'char-baimei',
+    '夏凉':'char-xialiang','小锦':'char-xiaojin','白静萱':'char-baijingxuan','薄雪':'char-baoxue',
+    '红思与':'char-hongsiyu','朝颜':'char-chaoyan','摩可':'char-moke','龙胆':'char-longdan',
+    '安雅':'char-anya','樱':'char-anya','鸢':'char-yuan','麻生圆香':'char-margaret','玛格丽特':'char-margaret'
+  };
+  var CANONICAL_EMOTIONS = ['爱恋','悲伤','愤怒','害羞','紧张','平和','喜悦','嫌弃'];
+  var EMOTION_ALIASES = {
+    '爱恋':'爱恋','喜欢':'爱恋','心动':'爱恋','爱意':'爱恋','宠溺':'爱恋',
+    '悲伤':'悲伤','难过':'悲伤','忧伤':'悲伤','哭泣':'悲伤','伤心':'悲伤',
+    '愤怒':'愤怒','生气':'愤怒','恼怒':'愤怒','暴怒':'愤怒',
+    '害羞':'害羞','羞涩':'害羞','脸红':'害羞','不好意思':'害羞',
+    '紧张':'紧张','慌张':'紧张','慌乱':'紧张','担心':'紧张','害怕':'紧张','惊慌':'紧张',
+    '平和':'平和','平静':'平和','通常':'平和','普通':'平和','默认':'平和',
+    '喜悦':'喜悦','开心':'喜悦','高兴':'喜悦','欣喜':'喜悦','微笑':'喜悦',
+    '嫌弃':'嫌弃','厌恶':'嫌弃','鄙夷':'嫌弃','无语':'嫌弃','恶心':'嫌弃'
+  };
+  var CHARACTER_AURAS = {'翠雀':'auraCuicui','白玫':'auraBaimei','小锦':'auraXiaojin','薄雪':'auraBaoxue','朝颜':'auraChaoyan'};
+  var TRANSFORM_EFFECTS = {'翠雀':'transformCuicui','白玫':'transformBaimei','小锦':'transformXiaojin','薄雪':'transformBaoxue','朝颜':'transformChaoyan'};
+  var SETTINGS_DEFAULTS = { theme:'day', font:'wenkai', fontSize:18, motion:'on' };
+  var settingsState = {};
+  var ASSETS = decodeAssets();
+
+  function decodeAssets() {
+    try {
+      var encoded = document.getElementById('mg-assets').textContent.trim();
+      var binary = atob(encoded);
+      var bytes = new Uint8Array(binary.length);
+      for (var index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+      return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+    } catch (error) {
+      return { titleLogo:'', chapterHeaderDay:'', chapterHeaderNight:'', avatars:{}, effects:{} };
+    }
+  }
+
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined && text !== null) node.textContent = String(text);
+    return node;
+  }
+
+  function safeUrl(value) {
+    if (typeof value !== 'string' || !value || /^__URL_/.test(value)) return '';
+    try {
+      var parsed = new URL(value, window.location.href);
+      if (parsed.protocol === 'https:' || parsed.protocol === 'data:' || parsed.protocol === 'blob:') return parsed.href;
+      if (parsed.protocol === 'file:' && window.location.protocol === 'file:') return parsed.href;
+      if (parsed.protocol === 'http:' && parsed.origin === window.location.origin && /^(127\.0\.0\.1|localhost|\[?::1\]?)$/.test(window.location.hostname)) return parsed.href;
+    } catch (error) { return ''; }
+    return '';
+  }
+
+  function firstCharacter(name) {
+    var chars = Array.from(String(name || '').trim());
+    return chars.length ? chars[0] : '角';
+  }
+
+  function toneForName(name) {
+    var hash = 2166136261;
+    var input = String(name || '角色');
+    for (var index = 0; index < input.length; index += 1) {
+      hash ^= input.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return Math.abs(hash >>> 0) % 8;
+  }
+
+  function normalizeEmotion(value) {
+    var key = String(value || '').trim();
+    return EMOTION_ALIASES[key] || '平和';
+  }
+
+  function appendInlineText(container, text) {
+    var input = String(text || '');
+    var pattern = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
+    var cursor = 0;
+    var match;
+    while ((match = pattern.exec(input)) !== null) {
+      if (match.index > cursor) container.appendChild(document.createTextNode(input.slice(cursor, match.index)));
+      var token = match[0];
+      if (token.slice(0,2) === '**') container.appendChild(el('strong','',token.slice(2,-2)));
+      else container.appendChild(el('em','',token.slice(1,-1)));
+      cursor = match.index + token.length;
+    }
+    if (cursor < input.length) container.appendChild(document.createTextNode(input.slice(cursor)));
+  }
+
+  function createImage(url, className, alt) {
+    var src = safeUrl(url);
+    if (!src) return null;
+    var image = el('img',className);
+    image.src = src;
+    image.alt = alt || '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    return image;
+  }
+
+  function renderBrand() {
+    var brand = document.getElementById('mg-brand');
+    var fallback = el('div','mg-logo-fallback');
+    fallback.appendChild(el('strong','', '下班，然后变成魔法少女'));
+    fallback.appendChild(el('small','', 'GET OFF WORK · BECOME MAGICAL'));
+    var logo = createImage(ASSETS.titleLogo,'mg-logo','下班，然后变成魔法少女');
+    if (!logo) { brand.appendChild(fallback); return; }
+    logo.addEventListener('error', function () { logo.hidden = true; fallback.hidden = false; });
+    logo.addEventListener('load', function () { fallback.hidden = true; });
+    brand.appendChild(logo);
+    brand.appendChild(fallback);
+  }
+
+  function createAvatar(name, emotion) {
+    var shell = el('div','mg-avatar-shell');
+    shell.setAttribute('aria-hidden','true');
+    var fallback = el('span','mg-avatar-fallback',firstCharacter(name));
+    shell.appendChild(fallback);
+    var known = Object.prototype.hasOwnProperty.call(CHARACTER_CLASSES,name);
+    var url = known && ASSETS.avatars && ASSETS.avatars[name] ? ASSETS.avatars[name][emotion] : '';
+    var image = createImage(url,'mg-avatar-image',name + '·' + emotion);
+    if (image) {
+      shell.setAttribute('data-has-image','true');
+      image.addEventListener('error', function () { shell.setAttribute('data-has-image','false'); image.hidden = true; });
+      shell.appendChild(image);
+    } else shell.setAttribute('data-has-image','false');
+    return shell;
+  }
+
+  function isLeapYear(year) {
+    return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+  }
+
+  function validQueenDate(year,month,day) {
+    if (!Number.isInteger(year) || year < 1 || year > 9999) return false;
+    if (!Number.isInteger(month) || month < 1 || month > 12) return false;
+    var days = [31,isLeapYear(year) ? 29 : 28,31,30,31,30,31,31,30,31,30,31];
+    return Number.isInteger(day) && day >= 1 && day <= days[month - 1];
+  }
+
+  function parseChapterLine(line) {
+    var raw = String(line || '').trim();
+    var outer = raw.match(/^<chapter>([\s\S]*?)<\/chapter>$/i);
+    if (!outer) return { status:'invalid',raw:raw };
+    var value = outer[1].trim();
+    var match = value.match(/^剧情\s*·\s*卷(\d+)\s*幕(\d{1,2})\s*·\s*([^<>|]+?)\s*\|\s*女王历(\d{4})年(\d{1,2})月(\d{1,2})日$/);
+    if (!match) return { status:'invalid',raw:raw };
+    var volume = Number(match[1]);
+    var actNumber = Number(match[2]);
+    var title = match[3].trim();
+    var year = Number(match[4]);
+    var month = Number(match[5]);
+    var day = Number(match[6]);
+    if (!Number.isSafeInteger(volume) || volume < 1 || !Number.isInteger(actNumber) || actNumber < 0 || actNumber > 99 || !title || !validQueenDate(year,month,day)) {
+      return { status:'invalid',raw:raw };
+    }
+    return {
+      status:'valid',
+      volume:String(volume),
+      act:String(actNumber).padStart(2,'0'),
+      title:title,
+      year:String(year).padStart(4,'0'),
+      month:String(month),
+      day:String(day)
+    };
+  }
+
+  function addChapterArt(container,key,className) {
+    var image = createImage(ASSETS[key],'mg-chapter-art ' + className,'');
+    if (!image) return;
+    image.loading = 'eager';
+    image.setAttribute('aria-hidden','true');
+    image.addEventListener('error',function () { image.hidden = true; });
+    container.appendChild(image);
+  }
+
+  function renderChapter(info) {
+    var status = info && info.status ? info.status : 'missing';
+    var card = el('section','mg-chapter mg-chapter--' + status);
+    card.dataset.status = status;
+    addChapterArt(card,'chapterHeaderDay','mg-chapter-art--day');
+    addChapterArt(card,'chapterHeaderNight','mg-chapter-art--night');
+    card.appendChild(el('span','mg-chapter-shine'));
+
+    if (status === 'valid') {
+      card.dataset.volume = info.volume;
+      card.dataset.act = info.act;
+      card.dataset.date = info.year + '-' + info.month + '-' + info.day;
+      var content = el('div','mg-chapter-content');
+      var main = el('div','mg-chapter-main');
+      main.appendChild(el('span','mg-chapter-kicker','剧情'));
+      main.appendChild(el('span','mg-chapter-separator','·'));
+      main.appendChild(el('span','mg-chapter-index','卷' + info.volume + '幕' + info.act));
+      main.appendChild(el('span','mg-chapter-separator','·'));
+      main.appendChild(el('strong','mg-chapter-title',info.title));
+      content.appendChild(main);
+      content.appendChild(el('span','mg-chapter-divider','|'));
+      content.appendChild(el('span','mg-chapter-date','女王历' + info.year + '年' + info.month + '月' + info.day + '日'));
+      card.setAttribute('aria-label','剧情·卷' + info.volume + '幕' + info.act + '·' + info.title + ' | 女王历' + info.year + '年' + info.month + '月' + info.day + '日');
+      card.appendChild(content);
+    } else if (status === 'invalid') {
+      card.setAttribute('aria-label','卷幕信息格式错误');
+      card.appendChild(el('div','mg-chapter-raw',info.raw));
+    } else {
+      card.setAttribute('aria-label','卷幕信息待补全');
+      card.appendChild(el('div','mg-chapter-content','剧情·卷幕信息待补全'));
+    }
+    CONTENT.appendChild(card);
+  }
+
+  function renderNarrative(lines) {
+    if (!lines.length) return;
+    var paragraph = el('p','mg-narrative');
+    appendInlineText(paragraph,lines.join('\n'));
+    CONTENT.appendChild(paragraph);
+  }
+
+  function renderDialogue(entry) {
+    var wrapper;
+    if (entry.name === '#') {
+      wrapper = el('section','mg-dialogue mg-dialogue--user');
+      var userBody = el('div','mg-dialogue-body');
+      var userBubble = el('div','mg-bubble');
+      entry.lines.forEach(function (line) { var row = el('p','mg-dialogue-line'); appendInlineText(row,line); userBubble.appendChild(row); });
+      userBody.appendChild(userBubble);
+      wrapper.appendChild(userBody);
+      CONTENT.appendChild(wrapper);
+      return;
+    }
+
+    var knownClass = CHARACTER_CLASSES[entry.name];
+    var toneClass = knownClass || ('tone-' + toneForName(entry.name));
+    wrapper = el('section','mg-dialogue ' + toneClass);
+    wrapper.dataset.character = entry.name;
+    wrapper.dataset.emotion = entry.emotion;
+    wrapper.appendChild(createAvatar(entry.name,entry.emotion));
+    var body = el('div','mg-dialogue-body');
+    body.appendChild(el('div','mg-character-name',entry.name));
+    var bubble = el('div','mg-bubble');
+    entry.lines.forEach(function (line) { var row = el('p','mg-dialogue-line'); appendInlineText(row,line); bubble.appendChild(row); });
+    body.appendChild(bubble);
+    wrapper.appendChild(body);
+    CONTENT.appendChild(wrapper);
+  }
+
+  function addEffectImage(container,key) {
+    if (!key || !ASSETS.effects) return;
+    var image = createImage(ASSETS.effects[key],'mg-effect-image','');
+    if (!image) return;
+    image.addEventListener('error',function () { image.hidden = true; });
+    container.appendChild(image);
+  }
+
+  function renderScene(title) {
+    var scene = el('section','mg-scene');
+    addEffectImage(scene,'sceneStardust');
+    addEffectImage(scene,'sceneThreadSweep');
+    scene.appendChild(el('div','mg-scene-title',title));
+    CONTENT.appendChild(scene);
+  }
+
+  function moveEffectFor(name) {
+    var value = String(name || '');
+    if (/忆海|百记|忆记|复现|记录|笔记|朝颜/.test(value)) return 'memoryArchive';
+    if (/同命/.test(value)) return 'sameFate';
+    if (/盾|庇护|屏障|防御|埃癸斯/.test(value)) return 'shield';
+    if (/镜|引离|反射|折射/.test(value)) return 'mirror';
+    if (/枪|长枪|突刺|贯穿|萨里沙/.test(value)) return 'spear';
+    if (/拳|重击|冲击|塞斯特斯/.test(value)) return 'impact';
+    if (/剑|剪|斩|切|劈|格拉迪乌斯|哈尔帕|科庇斯/.test(value)) return 'slash';
+    if (/治愈|活化|恢复/.test(value)) return 'healing';
+    if (/音|天音|八音盒/.test(value)) return 'music';
+    if (/白|焰|灼|炽/.test(value)) return 'whiteFlame';
+    return 'genericBurst';
+  }
+
+  function renderMove(character,name) {
+    var card = el('section','mg-callout mg-move');
+    card.dataset.character = character;
+    addEffectImage(card,CHARACTER_AURAS[character] || 'magicCircle');
+    addEffectImage(card,moveEffectFor(name));
+    var content = el('div','mg-callout-content');
+    content.appendChild(el('span','mg-callout-kicker',character + ' · 招式展开'));
+    content.appendChild(el('strong','mg-callout-name',name));
+    card.appendChild(content);
+    CONTENT.appendChild(card);
+  }
+
+  function renderTransform(character) {
+    var card = el('section','mg-callout mg-transform');
+    card.dataset.character = character;
+    addEffectImage(card,TRANSFORM_EFFECTS[character] || 'magicCircle');
+    var content = el('div','mg-callout-content');
+    content.appendChild(el('span','mg-callout-kicker','MAGICAL TRANSFORMATION'));
+    content.appendChild(el('strong','mg-callout-name',character));
+    card.appendChild(content);
+    CONTENT.appendChild(card);
+  }
+
+  function parseDialogue(line) {
+    var match = line.match(/^\{([^{}]+)\}\s*(.+)$/);
+    if (!match) return null;
+    var head = match[1].trim();
+    var body = match[2].trim();
+    if (!body) return null;
+    if (head === '#') return { name:'#',emotion:'平和',body:body };
+    var divider = head.indexOf('|');
+    var name = divider === -1 ? head : head.slice(0,divider).trim();
+    var rawEmotion = divider === -1 ? '' : head.slice(divider + 1).trim();
+    if (!name) return null;
+    return { name:name,emotion:normalizeEmotion(rawEmotion),body:body };
+  }
+
+  function renderSource(raw) {
+    CONTENT.textContent = '';
+    var text = String(raw || '').replace(/\r\n?/g,'\n').trim();
+    if (!text) {
+      renderChapter({ status:'missing' });
+      CONTENT.appendChild(el('div','mg-empty','本页尚无正文'));
+      return;
+    }
+    var lines = text.split('\n');
+    var firstLine = lines[0].trim();
+    if (/^<chapter\b/i.test(firstLine) || /<\/chapter>\s*$/i.test(firstLine)) {
+      renderChapter(parseChapterLine(firstLine));
+      lines.shift();
+    } else renderChapter({ status:'missing' });
+    var narrative = [];
+    var pending = null;
+
+    function flushNarrative() { renderNarrative(narrative); narrative = []; }
+    function flushDialogue() { if (pending) renderDialogue(pending); pending = null; }
+    function flushAll() { flushNarrative(); flushDialogue(); }
+
+    lines.forEach(function (sourceLine) {
+      var line = sourceLine.trim();
+      if (!line) { flushAll(); return; }
+
+      var scene = line.match(/^<scene>\s*([^<>]+?)\s*<\/scene>$/i);
+      if (scene) { flushAll(); renderScene(scene[1]); return; }
+      var move = line.match(/^<move>\s*([^|<>]+?)\s*\|\s*([^<>]+?)\s*<\/move>$/i);
+      if (move) { flushAll(); renderMove(move[1].trim(),move[2].trim()); return; }
+      var transform = line.match(/^<transform>\s*([^<>]+?)\s*<\/transform>$/i);
+      if (transform) { flushAll(); renderTransform(transform[1].trim()); return; }
+
+      var dialogue = parseDialogue(line);
+      if (dialogue) {
+        flushNarrative();
+        if (pending && pending.name === dialogue.name && pending.emotion === dialogue.emotion) pending.lines.push(dialogue.body);
+        else { flushDialogue(); pending = { name:dialogue.name,emotion:dialogue.emotion,lines:[dialogue.body] }; }
+        return;
+      }
+      flushDialogue();
+      narrative.push(line);
+    });
+    flushAll();
+  }
+
+  function storageGet(key) {
+    try { return localStorage.getItem(STORAGE_PREFIX + key); } catch (error) { return null; }
+  }
+  function storageSet(key,value) {
+    try { localStorage.setItem(STORAGE_PREFIX + key,String(value)); } catch (error) { return; }
+  }
+  function initialSettings() {
+    var prefersDark = false;
+    var reduceMotion = false;
+    try { prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches; } catch (error) { prefersDark = false; }
+    try { reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (error) { reduceMotion = false; }
+    SETTINGS_DEFAULTS.theme = prefersDark ? 'night' : 'day';
+    SETTINGS_DEFAULTS.motion = reduceMotion ? 'off' : 'on';
+    var storedSize = Number(storageGet('fontSize'));
+    return {
+      theme:['day','night'].includes(storageGet('theme')) ? storageGet('theme') : SETTINGS_DEFAULTS.theme,
+      font:['wenkai','serif','sans','system'].includes(storageGet('font')) ? storageGet('font') : SETTINGS_DEFAULTS.font,
+      fontSize:Number.isFinite(storedSize) && storedSize >= 14 && storedSize <= 24 ? storedSize : SETTINGS_DEFAULTS.fontSize,
+      motion:['on','off'].includes(storageGet('motion')) ? storageGet('motion') : SETTINGS_DEFAULTS.motion
+    };
+  }
+  function applySettings(next) {
+    settingsState = Object.assign({},settingsState,next || {});
+    settingsState.fontSize = Math.max(14,Math.min(24,Number(settingsState.fontSize) || 18));
+    APP.dataset.theme = settingsState.theme;
+    APP.dataset.font = settingsState.font;
+    APP.dataset.fontSize = String(settingsState.fontSize);
+    APP.dataset.motion = settingsState.motion;
+    SIZE_OUTPUT.textContent = String(settingsState.fontSize) + 'px';
+    document.querySelectorAll('[data-theme-choice]').forEach(function (button) { button.setAttribute('aria-pressed',String(button.dataset.themeChoice === settingsState.theme)); });
+    document.querySelectorAll('[data-font-choice]').forEach(function (button) { button.setAttribute('aria-pressed',String(button.dataset.fontChoice === settingsState.font)); });
+    document.querySelector('[data-motion-toggle]').setAttribute('aria-pressed',String(settingsState.motion === 'on'));
+  }
+  function saveSetting(key,value) {
+    var next = {};
+    next[key] = value;
+    applySettings(next);
+    storageSet(key,value);
+    if (CHANNEL) { try { CHANNEL.postMessage({ key:key,value:value }); } catch (error) { return; } }
+  }
+  function openSettings() {
+    SETTINGS.hidden = false;
+    SETTINGS_BUTTON.setAttribute('aria-expanded','true');
+    SETTINGS.querySelector('button').focus();
+  }
+  function closeSettings(restoreFocus) {
+    SETTINGS.hidden = true;
+    SETTINGS_BUTTON.setAttribute('aria-expanded','false');
+    if (restoreFocus) SETTINGS_BUTTON.focus();
+  }
+  function bindSettings() {
+    SETTINGS_BUTTON.addEventListener('click',function () { if (SETTINGS.hidden) openSettings(); else closeSettings(false); });
+    document.querySelector('[data-action="close-settings"]').addEventListener('click',function () { closeSettings(true); });
+    document.querySelectorAll('[data-theme-choice]').forEach(function (button) { button.addEventListener('click',function () { saveSetting('theme',button.dataset.themeChoice); }); });
+    document.querySelectorAll('[data-font-choice]').forEach(function (button) { button.addEventListener('click',function () { saveSetting('font',button.dataset.fontChoice); }); });
+    document.querySelector('[data-size-action="decrease"]').addEventListener('click',function () { saveSetting('fontSize',Math.max(14,settingsState.fontSize - 1)); });
+    document.querySelector('[data-size-action="increase"]').addEventListener('click',function () { saveSetting('fontSize',Math.min(24,settingsState.fontSize + 1)); });
+    document.querySelector('[data-motion-toggle]').addEventListener('click',function () { saveSetting('motion',settingsState.motion === 'on' ? 'off' : 'on'); });
+    document.addEventListener('keydown',function (event) { if (event.key === 'Escape' && !SETTINGS.hidden) closeSettings(true); });
+    document.addEventListener('click',function (event) { if (!SETTINGS.hidden && !SETTINGS.contains(event.target) && !SETTINGS_BUTTON.contains(event.target)) closeSettings(false); });
+    window.addEventListener('storage',function (event) {
+      if (!event.key || event.key.indexOf(STORAGE_PREFIX) !== 0) return;
+      var key = event.key.slice(STORAGE_PREFIX.length);
+      var next = {};
+      next[key] = key === 'fontSize' ? Number(event.newValue) : event.newValue;
+      applySettings(next);
+    });
+    try {
+      CHANNEL = new BroadcastChannel('mg-prose-settings');
+      CHANNEL.addEventListener('message',function (event) { if (!event.data || !event.data.key) return; var next = {}; next[event.data.key] = event.data.value; applySettings(next); });
+    } catch (error) { CHANNEL = null; }
+  }
+
+  function boot() {
+    renderBrand();
+    applySettings(initialSettings());
+    bindSettings();
+    renderSource(SOURCE.value);
+    APP.dataset.mgReady = 'true';
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',boot,{ once:true });
+  else boot();
+}());
+</script>
+</body>
+</html>
+```

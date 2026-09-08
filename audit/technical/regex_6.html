@@ -1,0 +1,2134 @@
+```html
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.7.0/style.css">
+<style>
+  :root {
+    --mg-bg-1:#10142f;
+    --mg-bg-2:#1a2050;
+    --mg-bg-3:#2b1e50;
+    --mg-panel:rgba(255,255,255,.045);
+    --mg-panel-strong:rgba(255,255,255,.075);
+    --mg-gold:#d4b66e;
+    --mg-gold-soft:rgba(212,182,110,.34);
+    --mg-pink:#f2a6c8;
+    --mg-blue:#879dff;
+    --mg-text:#f1edff;
+    --mg-muted:#aaa4c8;
+    --mg-dim:#817b9f;
+    --mg-danger:#ff8fa5;
+    --mg-radius:9px;
+    --mg-focus:#ffe18f;
+  }
+  * { box-sizing:border-box; min-width:0; }
+  html,body { margin:0; padding:0; background:transparent; overflow-x:hidden; }
+  body {
+    font-family:'LXGW WenKai Lite','霞鹜文楷',Georgia,'STZhongsong','SimSun',serif;
+    color:var(--mg-text);
+  }
+  button,input { font:inherit; }
+  button { color:inherit; }
+  button:focus-visible,input:focus-visible,summary:focus-visible,[role="button"]:focus-visible {
+    outline:2px solid var(--mg-focus);
+    outline-offset:2px;
+  }
+  [hidden],.hidden { display:none !important; }
+  .sr-only {
+    position:absolute !important; width:1px !important; height:1px !important;
+    padding:0 !important; margin:-1px !important; overflow:hidden !important;
+    clip:rect(0,0,0,0) !important; white-space:nowrap !important; border:0 !important;
+  }
+  .sb {
+    --role-accent:#8ea9ff;
+    --role-soft:rgba(142,169,255,.16);
+    position:relative;
+    width:100%;
+    max-width:720px;
+    margin:8px auto;
+    padding:20px 18px 14px;
+    overflow:hidden;
+    border:1px solid var(--mg-gold);
+    border-radius:13px;
+    background:
+      radial-gradient(circle at 8% 0%,rgba(242,166,200,.11),transparent 28%),
+      radial-gradient(circle at 90% 18%,rgba(135,157,255,.13),transparent 30%),
+      linear-gradient(165deg,var(--mg-bg-1),var(--mg-bg-2) 56%,var(--mg-bg-3));
+    box-shadow:
+      inset 0 0 0 1px rgba(212,182,110,.2),
+      inset 0 0 44px rgba(4,7,27,.32),
+      0 8px 28px rgba(0,0,0,.46);
+    font-size:13px;
+    line-height:1.55;
+    isolation:isolate;
+  }
+  .sb.battle-mode { border-color:#d98aa4; box-shadow:inset 0 0 0 1px rgba(224,106,138,.25),0 8px 28px rgba(0,0,0,.48),0 0 20px rgba(224,106,138,.18); }
+  .corner { position:absolute; width:24px; height:24px; border:1px solid var(--mg-gold); z-index:3; pointer-events:none; }
+  .battle-mode .corner { border-color:#e28da5; }
+  .c-tl { top:6px; left:6px; border-right:0; border-bottom:0; }
+  .c-tr { top:6px; right:6px; border-left:0; border-bottom:0; }
+  .c-bl { bottom:6px; left:6px; border-right:0; border-top:0; }
+  .c-br { bottom:6px; right:6px; border-left:0; border-top:0; }
+  .magic-circle {
+    position:absolute; z-index:-1; top:-112px; left:50%; width:300px; height:300px;
+    transform:translateX(-50%); border:1px dashed rgba(212,182,110,.28);
+    border-radius:50%; animation:mg-spin 90s linear infinite; pointer-events:none;
+  }
+  .magic-circle::before,.magic-circle::after { content:''; position:absolute; border-radius:50%; }
+  .magic-circle::before { inset:24px; border:1px solid rgba(212,182,110,.17); }
+  .magic-circle::after { inset:54px; border:1px dotted rgba(242,166,200,.2); }
+  @keyframes mg-spin { to { transform:translateX(-50%) rotate(360deg); } }
+
+  .summary { position:relative; padding:2px 2px 15px; border-bottom:1px solid var(--mg-gold-soft); }
+  .summary-tools {
+    display:flex; justify-content:flex-end; align-items:center; gap:6px; min-height:40px;
+  }
+  .sync-status {
+    margin-right:auto; display:inline-flex; align-items:center; gap:6px;
+    color:var(--mg-muted); font-size:10px; letter-spacing:1px;
+  }
+  .sync-status::before { content:''; width:6px; height:6px; border-radius:50%; background:#7cc9aa; box-shadow:0 0 7px rgba(124,201,170,.8); }
+  .sync-status[data-state="loading"]::before { background:var(--mg-gold); animation:mg-pulse 1.3s ease-in-out infinite; }
+  .sync-status[data-state="error"]::before { background:var(--mg-danger); }
+  @keyframes mg-pulse { 50% { opacity:.35; } }
+  .icon-button {
+    width:40px; height:40px; display:inline-grid; place-items:center; flex:0 0 auto;
+    border:1px solid rgba(212,182,110,.35); border-radius:50%;
+    background:rgba(255,255,255,.04); cursor:pointer; transition:.18s ease;
+  }
+  .icon-button:hover { border-color:var(--mg-gold); background:rgba(212,182,110,.1); transform:translateY(-1px); }
+  .world-date { text-align:center; color:#d4c79f; font-size:11px; letter-spacing:2.2px; overflow-wrap:anywhere; }
+  .world-place { margin-top:4px; text-align:center; font-size:19px; letter-spacing:2.4px; color:#fff; text-shadow:0 0 15px rgba(135,157,255,.32); overflow-wrap:anywhere; }
+  .world-scene { margin:3px auto 0; max-width:620px; text-align:center; color:var(--mg-muted); font-size:11px; overflow-wrap:anywhere; }
+  .node-line { display:flex; justify-content:center; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap; }
+  .node-badge {
+    padding:3px 12px; border:1px solid rgba(212,182,110,.48); border-radius:999px;
+    color:#f1d98f; background:rgba(212,182,110,.075); font-size:10px; letter-spacing:1.3px;
+    overflow-wrap:anywhere;
+  }
+  .summary-user {
+    display:grid; grid-template-columns:48px minmax(0,1fr) minmax(94px,150px);
+    align-items:center; gap:11px; margin-top:13px; padding:9px 12px;
+    border:1px solid rgba(212,182,110,.24); border-radius:var(--mg-radius);
+    background:rgba(7,10,34,.32);
+  }
+  .summary-user-meta strong { display:block; color:#fff; font-size:15px; letter-spacing:1.5px; overflow-wrap:anywhere; }
+  .summary-user-meta span { display:block; color:var(--mg-muted); font-size:10px; margin-top:1px; overflow-wrap:anywhere; }
+  .mini-mana { align-self:center; }
+  .mini-mana-label { display:flex; justify-content:space-between; gap:8px; color:var(--mg-muted); font-size:9px; letter-spacing:1px; }
+  .track { position:relative; height:7px; margin-top:4px; overflow:hidden; border:1px solid rgba(212,182,110,.25); border-radius:99px; background:rgba(255,255,255,.07); }
+  .fill { display:block; height:100%; width:0; border-radius:inherit; background:linear-gradient(90deg,var(--mg-pink),#ae91e7,var(--mg-blue)); box-shadow:0 0 8px rgba(174,145,231,.58); transition:width .45s ease; }
+  .sb[data-collapsed="true"] .hud-content { display:none; }
+  .sb[data-collapsed="true"] { padding-bottom:18px; }
+  .sb[data-collapsed="true"] .summary { border-bottom:0; padding-bottom:0; }
+
+  .tabs {
+    display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:6px;
+    margin:13px 0 12px; padding:5px; border:1px solid rgba(212,182,110,.23);
+    border-radius:11px; background:rgba(5,8,28,.28);
+  }
+  .tab {
+    min-height:44px; padding:7px 6px; border:1px solid transparent; border-radius:7px;
+    background:transparent; color:var(--mg-muted); cursor:pointer; letter-spacing:1px;
+    transition:.18s ease;
+  }
+  .tab:hover { color:#fff; background:rgba(255,255,255,.045); }
+  .tab[aria-selected="true"] {
+    color:#fff; border-color:rgba(242,166,200,.45);
+    background:linear-gradient(135deg,rgba(242,166,200,.13),rgba(135,157,255,.12));
+    box-shadow:inset 0 0 14px rgba(135,157,255,.08);
+  }
+  .tab-icon { display:block; color:var(--mg-gold); font-size:15px; line-height:1; margin-bottom:2px; }
+  .panel { min-height:170px; }
+  .panel-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:10px; margin:2px 0 10px; }
+  .panel-heading h2 { margin:0; font-size:14px; font-weight:500; color:#fff; letter-spacing:2px; }
+  .panel-heading p { margin:0; color:var(--mg-dim); font-size:9px; text-align:right; }
+  .section {
+    margin:10px 0; padding:11px; border:1px solid rgba(212,182,110,.25);
+    border-radius:var(--mg-radius); background:var(--mg-panel);
+  }
+  .section-title {
+    display:flex; align-items:center; gap:8px; margin:0 0 9px;
+    color:#d8c58d; font-size:10px; letter-spacing:2px; font-weight:400;
+  }
+  .section-title::after { content:''; height:1px; flex:1; background:linear-gradient(90deg,rgba(212,182,110,.34),transparent); }
+  .field-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(145px,1fr)); gap:7px; }
+  .field {
+    padding:7px 9px; border:1px solid rgba(212,182,110,.16); border-radius:6px;
+    background:rgba(255,255,255,.025); overflow:hidden;
+  }
+  .field.wide { grid-column:1/-1; }
+  .field-label { display:block; color:var(--mg-dim); font-size:9px; letter-spacing:1.3px; }
+  .field-value { display:block; margin-top:2px; color:#e8e3f8; font-size:11.5px; overflow-wrap:anywhere; white-space:pre-wrap; }
+  .profile-head { display:flex; align-items:center; gap:15px; padding:4px 2px 12px; }
+  .profile-head-main { flex:1; }
+  .profile-title { margin:0; font-size:22px; font-weight:500; letter-spacing:3px; color:#fff; text-shadow:0 0 12px rgba(242,166,200,.32); overflow-wrap:anywhere; }
+  .profile-sub { margin-top:2px; color:var(--mg-muted); font-size:11px; overflow-wrap:anywhere; }
+  .badges,.chips { display:flex; gap:6px; flex-wrap:wrap; margin-top:7px; }
+  .badge,.chip {
+    display:inline-flex; align-items:center; min-height:24px; padding:2px 8px; border-radius:99px;
+    font-size:9px; overflow-wrap:anywhere;
+  }
+  .badge { color:#ffe1ed; border:1px solid rgba(242,166,200,.42); background:rgba(242,166,200,.09); }
+  .chip { color:#d9d3ed; border:1px dashed rgba(135,157,255,.35); background:rgba(135,157,255,.06); }
+  .bloom { display:flex; align-items:center; gap:5px; margin-top:8px; color:var(--mg-muted); font-size:9px; letter-spacing:1px; }
+  .petal { width:13px; height:13px; display:grid; place-items:center; color:#6f698e; font-size:12px; }
+  .petal.on { color:var(--mg-pink); text-shadow:0 0 8px rgba(242,166,200,.7); }
+  .mana-large { margin:8px 0 12px; }
+  .mana-large .track { height:10px; }
+  .mana-large-label { display:flex; justify-content:space-between; gap:8px; color:#d5c58e; font-size:10px; letter-spacing:1.5px; }
+  .gear-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+  .gear-card { padding:10px; border:1px solid rgba(212,182,110,.2); border-radius:7px; background:rgba(255,255,255,.025); }
+  .gear-card h3 { margin:0 0 6px; color:#f2d990; font-size:11px; font-weight:400; letter-spacing:2px; }
+
+  .character-toolbar {
+    display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; align-items:center; margin-bottom:10px;
+  }
+  .search {
+    width:100%; min-height:42px; padding:8px 12px; border:1px solid rgba(212,182,110,.28);
+    border-radius:8px; background:rgba(5,8,28,.42); color:#fff;
+  }
+  .search::placeholder { color:#77718f; }
+  .filter-group { display:flex; gap:4px; padding:3px; border:1px solid rgba(212,182,110,.2); border-radius:8px; }
+  .filter {
+    min-height:36px; padding:5px 10px; border:0; border-radius:6px; background:transparent;
+    color:var(--mg-muted); cursor:pointer;
+  }
+  .filter[aria-pressed="true"] { color:#fff; background:rgba(135,157,255,.16); }
+  .character-group-title { display:flex; justify-content:space-between; margin:12px 1px 7px; color:#d6c487; font-size:10px; letter-spacing:2px; }
+  .character-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(245px,1fr)); gap:8px; }
+  .character-card {
+    display:grid; grid-template-columns:50px minmax(0,1fr); gap:10px; align-items:start;
+    padding:10px; border:1px solid rgba(212,182,110,.27); border-radius:8px;
+    background:rgba(255,255,255,.035); cursor:pointer; transition:.18s ease;
+  }
+  .character-card:hover { border-color:rgba(242,166,200,.5); background:rgba(255,255,255,.06); transform:translateY(-1px); }
+  .character-card.away { opacity:.84; border-style:dashed; }
+  .character-meta { min-width:0; }
+  .character-name { display:flex; align-items:baseline; gap:7px; flex-wrap:wrap; }
+  .character-name strong { color:#fff; font-size:14px; letter-spacing:1.4px; overflow-wrap:anywhere; }
+  .presence { color:var(--mg-dim); font-size:9px; }
+  .character-sub,.character-action { margin-top:2px; color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; }
+  .character-action { color:#d5cfe7; }
+  .character-card .track { height:5px; margin-top:6px; }
+  .relation-line { display:flex; align-items:center; gap:6px; margin-top:6px; color:#dcb5ca; font-size:9px; overflow-wrap:anywhere; }
+  .empty-note { padding:24px 12px; text-align:center; color:var(--mg-muted); letter-spacing:1px; }
+
+  .bond {
+    margin-top:8px; padding:8px 9px; border:1px solid color-mix(in srgb,var(--role-accent) 36%,transparent);
+    border-radius:7px; background:var(--role-soft);
+  }
+  .bond.compact { margin-top:6px; padding:5px 7px; }
+  .bond-label { display:flex; justify-content:space-between; gap:8px; color:#f5e9ff; font-size:10px; overflow-wrap:anywhere; }
+  .bond-label strong { color:var(--role-accent); font-weight:500; }
+  .bond .track { border-color:color-mix(in srgb,var(--role-accent) 40%,transparent); }
+  .bond .fill { background:linear-gradient(90deg,var(--mg-pink),var(--role-accent)); box-shadow:0 0 9px color-mix(in srgb,var(--role-accent) 52%,transparent); }
+
+  .avatar-button {
+    position:relative; display:grid; place-items:center; width:68px; height:68px; padding:0;
+    overflow:hidden; flex:0 0 auto; border:2px solid #1a1e47; border-radius:50%;
+    outline:1px solid var(--mg-gold); background:radial-gradient(circle at 32% 25%,#eda4c7,#7186db 72%);
+    color:#fff; cursor:pointer; box-shadow:0 0 14px rgba(135,157,255,.2);
+  }
+  .avatar-button.small { width:48px; height:48px; border-width:1px; font-size:15px; }
+  .avatar-button.medium { width:56px; height:56px; }
+  .avatar-button:hover::after,.avatar-button:focus-visible::after {
+    content:'✎'; position:absolute; inset:auto 0 0; padding:1px 0 3px;
+    background:rgba(5,8,28,.74); color:#fff; font-size:10px;
+  }
+  .avatar-button img,.avatar-preview img {
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+    transform-origin:center; pointer-events:none;
+  }
+  .avatar-fallback { position:relative; z-index:0; font-size:24px; text-shadow:0 1px 4px rgba(30,15,60,.6); }
+  .avatar-button.small .avatar-fallback { font-size:17px; }
+  .avatar-button.tf { box-shadow:0 0 0 2px rgba(242,166,200,.22),0 0 18px rgba(242,166,200,.47); }
+
+  .drawer-hero {
+    display:grid; grid-template-columns:minmax(170px,220px) minmax(0,1fr); gap:15px;
+    align-items:start; margin-bottom:12px;
+  }
+  .portrait-feature { min-width:0; }
+  .profile-head > .portrait-feature { width:142px; flex:0 0 142px; }
+  .drawer-hero > .portrait-feature { width:auto; }
+  .portrait-stage {
+    position:relative; display:grid; place-items:center; width:100%; aspect-ratio:4/5; padding:0;
+    overflow:hidden; border:1px solid var(--role-accent); border-radius:12px;
+    background:
+      radial-gradient(circle at 50% 18%,color-mix(in srgb,var(--role-accent) 26%,transparent),transparent 48%),
+      linear-gradient(155deg,#171c45,#28204a);
+    box-shadow:inset 0 0 30px rgba(5,8,28,.42),0 0 18px color-mix(in srgb,var(--role-accent) 20%,transparent);
+    color:#fff;
+  }
+  button.portrait-stage { cursor:pointer; }
+  .portrait-stage img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; }
+  .portrait-stage img,.cg-media img,.lightbox-stage img { transition:opacity .18s ease,transform .22s ease; }
+  img[data-image-loading] { opacity:0; }
+  .portrait-stage .avatar-fallback { font-size:48px; }
+  .portrait-form {
+    position:absolute; z-index:2; left:8px; bottom:8px; max-width:calc(100% - 16px);
+    padding:4px 9px; border:1px solid rgba(255,255,255,.35); border-radius:99px;
+    background:rgba(7,10,34,.78); color:#fff; font-size:9px; overflow-wrap:anywhere;
+  }
+  .portrait-toggle-note { margin:6px 2px 0; color:var(--mg-muted); font-size:9px; text-align:center; }
+  .portrait-tools { display:flex; justify-content:center; margin-top:7px; }
+  .portrait-settings {
+    min-height:44px; display:inline-flex; align-items:center; justify-content:center; gap:6px;
+    padding:6px 11px; border:1px solid rgba(212,182,110,.32); border-radius:8px;
+    background:rgba(255,255,255,.04); color:var(--mg-muted); cursor:pointer;
+  }
+  .portrait-settings:hover { color:#fff; border-color:var(--mg-gold); }
+  .drawer-identity strong { display:block; color:#fff; font-size:20px; letter-spacing:2px; overflow-wrap:anywhere; }
+  .drawer-identity > span { display:block; margin-top:3px; color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; }
+
+  .gallery-role-strip {
+    display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:6px; margin-bottom:11px;
+  }
+  .gallery-role {
+    min-height:46px; padding:6px 5px; border:1px solid rgba(212,182,110,.22); border-radius:8px;
+    background:rgba(255,255,255,.028); color:var(--mg-muted); cursor:pointer;
+    font-size:9px; line-height:1.3; overflow-wrap:anywhere;
+  }
+  .gallery-role strong { display:block; color:#fff; font-size:11px; font-weight:500; }
+  .gallery-role[aria-pressed="true"] {
+    border-color:var(--role-accent); background:var(--role-soft); color:#fff;
+    box-shadow:inset 0 0 14px color-mix(in srgb,var(--role-accent) 13%,transparent);
+  }
+  .gallery-role.anonymous { cursor:default; border-style:dashed; color:var(--mg-dim); }
+  .gallery-overview {
+    display:grid; grid-template-columns:minmax(0,1fr) auto; gap:10px; align-items:center;
+    margin-bottom:10px; padding:10px 11px; border:1px solid color-mix(in srgb,var(--role-accent) 32%,transparent);
+    border-radius:9px; background:var(--role-soft);
+  }
+  .gallery-overview h3 { margin:0; color:#fff; font-size:16px; font-weight:500; letter-spacing:1.5px; overflow-wrap:anywhere; }
+  .gallery-overview p { margin:2px 0 0; color:var(--mg-muted); font-size:9px; overflow-wrap:anywhere; }
+  .gallery-count { color:var(--role-accent); font-size:12px; white-space:nowrap; }
+  .cg-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+  .cg-card {
+    position:relative; min-height:168px; overflow:hidden; border:1px solid rgba(212,182,110,.22);
+    border-radius:10px; background:rgba(255,255,255,.025);
+  }
+  .cg-card.unlocked { border-color:color-mix(in srgb,var(--role-accent) 44%,transparent); }
+  .cg-open {
+    display:block; width:100%; padding:0; border:0; background:transparent; text-align:left; cursor:pointer;
+  }
+  .cg-media {
+    position:relative; display:grid; place-items:center; width:100%; aspect-ratio:16/11;
+    overflow:hidden; background:#0d1130;
+  }
+  .cg-media::before { content:'✦'; position:absolute; color:var(--role-accent); font-size:24px; opacity:.55; }
+  .cg-media img { width:100%; height:100%; object-fit:cover; display:block; transition:opacity .18s ease,transform .22s ease; }
+  .cg-open:hover .cg-media img { transform:scale(1.025); }
+  .cg-image-error { padding:14px; color:var(--mg-muted); font-size:10px; text-align:center; }
+  .cg-copy { padding:9px 10px 10px; }
+  .cg-copy > span { display:block; }
+  .cg-id { color:var(--role-accent); font-size:9px; letter-spacing:1px; }
+  .cg-title { margin-top:2px; color:#fff; font-size:13px; overflow-wrap:anywhere; }
+  .cg-unlock-hint { margin-top:5px; color:var(--mg-muted); font-size:9px; line-height:1.45; overflow-wrap:anywhere; }
+  .cg-card.locked {
+    display:flex; flex-direction:column; justify-content:center; padding:14px;
+    background:
+      radial-gradient(circle at 50% 34%,color-mix(in srgb,var(--role-accent) 13%,transparent),transparent 37%),
+      rgba(255,255,255,.018);
+  }
+  .cg-lock-mark { color:var(--role-accent); font-size:28px; text-align:center; text-shadow:0 0 15px color-mix(in srgb,var(--role-accent) 58%,transparent); }
+  .cg-card.locked .cg-copy { padding:6px 0 0; text-align:center; }
+  .recent-cg-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; margin-top:8px; }
+  .recent-cg {
+    padding:7px; border:1px solid rgba(212,182,110,.2); border-radius:7px;
+    background:rgba(255,255,255,.025); color:#e8e3f8; font-size:9px; overflow-wrap:anywhere;
+  }
+  .lightbox-card { width:min(100%,680px); }
+  .lightbox-stage {
+    position:relative; display:grid; place-items:center; min-height:180px; max-height:560px;
+    overflow:hidden; border:1px solid color-mix(in srgb,var(--role-accent) 42%,transparent);
+    border-radius:9px; background:#090d28;
+  }
+  .lightbox-stage img { display:block; max-width:100%; max-height:540px; width:auto; height:auto; object-fit:contain; }
+  .lightbox-caption { margin:9px 0 0; color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; }
+  .lightbox-nav { display:flex; justify-content:center; gap:8px; margin-top:10px; }
+
+  .roll-card { display:grid; grid-template-columns:58px minmax(0,1fr); gap:12px; align-items:center; }
+  .d20 {
+    width:56px; height:56px; display:grid; place-items:center;
+    clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);
+    background:linear-gradient(150deg,#9aabff,#5c6bd8 60%,#3b426f);
+    color:#fff; font-size:19px; text-shadow:0 0 7px #fff;
+  }
+  .verdict { color:#ffd4e4; font-size:15px; letter-spacing:2px; }
+  .roll-detail { margin-top:3px; color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; }
+  .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:8px; }
+  .data-card { padding:10px; border:1px solid rgba(212,182,110,.22); border-radius:7px; background:rgba(255,255,255,.028); }
+  .data-card h3 { margin:0 0 5px; color:#fff; font-size:12px; font-weight:500; overflow-wrap:anywhere; }
+  .data-card p { margin:3px 0 0; color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; white-space:pre-wrap; }
+  .enemy-card { border-color:rgba(224,106,138,.34); background:rgba(224,106,138,.055); }
+  .history { margin:0; padding:0 0 0 20px; color:#d6d0e8; }
+  .history li { margin:5px 0; padding-left:3px; overflow-wrap:anywhere; }
+  details.expandable { border:1px solid rgba(212,182,110,.18); border-radius:7px; background:rgba(255,255,255,.02); }
+  details.expandable > summary { min-height:40px; display:flex; align-items:center; padding:7px 10px; color:#d8c58d; cursor:pointer; letter-spacing:1px; }
+  details.expandable > .details-body { padding:0 10px 10px; }
+  .timeline { position:relative; margin:4px 0 0 7px; padding-left:19px; border-left:1px solid rgba(212,182,110,.35); }
+  .timeline-item { position:relative; margin:0 0 12px; color:#ddd7ee; overflow-wrap:anywhere; }
+  .timeline-item::before { content:'✦'; position:absolute; left:-26px; top:-1px; color:var(--mg-gold); background:#171b43; }
+
+  .extra-details { margin-top:9px; border:1px dashed rgba(135,157,255,.25); border-radius:7px; }
+  .extra-details > summary { padding:7px 9px; color:#aaa8cf; font-size:10px; cursor:pointer; letter-spacing:1px; }
+  .extra-tree { padding:0 9px 9px; }
+  .extra-node { padding:5px 0 5px 10px; border-left:1px solid rgba(135,157,255,.2); overflow-wrap:anywhere; }
+  .extra-key { color:#9caaf0; font-size:9px; letter-spacing:.5px; }
+  .extra-value { margin-left:6px; color:#d4cee7; font-size:10px; white-space:pre-wrap; }
+
+  .overlay {
+    position:absolute; z-index:30; inset:0; display:flex; align-items:flex-start; justify-content:center;
+    padding:12px; background:rgba(5,7,23,.78); backdrop-filter:blur(4px);
+  }
+  .overlay-card {
+    width:min(100%,620px); max-height:calc(100% - 24px); overflow:auto;
+    border:1px solid var(--mg-gold); border-radius:11px;
+    background:linear-gradient(165deg,#171b40,#202452 62%,#291f4d);
+    box-shadow:0 16px 50px rgba(0,0,0,.62); overscroll-behavior:contain;
+  }
+  .overlay-head {
+    position:sticky; z-index:2; top:0; display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:11px 12px; border-bottom:1px solid rgba(212,182,110,.26); background:rgba(23,27,64,.96);
+  }
+  .overlay-head h2 { margin:0; color:#fff; font-size:14px; font-weight:500; letter-spacing:1.5px; overflow-wrap:anywhere; }
+  .overlay-body { padding:12px; }
+  .drawer-profile { display:flex; align-items:center; gap:13px; margin-bottom:11px; }
+  .drawer-profile strong { display:block; color:#fff; font-size:17px; letter-spacing:2px; overflow-wrap:anywhere; }
+  .drawer-profile span { color:var(--mg-muted); font-size:10px; overflow-wrap:anywhere; }
+  .form-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .form-field { display:flex; flex-direction:column; gap:5px; color:#c9c2dc; font-size:10px; }
+  .form-field.wide { grid-column:1/-1; }
+  .form-field input[type="url"] {
+    min-height:42px; width:100%; padding:8px 10px; border:1px solid rgba(212,182,110,.32);
+    border-radius:7px; background:rgba(5,8,28,.5); color:#fff;
+  }
+  .form-field input[type="file"] { width:100%; color:var(--mg-muted); }
+  .range-line { display:grid; grid-template-columns:52px minmax(0,1fr) 38px; align-items:center; gap:7px; }
+  .range-line output { color:#fff; text-align:right; }
+  .avatar-preview {
+    position:relative; width:132px; height:132px; margin:2px auto 13px; overflow:hidden;
+    border:2px solid #1a1e47; outline:1px solid var(--mg-gold); border-radius:50%;
+    background:radial-gradient(circle at 32% 25%,#eda4c7,#7186db 72%);
+    display:grid; place-items:center;
+  }
+  .avatar-preview .avatar-fallback { font-size:42px; }
+  .form-hint { margin:5px 0 0; color:var(--mg-dim); font-size:9px; }
+  .form-error { min-height:20px; margin-top:7px; color:#ffb1c1; font-size:10px; }
+  .dialog-actions { display:flex; justify-content:flex-end; gap:7px; flex-wrap:wrap; margin-top:10px; }
+  .action-button {
+    min-height:40px; padding:7px 13px; border:1px solid rgba(212,182,110,.35);
+    border-radius:7px; background:rgba(255,255,255,.045); color:#e9e4f8; cursor:pointer;
+  }
+  .action-button.primary { border-color:rgba(242,166,200,.55); background:linear-gradient(135deg,rgba(242,166,200,.2),rgba(135,157,255,.16)); color:#fff; }
+  .action-button.danger { color:#ffb1c1; border-color:rgba(255,143,165,.35); }
+  .foot { margin-top:13px; padding-top:9px; border-top:1px solid rgba(212,182,110,.2); text-align:center; color:#777190; font-size:8px; letter-spacing:3px; }
+
+  @media (max-width:560px) {
+    .sb { padding:16px 12px 12px; font-size:12.5px; border-radius:10px; }
+    .summary-user { grid-template-columns:44px minmax(0,1fr); }
+    .summary-user .mini-mana { grid-column:1/-1; }
+    .world-place { font-size:17px; }
+    .character-toolbar { grid-template-columns:1fr; }
+    .filter-group { display:grid; grid-template-columns:repeat(3,1fr); }
+    .gear-grid,.form-grid,.drawer-hero,.cg-grid { grid-template-columns:1fr; }
+    .form-field.wide { grid-column:auto; }
+    .portrait-feature { width:min(100%,250px); margin:0 auto; }
+  }
+  @media (max-width:360px) {
+    .sb { padding-left:9px; padding-right:9px; }
+    .tabs { grid-template-columns:repeat(5,minmax(0,1fr)); gap:3px; padding:3px; }
+    .tab { min-height:44px; padding:5px 2px; font-size:9px; letter-spacing:0; }
+    .character-grid,.card-grid,.field-grid { grid-template-columns:1fr; }
+    .profile-head { align-items:flex-start; gap:11px; }
+    .profile-title { font-size:19px; }
+    .gallery-role-strip { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .gallery-overview { grid-template-columns:1fr; }
+    .recent-cg-grid { grid-template-columns:1fr; }
+    .overlay { padding:7px; }
+    .overlay-card { max-height:calc(100% - 14px); }
+    .range-line { grid-template-columns:46px minmax(0,1fr) 34px; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }
+    .magic-circle { animation:none; }
+  }
+  @supports not (backdrop-filter:blur(4px)) {
+    .overlay { background:rgba(5,7,23,.94); }
+  }
+</style>
+</head>
+<body>
+<section class="sb" id="sb" data-collapsed="false" data-mg-hud-root="v2" aria-label="星夜魔导书状态栏">
+  <div class="corner c-tl"></div><div class="corner c-tr"></div>
+  <div class="corner c-bl"></div><div class="corner c-br"></div>
+  <div class="magic-circle"></div>
+
+  <header class="summary" data-hud-summary>
+    <div class="summary-tools">
+      <span class="sync-status" data-sync-status data-state="loading" aria-live="polite">正在读取星轨…</span>
+      <button class="icon-button" type="button" data-action="refresh" aria-label="手动刷新状态" title="刷新状态">↻</button>
+      <button class="icon-button" type="button" data-action="toggle-hud" aria-label="折叠状态栏" aria-expanded="true" title="折叠或展开">⌃</button>
+    </div>
+    <div class="world-date" id="mg-world-date">—</div>
+    <div class="world-place" id="mg-world-place">方亭市</div>
+    <div class="world-scene" id="mg-world-scene"></div>
+    <div class="node-line"><span class="node-badge" id="mg-main-node">卷一·幕01</span></div>
+    <div class="summary-user" id="mg-summary-user"></div>
+  </header>
+
+  <div class="hud-content" data-hud-content>
+    <nav class="tabs" role="tablist" aria-label="状态栏分区">
+      <button class="tab" type="button" role="tab" id="mg-tab-traveler" aria-controls="mg-panel-traveler" aria-selected="true" tabindex="0" data-hud-tab="traveler"><span class="tab-icon">✦</span>旅 人</button>
+      <button class="tab" type="button" role="tab" id="mg-tab-characters" aria-controls="mg-panel-characters" aria-selected="false" tabindex="-1" data-hud-tab="characters"><span class="tab-icon">❀</span>人 物</button>
+      <button class="tab" type="button" role="tab" id="mg-tab-activity" aria-controls="mg-panel-activity" aria-selected="false" tabindex="-1" data-hud-tab="activity"><span class="tab-icon">⚔</span>事件与物品</button>
+      <button class="tab" type="button" role="tab" id="mg-tab-story" aria-controls="mg-panel-story" aria-selected="false" tabindex="-1" data-hud-tab="story"><span class="tab-icon">⌁</span>主 线</button>
+      <button class="tab" type="button" role="tab" id="mg-tab-gallery" aria-controls="mg-panel-gallery" aria-selected="false" tabindex="-1" data-hud-tab="gallery"><span class="tab-icon">✧</span>羁 绊</button>
+    </nav>
+
+    <main>
+      <section class="panel" role="tabpanel" id="mg-panel-traveler" aria-labelledby="mg-tab-traveler" data-hud-panel="traveler"></section>
+      <section class="panel" role="tabpanel" id="mg-panel-characters" aria-labelledby="mg-tab-characters" data-hud-panel="characters" hidden></section>
+      <section class="panel" role="tabpanel" id="mg-panel-activity" aria-labelledby="mg-tab-activity" data-hud-panel="activity" hidden></section>
+      <section class="panel" role="tabpanel" id="mg-panel-story" aria-labelledby="mg-tab-story" data-hud-panel="story" hidden></section>
+      <section class="panel" role="tabpanel" id="mg-panel-gallery" aria-labelledby="mg-tab-gallery" data-hud-panel="gallery" hidden></section>
+    </main>
+    <footer class="foot">MAGICAL GIRL STATUS · 方亭市魔法侧</footer>
+  </div>
+
+  <div class="overlay" data-character-drawer hidden>
+    <section class="overlay-card" role="dialog" aria-modal="true" aria-labelledby="mg-drawer-title">
+      <header class="overlay-head">
+        <h2 id="mg-drawer-title">人物档案</h2>
+        <button class="icon-button" type="button" data-action="close-character-drawer" aria-label="关闭人物档案">×</button>
+      </header>
+      <div class="overlay-body" data-character-drawer-body></div>
+    </section>
+  </div>
+
+  <div class="overlay" data-avatar-dialog hidden>
+    <section class="overlay-card" role="dialog" aria-modal="true" aria-labelledby="mg-avatar-title">
+      <header class="overlay-head">
+        <h2 id="mg-avatar-title">更换头像</h2>
+        <button class="icon-button" type="button" data-action="close-avatar" aria-label="关闭头像设置">×</button>
+      </header>
+      <div class="overlay-body">
+        <div class="avatar-preview" data-avatar-preview><span class="avatar-fallback">✦</span></div>
+        <div class="form-grid">
+          <label class="form-field wide">图片 URL
+            <input type="url" inputmode="url" autocomplete="off" placeholder="https://…" data-avatar-url>
+            <span class="form-hint">仅接受 HTTPS 图片地址；正则内置头像请直接填写源码中的 URL 槽。</span>
+          </label>
+          <label class="form-field wide">或上传本地图片
+            <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" data-avatar-file>
+            <span class="form-hint">图片仅保存在本机浏览器，并会缩放压缩后存储。</span>
+          </label>
+          <label class="form-field wide">缩放
+            <span class="range-line"><span>倍率</span><input type="range" min="1" max="2" step="0.05" value="1" data-avatar-zoom><output data-avatar-zoom-out>1.00</output></span>
+          </label>
+          <label class="form-field wide">横向焦点
+            <span class="range-line"><span>左右</span><input type="range" min="0" max="100" step="1" value="50" data-avatar-x><output data-avatar-x-out>50</output></span>
+          </label>
+          <label class="form-field wide">纵向焦点
+            <span class="range-line"><span>上下</span><input type="range" min="0" max="100" step="1" value="50" data-avatar-y><output data-avatar-y-out>50</output></span>
+          </label>
+        </div>
+        <div class="form-error" data-avatar-error aria-live="polite"></div>
+        <div class="dialog-actions">
+          <button class="action-button danger" type="button" data-action="reset-avatar">清除本机覆盖</button>
+          <button class="action-button" type="button" data-action="close-avatar">取消</button>
+          <button class="action-button primary" type="button" data-action="save-avatar">保存头像</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="overlay" data-cg-lightbox role="dialog" aria-modal="true" aria-labelledby="mg-lightbox-title" hidden>
+    <section class="overlay-card lightbox-card">
+      <header class="overlay-head">
+        <h2 id="mg-lightbox-title">羁绊回忆</h2>
+        <button class="icon-button" type="button" data-action="close-cg" aria-label="关闭 CG 插图">×</button>
+      </header>
+      <div class="overlay-body">
+        <div class="lightbox-stage" data-cg-lightbox-stage></div>
+        <p class="lightbox-caption" data-cg-lightbox-caption></p>
+        <div class="lightbox-nav">
+          <button class="action-button" type="button" data-action="previous-cg">← 上一张</button>
+          <button class="action-button" type="button" data-action="next-cg">下一张 →</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="sr-only" data-hud-live aria-live="polite"></div>
+</section>
+
+<script type="application/json" id="mg-portrait-catalog">
+{
+  "翠雀": {
+    "realName": "林昀",
+    "codeName": "翠雀",
+    "accent": "#72b8ff",
+    "civilian": "角色立绘/林昀立绘/林昀立绘.png",
+    "transformed": "角色立绘/翠雀立绘/翠雀立绘.png"
+  },
+  "白玫": {
+    "realName": "林小璐",
+    "codeName": "白玫",
+    "accent": "#f2c45e",
+    "civilian": "角色立绘/林小璐立绘/林小璐立绘.png",
+    "transformed": "角色立绘/白玫立绘/白玫立绘.png"
+  },
+  "小锦": {
+    "realName": "夏凉",
+    "codeName": "小锦",
+    "accent": "#aa86ff",
+    "civilian": "角色立绘/夏凉立绘/夏凉立绘.png",
+    "transformed": "角色立绘/小锦立绘/小锦立绘.png"
+  },
+  "薄雪": {
+    "realName": "白静萱",
+    "codeName": "薄雪",
+    "accent": "#78d9b4",
+    "civilian": "角色立绘/白静萱立绘/白静萱立绘.png",
+    "transformed": "角色立绘/薄雪立绘/薄雪立绘.png"
+  },
+  "朝颜": {
+    "realName": "红思与",
+    "codeName": "朝颜",
+    "accent": "#ef7183",
+    "civilian": "角色立绘/红思与立绘/红思与立绘.png",
+    "transformed": "角色立绘/朝颜立绘/朝颜立绘.png"
+  },
+  "玛格丽特": {
+    "realName": "麻生圆香",
+    "codeName": "玛格丽特",
+    "accent": "#e8a4ff",
+    "civilian": "角色立绘/麻生圆香立绘/麻生圆香立绘.png",
+    "transformed": "角色立绘/玛格丽特立绘/玛格丽特.png",
+    "portraitOnly": true,
+    "remoteOnly": true
+  },
+  "樱": {
+    "realName": "安雅",
+    "codeName": "樱",
+    "accent": "#f28fb5",
+    "civilian": "角色立绘/安雅立绘/安雅.png",
+    "transformed": "角色立绘/樱立绘/樱立绘.png",
+    "portraitOnly": true,
+    "remoteOnly": true
+  },
+  "鸢": {
+    "realName": "陆红豆",
+    "codeName": "鸢",
+    "accent": "#c78468",
+    "civilian": "",
+    "transformed": "角色立绘/鸢立绘/鸢.png",
+    "portraitOnly": true,
+    "remoteOnly": true
+  }
+}
+</script>
+<script type="application/json" id="mg-cg-catalog">
+[
+  {"id":"翠雀_CG01","role":"翠雀","title":"下午茶","threshold":40,"event":"与翠雀安静共进一次下午茶","path":"角色cg/翠雀CG/翠雀CG1下午茶.png"},
+  {"id":"翠雀_CG02","role":"翠雀","title":"办公中","threshold":20,"event":"陪翠雀完成一次正式办公","path":"角色cg/翠雀CG/翠雀CG2办公中.png"},
+  {"id":"翠雀_CG03","role":"翠雀","title":"巡逻后夜宵","threshold":60,"event":"共同完成夜间巡逻并吃夜宵","path":"角色cg/翠雀CG/翠雀CG3巡逻后夜宵.png"},
+  {"id":"翠雀_CG04","role":"翠雀","title":"看日出","threshold":100,"event":"与翠雀共同守候并看完日出","path":"角色cg/翠雀CG/翠雀CG4看日出.png"},
+  {"id":"翠雀_CG05","role":"翠雀","title":"采耳","threshold":140,"event":"由翠雀主动为玩家采耳","path":"角色cg/翠雀CG/翠雀CG5采耳.png"},
+  {"id":"翠雀_CG06","role":"翠雀","title":"夜晚卧室","threshold":160,"event":"在卧室与翠雀完成一次坦诚的深夜谈心","path":"角色cg/翠雀CG/翠雀CG6夜晚卧室.png"},
+  {"id":"翠雀_CG07","role":"翠雀","title":"厨房做饭","threshold":80,"event":"与翠雀共同做完一顿饭","path":"角色cg/翠雀CG/翠雀CG7厨房做饭.png"},
+  {"id":"翠雀_CG08","role":"翠雀","title":"望海","threshold":120,"event":"与翠雀并肩望海并谈及彼此内心","path":"角色cg/翠雀CG/翠雀CG8望海.png"},
+  {"id":"翠雀_CG09","role":"翠雀","title":"海滩约会","threshold":180,"event":"与翠雀完成一次正式的海滩约会","path":"角色cg/翠雀CG/翠雀CG9海滩约会.png"},
+  {"id":"翠雀_CG10","role":"翠雀","title":"露天温泉共浴","threshold":200,"event":"达到命定之绊后与翠雀共同泡露天温泉","path":"角色cg/翠雀CG/翠雀CG10露天温泉共浴.png"},
+
+  {"id":"白玫_CG01","role":"白玫","title":"电影院约会","threshold":80,"event":"与白玫完整看完一场电影","path":"角色cg/白玫CG/白玫CG1电影院约会.png"},
+  {"id":"白玫_CG02","role":"白玫","title":"摩天轮约会","threshold":160,"event":"与白玫乘坐摩天轮并完成重要谈心","path":"角色cg/白玫CG/白玫CG2摩天轮约会.png"},
+  {"id":"白玫_CG03","role":"白玫","title":"咖啡店约会","threshold":20,"event":"与白玫完成第一次咖啡店小聚","path":"角色cg/白玫CG/白玫CG3咖啡店约会.png"},
+  {"id":"白玫_CG04","role":"白玫","title":"公园约会","threshold":40,"event":"与白玫在公园悠闲相处一段时间","path":"角色cg/白玫CG/白玫CG4公园约会.png"},
+  {"id":"白玫_CG05","role":"白玫","title":"客厅看电视","threshold":100,"event":"在家中与白玫一起看完一部节目","path":"角色cg/白玫CG/白玫CG5客厅看电视.png"},
+  {"id":"白玫_CG06","role":"白玫","title":"夜市逛街","threshold":60,"event":"与白玫逛完一次夜市","path":"角色cg/白玫CG/白玫CG6夜市逛街.png"},
+  {"id":"白玫_CG07","role":"白玫","title":"晴日河畔","threshold":120,"event":"与变身后的白玫在河畔散步","path":"角色cg/白玫CG/白玫CG7.png"},
+  {"id":"白玫_CG08","role":"白玫","title":"甜点工坊","threshold":140,"event":"与白玫共同完成一份蛋糕或甜点","path":"角色cg/白玫CG/白玫CG8.png"},
+  {"id":"白玫_CG09","role":"白玫","title":"旋转木马","threshold":180,"event":"与白玫完成一次游乐园旋转木马约会","path":"角色cg/白玫CG/白玫CG9.png"},
+  {"id":"白玫_CG10","role":"白玫","title":"暖池共浴","threshold":200,"event":"达到命定之绊后与白玫共同泡浴池","path":"角色cg/白玫CG/白玫CG10.png"},
+
+  {"id":"小锦_CG01","role":"小锦","title":"公园长椅","threshold":20,"event":"与夏凉在公园长椅上完成一次闲谈","path":"角色cg/小锦CG/小锦CG1.png"},
+  {"id":"小锦_CG02","role":"小锦","title":"甜品小聚","threshold":40,"event":"与夏凉共同品尝一次甜品","path":"角色cg/小锦CG/小锦CG2.png"},
+  {"id":"小锦_CG03","role":"小锦","title":"黄昏等候","threshold":60,"event":"在黄昏街头等到彼此并一同返程","path":"角色cg/小锦CG/小锦CG3.png"},
+  {"id":"小锦_CG04","role":"小锦","title":"暖阳客厅","threshold":100,"event":"受邀来到夏凉家中并完成一次放松谈心","path":"角色cg/小锦CG/小锦CG4.png"},
+  {"id":"小锦_CG05","role":"小锦","title":"露天浴池","threshold":180,"event":"夏凉在浴池中向玩家坦诚重要心事","path":"角色cg/小锦CG/小锦CG5.png"},
+  {"id":"小锦_CG06","role":"小锦","title":"星夜跃迁","threshold":120,"event":"由小锦使用“引离”带玩家完成一次星夜镜面跃迁","path":"角色cg/小锦CG/小锦CG6.png"},
+  {"id":"小锦_CG07","role":"小锦","title":"游戏厅","threshold":80,"event":"与小锦在游戏厅共同赢得一次奖品","path":"角色cg/小锦CG/小锦CG7.png"},
+  {"id":"小锦_CG08","role":"小锦","title":"联机之夜","threshold":140,"event":"与小锦一起打完一场游戏并进行深夜谈心","path":"角色cg/小锦CG/小锦CG8.png"},
+  {"id":"小锦_CG09","role":"小锦","title":"黄昏海滩","threshold":160,"event":"与小锦完成一次黄昏海滩约会","path":"角色cg/小锦CG/小锦CG9.png"},
+  {"id":"小锦_CG10","role":"小锦","title":"暖池共浴","threshold":200,"event":"达到命定之绊后与小锦共同泡浴池","path":"角色cg/小锦CG/小锦CG10.png"},
+
+  {"id":"薄雪_CG01","role":"薄雪","title":"深夜陪伴","threshold":120,"event":"陪失眠的白静萱度过深夜并完成一次坦诚谈心","path":"角色cg/薄雪CG/薄雪CG1.png"},
+  {"id":"薄雪_CG02","role":"薄雪","title":"沿江夜行","threshold":40,"event":"与白静萱沿江散步直到华灯亮起","path":"角色cg/薄雪CG/薄雪CG2.png"},
+  {"id":"薄雪_CG03","role":"薄雪","title":"咖啡小聚","threshold":20,"event":"与白静萱完成第一次咖啡店小聚","path":"角色cg/薄雪CG/薄雪CG3.png"},
+  {"id":"薄雪_CG04","role":"薄雪","title":"午后家访","threshold":100,"event":"受邀进入白静萱的私人空间并陪她安心休息","path":"角色cg/薄雪CG/薄雪CG4.png"},
+  {"id":"薄雪_CG05","role":"薄雪","title":"浴池倾诉","threshold":180,"event":"白静萱在浴池中向玩家坦白一段重要往事","path":"角色cg/薄雪CG/薄雪CG5.png"},
+  {"id":"薄雪_CG06","role":"薄雪","title":"夜桥巡行","threshold":60,"event":"与变身后的薄雪完成一次夜间桥梁巡查","path":"角色cg/薄雪CG/薄雪CG6.png"},
+  {"id":"薄雪_CG07","role":"薄雪","title":"甜点时光","threshold":80,"event":"与变身后的薄雪共同享用一份甜点","path":"角色cg/薄雪CG/薄雪CG7.png"},
+  {"id":"薄雪_CG08","role":"薄雪","title":"卧室照料","threshold":140,"event":"在卧室照料魔力透支后的薄雪直至恢复","path":"角色cg/薄雪CG/薄雪CG8.png"},
+  {"id":"薄雪_CG09","role":"薄雪","title":"海滩约会","threshold":160,"event":"与薄雪完成一次海滩约会","path":"角色cg/薄雪CG/薄雪CG9.png"},
+  {"id":"薄雪_CG10","role":"薄雪","title":"暖池共浴","threshold":200,"event":"达到命定之绊后与薄雪共同泡浴池","path":"角色cg/薄雪CG/薄雪CG10.png"},
+
+  {"id":"朝颜_CG01","role":"朝颜","title":"私房日常","threshold":100,"event":"受邀进入红思与的私人房间并共度一段无人打扰的日常","path":"角色cg/朝颜CG/朝颜CG1私房日常.png"},
+  {"id":"朝颜_CG02","role":"朝颜","title":"通勤便当","threshold":40,"event":"与红思与共同通勤并接受她准备的便当","path":"角色cg/朝颜CG/朝颜CG2车内通勤便当.png"},
+  {"id":"朝颜_CG03","role":"朝颜","title":"泳装约会","threshold":160,"event":"与红思与完成一次海滩泳装约会","path":"角色cg/朝颜CG/朝颜CG3海滩泳装约会.png"},
+  {"id":"朝颜_CG04","role":"朝颜","title":"黄昏天台","threshold":60,"event":"在黄昏天台与红思与分享饮料并谈心","path":"角色cg/朝颜CG/朝颜CG4黄昏天台喝饮料.png"},
+  {"id":"朝颜_CG05","role":"朝颜","title":"楼梯间休憩","threshold":20,"event":"在工作或任务间隙陪红思与于楼梯间休息","path":"角色cg/朝颜CG/朝颜CG5楼梯间休憩.png"},
+  {"id":"朝颜_CG06","role":"朝颜","title":"吧台小酌","threshold":80,"event":"与红思与在吧台分享饮料并听她讲述过去","path":"角色cg/朝颜CG/朝颜CG6吧台喝饮料.png"},
+  {"id":"朝颜_CG07","role":"朝颜","title":"海边散步","threshold":120,"event":"与变身后的朝颜沿海边完整散步一次","path":"角色cg/朝颜CG/朝颜CG7海边散步.png"},
+  {"id":"朝颜_CG08","role":"朝颜","title":"喷泉约会","threshold":140,"event":"与朝颜完成一次喷泉水池旁的正式约会","path":"角色cg/朝颜CG/朝颜CG8喷泉水池约会.png"},
+  {"id":"朝颜_CG09","role":"朝颜","title":"卧室午睡","threshold":180,"event":"在卧室陪疲惫的朝颜安心午睡","path":"角色cg/朝颜CG/朝颜CG9卧室午睡.png"},
+  {"id":"朝颜_CG10","role":"朝颜","title":"浴池共浴","threshold":200,"event":"达到命定之绊后与朝颜共同泡浴池","path":"角色cg/朝颜CG/朝颜CG10浴池共浴.png"}
+]
+</script>
+
+<script type="module">
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const all = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+  const root = $('#sb');
+
+  const ASSET_BASE_URL = 'https://cdn.jsdelivr.net/gh/1798547983tt/Princess@main/xiabanmo/assets/';
+  const PORTRAIT_CATALOG = Object.freeze(JSON.parse($('#mg-portrait-catalog').textContent));
+  const CG_CATALOG = Object.freeze(JSON.parse($('#mg-cg-catalog').textContent));
+  const PORTRAIT_ROLES = Object.freeze(Object.keys(PORTRAIT_CATALOG));
+  const GALLERY_ROLES = Object.freeze(PORTRAIT_ROLES.filter(role => {
+    const portrait = PORTRAIT_CATALOG[role];
+    return !portrait.portraitOnly && CG_CATALOG.some(item => item.role === role);
+  }));
+  const BUILTIN_AVATARS = Object.freeze({
+    ...Object.fromEntries(PORTRAIT_ROLES
+      .filter(role => PORTRAIT_CATALOG[role].transformed || PORTRAIT_CATALOG[role].civilian)
+      .map(role => [role,assetUrl(PORTRAIT_CATALOG[role].transformed || PORTRAIT_CATALOG[role].civilian)])),
+    '摩可': assetUrl('角色立绘/摩可立绘/摩可立绘.png'),
+  });
+  const AVATAR_ALIASES = Object.freeze({
+    '林昀': '翠雀',
+    '矢车菊': '翠雀',
+    '林小璐': '白玫',
+    '夏凉': '小锦',
+    '白静萱': '薄雪',
+    '红思与': '朝颜',
+    '麻生圆香': '玛格丽特',
+    '安雅': '樱',
+    '陆红豆': '鸢',
+  });
+  const AVATAR_STORAGE_KEY = 'mg-sb-avatar-v2';
+  const ROOT_KEYS = new Set(['世界','主线','user','在场人物','不在场人物','关系','图鉴','检定','事件','持有物']);
+  const WORLD_KEYS = new Set(['日期','时段','地点','场景','天气']);
+  const STORY_KEYS = new Set(['当前节点','已达成节点','篇章提要']);
+  const USER_KEYS = new Set(['姓名','性别','年龄','身份','原作绑定','背景','外观','装束','代号','认证牌','开华阶段','变身状态','魔力','伤势','魔装','心核','状态效果']);
+  const CHARACTER_KEYS = new Set(['本名','代号','阵营','身份','开华阶段','变身状态','魔力','伤势','魔装','心核','当前位置','当前行动','特殊状态']);
+  const RELATION_KEYS = new Set(['好感','关系','称呼']);
+  const CHECK_KEYS = new Set(['本回合','战斗中','敌人']);
+  const ROLL_KEYS = new Set(['行动','骰值','判定','缘由']);
+  const EVENT_KEYS = new Set(['进行中','大事记']);
+  const EVENT_ITEM_KEYS = new Set(['名称','进展']);
+  const ENEMY_KEYS = new Set(['名称','等级','状态']);
+  const ITEM_KEYS = new Set(['描述','数量']);
+  const GEAR_KEYS = new Set(['名称','形态','完损']);
+  const CORE_KEYS = new Set(['形态','状态']);
+  const BLOOM = Object.freeze({ '无':0,'种':1,'芽':2,'叶':3,'蕾':4,'花':5 });
+  const BOND_STAGES = Object.freeze([
+    [200,'命定之绊'],
+    [170,'不可替代'],
+    [140,'深厚羁绊'],
+    [110,'亲近'],
+    [80,'信赖'],
+    [50,'熟稔'],
+    [20,'相识'],
+    [0,'陌生'],
+  ]);
+
+  const state = {
+    stat:{},
+    lastGood:null,
+    activeTab:'traveler',
+    presence:'all',
+    search:'',
+    searchComposing:false,
+    characterIndex:new Map(),
+    openCharacterKey:'',
+    returnFocus:null,
+    portraitVariants:{},
+    galleryRole:'',
+    lightboxId:'',
+    lightboxRole:'',
+    lightboxReturnFocus:null,
+    avatarStore:loadAvatarStore(),
+    avatarDraft:null,
+    avatarReturnFocus:null,
+    messageId:'latest',
+    renderSignature:'',
+    refreshTimer:null,
+    disposers:[],
+  };
+
+  function el(tag, cls, text) {
+    const node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined && text !== null) node.textContent = String(text);
+    return node;
+  }
+  function isObj(value) { return !!value && typeof value === 'object' && !Array.isArray(value); }
+  function object(value) { return isObj(value) ? value : {}; }
+  function array(value) { return Array.isArray(value) ? value : []; }
+  function text(value, fallback = '') {
+    if (value === undefined || value === null || value === '') return fallback;
+    if (typeof value === 'string') return value;
+    if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+    try { return JSON.stringify(value); } catch (_) { return fallback; }
+  }
+  function number(value, fallback = 0) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  }
+  function clamp(value, min, max) { return Math.min(max, Math.max(min, number(value, min))); }
+  function firstGlyph(value) { return Array.from(text(value,'✦').trim())[0] || '✦'; }
+  function assetUrl(relativePath) {
+    return ASSET_BASE_URL + text(relativePath).split('/').map(part => encodeURIComponent(part)).join('/');
+  }
+  function exactNames(values) {
+    return values.map(value => text(value).trim()).filter(Boolean);
+  }
+  function roleFromNames(values) {
+    const names = exactNames(values);
+    return PORTRAIT_ROLES.find(role => {
+      const item = PORTRAIT_CATALOG[role];
+      return names.includes(item.realName) || names.includes(item.codeName);
+    }) || '';
+  }
+  function portraitIdentity(owner,recordKey,entity) {
+    const data = object(entity);
+    const names = owner === 'user'
+      ? exactNames([data.原作绑定,data.姓名,data.代号])
+      : exactNames([recordKey,data.本名,data.代号]);
+    const role = roleFromNames(names);
+    if (!role) return { role:'',civilian:false,transformed:false,catalog:null };
+    const catalog = PORTRAIT_CATALOG[role];
+    const transformedState = text(data.变身状态,'未变身') !== '未变身';
+    return {
+      role,
+      civilian:Boolean(catalog.civilian) && names.includes(catalog.realName),
+      transformed:Boolean(catalog.transformed) && (
+        names.includes(catalog.codeName)
+        || (!catalog.civilian && transformedState && names.includes(catalog.realName))
+      ),
+      catalog,
+    };
+  }
+  function portraitStateKey(owner,recordKey,role) {
+    return owner + ':' + (recordKey || 'user') + ':' + role;
+  }
+  function defaultPortraitVariant(identity,entity) {
+    const transformed = text(object(entity).变身状态,'未变身') !== '未变身';
+    if (transformed && identity.transformed) return 'transformed';
+    if (identity.civilian) return 'civilian';
+    if (identity.transformed) return 'transformed';
+    return '';
+  }
+  function currentPortraitVariant(owner,recordKey,entity,identityOverride) {
+    const identity = identityOverride || portraitIdentity(owner,recordKey,entity);
+    if (!identity.role) return '';
+    const available = [];
+    if (identity.civilian) available.push('civilian');
+    if (identity.transformed) available.push('transformed');
+    const manual = state.portraitVariants[portraitStateKey(owner,recordKey,identity.role)];
+    return available.includes(manual) ? manual : defaultPortraitVariant(identity,entity);
+  }
+  function portraitDescriptor(owner,recordKey,entity) {
+    const identity = portraitIdentity(owner,recordKey,entity);
+    if (!identity.role) {
+      const key = canonicalAvatarKey(owner === 'user'
+        ? [object(entity).代号,object(entity).原作绑定,object(entity).姓名,'user']
+        : [object(entity).代号,recordKey,object(entity).本名]);
+      return {
+        identity,
+        variant:'',
+        key,
+        builtin:BUILTIN_AVATARS[key] || '',
+      };
+    }
+    const variant = currentPortraitVariant(owner,recordKey,entity,identity);
+    const relativePath = variant === 'transformed'
+      ? identity.catalog.transformed
+      : identity.catalog.civilian;
+    return {
+      identity,
+      variant,
+      key:'portrait:' + identity.role + ':' + variant,
+      builtin:relativePath ? assetUrl(relativePath) : '',
+    };
+  }
+  function revealedRoleEvidence(stat,role) {
+    const catalog = PORTRAIT_CATALOG[role];
+    const names = [];
+    [object(stat.在场人物),object(stat.不在场人物)].forEach(group => {
+      Object.entries(group).forEach(entry => {
+        names.push(entry[0],object(entry[1]).本名,object(entry[1]).代号);
+      });
+    });
+    names.push(...Object.keys(object(stat.关系)));
+    const normalized = exactNames(names);
+    return {
+      role,
+      catalog,
+      civilian:Boolean(catalog.civilian) && normalized.includes(catalog.realName),
+      transformed:Boolean(catalog.transformed) && normalized.includes(catalog.codeName),
+    };
+  }
+  function isSelfBoundRole(stat,role) {
+    const user = object(stat.user);
+    const catalog = PORTRAIT_CATALOG[role];
+    const binding = text(user.原作绑定).trim();
+    if (binding === catalog.realName || binding === catalog.codeName) return true;
+    if (binding) return false;
+    return text(user.姓名).trim() === catalog.realName && text(user.代号).trim() === catalog.codeName;
+  }
+  function roleDisplayName(evidence) {
+    if (evidence.civilian && evidence.transformed) return evidence.catalog.codeName + ' / ' + evidence.catalog.realName;
+    if (evidence.transformed) return evidence.catalog.codeName;
+    if (evidence.civilian) return evidence.catalog.realName;
+    return '未揭露';
+  }
+  function roleRelation(stat,role) {
+    const relations = object(stat.关系);
+    const catalog = PORTRAIT_CATALOG[role];
+    return object(relations[role] || relations[catalog.realName]);
+  }
+  function unlockedCgIds(stat) {
+    return new Set(array(object(stat.图鉴).已解锁CG).map(value => text(value)).filter(Boolean));
+  }
+  function visibleCgId(item,evidence) {
+    return evidence.transformed ? item.id : item.id.replace(/^.+?_/, '');
+  }
+  function visibleCgText(value,evidence) {
+    let result = text(value);
+    if (evidence.civilian && !evidence.transformed) {
+      result = result.split(evidence.catalog.codeName).join(evidence.catalog.realName);
+    } else if (evidence.transformed && !evidence.civilian) {
+      result = result.split(evidence.catalog.realName).join(evidence.catalog.codeName);
+    }
+    return result;
+  }
+  function displayValue(value) {
+    if (value === undefined || value === null || value === '') return '—';
+    if (typeof value === 'boolean') return value ? '是' : '否';
+    if (Array.isArray(value)) return value.length ? value.map(item => text(item,'—')).join(' · ') : '—';
+    if (isObj(value)) return Object.keys(value).length ? '详见下方' : '—';
+    return String(value);
+  }
+  function heading(title, note) {
+    const head = el('div','panel-heading');
+    head.appendChild(el('h2','',title));
+    if (note) head.appendChild(el('p','',note));
+    return head;
+  }
+  function section(title) {
+    const node = el('section','section');
+    node.appendChild(el('h3','section-title',title));
+    return node;
+  }
+  function field(label, value, wide = false) {
+    const node = el('div','field' + (wide ? ' wide' : ''));
+    node.appendChild(el('span','field-label',label));
+    node.appendChild(el('span','field-value',displayValue(value)));
+    return node;
+  }
+  function fieldGrid(entries) {
+    const grid = el('div','field-grid');
+    entries.forEach(entry => grid.appendChild(field(entry[0],entry[1],!!entry[2])));
+    return grid;
+  }
+  function badge(value) { return el('span','badge',value); }
+  function chip(value) { return el('span','chip',value); }
+  function chips(values) {
+    const box = el('div','chips');
+    const list = array(values);
+    if (!list.length) box.appendChild(chip('无'));
+    else list.forEach(value => box.appendChild(chip(text(value,'—'))));
+    return box;
+  }
+  function manaBlock(value, compact = false) {
+    const mana = clamp(value,0,100);
+    const box = el('div',compact ? 'mini-mana' : 'mana-large');
+    const label = el('div',compact ? 'mini-mana-label' : 'mana-large-label');
+    label.appendChild(el('span','',compact ? '魔力' : '魔 力'));
+    label.appendChild(el('span','',mana + ' / 100'));
+    const track = el('div','track');
+    const fill = el('i','fill');
+    fill.style.width = mana + '%';
+    track.appendChild(fill);
+    box.append(label,track);
+    return box;
+  }
+  function bondStage(value) {
+    const score = clamp(value,0,200);
+    return BOND_STAGES.find(item => score >= item[0])[1];
+  }
+  function bondBlock(value,compact = false) {
+    const score = Math.round(clamp(value,0,200));
+    const box = el('div',compact ? 'bond compact' : 'bond');
+    box.dataset.bondScore = '';
+    box.setAttribute('role','progressbar');
+    box.setAttribute('aria-label','好感 ' + score + ' / 200，' + bondStage(score));
+    box.setAttribute('aria-valuemin','0');
+    box.setAttribute('aria-valuemax','200');
+    box.setAttribute('aria-valuenow',String(score));
+    const label = el('div','bond-label');
+    label.append(el('strong','','♥ ' + bondStage(score)),el('span','',score + ' / 200'));
+    const track = el('div','track');
+    const fill = el('i','fill');
+    fill.style.width = score / 2 + '%';
+    track.appendChild(fill);
+    box.append(label,track);
+    return box;
+  }
+  function bloomView(stageValue) {
+    const stage = clamp(BLOOM[text(stageValue,'无')] || 0,0,5);
+    const box = el('div','bloom');
+    box.appendChild(el('span','','开华'));
+    for (let index=0; index<5; index++) box.appendChild(el('span','petal' + (index<stage ? ' on' : ''),'❀'));
+    return box;
+  }
+  function addExtras(host, source, knownKeys, title = '附加资料') {
+    const sourceObject = object(source);
+    const keys = Object.keys(sourceObject).filter(key => !knownKeys.has(key));
+    if (!keys.length) return;
+    const details = el('details','extra-details');
+    details.open = true;
+    details.appendChild(el('summary','',title));
+    const tree = el('div','extra-tree');
+    keys.forEach(key => tree.appendChild(extraNode(key,sourceObject[key],0)));
+    details.appendChild(tree);
+    host.appendChild(details);
+  }
+  function extraNode(label, value, depth) {
+    const node = el('div','extra-node');
+    node.appendChild(el('span','extra-key',label));
+    if (depth >= 5) {
+      node.appendChild(el('span','extra-value',displayValue(value)));
+      return node;
+    }
+    if (Array.isArray(value)) {
+      if (!value.length) node.appendChild(el('span','extra-value','—'));
+      else value.forEach((item,index) => node.appendChild(extraNode(String(index+1),item,depth+1)));
+    } else if (isObj(value)) {
+      const keys = Object.keys(value);
+      if (!keys.length) node.appendChild(el('span','extra-value','—'));
+      else keys.forEach(key => node.appendChild(extraNode(key,value[key],depth+1)));
+    } else {
+      node.appendChild(el('span','extra-value',displayValue(value)));
+    }
+    return node;
+  }
+
+  function loadAvatarStore() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(AVATAR_STORAGE_KEY) || '{}');
+      return isObj(parsed) && isObj(parsed.entries) ? parsed : { version:2, entries:{} };
+    } catch (_) {
+      return { version:2, entries:{} };
+    }
+  }
+  function saveAvatarStore() {
+    try {
+      localStorage.setItem(AVATAR_STORAGE_KEY,JSON.stringify(state.avatarStore));
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+  function canonicalAvatarKey(values) {
+    const candidates = values.map(value => text(value).trim()).filter(Boolean);
+    const codes = Object.keys(BUILTIN_AVATARS);
+    for (const candidate of candidates) {
+      for (const code of codes) if (candidate === code || candidate.includes(code)) return code;
+      for (const alias of Object.keys(AVATAR_ALIASES)) {
+        if (candidate === alias || candidate.includes(alias)) return AVATAR_ALIASES[alias];
+      }
+    }
+    return candidates[0] || '未命名旅人';
+  }
+  function avatarIdentity(owner, recordKey, entity) {
+    return portraitDescriptor(owner,recordKey,entity).key;
+  }
+  function validHttps(value) {
+    try { return new URL(value).protocol === 'https:'; } catch (_) { return false; }
+  }
+  function validLocalImage(value) {
+    return /^data:image\/(?:png|jpeg|webp|gif);base64,/i.test(text(value));
+  }
+  function safeAvatarSource(value) {
+    const source = text(value).trim();
+    return validHttps(source) || validLocalImage(source) ? source : '';
+  }
+  function avatarSettings(key,builtinOverride = '') {
+    const runtime = object(state.avatarStore.entries)[key];
+    if (isObj(runtime) && safeAvatarSource(runtime.src)) {
+      return { src:safeAvatarSource(runtime.src), zoom:clamp(runtime.zoom || 1,1,2), x:clamp(runtime.x ?? 50,0,100), y:clamp(runtime.y ?? 50,0,100), source:'local' };
+    }
+    const builtin = safeAvatarSource(builtinOverride || BUILTIN_AVATARS[key]);
+    return { src:builtin, zoom:1, x:50, y:50, source:builtin ? 'builtin' : 'fallback' };
+  }
+  function avatarButton(owner, recordKey, entity, display, sizeClass = '') {
+    const descriptor = portraitDescriptor(owner,recordKey,entity);
+    const button = el('button','avatar-button' + (sizeClass ? ' ' + sizeClass : ''));
+    button.type = 'button';
+    button.dataset.action = 'edit-avatar';
+    button.dataset.avatarOwner = owner;
+    button.dataset.avatarRecordKey = recordKey || '';
+    button.dataset.avatarKey = descriptor.key;
+    if (descriptor.variant) button.dataset.avatarVariant = descriptor.variant;
+    if (owner === 'user') button.dataset.userAvatar = '';
+    button.setAttribute('aria-label','更换' + text(display,'角色') + '的头像');
+    if (text(object(entity).变身状态,'未变身') !== '未变身') button.classList.add('tf');
+    applyAvatar(button,descriptor.key,display,null,descriptor.builtin);
+    return button;
+  }
+  function portraitThumbnail(owner,recordKey,entity,display) {
+    const descriptor = portraitDescriptor(owner,recordKey,entity);
+    const thumb = el('div','avatar-button small');
+    thumb.setAttribute('aria-hidden','true');
+    if (descriptor.identity.role) thumb.dataset.rolePortrait = descriptor.identity.role;
+    if (text(object(entity).变身状态,'未变身') !== '未变身') thumb.classList.add('tf');
+    applyAvatar(thumb,descriptor.key,display,null,descriptor.builtin);
+    return thumb;
+  }
+  function portraitFeature(owner,recordKey,entity,display) {
+    const descriptor = portraitDescriptor(owner,recordKey,entity);
+    const identity = descriptor.identity;
+    const box = el('div','portrait-feature');
+    const canToggle = !!identity.role && identity.civilian && identity.transformed;
+    const stage = el(canToggle ? 'button' : 'div','portrait-stage');
+    if (canToggle) {
+      stage.type = 'button';
+      stage.dataset.portraitToggle = identity.role;
+      stage.dataset.portraitOwner = owner;
+      stage.dataset.portraitRecordKey = recordKey || '';
+      const nextLabel = descriptor.variant === 'transformed' ? identity.catalog.realName : identity.catalog.codeName;
+      stage.setAttribute('aria-label','切换为' + nextLabel + '立绘');
+    }
+    if (identity.role) {
+      stage.dataset.rolePortrait = identity.role;
+      stage.style.setProperty('--role-accent',identity.catalog.accent);
+    }
+    if (owner === 'user') stage.dataset.userAvatar = '';
+    applyAvatar(stage,descriptor.key,display,null,descriptor.builtin);
+    if (identity.role && descriptor.variant) {
+      const formName = descriptor.variant === 'transformed'
+        ? identity.catalog.codeName + ' · 变身形态'
+        : identity.catalog.realName + ' · 日常形态';
+      stage.appendChild(el('span','portrait-form',formName));
+    }
+    box.appendChild(stage);
+    box.appendChild(el(
+      'p',
+      'portrait-toggle-note',
+      canToggle
+        ? '点击大立绘切换已揭露形态'
+        : identity.role && !identity.catalog.civilian
+          ? '仅提供变身立绘'
+          : identity.role && !identity.catalog.transformed
+            ? '仅提供日常立绘'
+            : identity.role
+              ? '另一形态尚未揭露'
+              : descriptor.builtin
+                ? '内置单立绘'
+                : '暂无内置立绘',
+    ));
+    const tools = el('div','portrait-tools');
+    const settings = el('button','portrait-settings','⚙ 立绘设置');
+    settings.type = 'button';
+    settings.dataset.action = 'edit-avatar';
+    settings.dataset.avatarOwner = owner;
+    settings.dataset.avatarRecordKey = recordKey || '';
+    settings.dataset.avatarKey = descriptor.key;
+    if (descriptor.variant) settings.dataset.avatarVariant = descriptor.variant;
+    settings.setAttribute('aria-label','设置' + text(display,'角色') + '当前形态的自定义立绘');
+    tools.appendChild(settings);
+    box.appendChild(tools);
+    return box;
+  }
+  function togglePortrait(owner,recordKey) {
+    const entity = entityForAvatar(owner,recordKey);
+    const identity = portraitIdentity(owner,recordKey,entity);
+    if (!identity.role || !identity.civilian || !identity.transformed) return;
+    const key = portraitStateKey(owner,recordKey,identity.role);
+    const current = currentPortraitVariant(owner,recordKey,entity,identity);
+    state.portraitVariants[key] = current === 'transformed' ? 'civilian' : 'transformed';
+    renderAll(state.stat,true);
+  }
+  function revealAfterDecode(image) {
+    image.dataset.imageLoading = '';
+    const reveal = () => {
+      const decoded = typeof image.decode === 'function' ? image.decode() : Promise.resolve();
+      Promise.resolve(decoded).catch(() => {}).then(() => image.removeAttribute('data-image-loading'));
+    };
+    if (image.complete && image.naturalWidth) reveal();
+    else image.addEventListener('load',reveal,{ once:true });
+  }
+  function applyAvatar(container,key,display,settingsOverride,builtinOverride = '') {
+    const settings = settingsOverride || avatarSettings(key,builtinOverride);
+    container.replaceChildren(el('span','avatar-fallback',firstGlyph(display)));
+    if (!settings.src) return;
+    const image = el('img');
+    image.alt = '';
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.referrerPolicy = 'no-referrer';
+    image.src = settings.src;
+    revealAfterDecode(image);
+    image.style.objectPosition = settings.x + '% ' + settings.y + '%';
+    image.style.transformOrigin = settings.x + '% ' + settings.y + '%';
+    image.style.transform = 'scale(' + settings.zoom + ')';
+    image.addEventListener('error',() => { image.hidden = true; });
+    container.appendChild(image);
+  }
+
+  function renderSummary(stat) {
+    const world = object(stat.世界);
+    const story = object(stat.主线);
+    const user = object(stat.user);
+    $('#mg-world-date').textContent = [text(world.日期),text(world.时段),text(world.天气)].filter(Boolean).join(' · ') || '时间未记录';
+    $('#mg-world-place').textContent = text(world.地点,'方亭市');
+    $('#mg-world-scene').textContent = text(world.场景);
+    $('#mg-main-node').textContent = text(story.当前节点,'主线未记录');
+    const host = $('#mg-summary-user');
+    host.replaceChildren();
+    const named = text(user.代号) || text(user.姓名);
+    const display = named || '未登记旅人';
+    host.appendChild(avatarButton('user','',user,display,'small'));
+    const meta = el('div','summary-user-meta');
+    meta.appendChild(el('strong','',display));
+    const bits = [text(user.代号) && text(user.姓名) ? user.姓名 : '',text(user.身份),text(user.变身状态)].filter(Boolean);
+    meta.appendChild(el('span','',bits.join(' · ') || '等待你的自我介绍'));
+    host.append(meta,manaBlock(user.魔力, true));
+  }
+
+  function renderTraveler(stat) {
+    const panel = $('[data-hud-panel="traveler"]');
+    const user = object(stat.user);
+    panel.replaceChildren(heading('旅人档案','完整映射玩家变量'));
+    const profile = section('身份与魔力');
+    const head = el('div','profile-head');
+    const display = text(user.代号) || text(user.姓名) || '未登记旅人';
+    head.appendChild(portraitFeature('user','',user,display));
+    const main = el('div','profile-head-main');
+    main.appendChild(el('h3','profile-title',display));
+    main.appendChild(el('div','profile-sub',[text(user.姓名),text(user.身份),text(user.年龄) ? text(user.年龄) + (text(user.年龄).includes('岁') ? '' : '岁') : ''].filter(Boolean).join(' · ') || '报上名字后，星轨将为你登记'));
+    const badges = el('div','badges');
+    [text(user.变身状态,'未变身'),text(user.认证牌,'无'),text(user.开华阶段,'无') + '阶'].forEach(value => badges.appendChild(badge(value)));
+    main.append(badges,bloomView(user.开华阶段));
+    head.appendChild(main);
+    profile.append(head,manaBlock(user.魔力));
+    profile.appendChild(fieldGrid([
+      ['姓名',user.姓名],['性别',user.性别],['年龄',user.年龄],['身份',user.身份],
+      ['原作绑定',user.原作绑定],['认证牌',user.认证牌],['开华阶段',user.开华阶段],
+      ['变身状态',user.变身状态],['伤势',user.伤势],
+    ]));
+    panel.appendChild(profile);
+
+    const portrait = section('经历与形象');
+    portrait.appendChild(fieldGrid([
+      ['背景',user.背景,true],['外观',user.外观,true],['装束',user.装束,true],
+    ]));
+    panel.appendChild(portrait);
+
+    const gearSection = section('魔装与心核');
+    const gearGrid = el('div','gear-grid');
+    const gear = object(user.魔装);
+    const gearCard = el('div','gear-card');
+    gearCard.append(el('h3','','魔 装'),fieldGrid([['名称',gear.名称],['形态',gear.形态],['完损',gear.完损]]));
+    addExtras(gearCard,gear,GEAR_KEYS,'魔装附加资料');
+    const core = object(user.心核);
+    const coreCard = el('div','gear-card');
+    coreCard.append(el('h3','','心 核'),fieldGrid([['形态',core.形态],['状态',core.状态]]));
+    addExtras(coreCard,core,CORE_KEYS,'心核附加资料');
+    gearGrid.append(gearCard,coreCard);
+    gearSection.appendChild(gearGrid);
+    panel.appendChild(gearSection);
+
+    const effects = section('状态效果');
+    effects.appendChild(chips(user.状态效果));
+    panel.appendChild(effects);
+    addExtras(panel,user,USER_KEYS,'旅人附加资料');
+  }
+
+  function collectCharacters(stat) {
+    const present = object(stat.在场人物);
+    const away = object(stat.不在场人物);
+    const relations = object(stat.关系);
+    const list = [];
+    const represented = new Set();
+    function relationFor(key,entity) {
+      const data = object(entity);
+      return [key,data.代号,data.本名]
+        .map(value => text(value).trim())
+        .filter(Boolean)
+        .map(value => relations[value])
+        .find(value => isObj(value)) || null;
+    }
+    function addGroup(group,presence) {
+      Object.keys(group).forEach(key => {
+        const entity = object(group[key]);
+        [key,entity.本名,entity.代号].map(value => text(value).trim()).filter(Boolean).forEach(value => represented.add(value));
+        list.push({ key,presence,entity,relation:relationFor(key,entity) });
+      });
+    }
+    addGroup(present,'present');
+    addGroup(away,'away');
+    Object.keys(relations).forEach(key => {
+      if (!represented.has(key)) {
+        list.push({ key,presence:'relation',entity:{ 本名:key },relation:object(relations[key]) });
+      }
+    });
+    state.characterIndex = new Map(list.map(item => [item.key,item]));
+    return list;
+  }
+  function matchesCharacter(item) {
+    if (state.presence !== 'all' && item.presence !== state.presence) return false;
+    const query = state.search.trim().toLowerCase();
+    if (!query) return true;
+    const haystack = [item.key,item.entity.本名,item.entity.代号,item.entity.身份,item.entity.阵营,item.relation && item.relation.关系].map(value => text(value).toLowerCase()).join(' ');
+    return haystack.includes(query);
+  }
+  function characterCard(item) {
+    const entity = object(item.entity);
+    const relation = object(item.relation);
+    const display = text(entity.代号) || text(entity.本名) || item.key;
+    const card = el('article','character-card' + (item.presence === 'away' ? ' away' : ''));
+    const identity = portraitIdentity('character',item.key,entity);
+    if (identity.role) {
+      card.style.setProperty('--role-accent',identity.catalog.accent);
+      card.style.setProperty('--role-soft','color-mix(in srgb,' + identity.catalog.accent + ' 14%,transparent)');
+    }
+    card.dataset.characterKey = item.key;
+    card.tabIndex = 0;
+    card.setAttribute('role','button');
+    card.setAttribute('aria-label','查看' + display + '的完整档案');
+    card.appendChild(portraitThumbnail('character',item.key,entity,display));
+    const meta = el('div','character-meta');
+    const name = el('div','character-name');
+    name.appendChild(el('strong','',display));
+    name.appendChild(el('span','presence',item.presence === 'present' ? '在场' : item.presence === 'away' ? '离场' : '关系档案'));
+    meta.appendChild(name);
+    const subBits = [text(entity.本名) !== display ? text(entity.本名) : '',text(entity.身份),text(entity.阵营)].filter(Boolean);
+    meta.appendChild(el('div','character-sub',subBits.join(' · ') || '资料尚少'));
+    if (text(entity.当前行动)) meta.appendChild(el('div','character-action',entity.当前行动));
+    if (entity.魔力 !== undefined) meta.appendChild(manaBlock(entity.魔力,true));
+    if (item.relation) {
+      meta.appendChild(el('div','relation-line',text(relation.关系,'关系未定') + (text(relation.称呼) ? ' · “' + relation.称呼 + '”' : '')));
+      meta.appendChild(bondBlock(relation.好感,true));
+    }
+    card.appendChild(meta);
+    return card;
+  }
+  function renderCharacters(stat) {
+    const panel = $('[data-hud-panel="characters"]');
+    const all = collectCharacters(stat);
+    panel.replaceChildren(heading('人物星图','搜索、筛选并打开完整档案'));
+    const toolbar = el('div','character-toolbar');
+    const search = el('input','search');
+    search.type = 'search';
+    search.placeholder = '搜索姓名、代号、身份或阵营';
+    search.value = state.search;
+    search.dataset.characterSearch = '';
+    search.setAttribute('aria-label','搜索人物');
+    const filters = el('div','filter-group');
+    filters.setAttribute('aria-label','人物在场筛选');
+    [['all','全部'],['present','在场'],['away','离场']].forEach(pair => {
+      const button = el('button','filter',pair[1]);
+      button.type = 'button';
+      button.dataset.presenceFilter = pair[0];
+      button.setAttribute('aria-pressed',String(state.presence === pair[0]));
+      filters.appendChild(button);
+    });
+    toolbar.append(search,filters);
+    panel.appendChild(toolbar);
+    const visible = all.filter(matchesCharacter);
+    const groups = [
+      { key:'present',title:'在 场' },
+      { key:'away',title:'离 场' },
+      { key:'relation',title:'仅关系档案' },
+    ];
+    let rendered = 0;
+    groups.forEach(group => {
+      const items = visible.filter(item => item.presence === group.key);
+      if (!items.length) return;
+      rendered += items.length;
+      const title = el('div','character-group-title');
+      title.append(el('span','',group.title),el('span','',String(items.length)));
+      const grid = el('div','character-grid');
+      items.forEach(item => grid.appendChild(characterCard(item)));
+      panel.append(title,grid);
+    });
+    if (!rendered) panel.appendChild(el('div','empty-note','没有符合条件的人物记录'));
+  }
+  function renderCharacterDrawer(item) {
+    if (!item) return;
+    const body = $('[data-character-drawer-body]');
+    const entity = object(item.entity);
+    const relation = object(item.relation);
+    const display = text(entity.代号) || text(entity.本名) || item.key;
+    const identity = portraitIdentity('character',item.key,entity);
+    $('#mg-drawer-title').textContent = display + ' · 完整档案';
+    body.replaceChildren();
+    body.style.setProperty('--role-accent',identity.role ? identity.catalog.accent : '#8ea9ff');
+    body.style.setProperty('--role-soft',identity.role ? 'color-mix(in srgb,' + identity.catalog.accent + ' 16%,transparent)' : 'rgba(142,169,255,.16)');
+    const hero = el('div','drawer-hero');
+    hero.appendChild(portraitFeature('character',item.key,entity,display));
+    const profileText = el('div','drawer-identity');
+    profileText.appendChild(el('strong','',display));
+    profileText.appendChild(el('span','',[text(entity.本名) !== display ? entity.本名 : '',item.presence === 'present' ? '在场' : item.presence === 'away' ? '离场' : '仅关系档案'].filter(Boolean).join(' · ')));
+    if (item.relation) profileText.appendChild(bondBlock(relation.好感));
+    if (text(relation.关系)) profileText.appendChild(el('div','relation-line',text(relation.关系) + (text(relation.称呼) ? ' · “' + relation.称呼 + '”' : '')));
+    hero.appendChild(profileText);
+    body.appendChild(hero);
+    const basics = section('身份与状态');
+    basics.appendChild(fieldGrid([
+      ['本名',entity.本名],['代号',entity.代号],['阵营',entity.阵营],['身份',entity.身份],
+      ['开华阶段',entity.开华阶段],['变身状态',entity.变身状态],['魔力',entity.魔力],
+      ['伤势',entity.伤势],['当前位置',entity.当前位置],['当前行动',entity.当前行动,true],
+    ]));
+    basics.appendChild(chips(entity.特殊状态));
+    body.appendChild(basics);
+    const gear = section('魔装与心核');
+    const gearObject = object(entity.魔装);
+    const coreObject = object(entity.心核);
+    gear.appendChild(fieldGrid([
+      ['魔装名称',gearObject.名称],['魔装形态',gearObject.形态],['魔装完损',gearObject.完损],
+      ['心核形态',coreObject.形态],['心核状态',coreObject.状态],
+    ]));
+    addExtras(gear,gearObject,GEAR_KEYS,'魔装附加资料');
+    addExtras(gear,coreObject,CORE_KEYS,'心核附加资料');
+    body.appendChild(gear);
+    const relationSection = section('与你的关系');
+    if (item.relation) relationSection.appendChild(bondBlock(relation.好感));
+    relationSection.appendChild(fieldGrid([
+      ['好感',item.relation ? relation.好感 : '—'],['关系',item.relation ? relation.关系 : '—'],['称呼',item.relation ? relation.称呼 : '—'],
+    ]));
+    if (item.relation) addExtras(relationSection,relation,RELATION_KEYS,'关系附加资料');
+    body.appendChild(relationSection);
+    if (identity.role && !isSelfBoundRole(state.stat,identity.role)) {
+      const evidence = revealedRoleEvidence(state.stat,identity.role);
+      const recent = CG_CATALOG.filter(itemValue =>
+        itemValue.role === identity.role && unlockedCgIds(state.stat).has(itemValue.id)
+      ).slice(-3);
+      const memories = section('最近解锁的羁绊回忆');
+      if (!recent.length) {
+        memories.appendChild(el('div','empty-note','尚未解锁该角色的 CG 回忆'));
+      } else {
+        const grid = el('div','recent-cg-grid');
+        recent.forEach(itemValue => {
+          const card = el('div','recent-cg');
+          card.append(el('strong','',visibleCgId(itemValue,evidence)),document.createTextNode(' · ' + visibleCgText(itemValue.title,evidence)));
+          grid.appendChild(card);
+        });
+        memories.appendChild(grid);
+      }
+      body.appendChild(memories);
+    }
+    addExtras(body,entity,CHARACTER_KEYS,'人物附加资料');
+  }
+  function openCharacterDrawer(key,opener) {
+    const item = state.characterIndex.get(key);
+    if (!item) return;
+    state.openCharacterKey = key;
+    state.returnFocus = opener || document.activeElement;
+    renderCharacterDrawer(item);
+    const drawer = $('[data-character-drawer]');
+    drawer.hidden = false;
+    $('[data-action="close-character-drawer"]',drawer).focus();
+  }
+  function closeCharacterDrawer() {
+    const drawer = $('[data-character-drawer]');
+    drawer.hidden = true;
+    state.openCharacterKey = '';
+    const target = state.returnFocus;
+    state.returnFocus = null;
+    if (target && target.isConnected && typeof target.focus === 'function') target.focus();
+  }
+
+  function renderActivity(stat) {
+    const panel = $('[data-hud-panel="activity"]');
+    const check = object(stat.检定);
+    const roll = object(check.本回合);
+    const events = object(stat.事件);
+    const items = object(stat.持有物);
+    panel.replaceChildren(heading('命运与行囊','检定、战斗、事件和持有物'));
+
+    const rollSection = section('本回合命运骰');
+    const rollCard = el('div','roll-card');
+    rollCard.appendChild(el('div','d20',text(roll.骰值,'0')));
+    const rollText = el('div');
+    rollText.appendChild(el('div','verdict',text(roll.判定,'无检定')));
+    rollText.appendChild(el('div','roll-detail',text(roll.行动,'无行动')));
+    rollText.appendChild(el('div','roll-detail',text(roll.缘由,'—')));
+    rollCard.appendChild(rollText);
+    rollSection.appendChild(rollCard);
+    addExtras(rollSection,roll,ROLL_KEYS,'检定附加资料');
+    panel.appendChild(rollSection);
+
+    const battleSection = section(check.战斗中 ? '交战中' : '战斗状态');
+    battleSection.appendChild(fieldGrid([['战斗中',!!check.战斗中]]));
+    const enemies = array(check.敌人);
+    if (enemies.length) {
+      const grid = el('div','card-grid');
+      enemies.forEach(enemyValue => {
+        const enemy = object(enemyValue);
+        const card = el('article','data-card enemy-card');
+        card.appendChild(el('h3','','⚔ ' + text(enemy.名称,'未知敌人')));
+        card.appendChild(fieldGrid([['等级',enemy.等级],['状态',enemy.状态]]));
+        addExtras(card,enemy,ENEMY_KEYS,'敌人附加资料');
+        grid.appendChild(card);
+      });
+      battleSection.appendChild(grid);
+    } else battleSection.appendChild(el('div','empty-note','当前没有记录中的敌人'));
+    panel.appendChild(battleSection);
+    addExtras(panel,check,CHECK_KEYS,'检定系统附加资料');
+
+    const eventSection = section('进行中事件');
+    const ongoing = array(events.进行中);
+    if (ongoing.length) {
+      const grid = el('div','card-grid');
+      ongoing.forEach(eventValue => {
+        const eventObject = object(eventValue);
+        const card = el('article','data-card');
+        card.appendChild(el('h3','',text(eventObject.名称,'未命名事件')));
+        card.appendChild(el('p','',text(eventObject.进展,'进展未记录')));
+        addExtras(card,eventObject,EVENT_ITEM_KEYS,'事件附加资料');
+        grid.appendChild(card);
+      });
+      eventSection.appendChild(grid);
+    } else eventSection.appendChild(el('div','empty-note','暂无进行中事件'));
+    panel.appendChild(eventSection);
+
+    const historyDetails = el('details','expandable');
+    historyDetails.open = true;
+    historyDetails.appendChild(el('summary','','大事记 · ' + array(events.大事记).length + ' 条'));
+    const historyBody = el('div','details-body');
+    const history = el('ol','history');
+    array(events.大事记).forEach(entry => history.appendChild(el('li','',text(entry,'—'))));
+    if (!history.children.length) historyBody.appendChild(el('div','empty-note','尚无大事记'));
+    else historyBody.appendChild(history);
+    historyDetails.appendChild(historyBody);
+    panel.appendChild(historyDetails);
+    addExtras(panel,events,EVENT_KEYS,'事件系统附加资料');
+
+    const itemSection = section('持有物');
+    const itemKeys = Object.keys(items);
+    if (itemKeys.length) {
+      const grid = el('div','card-grid');
+      itemKeys.forEach(key => {
+        const item = object(items[key]);
+        const card = el('article','data-card');
+        card.appendChild(el('h3','',key + ' ×' + clamp(item.数量 ?? 1,0,9999)));
+        card.appendChild(el('p','',text(item.描述,'暂无描述')));
+        addExtras(card,item,ITEM_KEYS,'物品附加资料');
+        grid.appendChild(card);
+      });
+      itemSection.appendChild(grid);
+    } else itemSection.appendChild(el('div','empty-note','行囊为空'));
+    panel.appendChild(itemSection);
+  }
+
+  function renderStory(stat) {
+    const panel = $('[data-hud-panel="story"]');
+    const world = object(stat.世界);
+    const story = object(stat.主线);
+    panel.replaceChildren(heading('世界与主线','当前环境、篇章和完整节点记录'));
+    const worldSection = section('世界坐标');
+    worldSection.appendChild(fieldGrid([
+      ['日期',world.日期],['时段',world.时段],['天气',world.天气],
+      ['地点',world.地点,true],['场景',world.场景,true],
+    ]));
+    addExtras(worldSection,world,WORLD_KEYS,'世界附加资料');
+    panel.appendChild(worldSection);
+    const mainSection = section('当前篇章');
+    mainSection.appendChild(fieldGrid([
+      ['当前节点',story.当前节点,true],['篇章提要',story.篇章提要,true],
+    ]));
+    addExtras(mainSection,story,STORY_KEYS,'主线附加资料');
+    panel.appendChild(mainSection);
+    const achieved = section('已达成节点');
+    const timeline = el('div','timeline');
+    array(story.已达成节点).forEach(node => timeline.appendChild(el('div','timeline-item',text(node,'—'))));
+    if (!timeline.children.length) achieved.appendChild(el('div','empty-note','故事尚未留下已达成节点'));
+    else achieved.appendChild(timeline);
+    panel.appendChild(achieved);
+    addExtras(panel,stat,ROOT_KEYS,'顶层附加资料');
+  }
+
+  function galleryRoles(stat) {
+    return GALLERY_ROLES
+      .filter(role => !isSelfBoundRole(stat,role))
+      .map(role => revealedRoleEvidence(stat,role));
+  }
+  function galleryCard(item,unlocked,evidence) {
+    const card = el('article','cg-card ' + (unlocked ? 'unlocked' : 'locked'));
+    card.dataset.cgId = item.id;
+    card.dataset.cgUnlocked = String(unlocked);
+    const idText = visibleCgId(item,evidence);
+    const titleText = visibleCgText(item.title,evidence);
+    const hintText = '好感 ≥ ' + item.threshold + ' · ' + visibleCgText(item.event,evidence);
+    if (unlocked) {
+      const button = el('button','cg-open');
+      button.type = 'button';
+      button.dataset.action = 'open-cg';
+      button.dataset.cgOpenId = item.id;
+      button.setAttribute('aria-label','查看已解锁 CG：' + titleText);
+      const media = el('span','cg-media');
+      const image = el('img');
+      image.alt = titleText;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.referrerPolicy = 'no-referrer';
+      image.src = assetUrl(item.path);
+      revealAfterDecode(image);
+      image.addEventListener('error',() => {
+        image.hidden = true;
+        if (!$('.cg-image-error',media)) media.appendChild(el('span','cg-image-error','插图暂时无法载入'));
+      });
+      media.appendChild(image);
+      const copy = el('span','cg-copy');
+      copy.append(el('span','cg-id',idText),el('span','cg-title',titleText),el('span','cg-unlock-hint',hintText));
+      button.append(media,copy);
+      card.appendChild(button);
+    } else {
+      card.appendChild(el('div','cg-lock-mark','✦'));
+      const copy = el('div','cg-copy');
+      copy.append(el('div','cg-id',idText),el('div','cg-title','回忆尚未显现'),el('div','cg-unlock-hint',hintText));
+      card.appendChild(copy);
+    }
+    return card;
+  }
+  function renderGallery(stat) {
+    const panel = $('[data-hud-panel="gallery"]');
+    panel.replaceChildren(heading('羁绊回廊','事件完成与好感门槛同时满足后解锁'));
+    const roles = galleryRoles(stat);
+    const revealed = roles.filter(item => item.civilian || item.transformed);
+    if (!revealed.some(item => item.role === state.galleryRole)) {
+      state.galleryRole = revealed.length ? revealed[0].role : '';
+    }
+    const selected = revealed.find(item => item.role === state.galleryRole) || null;
+    if (selected) {
+      root.style.setProperty('--role-accent',selected.catalog.accent);
+      root.style.setProperty('--role-soft','color-mix(in srgb,' + selected.catalog.accent + ' 16%,transparent)');
+    } else {
+      root.style.setProperty('--role-accent','#8ea9ff');
+      root.style.setProperty('--role-soft','rgba(142,169,255,.16)');
+    }
+    const strip = el('div','gallery-role-strip');
+    strip.setAttribute('aria-label','CG 角色选择');
+    roles.forEach(evidence => {
+      const known = evidence.civilian || evidence.transformed;
+      const button = el('button','gallery-role' + (known ? '' : ' anonymous'));
+      button.type = 'button';
+      button.style.setProperty('--role-accent',known ? evidence.catalog.accent : '#777190');
+      button.style.setProperty('--role-soft',known ? 'color-mix(in srgb,' + evidence.catalog.accent + ' 16%,transparent)' : 'rgba(119,113,144,.08)');
+      if (known) {
+        button.dataset.galleryRole = evidence.role;
+        button.setAttribute('aria-pressed',String(evidence.role === state.galleryRole));
+        button.appendChild(el('strong','',roleDisplayName(evidence)));
+        const unlockedCount = CG_CATALOG.filter(item => item.role === evidence.role && unlockedCgIds(stat).has(item.id)).length;
+        button.appendChild(el('span','',unlockedCount + ' / 10'));
+      } else {
+        button.dataset.galleryAnonymous = '';
+        button.disabled = true;
+        button.setAttribute('aria-label','尚未揭露的角色');
+        button.append(el('strong','','✦'),el('span','','未揭露'));
+      }
+      strip.appendChild(button);
+    });
+    panel.appendChild(strip);
+    if (!selected) {
+      panel.appendChild(el('div','empty-note','当角色身份在剧情中揭露后，属于她的羁绊回忆才会显现。'));
+      return;
+    }
+    const relation = roleRelation(stat,selected.role);
+    const unlocked = unlockedCgIds(stat);
+    const roleItems = CG_CATALOG.filter(item => item.role === selected.role);
+    const unlockedCount = roleItems.filter(item => unlocked.has(item.id)).length;
+    const overview = el('div','gallery-overview');
+    const copy = el('div');
+    copy.appendChild(el('h3','',roleDisplayName(selected)));
+    copy.appendChild(el('p','',text(relation.关系,'关系尚未记录') + ' · 锁印只记录已经完成的回忆'));
+    overview.append(copy,el('div','gallery-count',unlockedCount + ' / 10 已解锁'));
+    panel.append(overview,bondBlock(relation.好感 || 0));
+    const grid = el('div','cg-grid');
+    roleItems.forEach(item => grid.appendChild(galleryCard(item,unlocked.has(item.id),selected)));
+    panel.appendChild(grid);
+  }
+  function lightboxRoleItems(role) {
+    const unlocked = unlockedCgIds(state.stat);
+    return CG_CATALOG.filter(item => item.role === role && unlocked.has(item.id));
+  }
+  function renderCgLightbox() {
+    const overlay = $('[data-cg-lightbox]');
+    const item = CG_CATALOG.find(value => value.id === state.lightboxId && value.role === state.lightboxRole);
+    const evidence = state.lightboxRole ? revealedRoleEvidence(state.stat,state.lightboxRole) : null;
+    if (!item || !evidence || !unlockedCgIds(state.stat).has(item.id) || isSelfBoundRole(state.stat,item.role)) {
+      closeCgLightbox();
+      return;
+    }
+    overlay.style.setProperty('--role-accent',evidence.catalog.accent);
+    $('#mg-lightbox-title').textContent = visibleCgId(item,evidence) + ' · ' + visibleCgText(item.title,evidence);
+    const stage = $('[data-cg-lightbox-stage]');
+    stage.replaceChildren();
+    const image = el('img');
+    image.dataset.cgLightboxImage = '';
+    image.alt = visibleCgText(item.title,evidence);
+    image.decoding = 'async';
+    image.referrerPolicy = 'no-referrer';
+    image.src = assetUrl(item.path);
+    revealAfterDecode(image);
+    image.addEventListener('error',() => {
+      image.hidden = true;
+      if (!$('.cg-image-error',stage)) stage.appendChild(el('div','cg-image-error','插图暂时无法载入，请检查网络后重试。'));
+    });
+    stage.appendChild(image);
+    $('[data-cg-lightbox-caption]').textContent = '解锁条件：好感 ≥ ' + item.threshold + ' · ' + visibleCgText(item.event,evidence);
+    const items = lightboxRoleItems(item.role);
+    const disabled = items.length < 2;
+    $('[data-action="previous-cg"]').disabled = disabled;
+    $('[data-action="next-cg"]').disabled = disabled;
+  }
+  function openCgLightbox(id,opener) {
+    const item = CG_CATALOG.find(value => value.id === id);
+    if (!item || !unlockedCgIds(state.stat).has(id) || isSelfBoundRole(state.stat,item.role)) return;
+    state.lightboxId = id;
+    state.lightboxRole = item.role;
+    state.lightboxReturnFocus = opener || document.activeElement;
+    const overlay = $('[data-cg-lightbox]');
+    overlay.hidden = false;
+    renderCgLightbox();
+    $('[data-action="close-cg"]').focus();
+  }
+  function stepCgLightbox(direction) {
+    const items = lightboxRoleItems(state.lightboxRole);
+    if (items.length < 2) return;
+    let index = items.findIndex(item => item.id === state.lightboxId);
+    index = (index + direction + items.length) % items.length;
+    state.lightboxId = items[index].id;
+    renderCgLightbox();
+  }
+  function closeCgLightbox() {
+    const overlay = $('[data-cg-lightbox]');
+    if (overlay) overlay.hidden = true;
+    state.lightboxId = '';
+    state.lightboxRole = '';
+    const target = state.lightboxReturnFocus;
+    state.lightboxReturnFocus = null;
+    if (target && target.isConnected && typeof target.focus === 'function') target.focus();
+  }
+
+  function renderAll(stat,force = false) {
+    const normalized = object(stat);
+    const signature = JSON.stringify(normalized);
+    if (!force && signature === state.renderSignature) return;
+    state.renderSignature = signature;
+    state.stat = normalized;
+    if (Object.keys(normalized).length) state.lastGood = normalized;
+    renderSummary(normalized);
+    renderTraveler(normalized);
+    renderCharacters(normalized);
+    renderActivity(normalized);
+    renderStory(normalized);
+    renderGallery(normalized);
+    root.classList.toggle('battle-mode',!!object(normalized.检定).战斗中);
+    activateTab(state.activeTab,false);
+    if (state.openCharacterKey && state.characterIndex.has(state.openCharacterKey)) renderCharacterDrawer(state.characterIndex.get(state.openCharacterKey));
+    if (state.lightboxId) renderCgLightbox();
+    root.dataset.hudReady = 'true';
+  }
+
+  function activateTab(tabId,focus = false) {
+    const valid = ['traveler','characters','activity','story','gallery'].includes(tabId) ? tabId : 'traveler';
+    state.activeTab = valid;
+    all('[data-hud-tab]').forEach(tab => {
+      const active = tab.dataset.hudTab === valid;
+      tab.setAttribute('aria-selected',String(active));
+      tab.tabIndex = active ? 0 : -1;
+      if (active && focus) tab.focus();
+    });
+    all('[data-hud-panel]').forEach(panel => { panel.hidden = panel.dataset.hudPanel !== valid; });
+  }
+  function setSyncStatus(message,kind = 'ready') {
+    const status = $('[data-sync-status]');
+    status.textContent = message;
+    status.dataset.state = kind;
+    $('[data-hud-live]').textContent = message;
+  }
+  function toggleHud() {
+    const collapsed = root.dataset.collapsed === 'true';
+    root.dataset.collapsed = String(!collapsed);
+    const button = $('[data-action="toggle-hud"]');
+    button.setAttribute('aria-expanded',String(collapsed));
+    button.setAttribute('aria-label',collapsed ? '折叠状态栏' : '展开状态栏');
+    button.textContent = collapsed ? '⌃' : '⌄';
+  }
+
+  function entityForAvatar(owner,recordKey) {
+    if (owner === 'user') return object(state.stat.user);
+    const item = state.characterIndex.get(recordKey);
+    return item ? object(item.entity) : { 本名:recordKey };
+  }
+  function updateAvatarPreview() {
+    if (!state.avatarDraft) return;
+    const preview = $('[data-avatar-preview]');
+    applyAvatar(preview,state.avatarDraft.key,state.avatarDraft.display,{
+      src:safeAvatarSource(state.avatarDraft.src),
+      zoom:clamp(state.avatarDraft.zoom,1,2),
+      x:clamp(state.avatarDraft.x,0,100),
+      y:clamp(state.avatarDraft.y,0,100),
+    });
+    $('[data-avatar-zoom-out]').value = clamp(state.avatarDraft.zoom,1,2).toFixed(2);
+    $('[data-avatar-x-out]').value = String(Math.round(clamp(state.avatarDraft.x,0,100)));
+    $('[data-avatar-y-out]').value = String(Math.round(clamp(state.avatarDraft.y,0,100)));
+  }
+  function openAvatarEditor(owner,recordKey,opener) {
+    const entity = entityForAvatar(owner,recordKey);
+    const display = owner === 'user' ? text(entity.代号) || text(entity.姓名) || '旅人' : text(entity.代号) || text(entity.本名) || recordKey;
+    const descriptor = portraitDescriptor(owner,recordKey,entity);
+    const current = avatarSettings(descriptor.key,descriptor.builtin);
+    state.avatarDraft = { owner,recordKey,key:descriptor.key,display,src:current.src,zoom:current.zoom,x:current.x,y:current.y };
+    state.avatarReturnFocus = opener || document.activeElement;
+    $('#mg-avatar-title').textContent = '更换头像 · ' + display;
+    $('[data-avatar-url]').value = validHttps(current.src) ? current.src : '';
+    $('[data-avatar-file]').value = '';
+    $('[data-avatar-zoom]').value = String(current.zoom);
+    $('[data-avatar-x]').value = String(current.x);
+    $('[data-avatar-y]').value = String(current.y);
+    $('[data-avatar-error]').textContent = '';
+    updateAvatarPreview();
+    const dialog = $('[data-avatar-dialog]');
+    dialog.hidden = false;
+    $('[data-avatar-url]').focus();
+  }
+  function closeAvatarEditor() {
+    $('[data-avatar-dialog]').hidden = true;
+    state.avatarDraft = null;
+    const target = state.avatarReturnFocus;
+    state.avatarReturnFocus = null;
+    if (target && target.isConnected && typeof target.focus === 'function') target.focus();
+  }
+  function readAvatarControls() {
+    if (!state.avatarDraft) return;
+    state.avatarDraft.zoom = clamp($('[data-avatar-zoom]').value,1,2);
+    state.avatarDraft.x = clamp($('[data-avatar-x]').value,0,100);
+    state.avatarDraft.y = clamp($('[data-avatar-y]').value,0,100);
+  }
+  function saveAvatar() {
+    if (!state.avatarDraft) return;
+    readAvatarControls();
+    const url = $('[data-avatar-url]').value.trim();
+    if (url) {
+      if (!validHttps(url)) {
+        $('[data-avatar-error]').textContent = '请输入有效且安全的 HTTPS 图片地址。';
+        return;
+      }
+      state.avatarDraft.src = url;
+    }
+    const source = safeAvatarSource(state.avatarDraft.src);
+    if (!source) {
+      $('[data-avatar-error]').textContent = '请选择本地图片或输入有效的 HTTPS 图片地址。';
+      return;
+    }
+    state.avatarStore.entries[state.avatarDraft.key] = {
+      src:source,zoom:state.avatarDraft.zoom,x:state.avatarDraft.x,y:state.avatarDraft.y,updatedAt:Date.now(),
+    };
+    if (!saveAvatarStore()) {
+      $('[data-avatar-error]').textContent = '浏览器存储空间不足，请清除部分本机头像后重试。';
+      return;
+    }
+    closeAvatarEditor();
+    renderAll(state.stat,true);
+    setSyncStatus('头像已保存','ready');
+  }
+  function resetAvatar() {
+    if (!state.avatarDraft) return;
+    delete state.avatarStore.entries[state.avatarDraft.key];
+    if (!saveAvatarStore()) {
+      $('[data-avatar-error]').textContent = '无法写入浏览器存储。';
+      return;
+    }
+    closeAvatarEditor();
+    renderAll(state.stat,true);
+    setSyncStatus('已恢复内置头像','ready');
+  }
+  function readFileAsDataUrl(file) {
+    return new Promise((resolve,reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result || ''));
+      reader.onerror = () => reject(new Error('读取图片失败'));
+      reader.readAsDataURL(file);
+    });
+  }
+  function loadImage(source) {
+    return new Promise((resolve,reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => reject(new Error('无法解析图片'));
+      image.src = source;
+    });
+  }
+  async function compressAvatar(file) {
+    if (!file || !/^image\/(?:png|jpeg|webp|gif)$/i.test(file.type)) throw new Error('请选择 PNG、JPEG、WebP 或 GIF 图片。');
+    if (file.size > 8*1024*1024) throw new Error('图片不能超过 8MB。');
+    const source = await readFileAsDataUrl(file);
+    const image = await loadImage(source);
+    const attempts = [
+      { max:640,quality:.84 },
+      { max:480,quality:.76 },
+      { max:360,quality:.68 },
+    ];
+    let result = '';
+    for (const attempt of attempts) {
+      const scale = Math.min(1,attempt.max/Math.max(image.naturalWidth || image.width,image.naturalHeight || image.height));
+      const width = Math.max(1,Math.round((image.naturalWidth || image.width)*scale));
+      const height = Math.max(1,Math.round((image.naturalHeight || image.height)*scale));
+      const canvas = document.createElement('canvas');
+      canvas.width = width; canvas.height = height;
+      const context = canvas.getContext('2d',{ alpha:true });
+      if (!context) throw new Error('当前浏览器无法处理图片。');
+      context.drawImage(image,0,0,width,height);
+      result = canvas.toDataURL('image/webp',attempt.quality);
+      if (!result.startsWith('data:image/webp')) result = canvas.toDataURL('image/png');
+      if (result.length <= 720000) break;
+    }
+    if (!validLocalImage(result) || result.length > 900000) throw new Error('图片压缩后仍过大，请换一张尺寸更小的图片。');
+    return result;
+  }
+  async function handleAvatarFile(file) {
+    if (!state.avatarDraft || !file) return;
+    const error = $('[data-avatar-error]');
+    error.textContent = '正在压缩图片…';
+    try {
+      state.avatarDraft.src = await compressAvatar(file);
+      $('[data-avatar-url]').value = '';
+      error.textContent = '';
+      updateAvatarPreview();
+    } catch (reason) {
+      error.textContent = reason && reason.message ? reason.message : '图片处理失败。';
+    }
+  }
+
+  function readStat(messageId) {
+    let candidate = null;
+    try {
+      if (typeof getVariables === 'function') {
+        candidate = getVariables({ type:'message',message_id:messageId });
+        if (candidate && isObj(candidate.stat_data) && Object.keys(candidate.stat_data).length) return candidate.stat_data;
+      }
+    } catch (_) {}
+    try {
+      if (window.Mvu && typeof window.Mvu.getMvuData === 'function') {
+        candidate = window.Mvu.getMvuData({ type:'message',message_id:messageId });
+        if (candidate && isObj(candidate.stat_data) && Object.keys(candidate.stat_data).length) return candidate.stat_data;
+      }
+    } catch (_) {}
+    return state.lastGood || {};
+  }
+  async function waitMvu() {
+    try {
+      if (typeof waitGlobalInitialized === 'function') return await waitGlobalInitialized('Mvu');
+    } catch (_) {}
+    const started = Date.now();
+    while (!window.Mvu && Date.now()-started<8000) await new Promise(resolve => setTimeout(resolve,60));
+    return window.Mvu;
+  }
+  function refresh(force = true,message = '已刷新') {
+    setSyncStatus('正在同步…','loading');
+    try {
+      const stat = readStat(state.messageId);
+      renderAll(stat,force);
+      if (Object.keys(object(stat)).length) setSyncStatus(message,'ready');
+      else setSyncStatus('变量暂不可用','error');
+    } catch (_) {
+      setSyncStatus('刷新失败，保留上次数据','error');
+    }
+  }
+  function scheduleRefresh(delay = 70,force = false) {
+    clearTimeout(state.refreshTimer);
+    state.refreshTimer = setTimeout(() => refresh(force,'已同步'),delay);
+  }
+  function subscribeMvu() {
+    let latest = state.messageId === 'latest';
+    try { if (!latest && typeof getLastMessageId === 'function') latest = state.messageId === getLastMessageId(); } catch (_) {}
+    if (!latest || !window.Mvu || !window.Mvu.events || typeof eventOn !== 'function') return;
+    const handler = variables => {
+      if (variables && isObj(variables.stat_data)) {
+        renderAll(variables.stat_data,false);
+        setSyncStatus('已同步','ready');
+      } else scheduleRefresh(80,false);
+    };
+    [window.Mvu.events.VARIABLE_UPDATE_ENDED,window.Mvu.events.VARIABLE_INITIALIZED].filter(Boolean).forEach(eventName => {
+      try {
+        const disposer = eventOn(eventName,handler);
+        if (typeof disposer === 'function') state.disposers.push(disposer);
+        else if (disposer && typeof disposer.stop === 'function') state.disposers.push(() => disposer.stop());
+      } catch (_) {}
+    });
+  }
+  function normalizeDuplicateHudInMessage() {
+    try {
+      const frame = window.frameElement;
+      const message = frame && frame.closest ? frame.closest('.mes') : null;
+      if (!frame || !message) return;
+      const frames = Array.from(message.querySelectorAll('iframe')).filter(item => {
+        try { return !!(item.contentDocument && item.contentDocument.querySelector('[data-mg-hud-root="v2"]')); } catch (_) { return false; }
+      });
+      if (frames.length <= 1) return;
+      const keep = frames.includes(frame) ? frame : frames[frames.length-1];
+      frames.forEach(item => { if (item !== keep) item.remove(); });
+    } catch (_) {}
+  }
+  function trapFocus(event,overlay) {
+    if (event.key !== 'Tab' || overlay.hidden) return;
+    const focusables = all('button:not([disabled]),input:not([disabled]),summary,[tabindex]:not([tabindex="-1"])',overlay).filter(node => !node.hidden);
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length-1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }
+
+  function bindEvents() {
+    root.addEventListener('click',event => {
+      const actionNode = event.target.closest('[data-action]');
+      if (actionNode) {
+        const action = actionNode.dataset.action;
+        if (action === 'refresh') refresh(true,'已刷新');
+        else if (action === 'toggle-hud') toggleHud();
+        else if (action === 'close-character-drawer') closeCharacterDrawer();
+        else if (action === 'edit-avatar') openAvatarEditor(actionNode.dataset.avatarOwner,actionNode.dataset.avatarRecordKey || '',actionNode);
+        else if (action === 'close-avatar') closeAvatarEditor();
+        else if (action === 'save-avatar') saveAvatar();
+        else if (action === 'reset-avatar') resetAvatar();
+        else if (action === 'open-cg') openCgLightbox(actionNode.dataset.cgOpenId,actionNode);
+        else if (action === 'close-cg') closeCgLightbox();
+        else if (action === 'previous-cg') stepCgLightbox(-1);
+        else if (action === 'next-cg') stepCgLightbox(1);
+        return;
+      }
+      const tab = event.target.closest('[data-hud-tab]');
+      if (tab) { activateTab(tab.dataset.hudTab,true); return; }
+      const filter = event.target.closest('[data-presence-filter]');
+      if (filter) { state.presence = filter.dataset.presenceFilter; renderCharacters(state.stat); return; }
+      const galleryRole = event.target.closest('[data-gallery-role]');
+      if (galleryRole) {
+        state.galleryRole = galleryRole.dataset.galleryRole;
+        renderGallery(state.stat);
+        return;
+      }
+      const portrait = event.target.closest('[data-portrait-toggle]');
+      if (portrait) {
+        togglePortrait(portrait.dataset.portraitOwner,portrait.dataset.portraitRecordKey || '');
+        return;
+      }
+      const character = event.target.closest('[data-character-key]');
+      if (character) openCharacterDrawer(character.dataset.characterKey,character);
+      const overlay = event.target.matches('.overlay') ? event.target : null;
+      if (overlay && overlay.hasAttribute('data-character-drawer')) closeCharacterDrawer();
+      else if (overlay && overlay.hasAttribute('data-avatar-dialog')) closeAvatarEditor();
+      else if (overlay && overlay.hasAttribute('data-cg-lightbox')) closeCgLightbox();
+    });
+    root.addEventListener('input',event => {
+      if (event.target.matches('[data-character-search]')) {
+        state.search = event.target.value;
+        if (state.searchComposing || event.isComposing) return;
+        renderCharacters(state.stat);
+        const next = $('[data-character-search]');
+        if (next) { next.focus(); next.setSelectionRange(state.search.length,state.search.length); }
+      }
+      if (event.target.matches('[data-avatar-zoom],[data-avatar-x],[data-avatar-y]')) {
+        readAvatarControls();
+        updateAvatarPreview();
+      }
+      if (event.target.matches('[data-avatar-url]') && state.avatarDraft) {
+        const value = event.target.value.trim();
+        if (!value || validHttps(value)) {
+          state.avatarDraft.src = value;
+          $('[data-avatar-error]').textContent = '';
+          updateAvatarPreview();
+        }
+      }
+    });
+    root.addEventListener('change',event => {
+      if (event.target.matches('[data-avatar-file]')) handleAvatarFile(event.target.files && event.target.files[0]);
+    });
+    root.addEventListener('compositionstart',event => {
+      if (event.target.matches('[data-character-search]')) state.searchComposing = true;
+    });
+    root.addEventListener('compositionend',event => {
+      if (!event.target.matches('[data-character-search]')) return;
+      state.searchComposing = false;
+      state.search = event.target.value;
+      renderCharacters(state.stat);
+      const next = $('[data-character-search]');
+      if (next) { next.focus(); next.setSelectionRange(state.search.length,state.search.length); }
+    });
+    root.addEventListener('keydown',event => {
+      const currentTab = event.target.closest('[data-hud-tab]');
+      if (currentTab && ['ArrowRight','ArrowLeft','Home','End'].includes(event.key)) {
+        event.preventDefault();
+        const tabs = all('[data-hud-tab]');
+        let index = tabs.indexOf(currentTab);
+        if (event.key === 'ArrowRight') index = (index+1)%tabs.length;
+        if (event.key === 'ArrowLeft') index = (index-1+tabs.length)%tabs.length;
+        if (event.key === 'Home') index = 0;
+        if (event.key === 'End') index = tabs.length-1;
+        activateTab(tabs[index].dataset.hudTab,true);
+        return;
+      }
+      const character = event.target.closest('[data-character-key]');
+      if (character && (event.key === 'Enter' || event.key === ' ')) {
+        event.preventDefault();
+        openCharacterDrawer(character.dataset.characterKey,character);
+        return;
+      }
+      if (event.key === 'Escape') {
+        if (!$('[data-cg-lightbox]').hidden) closeCgLightbox();
+        else if (!$('[data-avatar-dialog]').hidden) closeAvatarEditor();
+        else if (!$('[data-character-drawer]').hidden) closeCharacterDrawer();
+      }
+      trapFocus(event,$('[data-cg-lightbox]'));
+      trapFocus(event,$('[data-avatar-dialog]'));
+      trapFocus(event,$('[data-character-drawer]'));
+    });
+    window.addEventListener('storage',event => {
+      if (event.key !== AVATAR_STORAGE_KEY) return;
+      state.avatarStore = loadAvatarStore();
+      renderAll(state.stat,true);
+      setSyncStatus('头像设置已同步','ready');
+    });
+    window.addEventListener('beforeunload',() => {
+      clearTimeout(state.refreshTimer);
+      state.disposers.splice(0).forEach(dispose => { try { dispose(); } catch (_) {} });
+    },{ once:true });
+  }
+
+  (async function init() {
+    normalizeDuplicateHudInMessage();
+    setTimeout(normalizeDuplicateHudInMessage,120);
+    setTimeout(normalizeDuplicateHudInMessage,500);
+    bindEvents();
+    try {
+      if (typeof getCurrentMessageId === 'function') state.messageId = getCurrentMessageId();
+    } catch (_) {}
+    await waitMvu();
+    refresh(true,'已同步');
+    setTimeout(() => refresh(true,'已同步'),600);
+    subscribeMvu();
+  })();
+</script>
+</body>
+</html>
+```

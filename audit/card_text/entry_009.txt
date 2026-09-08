@@ -1,0 +1,5 @@
+<current_status>
+以下是当前世界的真实状态数据(stat_data)。所有叙事、判定与变量更新都必须以此为唯一基准,不得与之矛盾:
+
+{{get_message_variable::stat_data}}
+</current_status>
