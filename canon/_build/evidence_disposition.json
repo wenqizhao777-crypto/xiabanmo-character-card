@@ -1,0 +1,3838 @@
+[
+  {
+    "evidence": "E001",
+    "events": [
+      "EV0001"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E002",
+    "events": [
+      "EV0001"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E003",
+    "events": [
+      "EV0002"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E004",
+    "events": [
+      "EV0003"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E005",
+    "events": [
+      "EV0003",
+      "EV0004"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E006",
+    "events": [
+      "EV0003",
+      "EV0004"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E007",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E008",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E009",
+    "events": [
+      "EV0005"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E010",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E011",
+    "events": [
+      "EV0149"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E012",
+    "events": [
+      "EV0149"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E013",
+    "events": [
+      "EV0149"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E014",
+    "events": [
+      "EV0150"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E015",
+    "events": [
+      "EV0150"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E016",
+    "events": [
+      "EV0145"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E017",
+    "events": [
+      "EV0151"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E018",
+    "events": [
+      "EV0151"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E019",
+    "events": [
+      "EV0151"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E020",
+    "events": [
+      "EV0152"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E021",
+    "events": [
+      "EV0152"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E022",
+    "events": [
+      "EV0178"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E023",
+    "events": [
+      "EV0179"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E024",
+    "events": [
+      "EV0151"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E025",
+    "events": [
+      "EV0153"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E026",
+    "events": [
+      "EV0154"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E027",
+    "events": [
+      "EV0154",
+      "EV0156"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E028",
+    "events": [
+      "EV0155",
+      "EV0180",
+      "EV0181"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E029",
+    "events": [
+      "EV0155"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E030",
+    "events": [
+      "EV0146"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E031",
+    "events": [
+      "EV0176"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E032",
+    "events": [
+      "EV0176"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E033",
+    "events": [
+      "EV0147",
+      "EV0177"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E034",
+    "events": [
+      "EV0148"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E035",
+    "events": [
+      "EV0148",
+      "EV0177"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E036",
+    "events": [
+      "EV0156"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E037",
+    "events": [
+      "EV0157"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E038",
+    "events": [
+      "EV0157"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E039",
+    "events": [
+      "EV0158"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E040",
+    "events": [
+      "EV0158"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E041",
+    "events": [
+      "EV0106"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E042",
+    "events": [
+      "EV0141"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E043",
+    "events": [
+      "EV0006"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E044",
+    "events": [
+      "EV0006"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E045",
+    "events": [
+      "EV0005"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E046",
+    "events": [
+      "EV0007"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E047",
+    "events": [
+      "EV0007"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E048",
+    "events": [
+      "EV0007"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E049",
+    "events": [
+      "EV0011"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E050",
+    "events": [
+      "EV0008"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E051",
+    "events": [
+      "EV0008"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E052",
+    "events": [
+      "EV0008"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E053",
+    "events": [
+      "EV0009",
+      "EV0010"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E054",
+    "events": [
+      "EV0011"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E055",
+    "events": [
+      "EV0011"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E056",
+    "events": [
+      "EV0011"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E057",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E058",
+    "events": [
+      "EV0012"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E059",
+    "events": [
+      "EV0013"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E060",
+    "events": [
+      "EV0013"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E061",
+    "events": [
+      "EV0014"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E062",
+    "events": [
+      "EV0015"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E063",
+    "events": [
+      "EV0015"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E064",
+    "events": [
+      "EV0016"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E065",
+    "events": [
+      "EV0016"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E066",
+    "events": [
+      "EV0016"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E067",
+    "events": [
+      "EV0016"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E068",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E069",
+    "events": [
+      "EV0161"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E070",
+    "events": [
+      "EV0017"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E071",
+    "events": [
+      "EV0017"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E072",
+    "events": [
+      "EV0017"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E073",
+    "events": [
+      "EV0018"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E074",
+    "events": [
+      "EV0018"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E075",
+    "events": [
+      "EV0018"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E076",
+    "events": [],
+    "disposition": "静态规则、具体战术或同节点细节，留百科阶段按原文展开"
+  },
+  {
+    "evidence": "E077",
+    "events": [
+      "EV0019"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E078",
+    "events": [
+      "EV0019"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E079",
+    "events": [
+      "EV0020"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E080",
+    "events": [
+      "EV0021",
+      "EV0182"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E081",
+    "events": [
+      "EV0021",
+      "EV0182"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E082",
+    "events": [
+      "EV0022"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E083",
+    "events": [
+      "EV0022"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E084",
+    "events": [
+      "EV0023"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E085",
+    "events": [
+      "EV0024"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E086",
+    "events": [
+      "EV0024"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E087",
+    "events": [
+      "EV0025"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E088",
+    "events": [
+      "EV0025"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E089",
+    "events": [
+      "EV0026"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E090",
+    "events": [
+      "EV0026"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E091",
+    "events": [
+      "EV0027"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E092",
+    "events": [
+      "EV0028"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E093",
+    "events": [
+      "EV0028"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E094",
+    "events": [
+      "EV0029"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E095",
+    "events": [
+      "EV0028",
+      "EV0029"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E096",
+    "events": [
+      "EV0029"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E097",
+    "events": [
+      "EV0030"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E098",
+    "events": [
+      "EV0031"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E099",
+    "events": [
+      "EV0031"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E100",
+    "events": [
+      "EV0032"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E101",
+    "events": [
+      "EV0032"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E102",
+    "events": [
+      "EV0033"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E103",
+    "events": [
+      "EV0034"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E104",
+    "events": [
+      "EV0034"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E105",
+    "events": [
+      "EV0035"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E106",
+    "events": [
+      "EV0035"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E107",
+    "events": [
+      "EV0035"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E108",
+    "events": [
+      "EV0035"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E109",
+    "events": [
+      "EV0036"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E110",
+    "events": [
+      "EV0036"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E111",
+    "events": [
+      "EV0159"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E112",
+    "events": [
+      "EV0159"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E113",
+    "events": [
+      "EV0159"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E114",
+    "events": [
+      "EV0038"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E115",
+    "events": [
+      "EV0037"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E116",
+    "events": [
+      "EV0038"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E117",
+    "events": [
+      "EV0038"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E118",
+    "events": [
+      "EV0038"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E119",
+    "events": [
+      "EV0038"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E120",
+    "events": [
+      "EV0039"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E121",
+    "events": [
+      "EV0037",
+      "EV0039"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E122",
+    "events": [
+      "EV0039"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E123",
+    "events": [
+      "EV0040"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E124",
+    "events": [
+      "EV0040",
+      "EV0041"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E125",
+    "events": [
+      "EV0041"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E126",
+    "events": [
+      "EV0042"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E127",
+    "events": [
+      "EV0042"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E128",
+    "events": [
+      "EV0042"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E129",
+    "events": [
+      "EV0042"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E130",
+    "events": [
+      "EV0043"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E131",
+    "events": [
+      "EV0043"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E132",
+    "events": [
+      "EV0043"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E133",
+    "events": [
+      "EV0043"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E134",
+    "events": [
+      "EV0044"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E135",
+    "events": [
+      "EV0044"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E136",
+    "events": [
+      "EV0045"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E137",
+    "events": [
+      "EV0045"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E138",
+    "events": [
+      "EV0045"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E139",
+    "events": [
+      "EV0046"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E140",
+    "events": [
+      "EV0046"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E141",
+    "events": [
+      "EV0047"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E142",
+    "events": [
+      "EV0170"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E143",
+    "events": [
+      "EV0170"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E144",
+    "events": [
+      "EV0048"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E145",
+    "events": [
+      "EV0048"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E146",
+    "events": [
+      "EV0048"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E147",
+    "events": [
+      "EV0048"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E148",
+    "events": [
+      "EV0049"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E149",
+    "events": [
+      "EV0049"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E150",
+    "events": [
+      "EV0049"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E151",
+    "events": [
+      "EV0049"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E152",
+    "events": [
+      "EV0049"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E153",
+    "events": [
+      "EV0050"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E154",
+    "events": [
+      "EV0050"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E155",
+    "events": [
+      "EV0050"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E156",
+    "events": [
+      "EV0051",
+      "EV0183"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E157",
+    "events": [
+      "EV0051",
+      "EV0183"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E158",
+    "events": [
+      "EV0052"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E159",
+    "events": [
+      "EV0052",
+      "EV0160"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E160",
+    "events": [
+      "EV0053"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E161",
+    "events": [
+      "EV0054"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E162",
+    "events": [
+      "EV0054"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E163",
+    "events": [
+      "EV0047",
+      "EV0055"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E164",
+    "events": [
+      "EV0055"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E165",
+    "events": [
+      "EV0055"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E166",
+    "events": [
+      "EV0055"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E167",
+    "events": [
+      "EV0056"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E168",
+    "events": [
+      "EV0056"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E169",
+    "events": [
+      "EV0056"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E170",
+    "events": [
+      "EV0057"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E171",
+    "events": [
+      "EV0057"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E172",
+    "events": [
+      "EV0057"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E173",
+    "events": [
+      "EV0058",
+      "EV0165"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E174",
+    "events": [
+      "EV0059"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E175",
+    "events": [
+      "EV0059"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E176",
+    "events": [
+      "EV0060"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E177",
+    "events": [
+      "EV0060"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E178",
+    "events": [
+      "EV0061"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E179",
+    "events": [
+      "EV0062"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E180",
+    "events": [
+      "EV0062"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E181",
+    "events": [],
+    "disposition": "作者附言/未采用草案，不计世界事件"
+  },
+  {
+    "evidence": "E182",
+    "events": [
+      "EV0063"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E183",
+    "events": [
+      "EV0063"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E184",
+    "events": [
+      "EV0063"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E185",
+    "events": [
+      "EV0064"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E186",
+    "events": [
+      "EV0065"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E187",
+    "events": [
+      "EV0065"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E188",
+    "events": [
+      "EV0065"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E189",
+    "events": [
+      "EV0065"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E190",
+    "events": [
+      "EV0066"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E191",
+    "events": [
+      "EV0067"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E192",
+    "events": [
+      "EV0067"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E193",
+    "events": [
+      "EV0067"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E194",
+    "events": [
+      "EV0067"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E195",
+    "events": [
+      "EV0067"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E196",
+    "events": [
+      "EV0068"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E197",
+    "events": [
+      "EV0068"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E198",
+    "events": [
+      "EV0068"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E199",
+    "events": [
+      "EV0068"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E200",
+    "events": [
+      "EV0069"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E201",
+    "events": [
+      "EV0069"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E202",
+    "events": [
+      "EV0069"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E203",
+    "events": [
+      "EV0069"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E204",
+    "events": [
+      "EV0070"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E205",
+    "events": [
+      "EV0070"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E206",
+    "events": [
+      "EV0070"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E207",
+    "events": [
+      "EV0071"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E208",
+    "events": [
+      "EV0171"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E209",
+    "events": [
+      "EV0071"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E210",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E211",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E212",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E213",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E214",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E215",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E216",
+    "events": [
+      "EV0072"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E217",
+    "events": [
+      "EV0073"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E218",
+    "events": [
+      "EV0163"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E219",
+    "events": [
+      "EV0073"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E220",
+    "events": [
+      "EV0073"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E221",
+    "events": [
+      "EV0073"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E222",
+    "events": [
+      "EV0074"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E223",
+    "events": [
+      "EV0074"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E224",
+    "events": [
+      "EV0074"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E225",
+    "events": [
+      "EV0074"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E226",
+    "events": [
+      "EV0075"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E227",
+    "events": [
+      "EV0075"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E228",
+    "events": [
+      "EV0075"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E229",
+    "events": [
+      "EV0075"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E230",
+    "events": [
+      "EV0075"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E231",
+    "events": [
+      "EV0076"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E232",
+    "events": [
+      "EV0076"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E233",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E234",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E235",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E236",
+    "events": [
+      "EV0164"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E237",
+    "events": [
+      "EV0076"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E238",
+    "events": [
+      "EV0076"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E239",
+    "events": [
+      "EV0076"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E240",
+    "events": [
+      "EV0164"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E241",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E242",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E243",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E244",
+    "events": [
+      "EV0077"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E245",
+    "events": [
+      "EV0078"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E246",
+    "events": [
+      "EV0078"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E247",
+    "events": [
+      "EV0078"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E248",
+    "events": [
+      "EV0078",
+      "EV0079"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E249",
+    "events": [
+      "EV0078"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E250",
+    "events": [
+      "EV0080"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E251",
+    "events": [
+      "EV0080"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E252",
+    "events": [
+      "EV0080"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E253",
+    "events": [
+      "EV0080"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E254",
+    "events": [
+      "EV0080"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E255",
+    "events": [
+      "EV0082"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E256",
+    "events": [
+      "EV0081",
+      "EV0082",
+      "EV0184"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E257",
+    "events": [
+      "EV0081",
+      "EV0082",
+      "EV0184"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E258",
+    "events": [
+      "EV0082"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E259",
+    "events": [],
+    "disposition": "作者附言/未采用草案，不计世界事件"
+  },
+  {
+    "evidence": "E260",
+    "events": [
+      "EV0082"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E261",
+    "events": [
+      "EV0082"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E262",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E263",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E264",
+    "events": [],
+    "disposition": "作者附言/未采用草案，不计世界事件"
+  },
+  {
+    "evidence": "E265",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E266",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E267",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E268",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E269",
+    "events": [
+      "EV0083"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E270",
+    "events": [
+      "EV0084"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E271",
+    "events": [
+      "EV0084"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E272",
+    "events": [
+      "EV0085"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E273",
+    "events": [
+      "EV0084",
+      "EV0085"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E274",
+    "events": [
+      "EV0084"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E275",
+    "events": [
+      "EV0084"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E276",
+    "events": [
+      "EV0084"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E277",
+    "events": [
+      "EV0162"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E278",
+    "events": [
+      "EV0086"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E279",
+    "events": [
+      "EV0086"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E280",
+    "events": [
+      "EV0086"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E281",
+    "events": [
+      "EV0086"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E282",
+    "events": [
+      "EV0085"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E283",
+    "events": [
+      "EV0087"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E284",
+    "events": [
+      "EV0087"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E285",
+    "events": [
+      "EV0085",
+      "EV0087"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E286",
+    "events": [
+      "EV0085"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E287",
+    "events": [
+      "EV0088"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E288",
+    "events": [
+      "EV0088"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E289",
+    "events": [
+      "EV0088"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E290",
+    "events": [
+      "EV0088"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E291",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E292",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E293",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E294",
+    "events": [
+      "EV0088"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E295",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E296",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E297",
+    "events": [
+      "EV0089",
+      "EV0162"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E298",
+    "events": [
+      "EV0089"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E299",
+    "events": [
+      "EV0090",
+      "EV0162"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E300",
+    "events": [
+      "EV0090"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E301",
+    "events": [
+      "EV0090"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E302",
+    "events": [
+      "EV0090"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E303",
+    "events": [
+      "EV0091"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E304",
+    "events": [
+      "EV0091"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E305",
+    "events": [
+      "EV0091"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E306",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E307",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E308",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E309",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E310",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E311",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E312",
+    "events": [
+      "EV0092"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E313",
+    "events": [
+      "EV0093"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E314",
+    "events": [
+      "EV0093"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E315",
+    "events": [
+      "EV0093"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E316",
+    "events": [
+      "EV0093"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E317",
+    "events": [
+      "EV0093"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E318",
+    "events": [
+      "EV0094"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E319",
+    "events": [
+      "EV0094"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E320",
+    "events": [
+      "EV0094"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E321",
+    "events": [
+      "EV0095",
+      "EV0166"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E322",
+    "events": [
+      "EV0095",
+      "EV0167",
+      "EV0185"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E323",
+    "events": [
+      "EV0095",
+      "EV0167",
+      "EV0185"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E324",
+    "events": [
+      "EV0096"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E325",
+    "events": [
+      "EV0096"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E326",
+    "events": [
+      "EV0096"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E327",
+    "events": [
+      "EV0096"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E328",
+    "events": [
+      "EV0097"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E329",
+    "events": [
+      "EV0097"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E330",
+    "events": [
+      "EV0097"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E331",
+    "events": [
+      "EV0097"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E332",
+    "events": [
+      "EV0098"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E333",
+    "events": [
+      "EV0168"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E334",
+    "events": [
+      "EV0168",
+      "EV0169"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E335",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E336",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E337",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E338",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E339",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E340",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E341",
+    "events": [
+      "EV0099"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E342",
+    "events": [
+      "EV0100"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E343",
+    "events": [
+      "EV0100"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E344",
+    "events": [
+      "EV0100"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E345",
+    "events": [
+      "EV0101"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E346",
+    "events": [
+      "EV0102"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E347",
+    "events": [
+      "EV0102"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E348",
+    "events": [
+      "EV0102"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E349",
+    "events": [
+      "EV0102"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E350",
+    "events": [
+      "EV0103"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E351",
+    "events": [
+      "EV0101"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E352",
+    "events": [
+      "EV0103"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E353",
+    "events": [
+      "EV0103",
+      "EV0172"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E354",
+    "events": [
+      "EV0172"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E355",
+    "events": [
+      "EV0104"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E356",
+    "events": [
+      "EV0104"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E357",
+    "events": [
+      "EV0104"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E358",
+    "events": [
+      "EV0104"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E359",
+    "events": [
+      "EV0104"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E360",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E361",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E362",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E363",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E364",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E365",
+    "events": [
+      "EV0105"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E366",
+    "events": [
+      "EV0106"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E367",
+    "events": [
+      "EV0106"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E368",
+    "events": [
+      "EV0106"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E369",
+    "events": [
+      "EV0107"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E370",
+    "events": [
+      "EV0107"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E371",
+    "events": [
+      "EV0107"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E372",
+    "events": [
+      "EV0107"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E373",
+    "events": [
+      "EV0108"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E374",
+    "events": [
+      "EV0108"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E375",
+    "events": [
+      "EV0108"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E376",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E377",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E378",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E379",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E380",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E381",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E382",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E383",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E384",
+    "events": [
+      "EV0109"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E385",
+    "events": [
+      "EV0110"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E386",
+    "events": [
+      "EV0110"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E387",
+    "events": [
+      "EV0110"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E388",
+    "events": [
+      "EV0110"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E389",
+    "events": [
+      "EV0110"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E390",
+    "events": [
+      "EV0111"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E391",
+    "events": [
+      "EV0111"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E392",
+    "events": [
+      "EV0112"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E393",
+    "events": [
+      "EV0112"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E394",
+    "events": [
+      "EV0112"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E395",
+    "events": [
+      "EV0113"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E396",
+    "events": [
+      "EV0113"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E397",
+    "events": [
+      "EV0113"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E398",
+    "events": [
+      "EV0114"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E399",
+    "events": [
+      "EV0113"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E400",
+    "events": [
+      "EV0114"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E401",
+    "events": [
+      "EV0114"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E402",
+    "events": [
+      "EV0114"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E403",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E404",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E405",
+    "events": [
+      "EV0114"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E406",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E407",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E408",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E409",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E410",
+    "events": [
+      "EV0115"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E411",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E412",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E413",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E414",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E415",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E416",
+    "events": [
+      "EV0116"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E417",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E418",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E419",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E420",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E421",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E422",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E423",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E424",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E425",
+    "events": [
+      "EV0117"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E426",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E427",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E428",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E429",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E430",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E431",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E432",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E433",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E434",
+    "events": [
+      "EV0118"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E435",
+    "events": [
+      "EV0119"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E436",
+    "events": [
+      "EV0119"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E437",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E438",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E439",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E440",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E441",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E442",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E443",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E444",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E445",
+    "events": [
+      "EV0120"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E446",
+    "events": [
+      "EV0121"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E447",
+    "events": [
+      "EV0121"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E448",
+    "events": [
+      "EV0121"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E449",
+    "events": [
+      "EV0121"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E450",
+    "events": [
+      "EV0122"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E451",
+    "events": [
+      "EV0122"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E452",
+    "events": [
+      "EV0122"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E453",
+    "events": [
+      "EV0123"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E454",
+    "events": [
+      "EV0122"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E455",
+    "events": [
+      "EV0122"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E456",
+    "events": [
+      "EV0123"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E457",
+    "events": [
+      "EV0123"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E458",
+    "events": [
+      "EV0123"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E459",
+    "events": [
+      "EV0123"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E460",
+    "events": [
+      "EV0124"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E461",
+    "events": [
+      "EV0124"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E462",
+    "events": [
+      "EV0124"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E463",
+    "events": [
+      "EV0124"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E464",
+    "events": [
+      "EV0173"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E465",
+    "events": [
+      "EV0125"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E466",
+    "events": [
+      "EV0125"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E467",
+    "events": [
+      "EV0125"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E468",
+    "events": [
+      "EV0125"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E469",
+    "events": [
+      "EV0125"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E470",
+    "events": [
+      "EV0126"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E471",
+    "events": [
+      "EV0126"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E472",
+    "events": [
+      "EV0126"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E473",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E474",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E475",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E476",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E477",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E478",
+    "events": [
+      "EV0126",
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E479",
+    "events": [
+      "EV0127"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E480",
+    "events": [
+      "EV0128"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E481",
+    "events": [
+      "EV0174"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E482",
+    "events": [
+      "EV0129",
+      "EV0174"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E483",
+    "events": [
+      "EV0129"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E484",
+    "events": [
+      "EV0129"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E485",
+    "events": [
+      "EV0129"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E486",
+    "events": [
+      "EV0129"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E487",
+    "events": [
+      "EV0129"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E488",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E489",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E490",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E491",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E492",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E493",
+    "events": [
+      "EV0130"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E494",
+    "events": [
+      "EV0131"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E495",
+    "events": [
+      "EV0131"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E496",
+    "events": [
+      "EV0131"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E497",
+    "events": [
+      "EV0131"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E498",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E499",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E500",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E501",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E502",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E503",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E504",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E505",
+    "events": [
+      "EV0132"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E506",
+    "events": [
+      "EV0133"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E507",
+    "events": [
+      "EV0133"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E508",
+    "events": [
+      "EV0133"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E509",
+    "events": [
+      "EV0133"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E510",
+    "events": [
+      "EV0133"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E511",
+    "events": [
+      "EV0134"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E512",
+    "events": [
+      "EV0134"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E513",
+    "events": [
+      "EV0134"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E514",
+    "events": [
+      "EV0134"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E515",
+    "events": [
+      "EV0135"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E516",
+    "events": [
+      "EV0135"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E517",
+    "events": [
+      "EV0135"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E518",
+    "events": [
+      "EV0135"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E519",
+    "events": [
+      "EV0136"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E520",
+    "events": [
+      "EV0136"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E521",
+    "events": [
+      "EV0136"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E522",
+    "events": [
+      "EV0136"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E523",
+    "events": [
+      "EV0136"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E524",
+    "events": [
+      "EV0175"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E525",
+    "events": [
+      "EV0137"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E526",
+    "events": [
+      "EV0137"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E527",
+    "events": [
+      "EV0137"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E528",
+    "events": [
+      "EV0137"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E529",
+    "events": [
+      "EV0137"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E530",
+    "events": [
+      "EV0138"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E531",
+    "events": [
+      "EV0138"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E532",
+    "events": [
+      "EV0138"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E533",
+    "events": [
+      "EV0138"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E534",
+    "events": [
+      "EV0139"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E535",
+    "events": [
+      "EV0139"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E536",
+    "events": [
+      "EV0140"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E537",
+    "events": [
+      "EV0139",
+      "EV0140"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E538",
+    "events": [
+      "EV0141"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E539",
+    "events": [
+      "EV0141"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E540",
+    "events": [
+      "EV0142"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E541",
+    "events": [
+      "EV0142"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E542",
+    "events": [
+      "EV0143"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E543",
+    "events": [
+      "EV0143",
+      "EV0144"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E544",
+    "events": [
+      "EV0144",
+      "EV0145"
+    ],
+    "disposition": "事件导航"
+  },
+  {
+    "evidence": "E545",
+    "events": [
+      "EV0145"
+    ],
+    "disposition": "事件导航"
+  }
+]

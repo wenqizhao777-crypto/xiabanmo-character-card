@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-09T20:23:27.820504",
+  "event_count": 189,
+  "knowledge_count": 207,
+  "relationship_count": 49,
+  "source_lines": 38825,
+  "source_chars": 1641637,
+  "protected_file_count": 244,
+  "protected_differences": [],
+  "errors": [],
+  "scope": "结构/引用/哈希自动检查，不替代语义检查"
+}

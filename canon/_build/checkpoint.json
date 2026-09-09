@@ -1,0 +1,19 @@
+{
+  "phase": "REQUESTED_TIMELINE_SCOPE_COMPLETE",
+  "updated_at": "2026-09-09T20:23:18.060604",
+  "event_count": 189,
+  "max_event_id": "EV0189",
+  "knowledge_count": 207,
+  "max_knowledge_id": "K_TEMP_207",
+  "relationship_count": 49,
+  "max_relationship_id": "REL_TEMP_049",
+  "source_range": [
+    1,
+    38825
+  ],
+  "source_chars_excluding_newlines": 1641637,
+  "next_source_line": null,
+  "unprocessed_source_ranges": [],
+  "pending": "完整人物/知识/关系及02–05模块不在本轮范围；等待用户后续指令",
+  "note": "全文范围时间轴构建完成；第一阶段审计不修改；不等于重新全文连续阅读或穷尽静态百科。"
+}
