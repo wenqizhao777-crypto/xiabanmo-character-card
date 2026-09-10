@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-09-09T19:42:27.488Z",
+  "directories": {
+    "source": {
+      "files": 1,
+      "sha256": "ba488ea767eb980cee154eba3d04632544cf252a66253ff6c0eadef27c00f2b0"
+    },
+    "current": {
+      "files": 1,
+      "sha256": "ef7a2e2d5c0ca1e3a80539f07a01345efd03469122d7282f2ad98e1520fe6f26"
+    },
+    "audit": {
+      "files": 242,
+      "sha256": "4b1546b111a82071c48eaba5021d221594e0633fdc94b2dde914a9f8869869ef"
+    },
+    "canon": {
+      "files": 49,
+      "sha256": "e403800be4d33975222d750091ab132a539151d66b40886d496064a17ba415c9"
+    },
+    "final": {
+      "files": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  }
+}

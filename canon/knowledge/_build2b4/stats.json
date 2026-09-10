@@ -1,0 +1,22 @@
+{
+  "formal": 235,
+  "temp": 207,
+  "temp_merged": 16,
+  "temp_empty_retired": 1,
+  "temp_split": 22,
+  "new_knowledge": 22,
+  "profiles": 10,
+  "transitions": 364,
+  "error_propositions": 25,
+  "error_states": 18,
+  "memory_loss_states": 2,
+  "unknown_propositions": 33,
+  "unknown_states": 4,
+  "explicit_unaware_states": 11,
+  "private_or_secret_propositions": 185,
+  "high_secret_propositions": 21,
+  "disclosures": 20,
+  "snapshot_count": 38,
+  "relationships_scanned": 172,
+  "characters_scanned": 70
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at_local": "2026-09-10T04:52:15.422712+08:00",
+  "status": "PASS",
+  "errors": [],
+  "counts": {
+    "WR": 14,
+    "PS": 38,
+    "ORG": 19,
+    "LOC": 36
+  },
+  "entries": 107,
+  "unresolved_groups": 40,
+  "links_checked": 1346,
+  "source_lines": 38825,
+  "source_chars_excluding_newlines": 1641637,
+  "baseline_files": 310,
+  "protected_existing_files_checked": 305,
+  "changed_existing_files": [
+    "canon\\02_world_rules.md",
+    "canon\\03_power_system.md",
+    "canon\\04_organizations.md",
+    "canon\\05_locations.md",
+    "canon\\README.md"
+  ],
+  "new_files": [
+    "canon/INFERENCE_GUARDRAILS.md",
+    "canon/STAGE2B1_REVIEW.md",
+    "canon/UNRESOLVED.md",
+    "canon/_stage2b1/check_result.json",
+    "canon/_stage2b1/initial_check_result.json",
+    "canon/_stage2b1/input_baseline.json",
+    "canon/_stage2b1/manifest.json",
+    "canon/_stage2b1/README.md",
+    "canon/_stage2b1/revision_notes.json",
+    "canon/_stage2b1/unresolved_index.json",
+    "canon/_stage2b1/validate.py",
+    "canon/_stage2b1/write_entries.py",
+    "canon/_stage2b1/__pycache__/write_entries.cpython-314.pyc"
+  ],
+  "source_sha256": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+  "card_sha256": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d",
+  "stage2a_events": 189,
+  "knowledge_temp_count": 207,
+  "relationship_temp_count": 49,
+  "module_sizes_chars": {
+    "02_world_rules.md": 13906,
+    "03_power_system.md": 43378,
+    "04_organizations.md": 23359,
+    "05_locations.md": 34179
+  },
+  "scope": "Structural/reference/input-hash checks; not an automatic proof of semantic truth or human acceptance."
+}

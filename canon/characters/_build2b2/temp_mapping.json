@@ -1,0 +1,1174 @@
+[
+  {
+    "temp": "P_TEMP_001",
+    "label": "林昀",
+    "characters": [
+      "CH001"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_002",
+    "label": "林小璐",
+    "characters": [
+      "CH002"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_003",
+    "label": "匿名来电者",
+    "characters": [
+      "CH011"
+    ],
+    "scope": "首次来电视角仍匿名；后文妮妮电话线回接，不据合并恢复固定号码或固定三通。"
+  },
+  {
+    "temp": "P_TEMP_004",
+    "label": "翠雀",
+    "characters": [
+      "CH001"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_005",
+    "label": "摩可",
+    "characters": [
+      "CH010"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_006",
+    "label": "夏凉",
+    "characters": [
+      "CH003"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_007",
+    "label": "红思与",
+    "characters": [
+      "CH005"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_008",
+    "label": "荼蘼",
+    "characters": [
+      "CH040"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_009",
+    "label": "调查小队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_010",
+    "label": "摩丝",
+    "characters": [
+      "CH012"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_011",
+    "label": "乘客",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_012",
+    "label": "白静萱",
+    "characters": [
+      "CH004"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_013",
+    "label": "刘文琴",
+    "characters": [
+      "CH035"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_014",
+    "label": "田胜",
+    "characters": [
+      "CH031"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_015",
+    "label": "兵触三及黑袍人",
+    "characters": [
+      "CH039"
+    ],
+    "scope": "该入口同时含兵触三与未具名黑袍人；链接不把全组压成一人。"
+  },
+  {
+    "temp": "P_TEMP_016",
+    "label": "薄雪",
+    "characters": [
+      "CH004"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_017",
+    "label": "兵触三",
+    "characters": [
+      "CH039"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_018",
+    "label": "麻雀",
+    "characters": [
+      "CH036"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_019",
+    "label": "王腾飞",
+    "characters": [
+      "CH047"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_020",
+    "label": "局方",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_021",
+    "label": "猫尾",
+    "characters": [
+      "CH021"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_022",
+    "label": "金绿猫眼",
+    "characters": [
+      "CH034"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_023",
+    "label": "三新人",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_024",
+    "label": "异策局",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_025",
+    "label": "福利院",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_026",
+    "label": "安雅",
+    "characters": [
+      "CH006"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_027",
+    "label": "玛格丽特",
+    "characters": [
+      "CH007"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_028",
+    "label": "苏胜紫",
+    "characters": [
+      "CH018"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_029",
+    "label": "沃波",
+    "characters": [
+      "CH042"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_030",
+    "label": "李雅晴",
+    "characters": [
+      "CH048"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_031",
+    "label": "店员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_032",
+    "label": "亭台老板",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_033",
+    "label": "调查院接线员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_034",
+    "label": "调查院",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_035",
+    "label": "木百合",
+    "characters": [
+      "CH024"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_036",
+    "label": "白蓟",
+    "characters": [
+      "CH023"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_037",
+    "label": "含羞草",
+    "characters": [
+      "CH025"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_038",
+    "label": "波利",
+    "characters": [
+      "CH043"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_039",
+    "label": "灯盏",
+    "characters": [
+      "CH022"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_040",
+    "label": "蛛",
+    "characters": [
+      "CH037"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_041",
+    "label": "猫尾小队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_042",
+    "label": "柏安机构",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_043",
+    "label": "旧队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_044",
+    "label": "麻生圆香",
+    "characters": [
+      "CH007"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_045",
+    "label": "妮妮",
+    "characters": [
+      "CH011"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_046",
+    "label": "城市居民",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_047",
+    "label": "卢恩诺雷",
+    "characters": [],
+    "scope": "原显示名卢恩诺雷是城，不建人物；见LOC013。"
+  },
+  {
+    "temp": "P_TEMP_048",
+    "label": "城中人兽及残兽",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_049",
+    "label": "李英伟",
+    "characters": [
+      "CH049"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_050",
+    "label": "在场职员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_051",
+    "label": "六名暗子",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_052",
+    "label": "祖母绿",
+    "characters": [
+      "CH008"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_053",
+    "label": "小队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_054",
+    "label": "兵蜂七",
+    "characters": [
+      "CH067"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_055",
+    "label": "第三队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_056",
+    "label": "暗子",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_057",
+    "label": "江媛",
+    "characters": [
+      "CH050"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_058",
+    "label": "鸢",
+    "characters": [
+      "CH013"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_059",
+    "label": "塞米",
+    "characters": [
+      "CH028"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_060",
+    "label": "朝颜",
+    "characters": [
+      "CH005"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_061",
+    "label": "林格",
+    "characters": [
+      "CH016"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_062",
+    "label": "柏安三人",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_063",
+    "label": "柏安队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_064",
+    "label": "两队新人",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_065",
+    "label": "两导师",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_066",
+    "label": "白狼",
+    "characters": [
+      "CH014"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_067",
+    "label": "三旧六新",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_068",
+    "label": "陆红豆",
+    "characters": [
+      "CH013"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_069",
+    "label": "师父",
+    "characters": [
+      "CH038"
+    ],
+    "scope": "未具名师父，保留最小索引。"
+  },
+  {
+    "temp": "P_TEMP_070",
+    "label": "天女",
+    "characters": [
+      "CH065"
+    ],
+    "scope": "天女是时代通称；链接仅该场救命者，不代表通称只有一人。"
+  },
+  {
+    "temp": "P_TEMP_071",
+    "label": "紫钻",
+    "characters": [
+      "CH014"
+    ],
+    "scope": "本入口发生在旧紫钻语境；裸称紫钻跨时需另辨CH029。"
+  },
+  {
+    "temp": "P_TEMP_072",
+    "label": "爪痕成员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_073",
+    "label": "六新人",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_074",
+    "label": "黑猫",
+    "characters": [
+      "CH009"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_075",
+    "label": "追击四新人",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_076",
+    "label": "三旧",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_077",
+    "label": "金蛇",
+    "characters": [
+      "CH015"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_078",
+    "label": "褐鹈",
+    "characters": [
+      "CH046"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_079",
+    "label": "土丁桂",
+    "characters": [
+      "CH030"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_080",
+    "label": "界门守卫",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_081",
+    "label": "矢车菊",
+    "characters": [
+      "CH001"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_082",
+    "label": "樱",
+    "characters": [
+      "CH006"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_083",
+    "label": "石蒜",
+    "characters": [
+      "CH019"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_084",
+    "label": "妮娜",
+    "characters": [
+      "CH009"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_085",
+    "label": "妮姆",
+    "characters": [
+      "CH020"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_086",
+    "label": "墨荷",
+    "characters": [
+      "CH009"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_087",
+    "label": "郁金香",
+    "characters": [
+      "CH015"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_088",
+    "label": "折鹤兰及绿派来客",
+    "characters": [
+      "CH033",
+      "CH060",
+      "CH061",
+      "CH062",
+      "CH063"
+    ],
+    "scope": "混合群体：已命名者导航，其他来客不自动同级。"
+  },
+  {
+    "temp": "P_TEMP_089",
+    "label": "绿派",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_090",
+    "label": "研究院及考试调查部门",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_091",
+    "label": "考生",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_092",
+    "label": "考试院及皇冠派",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_093",
+    "label": "狗尾草",
+    "characters": [
+      "CH032"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_094",
+    "label": "薄荷",
+    "characters": [
+      "CH026"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_095",
+    "label": "姐妹",
+    "characters": [],
+    "scope": "“姐妹”跨场有吴姐妹、山卷等，按原事件辨主体。"
+  },
+  {
+    "temp": "P_TEMP_096",
+    "label": "女王",
+    "characters": [
+      "CH017"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_097",
+    "label": "新紫钻",
+    "characters": [
+      "CH029"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_098",
+    "label": "鸽血红",
+    "characters": [
+      "CH058"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_099",
+    "label": "各考核队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_100",
+    "label": "主考月季",
+    "characters": [
+      "CH070"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_101",
+    "label": "观礼席",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_102",
+    "label": "卷丹",
+    "characters": [
+      "CH055"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_103",
+    "label": "山丹",
+    "characters": [
+      "CH056"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_104",
+    "label": "醉鱼草及相关队员",
+    "characters": [
+      "CH057"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_105",
+    "label": "629",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_106",
+    "label": "277",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_107",
+    "label": "其他队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_108",
+    "label": "蜂",
+    "characters": [
+      "CH044"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_109",
+    "label": "箭根薯",
+    "characters": [
+      "CH027"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_110",
+    "label": "小璐",
+    "characters": [
+      "CH002"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_111",
+    "label": "夏凉及姐妹",
+    "characters": [
+      "CH003",
+      "CH055",
+      "CH056"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_112",
+    "label": "测绘队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_113",
+    "label": "夏队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_114",
+    "label": "月季",
+    "characters": [
+      "CH070"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_115",
+    "label": "盟友",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_116",
+    "label": "考官",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_117",
+    "label": "公众",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_118",
+    "label": "木芙蓉",
+    "characters": [
+      "CH052"
+    ],
+    "scope": "旧写木芙蓉；原著实际木棉（Review R001），保留旧入口但不当Canon别名。"
+  },
+  {
+    "temp": "P_TEMP_119",
+    "label": "青葙",
+    "characters": [
+      "CH053"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_120",
+    "label": "花烛",
+    "characters": [
+      "CH054"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_121",
+    "label": "三队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_122",
+    "label": "夏及姐妹",
+    "characters": [
+      "CH003",
+      "CH055",
+      "CH056"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_123",
+    "label": "追击队",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_124",
+    "label": "折鹤兰",
+    "characters": [
+      "CH033"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_125",
+    "label": "海蒂阿比梅尔",
+    "characters": [
+      "CH015"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_126",
+    "label": "援军",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_127",
+    "label": "蜂使徒",
+    "characters": [
+      "CH069"
+    ],
+    "scope": "仅历史蜂之使徒；与当代CH044未强并。"
+  },
+  {
+    "temp": "P_TEMP_128",
+    "label": "两羽",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_129",
+    "label": "撤退残军",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_130",
+    "label": "妖精及伤者",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_131",
+    "label": "金蛇家主等",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_132",
+    "label": "妮姆记忆",
+    "characters": [
+      "CH020"
+    ],
+    "scope": "记忆为载体，人物已死，不建复活个体。"
+  },
+  {
+    "temp": "P_TEMP_133",
+    "label": "考官与考生",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_134",
+    "label": "研究院主任",
+    "characters": [
+      "CH066"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_135",
+    "label": "雪毬等",
+    "characters": [
+      "CH062"
+    ],
+    "scope": "“等”还含未具名协作者，不把整个团队归雪毬。"
+  },
+  {
+    "temp": "P_TEMP_136",
+    "label": "箭根薯等兽子；外场人员",
+    "characters": [
+      "CH027"
+    ],
+    "scope": "混合内外场群体，只链接点名个体。"
+  },
+  {
+    "temp": "P_TEMP_137",
+    "label": "遗鸥",
+    "characters": [
+      "CH045"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_138",
+    "label": "王庭护卫",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_139",
+    "label": "羊踟蹰",
+    "characters": [
+      "CH059"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_140",
+    "label": "魔法少女",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_141",
+    "label": "车内乘客",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_142",
+    "label": "救过她的魔法少女",
+    "characters": [
+      "CH065"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_143",
+    "label": "唐菖蒲",
+    "characters": [
+      "CH013"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_144",
+    "label": "前任紫钻",
+    "characters": [
+      "CH014"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_145",
+    "label": "面临退役的魔法少女",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_146",
+    "label": "大杰克",
+    "characters": [
+      "CH064"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_147",
+    "label": "使徒",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_148",
+    "label": "国度人员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_149",
+    "label": "招聘方",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_150",
+    "label": "宝石权杖",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_151",
+    "label": "受袭考生",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_152",
+    "label": "平民",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_153",
+    "label": "其他新人魔法少女",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_154",
+    "label": "吴晰晴",
+    "characters": [
+      "CH026"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_155",
+    "label": "吴惜雨",
+    "characters": [
+      "CH027"
+    ],
+    "scope": "按原事件辨知情人；别名合并不共享未获得的知识。"
+  },
+  {
+    "temp": "P_TEMP_156",
+    "label": "父母",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_157",
+    "label": "组织人员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_158",
+    "label": "被判叛徒的魔法少女",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_159",
+    "label": "王庭",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_160",
+    "label": "爪痕早期成员",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_161",
+    "label": "后到魔法少女",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_162",
+    "label": "旧队友",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_163",
+    "label": "园丁",
+    "characters": [],
+    "scope": "群体、职能泛称或未具名主体；按原事件辨成员，不机械建人。"
+  },
+  {
+    "temp": "P_TEMP_164",
+    "label": "兔形妖精",
+    "characters": [],
+    "scope": "未具名兔形妖精；候选沃波CH042未确认同一，不另造确定人名。"
+  }
+]

@@ -1,0 +1,2173 @@
+[
+  {
+    "character": "CH001",
+    "issues": [
+      {
+        "id": "C006",
+        "title": "前辈身份修补亲情的明确动机被否定",
+        "card_entry_indices": [
+          14,
+          47,
+          102,
+          103,
+          105,
+          109
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "02",
+            "reason": "后续一度拒绝借女儿问话，同时继续以翠雀处理课业亲情；这是场合变化，不能推翻早期明示动机。",
+            "json_index": 1
+          },
+          {
+            "session": "03",
+            "reason": "第64—66/98章明确持续借翠雀维系关系及身份揭露后的如释重负，进一步否定没有亲情修补动机。",
+            "json_index": 11
+          },
+          {
+            "session": "05",
+            "reason": "终章主动回顾过度保护与隐瞒，进一步强化旧问题中的真实亲情动机。",
+            "json_index": 31
+          },
+          {
+            "session": "08",
+            "reason": "第41—42章给出新的家庭选择，补强保护责任与私心并存，不将新关系倒填开篇。",
+            "json_index": 66
+          },
+          {
+            "session": "10",
+            "reason": "70—72补双身份缓和/遮掩及当下未解父女需求，卡102事件一对计划与动机简化。",
+            "json_index": 91
+          },
+          {
+            "session": "11",
+            "reason": "2026-09-09；迟到心理解释强化原问题并细化冲突，不以新承诺覆盖旧隔阂。",
+            "json_index": 104
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；89答复未读已被后文填补，关系与独立动机有新证。",
+            "json_index": 117
+          },
+          {
+            "session": "14",
+            "reason": "2026-09-09；同日两身份关系补充，不把生日温情写成彻底和解。",
+            "json_index": 147
+          },
+          {
+            "session": "16",
+            "reason": "2026-09-09；后期明确养育转变与个人私心/公共措施不同层，再反证只导向训练。",
+            "json_index": 169
+          },
+          {
+            "session": "18",
+            "reason": "2026-09-09；后期从保护到尊重自主的实际变化强化旧判断并限定放权范围。",
+            "json_index": 189
+          },
+          {
+            "session": "19",
+            "reason": "2026-09-09；后续进一步加强逐步自主而非只训练姿态。",
+            "json_index": 200
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C007",
+        "title": "回家场景漏掉敲门谈话与道歉，日期也被跨日处理",
+        "card_entry_indices": [
+          14,
+          47
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C008",
+        "title": "心之花的旧伤与灰尘被写成种类特征",
+        "card_entry_indices": [
+          20
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；同物品完损状态随治疗改变。",
+            "json_index": 133
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C025",
+        "title": "荼蘼葬礼回忆中的消息归属、死亡地点与知情状态被混写",
+        "card_entry_indices": [
+          91,
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "此前标未知的林昀获知节点已读到第92章；第77章内心归属加强其认可金绿猫眼警告，不抹除早先间接链。",
+            "json_index": 13
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C026",
+        "title": "小璐被提前赋予夏凉家事与母亲魔法身份",
+        "card_entry_indices": [
+          92,
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C027",
+        "title": "剧情补写让不在场人物旁听并制造红思与约会演出",
+        "card_entry_indices": [
+          92,
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C038",
+        "title": "禁魔前置条件与旧伤的持续疼痛、加重风险须分开",
+        "card_entry_indices": [
+          3,
+          47,
+          94,
+          102,
+          104,
+          105,
+          106
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "04",
+            "reason": "蛛案提供击败后禁魔的新实例，并显示兽之腑可在禁魔仍生效时重新取力；第127章验证副作用持续。",
+            "json_index": 22
+          },
+          {
+            "session": "05",
+            "reason": "终章直接补明使用魔装时几乎持续灵魂疼痛，修正此前仅强调爆发疼痛的窄解释；疼痛不等于每件杰作按次扣本相。",
+            "json_index": 32
+          },
+          {
+            "session": "06",
+            "reason": "后遗症扩展为失控变身、战力降至叶与急飞也加痛；祖提出奇境沉寂可治而非永久消失。",
+            "json_index": 46
+          },
+          {
+            "session": "07",
+            "reason": "伤后再战明确无需奇境也能暂时分离，并补出复制物与效果时限、双人消耗的区别。",
+            "json_index": 56
+          },
+          {
+            "session": "08",
+            "reason": "43平手有明示条件，不据旁观问伤或线偶表现推定全康复及无限分身。",
+            "json_index": 69
+          },
+          {
+            "session": "09",
+            "reason": "已见新症状及好友分歧，区分绳结现象、目前无影响和未来风险推断。",
+            "json_index": 79
+          },
+          {
+            "session": "11",
+            "reason": "2026-09-09；将新伤、源避让、魂痛及资源条件分别回接，不新增无据按次机制。",
+            "json_index": 110
+          },
+          {
+            "session": "13",
+            "reason": "2026-09-09；原先疼痛状态已失效，更新治疗后状态并保留稳定期风险。",
+            "json_index": 132
+          },
+          {
+            "session": "14",
+            "reason": "2026-09-09；区分修复后的新表现、原因推测及通用战术。",
+            "json_index": 151
+          },
+          {
+            "session": "15",
+            "reason": "2026-09-09；后续治疗/实战明确持续性与阶段变化。",
+            "json_index": 158
+          },
+          {
+            "session": "20",
+            "reason": "2026-09-09；补战争内连续消耗与损伤来源，避免新战斗解释倒抹原旧伤。",
+            "json_index": 207
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C042",
+        "title": "扫墓中的偏移者内心猜测被写成父女讨论",
+        "card_entry_indices": [
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C043",
+        "title": "夏凉身份揭露的地点、情绪与亲情回应被改写",
+        "card_entry_indices": [
+          95,
+          104,
+          81
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；关系发展与剩余误解同步记录。",
+            "json_index": 138
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C048",
+        "title": "旧队留影把同一人的本名代号及第五成员混进四人照片",
+        "card_entry_indices": [
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C062",
+        "title": "把翠雀受伤退隐误写为因安雅订婚而退隐",
+        "card_entry_indices": [
+          97,
+          36
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C069",
+        "title": "把单向失控变身写成变身从此只能单向",
+        "card_entry_indices": [
+          98,
+          105
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "07",
+            "reason": "27—28失控短时不能解除及40实际解除，补足解除条件；红变不回另有身体原因。",
+            "json_index": 60
+          },
+          {
+            "session": "09",
+            "reason": "工作日主动男身与随后失控同现，症状发展不可用旧频率永久固定。",
+            "json_index": 81
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；新实际男身再次反证永久单向概括。",
+            "json_index": 122
+          },
+          {
+            "session": "14",
+            "reason": "2026-09-09；新增实际往返对旧状态的直接校验。",
+            "json_index": 152
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C083",
+        "title": "父职半坦白混入额外告知，并把小璐的新关系猜想换成另一条",
+        "card_entry_indices": [
+          100
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C084",
+        "title": "生日日期误为12月24日，且忽略林主动认定的庆生日",
+        "card_entry_indices": [
+          47,
+          100,
+          105
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "14",
+            "reason": "2026-09-09；后期机制强化日期类别而非推翻既有庆生日。",
+            "json_index": 149
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C096",
+        "title": "丝线打结的推论被升级为本相受侵蚀与男身将消失的证明",
+        "card_entry_indices": [
+          101,
+          104
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；后文加强条件性危害但推翻把其提前当已确诊的写法。",
+            "json_index": 134
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C097",
+        "title": "寻求祖母绿帮助的犹豫被改成明确拒绝研究院试验",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C114",
+        "title": "把术式列为翠雀真正强项，抹平会用与擅长的区别",
+        "card_entry_indices": [
+          47
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C115",
+        "title": "女王部分回答与正式接见被改成拒绝解释和闯宫",
+        "card_entry_indices": [
+          106
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C138",
+        "title": "手机将林小璐与林昀的亲生父女关系改为收养",
+        "card_entry_indices": [],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M001",
+        "title": "林格的父亲角色与身世陈述",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M003",
+        "title": "翠雀代号与认证牌的传承",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M007",
+        "title": "盛开与完整繁开的不同门槛",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M013",
+        "title": "1979回忆与2000现场的交叉叙述",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M014",
+        "title": "身份链按边揭示，信息传播按人登记",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M016",
+        "title": "哀伤、犹豫与行动中的矛盾",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M019",
+        "title": "父女和解与夏凉被接纳的跨场景因果",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M029",
+        "title": "本相升格时的外貌调整与成年形象的公开使用",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH002",
+    "issues": [
+      {
+        "id": "C004",
+        "title": "将林小璐受困动机改成保护屏障外平民",
+        "card_entry_indices": [
+          14
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "后续确有守护平民与独立作战选择，但不能倒灌成第一次受困时已有同样动机。",
+            "json_index": 9
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C009",
+        "title": "祭子与兽子的定义互相冲突，小璐猜测被写成已定性",
+        "card_entry_indices": [
+          5,
+          21,
+          46,
+          47,
+          102,
+          103,
+          17,
+          19,
+          109,
+          159,
+          168,
+          110
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "祭子之称首次找到明确敌方认定；白静萱病因随后部分验证，小璐分类仍有多方猜测而非唯独翠雀知道。",
+            "json_index": 12
+          },
+          {
+            "session": "06",
+            "reason": "卷二13/15的检查前定义在20章被祖母绿主动推翻；新增兽子说法但仍无三词完整释义。",
+            "json_index": 43
+          },
+          {
+            "session": "08",
+            "reason": "42白主动转述旧盒与敌方哼曲，更新翠的部分知情，保留20诊断及七说法的等级。",
+            "json_index": 67
+          },
+          {
+            "session": "11",
+            "reason": "2026-09-09；新能力与新增知情节点不等终极物种定性；纠正跨卷倒灌。",
+            "json_index": 105
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；能力逐阶段补充，保留尚未知根源，防旁白倒灌。",
+            "json_index": 118
+          },
+          {
+            "session": "17",
+            "reason": "2026-09-09；补充未知到怀疑层，避免晚总结反抹前期所知或读者知识倒灌。",
+            "json_index": 179
+          },
+          {
+            "session": "18",
+            "reason": "2026-09-09；迟到解释修正小/白/翠不同知情边，保留主观分类和未证终极来源。",
+            "json_index": 187
+          },
+          {
+            "session": "19",
+            "reason": "2026-09-09；补晚期实际能力并保留分类/本相根源未知。",
+            "json_index": 197
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C026",
+        "title": "小璐被提前赋予夏凉家事与母亲魔法身份",
+        "card_entry_indices": [
+          92,
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C029",
+        "title": "商场纪念日解释、手机响铃与战斗顺序被倒置",
+        "card_entry_indices": [
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C042",
+        "title": "扫墓中的偏移者内心猜测被写成父女讨论",
+        "card_entry_indices": [
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C091",
+        "title": "魔力球失败被追加为几乎维持不住变身",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "10",
+            "reason": "66—67证实技巧名称和原私比用途，保留濒变身追加错误。",
+            "json_index": 96
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C099",
+        "title": "二次浊化操作者被写反，穿透命中被改成直接耗尽魔力",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C104",
+        "title": "把红思与的杯量误判写成玛格丽特确认翠雀生命极差",
+        "card_entry_indices": [
+          53,
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C107",
+        "title": "银屏山心解耗尽被提前到第81章并重复结算",
+        "card_entry_indices": [
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C121",
+        "title": "聪明术购买链被提前改成小璐的考后回忆",
+        "card_entry_indices": [
+          107
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C131",
+        "title": "木棉的武器直觉被变成小璐已听懂的客观败因",
+        "card_entry_indices": [
+          109
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "19",
+            "reason": "2026-09-09；后文明言加强早期否定，又给出理解发生的新时点。",
+            "json_index": 196
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C133",
+        "title": "紫钻会面把门外叮嘱与事后商量写成同室答复",
+        "card_entry_indices": [
+          110
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C137",
+        "title": "小璐编造的亲子谎言被反写成她本人的信念",
+        "card_entry_indices": [
+          46
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C138",
+        "title": "手机将林小璐与林昀的亲生父女关系改为收养",
+        "card_entry_indices": [],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M014",
+        "title": "身份链按边揭示，信息传播按人登记",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M017",
+        "title": "能力成长路径、战术条件与当期训练量",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M019",
+        "title": "父女和解与夏凉被接纳的跨场景因果",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M027",
+        "title": "公共形象、题材限制与商业作品传播未公开情报",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M037",
+        "title": "魔装评级的多维、可变性质与复杂度假说边界",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH003",
+    "issues": [
+      {
+        "id": "C020",
+        "title": "首幕补写中家庭知情提前与具体撤退规约缺证（联络约定已获支持）",
+        "card_entry_indices": [
+          14,
+          81
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "02",
+            "reason": "后续回叙直接证实招募结束互换联系方式、隔日晚间老地方集合；且后期确有把回响留给新人意图。撤回对这些概括内容的一概缺证判断。第41—44章才获家庭真相并决定保密，进一步确认首幕提前知情错误。",
+            "json_index": 3
+          },
+          {
+            "session": "final",
+            "reason": "2026-09-09；消除旧待核阅进度，疑似IF不转成事实。",
+            "json_index": 212
+          },
+          {
+            "session": "final",
+            "reason": "2026-09-09；当前有效字段清理已失效的阅读进度表述，非删除历史判断。",
+            "json_index": 221
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C026",
+        "title": "小璐被提前赋予夏凉家事与母亲魔法身份",
+        "card_entry_indices": [
+          92,
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C032",
+        "title": "夜谈摘要混入夏凉后期情绪与尚未发生的引离实战",
+        "card_entry_indices": [
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C043",
+        "title": "夏凉身份揭露的地点、情绪与亲情回应被改写",
+        "card_entry_indices": [
+          95,
+          104,
+          81
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；关系发展与剩余误解同步记录。",
+            "json_index": 138
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C045",
+        "title": "夏凉没有坏习惯的绝对说法需要限定范围",
+        "card_entry_indices": [
+          81
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "第103—104章进一步支持未被诱导参与不当打工；收窄本轮新问题到泛化措辞，防止由作息缺点反向定性不良行为。",
+            "json_index": 19
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C047",
+        "title": "夏凉讨回旧账的概括掩盖她明确拒绝报复的选择",
+        "card_entry_indices": [
+          81,
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C101",
+        "title": "夏凉术式教学被追加只为此场使用一次的承诺",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C123",
+        "title": "无出口推理把夏凉与卷丹的发起作用写反",
+        "card_entry_indices": [
+          108
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C125",
+        "title": "引离佯攻撤离被省成身后镜面的真正攻击",
+        "card_entry_indices": [
+          108
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C128",
+        "title": "夏凉用醉鱼草情报换图被写成出售穿墙底牌",
+        "card_entry_indices": [
+          108
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M017",
+        "title": "能力成长路径、战术条件与当期训练量",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M019",
+        "title": "父女和解与夏凉被接纳的跨场景因果",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M034",
+        "title": "术式按机理分类与符文刻写、激活、崩解的分阶段规则",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH004",
+    "issues": [
+      {
+        "id": "C009",
+        "title": "祭子与兽子的定义互相冲突，小璐猜测被写成已定性",
+        "card_entry_indices": [
+          5,
+          21,
+          46,
+          47,
+          102,
+          103,
+          17,
+          19,
+          109,
+          159,
+          168,
+          110
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "祭子之称首次找到明确敌方认定；白静萱病因随后部分验证，小璐分类仍有多方猜测而非唯独翠雀知道。",
+            "json_index": 12
+          },
+          {
+            "session": "06",
+            "reason": "卷二13/15的检查前定义在20章被祖母绿主动推翻；新增兽子说法但仍无三词完整释义。",
+            "json_index": 43
+          },
+          {
+            "session": "08",
+            "reason": "42白主动转述旧盒与敌方哼曲，更新翠的部分知情，保留20诊断及七说法的等级。",
+            "json_index": 67
+          },
+          {
+            "session": "11",
+            "reason": "2026-09-09；新能力与新增知情节点不等终极物种定性；纠正跨卷倒灌。",
+            "json_index": 105
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；能力逐阶段补充，保留尚未知根源，防旁白倒灌。",
+            "json_index": 118
+          },
+          {
+            "session": "17",
+            "reason": "2026-09-09；补充未知到怀疑层，避免晚总结反抹前期所知或读者知识倒灌。",
+            "json_index": 179
+          },
+          {
+            "session": "18",
+            "reason": "2026-09-09；迟到解释修正小/白/翠不同知情边，保留主观分类和未证终极来源。",
+            "json_index": 187
+          },
+          {
+            "session": "19",
+            "reason": "2026-09-09；补晚期实际能力并保留分类/本相根源未知。",
+            "json_index": 197
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C033",
+        "title": "屏障幕末新增摩可因怕丢脸而不报险的决定",
+        "card_entry_indices": [
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C034",
+        "title": "薄雪变身、援军到达和兽之腑变身顺序被重排",
+        "card_entry_indices": [
+          94
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C035",
+        "title": "给早期薄雪添加治愈消耗本相与牺牲式前排战术",
+        "card_entry_indices": [
+          17,
+          94,
+          102,
+          103
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "11",
+            "reason": "2026-09-09；后期实战加强阶段区分，早期无源代价与错误主体问题不被撤销。",
+            "json_index": 109
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；能力发展和叙事认知补全，仍无按次扣本相的证明。",
+            "json_index": 121
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C046",
+        "title": "把白静萱近期独行行为固化为福利院长期孤僻性格",
+        "card_entry_indices": [
+          17,
+          119
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C066",
+        "title": "剧情摘要把三新人统一写成不知道翠雀真身",
+        "card_entry_indices": [
+          97,
+          98,
+          99,
+          100,
+          104,
+          105,
+          81,
+          107
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "05",
+            "reason": "本轮落盘复核发现，并救回不必然声称银白魔力直接救人或独自救援，因此撤回这一过强读法；同段孩子们全不知的明文则与夏凉98章已确认事实冲突，收窄至此。救援保留为分工补充。",
+            "json_index": 41
+          },
+          {
+            "session": "06",
+            "reason": "相同全称错误延续到卡98，夏凉在本轮继续知情打趣，不能新建重复问题。",
+            "json_index": 48
+          },
+          {
+            "session": "07",
+            "reason": "卡99再次抹去夏凉已知真身，与紧接卡100及原文37直接冲突。",
+            "json_index": 58
+          },
+          {
+            "session": "08",
+            "reason": "夏新增获母称说明及歌手确认，区分早知男身与后来逐条获知。",
+            "json_index": 71
+          },
+          {
+            "session": "13",
+            "reason": "2026-09-09；相同知识全称错误回接旧ID并保留卡中正确差异。",
+            "json_index": 137
+          },
+          {
+            "session": "15",
+            "reason": "2026-09-09；公开节点新到，及时移除当期旧未知。",
+            "json_index": 162
+          },
+          {
+            "session": "16",
+            "reason": "2026-09-09；新的私谈实证三人知识差异，认可107末快照保留夏已知的正确部分。",
+            "json_index": 172
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C070",
+        "title": "把首次研究所体验拒绝写成已检查并得到结果",
+        "card_entry_indices": [
+          98
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "07",
+            "reason": "兽之源交易后检查理疗真实开始，40完成且证先前脱衣是谎，须更新治疗状态不回填首次。",
+            "json_index": 61
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C072",
+        "title": "白静萱早期的欲望迷失被统一解释成压抑情绪与怕麻烦人",
+        "card_entry_indices": [
+          17,
+          98
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C083",
+        "title": "父职半坦白混入额外告知，并把小璐的新关系猜想换成另一条",
+        "card_entry_indices": [
+          100
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C085",
+        "title": "静止八音盒被改成播放旋律，改变创伤回忆的触发链",
+        "card_entry_indices": [
+          100
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C110",
+        "title": "将白静萱已坦白的祭子身份错误列为隐瞒项",
+        "card_entry_indices": [
+          17,
+          103
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "15",
+            "reason": "2026-09-09；政治知情和能力开华各自变化，防倒推。",
+            "json_index": 163
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C111",
+        "title": "把私下称妈妈的约定绝对化为公开场景永不发生",
+        "card_entry_indices": [
+          17,
+          103
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；紧随后文反向收窄本批前判断，不静默删除100例外。",
+            "json_index": 140
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C132",
+        "title": "天音的传播、占用和声音干扰限制缺失",
+        "card_entry_indices": [
+          17,
+          109
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M023",
+        "title": "薄雪病症、眼睛、治愈与祭子认定的分项验证",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M033",
+        "title": "白静萱重新入学的私下计划与社会关系建立条件",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M038",
+        "title": "天音四韵律的双向效果、副作用与拆分成长",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH005",
+    "issues": [
+      {
+        "id": "C027",
+        "title": "剧情补写让不在场人物旁听并制造红思与约会演出",
+        "card_entry_indices": [
+          92,
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C060",
+        "title": "红思与味觉伏笔被固化为跨阶段稳定厨艺笑点",
+        "card_entry_indices": [
+          36
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "05",
+            "reason": "137恢复味觉获得直接场景；仍无恢复后烹饪表现可决定好坏。",
+            "json_index": 36
+          },
+          {
+            "session": "07",
+            "reason": "卷二35章首次给出恢复后烹饪评价，原先具体表现全未知应收窄。",
+            "json_index": 57
+          },
+          {
+            "session": "09",
+            "reason": "58实际自理早餐和晨咖啡补充日常表现，不把改善夸成万能厨艺。",
+            "json_index": 80
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C061",
+        "title": "现场不能说的幕后身份被提前写成完整自白",
+        "card_entry_indices": [
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "05",
+            "reason": "136—137完整回忆已读，确认真实施害者和受控过程，但未出现卡片所称132现场完整口供。",
+            "json_index": 37
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C063",
+        "title": "获救后的观察被补写成已经展示的逐层剖壳战斗",
+        "card_entry_indices": [
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C064",
+        "title": "巨影规则在同命中整体失效的说法遮掉剪刀仍能被夺",
+        "card_entry_indices": [
+          59,
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C065",
+        "title": "把摩丝最后死因写成拳头处刑",
+        "card_entry_indices": [
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C067",
+        "title": "卷一终局的局长邀请被提前写成已就任与公开会议",
+        "card_entry_indices": [
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "06",
+            "reason": "任职与公开大会确在卷二发生，推翻后续时点未知，保留卷一前置与无据议程之差。",
+            "json_index": 49
+          },
+          {
+            "session": "07",
+            "reason": "29章旁白明确任调权已在翠手中，纠正最终落实仍未知。",
+            "json_index": 59
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C069",
+        "title": "把单向失控变身写成变身从此只能单向",
+        "card_entry_indices": [
+          98,
+          105
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "07",
+            "reason": "27—28失控短时不能解除及40实际解除，补足解除条件；红变不回另有身体原因。",
+            "json_index": 60
+          },
+          {
+            "session": "09",
+            "reason": "工作日主动男身与随后失控同现，症状发展不可用旧频率永久固定。",
+            "json_index": 81
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；新实际男身再次反证永久单向概括。",
+            "json_index": 122
+          },
+          {
+            "session": "14",
+            "reason": "2026-09-09；新增实际往返对旧状态的直接校验。",
+            "json_index": 152
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C076",
+        "title": "朝颜协战被压缩成直接借剪，混淆气与百武核心及持续消耗",
+        "card_entry_indices": [
+          36,
+          50,
+          99,
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "11",
+            "reason": "2026-09-09；后期合作再验证使用分工，并补非魔力气与魔力辅助成长的不同层次。",
+            "json_index": 111
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C081",
+        "title": "临时本体方案混入记忆复制和未经确认的时限与执行状态",
+        "card_entry_indices": [
+          36,
+          100,
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "58已经复工数日，撤销当前全未执行；不把复工倒填40或代替制造细节。",
+            "json_index": 82
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C082",
+        "title": "将红思与复归及临时本体机制一概冻结为未揭晓",
+        "card_entry_indices": [
+          36,
+          99
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "复归实施得到旁白支持，继续保留具体技术未知。",
+            "json_index": 83
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C088",
+        "title": "后台场景虚增红思与到场，并把工作人员制服当柏安队服",
+        "card_entry_indices": [
+          100
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "后文明确红没有参加，原待查吻手与正式身份则已获支持。",
+            "json_index": 85
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C104",
+        "title": "把红思与的杯量误判写成玛格丽特确认翠雀生命极差",
+        "card_entry_indices": [
+          53,
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M026",
+        "title": "红思与求稳定的人生、主体选择与旧队关系",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M017",
+        "title": "能力成长路径、战术条件与当期训练量",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M018",
+        "title": "退役、报酬、工作与公共机构的日常连接",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH006",
+    "issues": [
+      {
+        "id": "C025",
+        "title": "荼蘼葬礼回忆中的消息归属、死亡地点与知情状态被混写",
+        "card_entry_indices": [
+          91,
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "03",
+            "reason": "此前标未知的林昀获知节点已读到第92章；第77章内心归属加强其认可金绿猫眼警告，不抹除早先间接链。",
+            "json_index": 13
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C048",
+        "title": "旧队留影把同一人的本名代号及第五成员混进四人照片",
+        "card_entry_indices": [
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C062",
+        "title": "把翠雀受伤退隐误写为因安雅订婚而退隐",
+        "card_entry_indices": [
+          97,
+          36
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C115",
+        "title": "女王部分回答与正式接见被改成拒绝解释和闯宫",
+        "card_entry_indices": [
+          106
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C138",
+        "title": "手机将林小璐与林昀的亲生父女关系改为收养",
+        "card_entry_indices": [],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M013",
+        "title": "1979回忆与2000现场的交叉叙述",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M014",
+        "title": "身份链按边揭示，信息传播按人登记",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M019",
+        "title": "父女和解与夏凉被接纳的跨场景因果",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH007",
+    "issues": [
+      {
+        "id": "C087",
+        "title": "玛格丽特告别被前移七年，离队选择被压成单一旧怨",
+        "card_entry_indices": [
+          100,
+          53
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "49解释与61真心进一步收窄单一旧怨/戏弄解读，保留自述等级。",
+            "json_index": 84
+          },
+          {
+            "session": "10",
+            "reason": "68对白蓟的情感误判与真诚道歉延续此前既会关照又会失准。",
+            "json_index": 94
+          },
+          {
+            "session": "11",
+            "reason": "2026-09-09；新叙述补性格变化成因，扩展多面性而非凭标签反向归因。",
+            "json_index": 112
+          },
+          {
+            "session": "12",
+            "reason": "2026-09-09；关系与教育方式多面性新证，不升级成互选恋爱或冷漠。",
+            "json_index": 123
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C088",
+        "title": "后台场景虚增红思与到场，并把工作人员制服当柏安队服",
+        "card_entry_indices": [
+          100
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "后文明确红没有参加，原待查吻手与正式身份则已获支持。",
+            "json_index": 85
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C089",
+        "title": "私定比试门槛被写成正式认证初试与取消资格权限",
+        "card_entry_indices": [
+          100,
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "10",
+            "reason": "64完整赛制与68结果已读，取消资格条款没有恢复。",
+            "json_index": 95
+          },
+          {
+            "session": "final",
+            "reason": "2026-09-09；分开私比、认证和敌袭阶段，并关闭本文件未读等待。",
+            "json_index": 214
+          },
+          {
+            "session": "final",
+            "reason": "2026-09-09；当前有效字段清理已失效的阅读进度表述，非删除历史判断。",
+            "json_index": 223
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C090",
+        "title": "入国度知情与一年支援被前置，并附加旧队共同决策规则",
+        "card_entry_indices": [
+          100,
+          101,
+          53,
+          103
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "12",
+            "reason": "2026-09-09；合作从提议到分项落实，逐件分开已做与计划。",
+            "json_index": 124
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C092",
+        "title": "楼梯道歉对象被写反，导师提议又被改成学生失言",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "10",
+            "reason": "67补批评来由，71首次明确暂和解；不改变54受歉对象。",
+            "json_index": 97
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C093",
+        "title": "教学提案章被扩成已实施的完整私课与保密协议",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "10",
+            "reason": "66—68及67回忆支持实际教学与内容，仍无56完整当场课和双方保密协议。",
+            "json_index": 98
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C094",
+        "title": "“毫无天赋”的比较性概括可能被执行为资质全无",
+        "card_entry_indices": [
+          53
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "10",
+            "reason": "66补实际研发和花牌资本，知识有来源且不是全部零资质。",
+            "json_index": 99
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C095",
+        "title": "苏胜紫失联十二年的口径被改为九年及自行历年",
+        "card_entry_indices": [
+          7,
+          101,
+          161,
+          126
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "14",
+            "reason": "2026-09-09；全读旧方亭组织条目发现重复错误载体。",
+            "json_index": 150
+          },
+          {
+            "session": "18",
+            "reason": "2026-09-09；地区资料副本发现同一旧误，增加位置不另建重复问题。",
+            "json_index": 193
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C100",
+        "title": "白蓟对导师话语的误解被写成导师亲口否定期待",
+        "card_entry_indices": [
+          70
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C102",
+        "title": "浊化独创简称与早期阶段可能遮掉共同研发的时效",
+        "card_entry_indices": [
+          2,
+          53
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C104",
+        "title": "把红思与的杯量误判写成玛格丽特确认翠雀生命极差",
+        "card_entry_indices": [
+          53,
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C105",
+        "title": "情热繁开与奇境的叠加条件被合并成单一步骤",
+        "card_entry_indices": [
+          53,
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M030",
+        "title": "玛格丽特的团体归属、职业选择与渐进互识",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M031",
+        "title": "兰香的研究自主性、旧队影响及间界失联的知识边界",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M035",
+        "title": "情热的情绪反馈、人格表达变化与双层控场条件",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH008",
+    "issues": [
+      {
+        "id": "C070",
+        "title": "把首次研究所体验拒绝写成已检查并得到结果",
+        "card_entry_indices": [
+          98
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "07",
+            "reason": "兽之源交易后检查理疗真实开始，40完成且证先前脱衣是谎，须更新治疗状态不回填首次。",
+            "json_index": 61
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C081",
+        "title": "临时本体方案混入记忆复制和未经确认的时限与执行状态",
+        "card_entry_indices": [
+          36,
+          100,
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "58已经复工数日，撤销当前全未执行；不把复工倒填40或代替制造细节。",
+            "json_index": 82
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C082",
+        "title": "将红思与复归及临时本体机制一概冻结为未揭晓",
+        "card_entry_indices": [
+          36,
+          99
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "09",
+            "reason": "复归实施得到旁白支持，继续保留具体技术未知。",
+            "json_index": 83
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C096",
+        "title": "丝线打结的推论被升级为本相受侵蚀与男身将消失的证明",
+        "card_entry_indices": [
+          101,
+          104
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；后文加强条件性危害但推翻把其提前当已确诊的写法。",
+            "json_index": 134
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C097",
+        "title": "寻求祖母绿帮助的犹豫被改成明确拒绝研究院试验",
+        "card_entry_indices": [
+          101
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C112",
+        "title": "将绿塔未知门记录写成登王之门传闻得到物证",
+        "card_entry_indices": [
+          60,
+          103,
+          4
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "13",
+            "reason": "2026-09-09；跨卡复核发现同一推断升级口径，回用旧号。",
+            "json_index": 141
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C117",
+        "title": "将准备转达的考核警告写成已经向祖母绿提交",
+        "card_entry_indices": [
+          106
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C118",
+        "title": "留活口方案被写成对整个魔事院保密的私案",
+        "card_entry_indices": [
+          107,
+          109
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "16",
+            "reason": "2026-09-09；后续已把15规划升级为实际合作并补上安全放弃条件。",
+            "json_index": 167
+          },
+          {
+            "session": "18",
+            "reason": "2026-09-09；后续合作与边界强化，不反抹164/167既成安排。",
+            "json_index": 191
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M005",
+        "title": "交易型魔装的可执行条件",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M009",
+        "title": "研究院秘密收押和机构合作中的利益",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M010",
+        "title": "奇境并存、规则权重与无声变身",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M015",
+        "title": "女王陈述、黑猫方案与翠雀战斗推理的证据标签",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M039",
+        "title": "国度魔导生产、个体经营与技术价值链的社会基础",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH009",
+    "issues": [
+      {
+        "id": "C013",
+        "title": "黑猫最关键的丧亲、义肢和刺杀目标仍列未知",
+        "card_entry_indices": [
+          64,
+          104,
+          105,
+          106,
+          162,
+          167,
+          107,
+          111
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "11",
+            "reason": "2026-09-09；已读前半起源与末段旧证接通，收窄遗漏范围而不撤销失效未知问题。",
+            "json_index": 106
+          },
+          {
+            "session": "13",
+            "reason": "2026-09-09；補全早期关系与重逢认知，保留后期结果的时效。",
+            "json_index": 136
+          },
+          {
+            "session": "14",
+            "reason": "2026-09-09；新增传播层与童年性格，不越阶段提前全部秘密。",
+            "json_index": 148
+          },
+          {
+            "session": "15",
+            "reason": "2026-09-09；后期认知从推有联推进归属确认，保留前态。",
+            "json_index": 157
+          },
+          {
+            "session": "17",
+            "reason": "2026-09-09；迟到旁白回接旧身份及组织动机，标来源与不可传播范围。",
+            "json_index": 181
+          },
+          {
+            "session": "20",
+            "reason": "2026-09-09；贯通旧独立末段此前的战友承诺和救法未知，不静默用后知替前疑。",
+            "json_index": 205
+          },
+          {
+            "session": "final",
+            "reason": "2026-09-09；收尾将分章节伤情链回接，纠正可能把场面未详写误判为完全无因果的倾向。",
+            "json_index": 216
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C018",
+        "title": "黑猫心解与翠雀繁开名称缺失，未知边界需要重划",
+        "card_entry_indices": [
+          47,
+          64
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C109",
+        "title": "间界妖精的受困处境被绝对化为无法离开故土",
+        "card_entry_indices": [
+          102
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C115",
+        "title": "女王部分回答与正式接见被改成拒绝解释和闯宫",
+        "card_entry_indices": [
+          106
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M008",
+        "title": "早期爪痕的建立与后来的转变",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M012",
+        "title": "战后救治与离境、末场结界内外的空间状态",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M015",
+        "title": "女王陈述、黑猫方案与翠雀战斗推理的证据标签",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M036",
+        "title": "塞米与黑猫从互害到相互照护的家园纽带",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M040",
+        "title": "握今目标规模、对抗出力和持续占用的实际限制",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  },
+  {
+    "character": "CH010",
+    "issues": [
+      {
+        "id": "C005",
+        "title": "摩可的自述被改成冒充妮妮的承认",
+        "card_entry_indices": [
+          14,
+          58,
+          104
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "02",
+            "reason": "连续读到第16、33、45、54章，查档及追踪的位置、任命外证和定位限制已明确。原冒充姓名指控仍不成立。",
+            "json_index": 0
+          },
+          {
+            "session": "03",
+            "reason": "续读第76/81/93章补全粗定位的可用与失效，以及任命秘密仍待揭晓的边界。",
+            "json_index": 10
+          },
+          {
+            "session": "05",
+            "reason": "137确证妮妮早已被囚；仍不支持摩可冒名的指控。",
+            "json_index": 30
+          },
+          {
+            "session": "06",
+            "reason": "妮妮获救后的明确表态进一步支持国度正式任命摩可，仍不能推出冒名。",
+            "json_index": 42
+          },
+          {
+            "session": "07",
+            "reason": "妮妮返国通知和妖精成长机制补充任命背景，未支持冒名指控。",
+            "json_index": 54
+          },
+          {
+            "session": "13",
+            "reason": "2026-09-09；新的拒返行为和合法现职并存，继续保留开放悬念。",
+            "json_index": 135
+          },
+          {
+            "session": "15",
+            "reason": "2026-09-09；增合法渠道形成的因果与时效。",
+            "json_index": 160
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C033",
+        "title": "屏障幕末新增摩可因怕丢脸而不报险的决定",
+        "card_entry_indices": [
+          93
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C049",
+        "title": "生日会末的私密失踪通知被扩成全队出差部署",
+        "card_entry_indices": [
+          95
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [
+          {
+            "session": "04",
+            "reason": "第111章连续阅读证实宣布任务、全员请求同行及指导替案确有其事；撤回把这些后续安排一概列为未知/疑似原创的范围，保留前置章节和无据道具。",
+            "json_index": 21
+          }
+        ],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C058",
+        "title": "节前基地家务与月圆节返家被合并成提前团聚",
+        "card_entry_indices": [
+          96,
+          97
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      },
+      {
+        "id": "C078",
+        "title": "妖精仙人的自称被误读为上一任播种者",
+        "card_entry_indices": [
+          99
+        ],
+        "source": "audit/issue_records.json; 按id定位末次accurate",
+        "revision_history": "audit/judgment_changes.json; 保留before/after",
+        "revisions": [],
+        "final_closure": "audit/final_changes.json、audit/final_document_changes.json（如有该项）"
+      }
+    ],
+    "missing": [
+      {
+        "id": "M014",
+        "title": "身份链按边揭示，信息传播按人登记",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M018",
+        "title": "退役、报酬、工作与公共机构的日常连接",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M022",
+        "title": "身份保密的心理暗示时效、例外与跨机构程序",
+        "source": "audit/missing_records.json; 按id定位"
+      },
+      {
+        "id": "M023",
+        "title": "薄雪病症、眼睛、治愈与祭子认定的分项验证",
+        "source": "audit/missing_records.json; 按id定位"
+      }
+    ],
+    "timeline_risk": "audit/04_timeline_knowledge_risks.md; 按C/事件/人物查阅",
+    "decisions": "audit/USER_DECISIONS.md U001–U008"
+  }
+]

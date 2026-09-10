@@ -1,0 +1,386 @@
+[
+  {
+    "temp": "K_TEMP_015",
+    "before": {
+      "event": "EV0016",
+      "holder": "林小璐",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "夏凉明确暂不告知"
+    },
+    "after": {
+      "event": "EV0016",
+      "state": "UNAWARE",
+      "holder": "林小璐"
+    },
+    "reason": "当代翠从夏自述及回忆得家史，儿童自责与母亲动机另判。"
+  },
+  {
+    "temp": "K_TEMP_019",
+    "before": {
+      "event": "EV0019",
+      "holder": "林小璐",
+      "old_from": "SUSPECTED",
+      "old_to": "CONFIRMED",
+      "channel": "当面坦白"
+    },
+    "after": {
+      "event": "EV0020",
+      "state": "CONFIRMED",
+      "holder": "林小璐"
+    },
+    "reason": "EV0019只构成暴露线索；明确解释获知时间在EV0020 L4299–4311。"
+  },
+  {
+    "temp": "K_TEMP_020",
+    "before": {
+      "event": "EV0036",
+      "holder": "林小璐",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "谈话关门避开，二人掩饰"
+    },
+    "after": {
+      "event": "EV0036",
+      "state": "UNAWARE",
+      "holder": "林小璐"
+    },
+    "reason": "单独于矢/翠/龙少女代号链、性别来源和女王身世；夏确知同一性仍误会来源。"
+  },
+  {
+    "temp": "K_TEMP_039",
+    "before": {
+      "event": "EV0037",
+      "holder": "夏凉",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "当代出游中翠雀口述"
+    },
+    "after": {
+      "event": "EV0039",
+      "state": "PARTIAL",
+      "holder": "夏凉"
+    },
+    "reason": "给读者的旧队回忆不等夏已听全；夏口述范围另绑当代EV0039。"
+  },
+  {
+    "temp": "K_TEMP_051",
+    "before": {
+      "event": "EV0047",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "孩子们暂未告知"
+    },
+    "after": {
+      "event": "EV0047",
+      "state": "UNAWARE",
+      "holder": "翠雀"
+    },
+    "reason": "出差时女孩们未告翠，后实际见到不再UNAWARE；不前置四韵律。"
+  },
+  {
+    "temp": "K_TEMP_068",
+    "before": {
+      "event": "EV0062",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "猫眼带限定报告D"
+    },
+    "after": {
+      "event": "EV0062",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "猫眼报告本身带“疑似”；宝石是否在该队及真凶不可强定。"
+  },
+  {
+    "temp": "K_TEMP_073",
+    "before": {
+      "event": "EV0068",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "祖说明D"
+    },
+    "after": {
+      "event": "EV0068",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "祖早期口述D，后叙述补证；兽源分流另拆。"
+  },
+  {
+    "temp": "K_TEMP_075",
+    "before": {
+      "event": "EV0070",
+      "holder": "白静萱",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "敌方口供D，混操控评价"
+    },
+    "after": {
+      "event": "EV0070",
+      "state": "HEARD",
+      "holder": "白静萱"
+    },
+    "reason": "明确记录说法发生；出身细节、父母恶意和白害亲不能一起确认。"
+  },
+  {
+    "temp": "K_TEMP_078",
+    "before": {
+      "event": "EV0073",
+      "holder": "塞米",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "鸢转述"
+    },
+    "after": {
+      "event": "EV0073",
+      "state": "HEARD",
+      "holder": "塞米"
+    },
+    "reason": "鸢→塞米只转任务范围，不代表已执行或获目标全身世。"
+  },
+  {
+    "temp": "K_TEMP_123",
+    "before": {
+      "event": "EV0108",
+      "holder": "在座干部",
+      "old_from": "PARTIALLY_CONFIRMED",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "白狼自称核实D"
+    },
+    "after": {
+      "event": "EV0108",
+      "state": "HEARD",
+      "holder": "在座干部"
+    },
+    "reason": "白狼自称线人核实，限听见餐桌成员；实际转运细节不得补齐。"
+  },
+  {
+    "temp": "K_TEMP_126",
+    "before": {
+      "event": "EV0110",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "祖说明D与操作"
+    },
+    "after": {
+      "event": "EV0110",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "操作实证与朋友来源自述D分开；未使旧毁武装回归。"
+  },
+  {
+    "temp": "K_TEMP_130",
+    "before": {
+      "event": "EV0113",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "墨自述国度任务与妖精义肢，仍存疑"
+    },
+    "after": {
+      "event": "EV0113",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "翠听说但存疑；后爪痕联系不等确认任务说辞合法。"
+  },
+  {
+    "temp": "K_TEMP_133",
+    "before": {
+      "event": "EV0115",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "墨口述D"
+    },
+    "after": {
+      "event": "EV0115",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "墨的承诺与翠听到不证明可行性，另拆知道三次昙开。"
+  },
+  {
+    "temp": "K_TEMP_136",
+    "before": {
+      "event": "EV0117",
+      "holder": "林小璐、白静萱",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "只认为生日巧同"
+    },
+    "after": {
+      "event": "EV0117",
+      "state": "UNAWARE",
+      "holder": "林小璐、白静萱"
+    },
+    "reason": "单独于矢/翠/龙少女代号链、性别来源和女王身世；夏确知同一性仍误会来源。"
+  },
+  {
+    "temp": "K_TEMP_150",
+    "before": {
+      "event": "EV0128",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "不在密谈，未由旁白获知"
+    },
+    "after": {
+      "event": "EV0128",
+      "state": "UNAWARE",
+      "holder": "翠雀"
+    },
+    "reason": "旁白201章确认；翠不在密谈，不能接读者记录。"
+  },
+  {
+    "temp": "K_TEMP_154",
+    "before": {
+      "event": "EV0131",
+      "holder": "小璐、白静萱",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "薄解释D"
+    },
+    "after": {
+      "event": "EV0131",
+      "state": "HEARD",
+      "holder": "小璐、白静萱"
+    },
+    "reason": "拆兽子/祭子定义与只能一人活；她所说不等全部仪式结果已证。"
+  },
+  {
+    "temp": "K_TEMP_155",
+    "before": {
+      "event": "EV0131",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "薄供述待核"
+    },
+    "after": {
+      "event": "EV0131",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "供述发生A，名单成员事实各自待证，不扩大完整黑烬名册。"
+  },
+  {
+    "temp": "K_TEMP_174",
+    "before": {
+      "event": "EV0144",
+      "holder": "矢车菊、墨荷",
+      "old_from": "UNKNOWN",
+      "old_to": "UNKNOWN",
+      "channel": "二人已先离开"
+    },
+    "after": {
+      "event": "EV0144",
+      "state": "UNAWARE",
+      "holder": "矢车菊、墨荷"
+    },
+    "reason": "两人无现场观察权限；后来遗言死讯不自动赋唱名细节。"
+  },
+  {
+    "temp": "K_TEMP_188",
+    "before": {
+      "event": "EV0157",
+      "holder": "黑猫",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "现场D"
+    },
+    "after": {
+      "event": "EV0157",
+      "state": "HEARD",
+      "holder": "黑猫"
+    },
+    "reason": "林历史听闻先激动信母后疑惧，黑猫当代才听；不裁成生物学定论。"
+  },
+  {
+    "temp": "K_TEMP_189",
+    "before": {
+      "event": "EV0157",
+      "holder": "翠雀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "黑猫提议未普适验证"
+    },
+    "after": {
+      "event": "EV0157",
+      "state": "HEARD",
+      "holder": "翠雀"
+    },
+    "reason": "黑猫的替代提议未普适验证，翠不接受以此保障所有人。"
+  },
+  {
+    "temp": "K_TEMP_195",
+    "before": {
+      "event": "EV0163",
+      "holder": "摩可",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "妮妮说明"
+    },
+    "after": {
+      "event": "EV0163",
+      "state": "PARTIAL",
+      "holder": "翠雀"
+    },
+    "reason": "摩可由妮妮告知，准备不是已到达；不等物种血亲。"
+  },
+  {
+    "temp": "K_TEMP_196",
+    "before": {
+      "event": "EV0170",
+      "holder": "田胜",
+      "old_from": "CONFIRMED",
+      "old_to": "MISUNDERSTOOD",
+      "channel": "记忆与既往直接行动冲突"
+    },
+    "after": {
+      "event": "EV0170",
+      "state": "MEMORY_LOSS",
+      "holder": "田胜"
+    },
+    "reason": "后来只记躲藏受救，改用MEMORY_LOSS并记录错误片段；施术者及精确清忆时刻F。"
+  },
+  {
+    "temp": "K_TEMP_198",
+    "before": {
+      "event": "EV0176",
+      "holder": "林昀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "确认她如此声称；说法内容仍为D"
+    },
+    "after": {
+      "event": "EV0176",
+      "state": "HEARD",
+      "holder": "林昀"
+    },
+    "reason": "林历史听闻先激动信母后疑惧，黑猫当代才听；不裁成生物学定论。"
+  },
+  {
+    "temp": "K_TEMP_199",
+    "before": {
+      "event": "EV0176",
+      "holder": "林昀",
+      "old_from": "UNKNOWN",
+      "old_to": "PARTIALLY_CONFIRMED",
+      "channel": "直接听到部分答复；推论非完整真相"
+    },
+    "after": {
+      "event": "EV0176",
+      "state": "HEARD",
+      "holder": "林昀"
+    },
+    "reason": "女王解释与翠用以护驾的风险判断；不可写所有少女已知或必然失能。"
+  }
+]

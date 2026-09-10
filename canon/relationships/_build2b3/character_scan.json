@@ -1,0 +1,1205 @@
+[
+  {
+    "character": "CH001",
+    "original_navigation": "CH002父女；CH006夫妻且妻亡；CH003、CH004、CH005等后辈关系按事件分段；CH016林格养育；CH020妮姆代号传承。",
+    "knowledge_boundary": "白玫身份由回放确认；夏凉识破与小璐尚未识破不同。女王的身世解释为D，并非所有队友共享。",
+    "outgoing": [
+      "REL001",
+      "REL003",
+      "REL006",
+      "REL007",
+      "REL010",
+      "REL014",
+      "REL015",
+      "REL017",
+      "REL024",
+      "REL025",
+      "REL027",
+      "REL028",
+      "REL047",
+      "REL063",
+      "REL070",
+      "REL094",
+      "REL096",
+      "REL098",
+      "REL106",
+      "REL108",
+      "REL114",
+      "REL116",
+      "REL127",
+      "REL129",
+      "REL144",
+      "REL146",
+      "REL161"
+    ],
+    "incoming": [
+      "REL002",
+      "REL004",
+      "REL009",
+      "REL012",
+      "REL016",
+      "REL018",
+      "REL023",
+      "REL026",
+      "REL039",
+      "REL048",
+      "REL055",
+      "REL058",
+      "REL069",
+      "REL077",
+      "REL078",
+      "REL079",
+      "REL095",
+      "REL097",
+      "REL105",
+      "REL107",
+      "REL113",
+      "REL115",
+      "REL128",
+      "REL130",
+      "REL147",
+      "REL162"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH002",
+    "original_navigation": "CH001父亲兼不知情的导师同一人；CH006母亲已故；CH003/CH004同伴；CH023白蓟竞争到暂和解。",
+    "knowledge_boundary": "照片知道母亲为魔法少女；父亲＝翠雀未因母亲身份或矢女儿说法而确认。EV0137中“矢车菊小孩”是应急解释，不是另一个亲生母亲。",
+    "outgoing": [
+      "REL002",
+      "REL005",
+      "REL029",
+      "REL031",
+      "REL042",
+      "REL050",
+      "REL066",
+      "REL084",
+      "REL119",
+      "REL132",
+      "REL141",
+      "REL148",
+      "REL155"
+    ],
+    "incoming": [
+      "REL001",
+      "REL019",
+      "REL034",
+      "REL040",
+      "REL041",
+      "REL043",
+      "REL049",
+      "REL085",
+      "REL120",
+      "REL131",
+      "REL142",
+      "REL149",
+      "REL156"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH003",
+    "original_navigation": "CH001导师且具体秘密知情者；CH002/CH004同伴；同住和亲昵不能自动视为恋爱已成立。",
+    "knowledge_boundary": "家庭秘密先由自己持有再告诉翠雀；林昀身份由EV0036确认，完整女王身世与旧战争秘密不因此全知。",
+    "outgoing": [
+      "REL004",
+      "REL011",
+      "REL041",
+      "REL044",
+      "REL052",
+      "REL135",
+      "REL137"
+    ],
+    "incoming": [
+      "REL003",
+      "REL005",
+      "REL045",
+      "REL051",
+      "REL136",
+      "REL138"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH004",
+    "original_navigation": "CH001被认作母亲／老师，法律收养未证；CH010摩可友情；CH002/CH003同伴；CH031田胜救援者。",
+    "knowledge_boundary": "祭子先遭兵触三指认，随后兽源诊断与能力实证逐步补充；对白玫身世不能类推。",
+    "outgoing": [
+      "REL008",
+      "REL009",
+      "REL032",
+      "REL043",
+      "REL045",
+      "REL067",
+      "REL074",
+      "REL121",
+      "REL126",
+      "REL134",
+      "REL170",
+      "REL172"
+    ],
+    "incoming": [
+      "REL015",
+      "REL035",
+      "REL042",
+      "REL044",
+      "REL046",
+      "REL068",
+      "REL073",
+      "REL122",
+      "REL125",
+      "REL133",
+      "REL163",
+      "REL169",
+      "REL171"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH005",
+    "original_navigation": "CH001旧队前辈及告白对象（拒绝）；CH006/CH007旧队关系；CH008治疗合作；CH012摩丝控制与改造。",
+    "knowledge_boundary": "开篇掌握局方记录不等知道所有旧战争内幕；复原后才能看听妖精；最后视频只提供联络范围。",
+    "outgoing": [
+      "REL012",
+      "REL013",
+      "REL056",
+      "REL060",
+      "REL072",
+      "REL145",
+      "REL157",
+      "REL167"
+    ],
+    "incoming": [
+      "REL014",
+      "REL057",
+      "REL059",
+      "REL071",
+      "REL158",
+      "REL168"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH006",
+    "original_navigation": "CH001夫妻；CH002母女；CH007旧友；CH004救命者，认翠雀为妈妈不能回写成安雅血亲。",
+    "knowledge_boundary": "生前知道自己的身份与家庭不代表后代知道；死亡后的最新事件不能写入其可知状态。",
+    "outgoing": [
+      "REL039",
+      "REL040",
+      "REL065",
+      "REL068"
+    ],
+    "incoming": [
+      "REL010",
+      "REL013",
+      "REL064",
+      "REL066",
+      "REL067"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH007",
+    "original_navigation": "CH001/CH006旧队；CH022灯盏及CH023–CH025为柏安成员；CH004后期获其秘密。",
+    "knowledge_boundary": "演唱会重逢前不能默认知安雅死亡及林复出；苏胜紫去向按转述和末次联系；正文公众认识歌手不等认识巡查使。",
+    "outgoing": [
+      "REL018",
+      "REL019",
+      "REL020",
+      "REL064",
+      "REL088",
+      "REL090",
+      "REL092",
+      "REL133",
+      "REL143",
+      "REL159",
+      "REL168"
+    ],
+    "incoming": [
+      "REL029",
+      "REL063",
+      "REL065",
+      "REL083",
+      "REL089",
+      "REL091",
+      "REL093",
+      "REL134",
+      "REL160",
+      "REL166",
+      "REL167"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH008",
+    "original_navigation": "CH001治疗／政治合作；CH005身体修复；CH015交易敌手；CH014旧紫钻称呼；CH034金绿猫眼同僚评价分层。",
+    "knowledge_boundary": "持有研究及机构秘密不等所有研究员全知；给龙胆文件不等三个后辈知道其所有计划。",
+    "outgoing": [
+      "REL069",
+      "REL071",
+      "REL073",
+      "REL109"
+    ],
+    "incoming": [
+      "REL070",
+      "REL072",
+      "REL074",
+      "REL110"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH014",
+      "CH034"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH014、CH034；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH009",
+    "original_navigation": "CH020妮姆姐姐；CH028塞米由互害到相互照护；CH001历史队长及当代敌手；CH014白狼后来首领。",
+    "knowledge_boundary": "她知道自己的经历不等其他旧队友知道流亡始末；翠雀重逢时怀疑爪痕与后确认有阈值。",
+    "outgoing": [
+      "REL026",
+      "REL030",
+      "REL037",
+      "REL075",
+      "REL081",
+      "REL152"
+    ],
+    "incoming": [
+      "REL022",
+      "REL024",
+      "REL038",
+      "REL076",
+      "REL082",
+      "REL153"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH010",
+    "original_navigation": "CH002/CH003/CH004招募与队友情；CH011妮妮为寻找对象；CH001误解赞许与受托照护。",
+    "knowledge_boundary": "知道某些术语不等掌握机制；安雅终身资格、林昀秘密等不能从物种推全知。",
+    "outgoing": [
+      "REL046",
+      "REL048",
+      "REL049",
+      "REL051",
+      "REL053"
+    ],
+    "incoming": [
+      "REL008",
+      "REL047",
+      "REL050",
+      "REL052",
+      "REL054"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH011",
+    "original_navigation": "CH010幼时伙伴，姐妹为类比非血亲；CH012囚禁者。",
+    "knowledge_boundary": "知道摩可花园来源，转告翠雀不等所有后辈获知。",
+    "outgoing": [
+      "REL054",
+      "REL055",
+      "REL057",
+      "REL062"
+    ],
+    "incoming": [
+      "REL053",
+      "REL056",
+      "REL061"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH012",
+    "original_navigation": "CH005受控受害者；CH011被囚者；CH001杀死其的对手。",
+    "knowledge_boundary": "兵触三拟报告未送达，不能让其自动得知双祭子判断。",
+    "outgoing": [
+      "REL058",
+      "REL059",
+      "REL061"
+    ],
+    "incoming": [
+      "REL007",
+      "REL060",
+      "REL062"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH013",
+    "original_navigation": "CH038师父（最小索引）；CH001/CH005/CH007战斗对手；CH014爪痕首领。",
+    "knowledge_boundary": "知个别魔装不等听见红仅给翠的繁开说明。",
+    "outgoing": [
+      "REL016",
+      "REL021",
+      "REL099",
+      "REL102",
+      "REL158",
+      "REL160"
+    ],
+    "incoming": [
+      "REL098",
+      "REL100",
+      "REL101",
+      "REL157",
+      "REL159"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH014",
+    "original_navigation": "CH009副首领；CH015下属；CH045遗鸥开门。",
+    "knowledge_boundary": "金蛇先不知道她会到，数据库预知不能倒灌金蛇。",
+    "outgoing": [
+      "REL038",
+      "REL100",
+      "REL111"
+    ],
+    "incoming": [
+      "REL037",
+      "REL099",
+      "REL112"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH045"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH045；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH015",
+    "original_navigation": "CH019石蒜母亲；未具名父亲见本档；CH014救援首领；CH008交易敌手。",
+    "knowledge_boundary": "旧友照面不等知道翠雀所有身份；自己推断凶感不赋预知未来。",
+    "outgoing": [
+      "REL103",
+      "REL107",
+      "REL110",
+      "REL112",
+      "REL151"
+    ],
+    "incoming": [
+      "REL104",
+      "REL108",
+      "REL109",
+      "REL111",
+      "REL150"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH016",
+    "original_navigation": "CH001养育关系；CH017女王所述旧主从关系为D。",
+    "knowledge_boundary": "自己的过去到底告知林昀多少，需保留母亲话题避谈与后来新获解释区别。",
+    "outgoing": [
+      "REL078"
+    ],
+    "incoming": [
+      "REL017",
+      "REL080"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH017"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH017；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH017",
+    "original_navigation": "CH001身世主张与保护；CH029现任紫钻、CH058鸽血红命令关联；CH009袭击者。",
+    "knowledge_boundary": "持有身世信息的自述与她真知道的一切不同，不建全知角色。",
+    "outgoing": [
+      "REL079",
+      "REL080",
+      "REL082",
+      "REL165"
+    ],
+    "incoming": [
+      "REL028",
+      "REL081",
+      "REL164"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH058"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH058；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH018",
+    "original_navigation": "CH001/CH005/CH007旧队；CH042沃波招募；CH008招揽未果的转述。",
+    "knowledge_boundary": "旧队成员并非同步知道间界消息；退役后行为不能凭旧队知识补。",
+    "outgoing": [],
+    "incoming": [
+      "REL143",
+      "REL144",
+      "REL145"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH005",
+      "CH007",
+      "CH008",
+      "CH042"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001、CH005、CH007、CH008、CH042；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH019",
+    "original_navigation": "CH015女儿；CH001受托者；丈夫未具名且早亡。",
+    "knowledge_boundary": "前线亲历、撤军知情与2000回忆揭晓时间分开。",
+    "outgoing": [
+      "REL104",
+      "REL105"
+    ],
+    "incoming": [
+      "REL103",
+      "REL106"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH020",
+    "original_navigation": "CH009妹妹关系；CH001队长与代号传承者。",
+    "knowledge_boundary": "最后行动细节先本人知道，林在牌中记忆后才获得，不能前置给队长。",
+    "outgoing": [
+      "REL076",
+      "REL077"
+    ],
+    "incoming": [
+      "REL025",
+      "REL075"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH021",
+    "original_navigation": "CH001救援合作；CH036麻雀押解对象；CH037蛛囚禁者。",
+    "knowledge_boundary": "爪痕历史说法后来有补充，早期队长知情不是作者全知。",
+    "outgoing": [
+      "REL097"
+    ],
+    "incoming": [
+      "REL096"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH036",
+      "CH037"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH036、CH037；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH022",
+    "original_navigation": "CH024名义妹妹，CH023未来接班，CH007导师。",
+    "knowledge_boundary": "知琴行家史不等木百合知道被弃真相。",
+    "outgoing": [
+      "REL086",
+      "REL093",
+      "REL095"
+    ],
+    "incoming": [
+      "REL087",
+      "REL092",
+      "REL094"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH023"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH023；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH023",
+    "original_navigation": "CH007导师；CH002竞争→暂和解；CH022未来接班关系。",
+    "knowledge_boundary": "不知道白魔机制；关于夏领队的判断被纠正，非正式任命。 白蓟早在L8937–8954读出翠雀出示的是矢车菊的牌；理由、男性本体和旧人生仍不知，不能统一写她什么身份都不知道（C054）。",
+    "outgoing": [
+      "REL083",
+      "REL085"
+    ],
+    "incoming": [
+      "REL020",
+      "REL084"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH022"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH022；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH024",
+    "original_navigation": "CH022名义姐姐；CH023队友；亲生父母信息见转述。",
+    "knowledge_boundary": "不知道林昀＝翠雀；被弃真相未被同步告知。",
+    "outgoing": [
+      "REL023",
+      "REL087",
+      "REL089"
+    ],
+    "incoming": [
+      "REL086",
+      "REL088"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH023"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH023；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH025",
+    "original_navigation": "CH024/CH023队友；CH007导师；姐姐未具名。",
+    "knowledge_boundary": "妖精忠诚信息来源为听姐姐说；空间判断仍推测。",
+    "outgoing": [
+      "REL091"
+    ],
+    "incoming": [
+      "REL090"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH023",
+      "CH024"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH023、CH024；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH026",
+    "original_navigation": "CH027共同家庭的妹妹；CH002/CH004临时合作。",
+    "knowledge_boundary": "榜单是民间评价不是官方实测；食祭信息不是全体考生一开始知道。",
+    "outgoing": [
+      "REL033",
+      "REL120",
+      "REL122"
+    ],
+    "incoming": [
+      "REL027",
+      "REL036",
+      "REL119",
+      "REL121"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH027",
+    "original_navigation": "CH026姐姐；CH002阻止自伤；CH004临时伙伴；CH044蜂导师。",
+    "knowledge_boundary": "薄荷话中缺失的共同过去对外人未知，不能提前共享。",
+    "outgoing": [
+      "REL034",
+      "REL035",
+      "REL036",
+      "REL123"
+    ],
+    "incoming": [
+      "REL031",
+      "REL032",
+      "REL033",
+      "REL124"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH028",
+    "original_navigation": "CH009互害后照护；CH002敌对战斗；CH014组织上层。",
+    "knowledge_boundary": "对国度与间界的解释保持本人立场，不让白静萱闻到气味就全知其过去。",
+    "outgoing": [
+      "REL022",
+      "REL154",
+      "REL156"
+    ],
+    "incoming": [
+      "REL030",
+      "REL155"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH014"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH014；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH029",
+    "original_navigation": "CH017任命／命令；CH002邀请对象；CH058迎敌同僚。",
+    "knowledge_boundary": "知樱不等知道林昀真身；不得从职位推知全档案。",
+    "outgoing": [
+      "REL131",
+      "REL164"
+    ],
+    "incoming": [
+      "REL132",
+      "REL165"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH058"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH058；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH030",
+    "original_navigation": "CH032狗尾草同队；CH001从假名同伴到知旧名；妹妹未具名。 CH051蓝星为师父与小姨，黎家传承八代、外祖母为在民治院任职的花级少女，均L34831–34834明确；不能把这些家庭事实提前给外人。",
+    "knowledge_boundary": "身份按三条边拆，见C015；不知道男性身份。",
+    "outgoing": [
+      "REL113",
+      "REL117"
+    ],
+    "incoming": [
+      "REL114",
+      "REL118"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH032"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH032；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH031",
+    "original_navigation": "CH004救与被救合作；CH001后续局方关联；CH035刘文琴同院。",
+    "knowledge_boundary": "当场才得知白是目标、妖精等；后来遗忘不能被事件库全文填回。",
+    "outgoing": [
+      "REL125",
+      "REL162"
+    ],
+    "incoming": [
+      "REL126",
+      "REL161"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH035"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH035；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH032",
+    "original_navigation": "CH001/CH030临时同队。",
+    "knowledge_boundary": "详细看C015末次修订，公开两个魔法名边不等所有身份边。",
+    "outgoing": [
+      "REL115"
+    ],
+    "incoming": [
+      "REL116"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH030"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH030；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH033",
+    "original_navigation": "CH001候补接待；CH008绿派亲近研究院；CH060–CH063同院官员。",
+    "knowledge_boundary": "祖公开矢回国给本席，保密保证是说法，不等所有国度成员早知。",
+    "outgoing": [
+      "REL130"
+    ],
+    "incoming": [
+      "REL129"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH008",
+      "CH060",
+      "CH063"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH008、CH060、CH063；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH034",
+    "original_navigation": "CH001巡查联系；CH040荼蘼死亡信息；CH007调任关系；CH008互评同僚。",
+    "knowledge_boundary": "知道荼蘼案不等凶手全链已证；将私人通话与红思与被请离的权限区分。",
+    "outgoing": [
+      "REL128"
+    ],
+    "incoming": [
+      "REL127"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH007",
+      "CH008",
+      "CH040"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH007、CH008、CH040；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH035",
+    "original_navigation": "CH004照护对象；CH031同院护工。",
+    "knowledge_boundary": "知道照护资料不等知道白全部祭子起源。",
+    "outgoing": [
+      "REL163"
+    ],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH031"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH031；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH036",
+    "original_navigation": "CH001对手；CH021押解负责人；CH039不是其击杀对象。",
+    "knowledge_boundary": "关于爪痕与本地案件的供述按讯问渠道，不能默认全部人已知。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH021",
+      "CH039"
+    ],
+    "decision": "麻雀袭击、识破与押解已由EV0028–EV0034保留；现阶段不为一次案件补持久私人关系。 未单建出向候选：CH001、CH021、CH039；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH037",
+    "original_navigation": "CH001对手；CH021及CH022相关受害者。",
+    "knowledge_boundary": "拘押／供词并非完整公开报告。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH021",
+      "CH022"
+    ],
+    "decision": "柏安拘押与对抗见EV0042–EV0046；事件后个人持续关系未写，保留加害事件。 未单建出向候选：CH001、CH021、CH022；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH038",
+    "original_navigation": "CH013师徒与抚养关系。",
+    "knowledge_boundary": "掌握武术不等知魔法少女全部机制。",
+    "outgoing": [
+      "REL101"
+    ],
+    "incoming": [
+      "REL021"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH039",
+    "original_navigation": "CH004目标；CH002被其误／推分类；CH001击杀者。",
+    "knowledge_boundary": "信息传播在死亡前中断，不给蛾补汇报成功。",
+    "outgoing": [
+      "REL169"
+    ],
+    "incoming": [
+      "REL170"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH002"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001、CH002；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH040",
+    "original_navigation": "CH006相关队友；CH001传信；CH034院方消息。",
+    "knowledge_boundary": "属官→荼蘼→林的早期警告链，与金绿猫眼后来直接通话分开。",
+    "outgoing": [],
+    "incoming": [
+      "REL006"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH006",
+      "CH034"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001、CH006、CH034；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH041",
+    "original_navigation": "CH001同公司同级。",
+    "knowledge_boundary": "普通工作交集不等知道魔法身份。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001"
+    ],
+    "decision": "普通同级公司同事；不转异策局职务，不补私交。 未单建出向候选：CH001；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH042",
+    "original_navigation": "CH018招募相关；CH001/CH006旧队。",
+    "knowledge_boundary": "知道早期队伍不等拥有当代全部信息。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH006",
+      "CH018"
+    ],
+    "decision": "旧播种招募功能保留EV0037/EV0189；不凭招募给个人关系强度。 未单建出向候选：CH001、CH006、CH018；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH043",
+    "original_navigation": "CH022等柏安队职能联系。",
+    "knowledge_boundary": "接线／城市报告范围不等目击全部巢战。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH022"
+    ],
+    "decision": "柏安接线/播种职能见EV0042；没有持久私交证据。 未单建出向候选：CH022；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH044",
+    "original_navigation": "CH027导师；CH014等组织合作；CH029/CH058迎敌。",
+    "knowledge_boundary": "具体布置知情范围按EV0128、EV0154；不因干部名知全案。",
+    "outgoing": [
+      "REL124",
+      "REL153"
+    ],
+    "incoming": [
+      "REL123",
+      "REL152"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH014",
+      "CH029",
+      "CH058"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH014、CH029、CH058；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH045",
+    "original_navigation": "CH014上级／协作；CH015救援对象。",
+    "knowledge_boundary": "接应具体计划不等知道所有首领隐秘。",
+    "outgoing": [
+      "REL150"
+    ],
+    "incoming": [
+      "REL151"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH014"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH014；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH046",
+    "original_navigation": "CH008收押相关；CH028旧组织同伴。",
+    "knowledge_boundary": "被问到的信息不等已如实全部回答。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH008",
+      "CH028"
+    ],
+    "decision": "当代收押与组织身份见EV0150；不以同组织补对每名干部关系。 未单建出向候选：CH008、CH028；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH047",
+    "original_navigation": "CH001雇佣工作联系。",
+    "knowledge_boundary": "误认而非识破，保留知识阈值。",
+    "outgoing": [
+      "REL147"
+    ],
+    "incoming": [
+      "REL146"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH048",
+    "original_navigation": "CH003熟人；CH001当次接触。",
+    "knowledge_boundary": "不因生日见过翠雀就知其所有秘密。",
+    "outgoing": [],
+    "incoming": [
+      "REL011"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH003"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001、CH003；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH049",
+    "original_navigation": "CH031上司；CH001局长。",
+    "knowledge_boundary": "参加搜查不等知道白全部秘密；队内通报具体范围才算知。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH031"
+    ],
+    "decision": "第三队长制度链仍见CH049与EV0069；未补独立私密态度。 未单建出向候选：CH001、CH031；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH050",
+    "original_navigation": "CH002朋友；CH007粉丝对象。",
+    "knowledge_boundary": "不能从同到演唱会便知老师、父亲、魔法身份链。",
+    "outgoing": [
+      "REL142",
+      "REL166"
+    ],
+    "incoming": [
+      "REL141"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH051",
+    "original_navigation": "CH030老师与小姨；不等CH001别名。",
+    "knowledge_boundary": "土没有向外人说过小姨身份是当段限制，不意味着所有未来阶段永远无人知道。",
+    "outgoing": [
+      "REL118"
+    ],
+    "incoming": [
+      "REL117"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH052",
+    "original_navigation": "CH054花烛同伴；CH002对手。",
+    "knowledge_boundary": "直觉不升级为已证机制知识。",
+    "outgoing": [
+      "REL149"
+    ],
+    "incoming": [
+      "REL148"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH054"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH054；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH053",
+    "original_navigation": "CH003交际对象。",
+    "knowledge_boundary": "自述知道排名不等知道能力秘密。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH003"
+    ],
+    "decision": "考场交际与对战保留EV0134；未来是否长期交往未知。 未单建出向候选：CH003；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH054",
+    "original_navigation": "CH052同伴；CH002/CH003/CH004考生交际。",
+    "knowledge_boundary": "薄荷主动攀谈与她掌握兽子秘密是两回事。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH002",
+      "CH003",
+      "CH004",
+      "CH052"
+    ],
+    "decision": "与木棉及后辈接触见EV0134；道歉/同场不补持续私交。 未单建出向候选：CH002、CH003、CH004、CH052；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH055",
+    "original_navigation": "CH056姐妹；CH003同队。",
+    "knowledge_boundary": "夏先猜双胞胎，听称呼后追问；保留该阈值。",
+    "outgoing": [
+      "REL136",
+      "REL139"
+    ],
+    "incoming": [
+      "REL135",
+      "REL140"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH056",
+    "original_navigation": "CH055姐妹；CH003同伴。",
+    "knowledge_boundary": "解谜发现、技能协同按当次传播，不获得观礼席全部解释。",
+    "outgoing": [
+      "REL138",
+      "REL140"
+    ],
+    "incoming": [
+      "REL137",
+      "REL139"
+    ],
+    "unmodeled_navigation_targets": [],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。"
+  },
+  {
+    "character": "CH057",
+    "original_navigation": "CH003当场对手；其他兽子只记相关导航。",
+    "knowledge_boundary": "观众称强与本人具体能力知识分开。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH003"
+    ],
+    "decision": "夏的当场对手与情报对象，EV0126/EV0129保留；不延展长期敌意。 未单建出向候选：CH003；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH058",
+    "original_navigation": "CH017命令；CH029共同迎战；CH044对手。",
+    "knowledge_boundary": "奉命迎敌不等知道全部敌方计划。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH017",
+      "CH029",
+      "CH044"
+    ],
+    "decision": "女王命令和与新紫迎敌在EV0154保存；不机械复制所有权杖间私交。 未单建出向候选：CH017、CH029、CH044；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH059",
+    "original_navigation": "CH002等对手；不与其他兽子合并。",
+    "knowledge_boundary": "听无牌离开不等已经知道对方全部身份。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH002"
+    ],
+    "decision": "兽子控制/协作见EV0156；不为当场同困升级稳定联盟。 未单建出向候选：CH002；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH060",
+    "original_navigation": "CH033同院高层；CH001接待对象。",
+    "knowledge_boundary": "现场获知候补身份，不等整个国度同步。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH033"
+    ],
+    "decision": "接待及同院职务见EV0120；没有必要逐官员建立同套私交。 未单建出向候选：CH001、CH033；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH061",
+    "original_navigation": "CH033/CH060同院；CH001接待对象。",
+    "knowledge_boundary": "只能认当次接待分享范围。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH033",
+      "CH060"
+    ],
+    "decision": "同院接待见EV0120，保留公务事件。 未单建出向候选：CH001、CH033、CH060；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH062",
+    "original_navigation": "CH008/CH066收押合作；CH046目标。",
+    "knowledge_boundary": "收押行动知情不等所有研究秘密。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH008",
+      "CH046",
+      "CH066"
+    ],
+    "decision": "收押职责见EV0150，私人关系不足。 未单建出向候选：CH008、CH046、CH066；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH063",
+    "original_navigation": "CH033同阵营；CH001候补对象。",
+    "knowledge_boundary": "亲历战争不同于知道林昀男性身份。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH033"
+    ],
+    "decision": "候补接待见EV0120，战史不代证林昀身份知情。 未单建出向候选：CH001、CH033；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH064",
+    "original_navigation": "CH028请教者。",
+    "knowledge_boundary": "理论由他告诉塞米，不自动变已证宇宙机制。",
+    "outgoing": [],
+    "incoming": [
+      "REL154"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH028"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH028；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH065",
+    "original_navigation": "CH013被救者。",
+    "knowledge_boundary": "没有授予其魔力的同场事实；招募是后续另一阶段。",
+    "outgoing": [],
+    "incoming": [
+      "REL102"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH013"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH013；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH066",
+    "original_navigation": "CH008同行机构；CH046收押目标。",
+    "knowledge_boundary": "具有机制不等知道全体角色秘密。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH008",
+      "CH046"
+    ],
+    "decision": "研究院收押执行者见EV0150；与月季不强并。 未单建出向候选：CH008、CH046；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH067",
+    "original_navigation": "CH004目标；CH001等对手。",
+    "knowledge_boundary": "掌握部分白线索不意味着关于起源的全部叙述准确。",
+    "outgoing": [
+      "REL171"
+    ],
+    "incoming": [
+      "REL172"
+    ],
+    "unmodeled_navigation_targets": [
+      "CH001"
+    ],
+    "decision": "已为重要独立关系建档。其余同队、同院、当场接触、反向未表态及集合提及保留原CH/EV导航；不因引用缺一方向就推定互惠。 未单建出向候选：CH001；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH068",
+    "original_navigation": "与其他兽子为类别关联，非已证亲属。",
+    "knowledge_boundary": "旁白列名不表示所有考生知道其身份。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [],
+    "decision": "仅同类列名，不把类别关联当亲属或熟识。"
+  },
+  {
+    "character": "CH069",
+    "original_navigation": "CH001敌手；CH019历史战场相关；CH044同一性候选。",
+    "knowledge_boundary": "历史受击和当代干部名的联系是推测，不替翠雀提前确认。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH001",
+      "CH019",
+      "CH044"
+    ],
+    "decision": "历史蜂敌对见EV0143–EV0145；CH044同一性未决，禁止把两代蜂边直接移植。 未单建出向候选：CH001、CH019、CH044；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  },
+  {
+    "character": "CH070",
+    "original_navigation": "CH008同院；CH003等考生；不与未具名CH066主任强并。",
+    "knowledge_boundary": "技术权限与主考所知不等全部敌方行动知情。",
+    "outgoing": [],
+    "incoming": [],
+    "unmodeled_navigation_targets": [
+      "CH003",
+      "CH008",
+      "CH066"
+    ],
+    "decision": "考核及研究邀请见EV0130/EV0133；邀请未接受，不建已确立导师关系。 未单建出向候选：CH003、CH008、CH066；作为事件/机构导航保留，不以本表声称这些关系不存在。"
+  }
+]

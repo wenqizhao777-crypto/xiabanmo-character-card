@@ -1,0 +1,128 @@
+[
+  {
+    "id": "G001",
+    "label": "在场职员",
+    "event": "EV0064",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G002",
+    "label": "局内部分熟人",
+    "event": "EV0092",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G003",
+    "label": "在座干部",
+    "event": "EV0108",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G004",
+    "label": "绿派本席",
+    "event": "EV0120",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G005",
+    "label": "分院部分职员",
+    "event": "EV0122",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G006",
+    "label": "考试相关人员",
+    "event": "EV0123",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G007",
+    "label": "各队",
+    "event": "EV0125",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G008",
+    "label": "各参赛队",
+    "event": "EV0127",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G009",
+    "label": "考生及观礼者",
+    "event": "EV0130",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G010",
+    "label": "考官",
+    "event": "EV0132",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G011",
+    "label": "公众",
+    "event": "EV0133",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G012",
+    "label": "现场幸存者",
+    "event": "EV0143",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G013",
+    "label": "研究院收押者",
+    "event": "EV0150",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  },
+  {
+    "id": "G014",
+    "label": "外场考生",
+    "event": "EV0154",
+    "members": [],
+    "membership": "仅原文所指本次实际听见/目击者；未给全名时不补名册。",
+    "scope": "EVENT_LOCAL",
+    "grant_policy": "不可因组织/参赛资格自动加入本组；须另核原文在场与接收。"
+  }
+]

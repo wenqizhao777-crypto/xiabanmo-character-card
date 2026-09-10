@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "K_ID_CONTIGUOUS_UNIQUE",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ALL_207_TEMP_MAPPED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "TEMP_TARGETS_EXIST",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NO_EXACT_DUPLICATE_PROPOSITIONS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "STRUCTURE_ENUMS_FOREIGN_KEYS_RANGES",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "check": "DEFAULT_DENY_DECLARED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NO_USER_IF_OR_OLD_CARD_AUTHORITY",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "TEN_TIER_A_PROFILES",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ALL_38_SNAPSHOTS_CHECKED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ALL_172_REL_BOUNDARIES_CHECKED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SUMMER_ID_SUSPICION_NOT_CONFIRMATION",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SUMMER_ID_CONFIRMATION_AT_PHONE_TEST",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SUMMER_NO_EARLY_CONFIRMATION",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GENDER_DIRECTION_ERROR_RETAINED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CHILDREN_ID_NOT_DISCLOSED_AT_EOF",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "LONGDAN_DAUGHTER_LIE_CORRECTED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "GIRL_ALIAS_CHAIN_NOT_MALE_ID",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "MAR_KNOWS_ANYA_DEATH_BEFORE_CONCERT",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NINI_KITCHEN_CORRECT_RECIPIENT",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "QUEEN_PARENTAGE_NOT_EARLY_BLACKCAT",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "READER_BLACKCAT_REVEAL_NOT_CUI_GRANT",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "TIAN_MEMORY_NOT_RESTORED_FROM_EVENT_DB",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CUP_RATIO_ERROR_CORRECTED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ANYA_DEATH_BARRIER",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "UNWRITTEN_FINAL_RESULT_NOT_GRANTED",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "NO_PUBLIC_SS_BEFORE_PUBLICATION",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CHILD_DOES_NOT_INHERIT_PARENT_HISTORICAL_SECRET",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "LIN_RETAINS_OWN_HISTORICAL_MEETING_NOT_READER_LEAKAGE",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "QUERY_PAYLOAD_EXCLUDES_OBJECTIVE_AND_READER_FIELDS",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "LOCAL_LINKS_AND_STABLE_ANCHORS",
+      "result": "PASS",
+      "detail": {
+        "count": 9002,
+        "bad": []
+      }
+    },
+    {
+      "check": "PROTECTED_INPUT_HASHES_UNCHANGED",
+      "result": "PASS",
+      "detail": {
+        "count": 584,
+        "changed": []
+      }
+    },
+    {
+      "check": "SOURCE_KNOWN_HASH",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CARD_KNOWN_HASH",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "protected_files": 584,
+  "links_checked": 9002,
+  "input_hashes": {
+    "source/下班，然后变成魔法少女_第1-282章.txt": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2",
+    "current/260808.png": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d"
+  },
+  "scope": "结构、引用、哈希及代表性信息壁垒查询；语义判断见Review和原文回查，不声称自动证明全部自然语言。"
+}

@@ -1,0 +1,717 @@
+[
+  {
+    "temp": "REL_TEMP_001",
+    "original": {
+      "label": "林昀 → 林小璐",
+      "original": "- [EV0001](../01_master_timeline.md#ev0001)：回避→尝试道歉未完成坦白\n- [EV0012](../01_master_timeline.md#ev0012)：回避→承诺解释\n- [EV0093](../01_master_timeline.md#ev0093)：保护→恳求本次留下\n- [EV0184](../01_master_timeline.md#ev0184)：成为父亲",
+      "events": [
+        "EV0001",
+        "EV0012",
+        "EV0093",
+        "EV0184"
+      ]
+    },
+    "formal": [
+      "REL001"
+    ],
+    "reason": "与同主体父女/导师面貌合并，保留小璐不知同人的认知隔离。019所指亡妻后内容定位L12400–12412，不能套EV0058的十五岁时层。"
+  },
+  {
+    "temp": "REL_TEMP_002",
+    "original": {
+      "label": "林小璐 → 翠雀",
+      "original": "- [EV0003](../01_master_timeline.md#ev0003)：陌生→认可救援前辈\n- [EV0023](../01_master_timeline.md#ev0023)：依赖保护→表达恐惧和成长意愿\n- [EV0060](../01_master_timeline.md#ev0060)：受保护→主动抓手安慰\n- [EV0101](../01_master_timeline.md#ev0101)：怕添负担→表达独立依恋\n- [EV0135](../01_master_timeline.md#ev0135)：受外力分离提议→选择维护关系",
+      "events": [
+        "EV0003",
+        "EV0023",
+        "EV0060",
+        "EV0101",
+        "EV0135"
+      ]
+    },
+    "formal": [
+      "REL002"
+    ],
+    "reason": "同一Source/Target合并；小璐眼中的林昀与翠雀仍是两种关系对象面貌，不共享其认知。"
+  },
+  {
+    "temp": "REL_TEMP_003",
+    "original": {
+      "label": "翠雀 → 夏凉",
+      "original": "- [EV0005](../01_master_timeline.md#ev0005)：陌生→保护指导承诺\n- [EV0015](../01_master_timeline.md#ev0015)：保护→能力及学业辅导\n- [EV0016](../01_master_timeline.md#ev0016)：关注不足→调整照护\n- [EV0036](../01_master_timeline.md#ev0036)：保密→分享身份但暂缓收养",
+      "events": [
+        "EV0005",
+        "EV0015",
+        "EV0016",
+        "EV0036"
+      ]
+    },
+    "formal": [
+      "REL003"
+    ],
+    "reason": "林/翠同CH001，家庭请求暂缓和生日补叙分开；不确立收养或情侣。"
+  },
+  {
+    "temp": "REL_TEMP_004",
+    "original": {
+      "label": "林小璐 → 夏凉",
+      "original": "- [EV0005](../01_master_timeline.md#ev0005)：反感→成为同伴但未立即互信\n- [EV0008](../01_master_timeline.md#ev0008)：初交→允许借住并倾诉\n- [EV0116](../01_master_timeline.md#ev0116)：比较焦虑→承认进步并感谢",
+      "events": [
+        "EV0005",
+        "EV0008",
+        "EV0116"
+      ]
+    },
+    "formal": [
+      "REL005"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_005",
+    "original": {
+      "label": "林昀 → 荼蘼",
+      "original": "- [EV0009](../01_master_timeline.md#ev0009)：旧识→葬礼安慰",
+      "events": [
+        "EV0009"
+      ]
+    },
+    "formal": [
+      "REL006"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_006",
+    "original": {
+      "label": "林小璐 → 林昀",
+      "original": "- [EV0012](../01_master_timeline.md#ev0012)：疏离→邀请家长会\n- [EV0014](../01_master_timeline.md#ev0014)：给机会→因行动增进理解\n- [EV0019](../01_master_timeline.md#ev0019)：回避→称爸并坦白\n- [EV0033](../01_master_timeline.md#ev0033)：隔阂→共同祭扫并表达目标",
+      "events": [
+        "EV0012",
+        "EV0014",
+        "EV0019",
+        "EV0033"
+      ]
+    },
+    "formal": [
+      "REL002"
+    ],
+    "reason": "同一Source/Target合并；小璐眼中的林昀与翠雀仍是两种关系对象面貌，不共享其认知。"
+  },
+  {
+    "temp": "REL_TEMP_007",
+    "original": {
+      "label": "林昀 → 摩丝",
+      "original": "- [EV0013](../01_master_timeline.md#ev0013)：家属接触→有限情报合作",
+      "events": [
+        "EV0013"
+      ]
+    },
+    "formal": [
+      "REL007"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_008",
+    "original": {
+      "label": "翠雀 → 林小璐",
+      "original": "- [EV0015](../01_master_timeline.md#ev0015)：保护→能力及学业辅导\n- [EV0023](../01_master_timeline.md#ev0023)：指导→承认无法替她理解一切\n- [EV0072](../01_master_timeline.md#ev0072)：训诫风险→安抚并反省休息\n- [EV0101](../01_master_timeline.md#ev0101)：混用保护职责→承认成长并允许撒娇",
+      "events": [
+        "EV0015",
+        "EV0023",
+        "EV0072",
+        "EV0101"
+      ]
+    },
+    "formal": [
+      "REL001"
+    ],
+    "reason": "与同主体父女/导师面貌合并，保留小璐不知同人的认知隔离。019所指亡妻后内容定位L12400–12412，不能套EV0058的十五岁时层。"
+  },
+  {
+    "temp": "REL_TEMP_009",
+    "original": {
+      "label": "夏凉 → 翠雀",
+      "original": "- [EV0016](../01_master_timeline.md#ev0016)：讨好隐瞒→倾诉请求\n- [EV0036](../01_master_timeline.md#ev0036)：猜测亲近→请求专属关系",
+      "events": [
+        "EV0016",
+        "EV0036"
+      ]
+    },
+    "formal": [
+      "REL004"
+    ],
+    "reason": "林/翠同CH001，家庭请求暂缓和生日补叙分开；不确立收养或情侣。"
+  },
+  {
+    "temp": "REL_TEMP_010",
+    "original": {
+      "label": "林昀 → 夏凉",
+      "original": "- [EV0018](../01_master_timeline.md#ev0018)：女儿同伴→邀请家庭行程",
+      "events": [
+        "EV0018"
+      ]
+    },
+    "formal": [
+      "REL003"
+    ],
+    "reason": "林/翠同CH001，家庭请求暂缓和生日补叙分开；不确立收养或情侣。"
+  },
+  {
+    "temp": "REL_TEMP_011",
+    "original": {
+      "label": "白静萱 → 摩可",
+      "original": "- [EV0024](../01_master_timeline.md#ev0024)：戒心→友情",
+      "events": [
+        "EV0024"
+      ]
+    },
+    "formal": [
+      "REL008"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_012",
+    "original": {
+      "label": "白静萱 → 翠雀",
+      "original": "- [EV0032](../01_master_timeline.md#ev0032)：受救→认老师\n- [EV0071](../01_master_timeline.md#ev0071)：不安邀功→接受承诺\n- [EV0116](../01_master_timeline.md#ev0116)：承诺依赖→长期珍重",
+      "events": [
+        "EV0032",
+        "EV0071",
+        "EV0116"
+      ]
+    },
+    "formal": [
+      "REL009"
+    ],
+    "reason": "母亲承诺、爸爸称呼合并到同一客观人物方向，但白的双人理解、无法律手续与称谓变动完整保留。"
+  },
+  {
+    "temp": "REL_TEMP_013",
+    "original": {
+      "label": "林昀 → 安雅",
+      "original": "- [EV0037](../01_master_timeline.md#ev0037)：保护→组队\n- [EV0183](../01_master_timeline.md#ev0183)：订婚→结婚",
+      "events": [
+        "EV0037",
+        "EV0183"
+      ]
+    },
+    "formal": [
+      "REL010"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_014",
+    "original": {
+      "label": "夏凉 → 李雅晴",
+      "original": "- [EV0038](../01_master_timeline.md#ev0038)：旧友伤害→结束往来",
+      "events": [
+        "EV0038"
+      ]
+    },
+    "formal": [
+      "REL011"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_015",
+    "original": {
+      "label": "红思与 → 林昀",
+      "original": "- [EV0050](../01_master_timeline.md#ev0050)：受助→单方暗恋",
+      "events": [
+        "EV0050"
+      ]
+    },
+    "formal": [
+      "REL012"
+    ],
+    "reason": "红思与/朝颜同CH005、林昀/翠雀同CH001；单方感情延续，拒绝后的工作合作不是恋爱接受。"
+  },
+  {
+    "temp": "REL_TEMP_016",
+    "original": {
+      "label": "红思与 → 安雅",
+      "original": "- [EV0051](../01_master_timeline.md#ev0051)：复杂嫉妒与来往，非希望其死",
+      "events": [
+        "EV0051"
+      ]
+    },
+    "formal": [
+      "REL013"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_017",
+    "original": {
+      "label": "红思与 → 翠雀",
+      "original": "- [EV0054](../01_master_timeline.md#ev0054)：隐瞒暗恋→明确表白",
+      "events": [
+        "EV0054"
+      ]
+    },
+    "formal": [
+      "REL012"
+    ],
+    "reason": "红思与/朝颜同CH005、林昀/翠雀同CH001；单方感情延续，拒绝后的工作合作不是恋爱接受。"
+  },
+  {
+    "temp": "REL_TEMP_018",
+    "original": {
+      "label": "翠雀 → 红思与",
+      "original": "- [EV0054](../01_master_timeline.md#ev0054)：知其心意→明确拒绝恋情",
+      "events": [
+        "EV0054"
+      ]
+    },
+    "formal": [
+      "REL014"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_019",
+    "original": {
+      "label": "林昀 → 女儿",
+      "original": "- [EV0058](../01_master_timeline.md#ev0058)：复仇冲动与避免其失依相牵制",
+      "events": [
+        "EV0058"
+      ]
+    },
+    "formal": [
+      "REL001"
+    ],
+    "reason": "与同主体父女/导师面貌合并，保留小璐不知同人的认知隔离。019所指亡妻后内容定位L12400–12412，不能套EV0058的十五岁时层。"
+  },
+  {
+    "temp": "REL_TEMP_020",
+    "original": {
+      "label": "翠雀 → 白静萱",
+      "original": "- [EV0071](../01_master_timeline.md#ev0071)：照护→承诺以后当妈妈",
+      "events": [
+        "EV0071"
+      ]
+    },
+    "formal": [
+      "REL015"
+    ],
+    "reason": "母亲承诺、爸爸称呼合并到同一客观人物方向，但白的双人理解、无法律手续与称谓变动完整保留。"
+  },
+  {
+    "temp": "REL_TEMP_021",
+    "original": {
+      "label": "鸢 → 翠雀",
+      "original": "- [EV0075](../01_master_timeline.md#ev0075)：强取目标→认输但保留未来带走诉求",
+      "events": [
+        "EV0075"
+      ]
+    },
+    "formal": [
+      "REL016"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_022",
+    "original": {
+      "label": "林昀 → 白静萱",
+      "original": "- [EV0078](../01_master_timeline.md#ev0078)：潜在收养话题→主动父亲称谓",
+      "events": [
+        "EV0078"
+      ]
+    },
+    "formal": [
+      "REL015"
+    ],
+    "reason": "母亲承诺、爸爸称呼合并到同一客观人物方向，但白的双人理解、无法律手续与称谓变动完整保留。"
+  },
+  {
+    "temp": "REL_TEMP_023",
+    "original": {
+      "label": "白静萱 → 林昀",
+      "original": "- [EV0078](../01_master_timeline.md#ev0078)：退称叔叔→恢复爸爸",
+      "events": [
+        "EV0078"
+      ]
+    },
+    "formal": [
+      "REL009"
+    ],
+    "reason": "母亲承诺、爸爸称呼合并到同一客观人物方向，但白的双人理解、无法律手续与称谓变动完整保留。"
+  },
+  {
+    "temp": "REL_TEMP_024",
+    "original": {
+      "label": "林昀 → 林格",
+      "original": "- [EV0079](../01_master_timeline.md#ev0079)：共同生活→保留共同生日纪念",
+      "events": [
+        "EV0079"
+      ]
+    },
+    "formal": [
+      "REL017"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_025",
+    "original": {
+      "label": "玛格丽特 → 林昀",
+      "original": "- [EV0081](../01_master_timeline.md#ev0081)：旧队归属→告别兼不甘",
+      "events": [
+        "EV0081"
+      ]
+    },
+    "formal": [
+      "REL018"
+    ],
+    "reason": "同一旧友方向合并；后叙确认曾有进一步想法，仍非双方恋爱，离城动机不只爱情。"
+  },
+  {
+    "temp": "REL_TEMP_026",
+    "original": {
+      "label": "玛格丽特 → 翠雀",
+      "original": "- [EV0083](../01_master_timeline.md#ev0083)：重逢→说明并致歉",
+      "events": [
+        "EV0083"
+      ]
+    },
+    "formal": [
+      "REL018"
+    ],
+    "reason": "同一旧友方向合并；后叙确认曾有进一步想法，仍非双方恋爱，离城动机不只爱情。"
+  },
+  {
+    "temp": "REL_TEMP_027",
+    "original": {
+      "label": "玛格丽特 → 林小璐",
+      "original": "- [EV0084](../01_master_timeline.md#ev0084)：安抚低估→承认误判并尊重拒绝触碰\n- [EV0162](../01_master_timeline.md#ev0162)：提出协助→实际技巧指导",
+      "events": [
+        "EV0084",
+        "EV0162"
+      ]
+    },
+    "formal": [
+      "REL019"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_028",
+    "original": {
+      "label": "玛格丽特 → 白蓟",
+      "original": "- [EV0089](../01_master_timeline.md#ev0089)：保护导师冲突→批评其偷用信息差\n- [EV0090](../01_master_timeline.md#ev0090)：公事公办错估→理解依恋并致歉",
+      "events": [
+        "EV0089",
+        "EV0090"
+      ]
+    },
+    "formal": [
+      "REL020"
+    ],
+    "reason": "私比纪律批评回接EV0084；EV0089为正式比试观战，EV0090才是败后误会与拥抱道歉；不将批评推晚。见Review R006。"
+  },
+  {
+    "temp": "REL_TEMP_029",
+    "original": {
+      "label": "陆红豆 → 师父",
+      "original": "- [EV0095](../01_master_timeline.md#ev0095)：受救→长期师徒",
+      "events": [
+        "EV0095"
+      ]
+    },
+    "formal": [
+      "REL021"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_030",
+    "original": {
+      "label": "塞米 → 黑猫",
+      "original": "- [EV0098](../01_master_timeline.md#ev0098)：伤害→接受照护共享家园",
+      "events": [
+        "EV0098"
+      ]
+    },
+    "formal": [
+      "REL022"
+    ],
+    "reason": "黑猫/墨荷同CH009，塞米同CH028；重复方向合并，敌害→藏匿→共同离国/家园分期，非法律收养。"
+  },
+  {
+    "temp": "REL_TEMP_031",
+    "original": {
+      "label": "木百合 → 林昀",
+      "original": "- [EV0105](../01_master_timeline.md#ev0105)：误会戒备→感谢道歉",
+      "events": [
+        "EV0105"
+      ]
+    },
+    "formal": [
+      "REL023"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_032",
+    "original": {
+      "label": "矢车菊 → 妮娜、妮姆",
+      "original": "- [EV0111](../01_master_timeline.md#ev0111)：误判→接纳并要求训练",
+      "events": [
+        "EV0111"
+      ]
+    },
+    "formal": [
+      "REL024",
+      "REL025"
+    ],
+    "reason": "妮娜与妮姆拆两个目标；矢车菊与林昀同CH001，保留历史军队阶段。"
+  },
+  {
+    "temp": "REL_TEMP_033",
+    "original": {
+      "label": "墨荷 → 翠雀",
+      "original": "- [EV0113](../01_master_timeline.md#ev0113)：旧队依恋→主动接近",
+      "events": [
+        "EV0113"
+      ]
+    },
+    "formal": [
+      "REL026"
+    ],
+    "reason": "妮娜/墨荷/黑猫同CH009；历史队长与当代敌手分期，遗牌托付先于当代重逢，不按TEMP号排序。"
+  },
+  {
+    "temp": "REL_TEMP_034",
+    "original": {
+      "label": "朝颜 → 翠雀",
+      "original": "- [EV0114](../01_master_timeline.md#ev0114)：拒恋后继续表达情意",
+      "events": [
+        "EV0114"
+      ]
+    },
+    "formal": [
+      "REL012"
+    ],
+    "reason": "红思与/朝颜同CH005、林昀/翠雀同CH001；单方感情延续，拒绝后的工作合作不是恋爱接受。"
+  },
+  {
+    "temp": "REL_TEMP_035",
+    "original": {
+      "label": "矢车菊 → 妮娜",
+      "original": "- [EV0118](../01_master_timeline.md#ev0118)：稍有芥蒂→信任队友",
+      "events": [
+        "EV0118"
+      ]
+    },
+    "formal": [
+      "REL024"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_036",
+    "original": {
+      "label": "妮娜 → 矢车菊",
+      "original": "- [EV0118](../01_master_timeline.md#ev0118)：自责躲避→坦陈嫉妒",
+      "events": [
+        "EV0118"
+      ]
+    },
+    "formal": [
+      "REL026"
+    ],
+    "reason": "妮娜/墨荷/黑猫同CH009；历史队长与当代敌手分期，遗牌托付先于当代重逢，不按TEMP号排序。"
+  },
+  {
+    "temp": "REL_TEMP_037",
+    "original": {
+      "label": "翠雀 → 薄荷",
+      "original": "- [EV0131](../01_master_timeline.md#ev0131)：敌方线索→按罪调查前提下保护谈判",
+      "events": [
+        "EV0131"
+      ]
+    },
+    "formal": [
+      "REL027"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_038",
+    "original": {
+      "label": "林昀 → 女王",
+      "original": "- [EV0146](../01_master_timeline.md#ev0146)：听解释→抗议并拒任",
+      "events": [
+        "EV0146"
+      ]
+    },
+    "formal": [
+      "REL028"
+    ],
+    "reason": "原挂EV0146为战后破本相事件；谈身世与拒任实际EV0176，正式档改指EV0176，原文件只读保留。"
+  },
+  {
+    "temp": "REL_TEMP_039",
+    "original": {
+      "label": "墨荷 → 林昀",
+      "original": "- [EV0148](../01_master_timeline.md#ev0148)：托付妹妹认证牌",
+      "events": [
+        "EV0148"
+      ]
+    },
+    "formal": [
+      "REL026"
+    ],
+    "reason": "妮娜/墨荷/黑猫同CH009；历史队长与当代敌手分期，遗牌托付先于当代重逢，不按TEMP号排序。"
+  },
+  {
+    "temp": "REL_TEMP_040",
+    "original": {
+      "label": "林昀 → 妮姆",
+      "original": "- [EV0148](../01_master_timeline.md#ev0148)：队长保护→承继代号纪念",
+      "events": [
+        "EV0148"
+      ]
+    },
+    "formal": [
+      "REL025"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_041",
+    "original": {
+      "label": "林小璐 → 玛格丽特",
+      "original": "- [EV0162](../01_master_timeline.md#ev0162)：戒备→接受教学",
+      "events": [
+        "EV0162"
+      ]
+    },
+    "formal": [
+      "REL029"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_042",
+    "original": {
+      "label": "墨荷 → 塞米",
+      "original": "- [EV0168](../01_master_timeline.md#ev0168)：敌对受伤→庇护收养",
+      "events": [
+        "EV0168"
+      ]
+    },
+    "formal": [
+      "REL030"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_043",
+    "original": {
+      "label": "塞米 → 墨荷",
+      "original": "- [EV0168](../01_master_timeline.md#ev0168)：敌对→接受庇护",
+      "events": [
+        "EV0168"
+      ]
+    },
+    "formal": [
+      "REL022"
+    ],
+    "reason": "黑猫/墨荷同CH009，塞米同CH028；重复方向合并，敌害→藏匿→共同离国/家园分期，非法律收养。"
+  },
+  {
+    "temp": "REL_TEMP_044",
+    "original": {
+      "label": "629小队 → 箭根薯",
+      "original": "- [EV0174](../01_master_timeline.md#ev0174)：竞赛陌生人→暂时合作",
+      "events": [
+        "EV0174"
+      ]
+    },
+    "formal": [
+      "REL031",
+      "REL032",
+      "REL033"
+    ],
+    "reason": "集合主体逐成员展开；各成员有实际行为/受害/协作证据，不将集体心理复制给所有人。 629成员CH002/CH004/CH026；吴姐妹早已共同成长，不能把CH026/CH027写成竞赛初识。"
+  },
+  {
+    "temp": "REL_TEMP_045",
+    "original": {
+      "label": "箭根薯 → 629小队",
+      "original": "- [EV0174](../01_master_timeline.md#ev0174)：选择暂时合作",
+      "events": [
+        "EV0174"
+      ]
+    },
+    "formal": [
+      "REL034",
+      "REL035",
+      "REL036"
+    ],
+    "reason": "集合主体逐成员展开；各成员有实际行为/受害/协作证据，不将集体心理复制给所有人。 629成员CH002/CH004/CH026；吴姐妹早已共同成长，不能把CH026/CH027写成竞赛初识。"
+  },
+  {
+    "temp": "REL_TEMP_046",
+    "original": {
+      "label": "墨荷 → 前任紫钻",
+      "original": "- [EV0181](../01_master_timeline.md#ev0181)：逃难首领→接受救助及领导",
+      "events": [
+        "EV0181"
+      ]
+    },
+    "formal": [
+      "REL037"
+    ],
+    "reason": "后文明确墨先为越狱首领、旧紫钻后来解毒援助，区分初创与后来的正副职务。"
+  },
+  {
+    "temp": "REL_TEMP_047",
+    "original": {
+      "label": "前任紫钻 → 墨荷",
+      "original": "- [EV0181](../01_master_timeline.md#ev0181)：后来援助者→任其副首领",
+      "events": [
+        "EV0181"
+      ]
+    },
+    "formal": [
+      "REL038"
+    ],
+    "reason": "后文明确墨先为越狱首领、旧紫钻后来解毒援助，区分初创与后来的正副职务。"
+  },
+  {
+    "temp": "REL_TEMP_048",
+    "original": {
+      "label": "安雅 → 林昀",
+      "original": "- [EV0183](../01_master_timeline.md#ev0183)：订婚→结婚",
+      "events": [
+        "EV0183"
+      ]
+    },
+    "formal": [
+      "REL039"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  },
+  {
+    "temp": "REL_TEMP_049",
+    "original": {
+      "label": "安雅 → 林小璐",
+      "original": "- [EV0184](../01_master_timeline.md#ev0184)：成为母亲",
+      "events": [
+        "EV0184"
+      ]
+    },
+    "formal": [
+      "REL040"
+    ],
+    "reason": "保留方向；按后续证据补阶段与未知，不把原摘要直接当整条关系。"
+  }
+]

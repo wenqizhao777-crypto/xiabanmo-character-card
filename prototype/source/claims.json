@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "source": "../../source/下班，然后变成魔法少女_第1-282章.txt",
+  "lineConvention": "UTF-8 splitlines，一基行号；原文优先于事件摘要",
+  "note": "anchor只检验出处定位，语义与角色知情仍需人工回查。原创对白与气氛描写不是原著引文。",
+  "claims": [
+    {"id":"CLM-001","layer":"NOVEL_TEXT","statement":"林昀开篇已从回放知道女儿成为白玫，之后取出旧宝石。","ranges":[[163,174],[269,286]],"anchor":"得知女儿成为了魔法少女","events":["EV0001"],"targets":["source/rules.md"]},
+    {"id":"CLM-002","layer":"NOVEL_TEXT","statement":"摩可在公园受袭后带伤返回白玫身边，背后一只翅膀缺损。","ranges":[[571,578]],"anchor":"翅膀都少掉了一只","events":["EV0003"],"targets":["source/rules.md","source/opening-rose.md","source/episode.md"]},
+    {"id":"CLM-003","layer":"NOVEL_TEXT","statement":"当场残兽体形巨大、有两个脑袋、乌紫皮毛和连接头部的管状结构。","ranges":[[581,585]],"anchor":"两个脑袋","events":["EV0003"],"targets":["source/opening-rose.md","source/episode.md"]},
+    {"id":"CLM-004","layer":"NOVEL_TEXT","statement":"白玫持魔杖尝试飞离，上方魔力屏障阻断去路，摩可触摸确认排斥。","ranges":[[597,606]],"anchor":"魔力屏障","events":["EV0003"],"targets":["source/rules.md","source/opening-rose.md","source/episode.md"]},
+    {"id":"CLM-005","layer":"NOVEL_TEXT","statement":"翠雀娇小且呈深蓝色魔法少女形象，在公园以娴熟移动和格挡应战。","ranges":[[647,657]],"anchor":"深蓝色的娇小魔法少女","events":["EV0003"],"targets":["source/rules.md"]},
+    {"id":"CLM-006","layer":"NOVEL_TEXT","statement":"翠雀把公园战中的移动防御作为示范向白玫讲解。","ranges":[[664,669]],"anchor":"运动防御战","events":["EV0003"],"targets":["source/rules.md","source/episode.md"]},
+    {"id":"CLM-007","layer":"NOVEL_TEXT","statement":"翠雀以魔力丝线限制残兽，使用剪刀相关能力构装短剑结束攻击。","ranges":[[671,688]],"anchor":"空心的短剑","events":["EV0003"],"targets":["source/rules.md"]},
+    {"id":"CLM-008","layer":"NOVEL_TEXT","statement":"原作这一场由翠雀收取回响；回响为残余魔力与灵魂碎片，播种者送返国度后作为贡献奖励依据。","ranges":[[695,701]],"anchor":"残余的魔力与灵魂碎片","events":["EV0003"],"targets":["source/rules.md","source/episode.md"]},
+    {"id":"CLM-009","layer":"NOVEL_TEXT","statement":"翠雀就是林昀，此时未向女儿说明真实身份。","ranges":[[810,818]],"anchor":"她没有第一时间向女儿说明自己的身份","events":["EV0001","EV0003"],"targets":["source/rules.md"]},
+    {"id":"CLM-010","layer":"NOVEL_TEXT","statement":"原作救援后白玫表达欣赏并提出求教；不能替代原作视角玩家的自主反应。","ranges":[[807,830]],"anchor":"能请你教教我吗","events":["EV0003"],"targets":["source/rules.md","source/episode.md"]},
+    {"id":"CLM-011","layer":"NOVEL_TEXT","statement":"原作在招募夏凉后建立联系，之后隔日晚间授课，内容包括魔力锻炼、常识和战斗意识；不是公园当晚已完成课程。","ranges":[[1344,1350]],"anchor":"每隔一天晚上","events":["EV0005"],"targets":["source/episode.md"]},
+    {"id":"CLM-012","layer":"NOVEL_TEXT","statement":"原作日常存在电车返家、电视新闻、通信器回放与上班后接战等生活交错。","ranges":[[163,170],[1344,1374]],"anchor":"又乘坐电车回到自己家","events":["EV0001","EV0005"],"targets":["source/episode.md"]},
+    {"id":"CLM-013","layer":"NOVEL_TEXT","statement":"林昀在救援前从回拨电话中得到湿地公园危险地点线索。","ranges":[[413,423]],"anchor":"公园","events":["EV0002"],"targets":["source/episode.md"]},
+    {"id":"CLM-014","layer":"USER_IF","statement":"玩家认可OC新人介入同阶段改编支线；公园外侧步道切入点、OC参与和双入口共用短章均是本卡改编。","decision":"2026-09-10本任务对推荐方案的明确同意","targets":["source/episode.md","source/opening-oc.md","source/rules.md"]},
+    {"id":"CLM-015","layer":"USER_IF","statement":"战后返程、休整、入门训练及第二次安全练习是首章连接场景，不把提前或压缩的教学写成原著事件。","decision":"用户确认战后相处、基础成长与短章试玩提案；具体练习为范围内实现","targets":["source/episode.md","source/rules.md"]},
+    {"id":"CLM-016","layer":"RP_RULE","statement":"OC示范默认包括16岁学生、新获得力量、无伤、已变身、有魔杖与基础本领；仅在玩家建角接受后生效，不是原著资格规则。","decision":"U008允许明确建角默认；具体草案由玩家开场接受或修改","targets":["source/opening-oc.md","source/rules.md"]},
+    {"id":"CLM-017","layer":"USER_DESIGN","statement":"试玩暂不掷骰；原作条件起步允许因有效行动产生分支；只记关系变化，不撤销完整版好感CG方向。","decision":"本任务确认＋U006/U007","targets":["source/rules.md","source/episode.md"]},
+    {"id":"CLM-018","layer":"RP_RULE","statement":"十一字段行程记录与相对日序由本卡定义；聊天正文为事实依据，模型维护摘要；不具有脚本数据库保证。","decision":"用户确认文字状态试玩方案＋U001/U008","targets":["source/rules.md","source/opening-rose.md","source/opening-oc.md"]},
+    {"id":"CLM-019","layer":"USER_DESIGN","statement":"不添加普适尾刀独占或统一平分制度，不将角色背景秘密当作玩家已知；人物有自主意愿。","decision":"audit/USER_DECISIONS.md U003/U005/U007/U008","targets":["source/rules.md"]},
+    {"id":"CLM-020","layer":"USER_IF","statement":"开场及互动样例对白为原创演绎，不是原文摘抄；样例不计入本局历史。","decision":"已确认角色卡制作范围内的创作实现","targets":["source/opening-rose.md","source/opening-oc.md","source/examples.md"]}
+  ]
+}

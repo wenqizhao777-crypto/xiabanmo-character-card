@@ -1,0 +1,34 @@
+{
+  "status": "offline-artifact-passed",
+  "version": "0.1.0",
+  "date": "2026-09-09T19:51:45.174Z",
+  "output": "dist/下班魔_方亭市初次并肩_试玩_v0.1.0.json",
+  "bytes": 20209,
+  "sha256": "711fb774d74b247a07e7f188732b29317c50d09d99806d4fca6e248d10080a44",
+  "structuralChecks": "passed",
+  "sourceAnchors": 13,
+  "totalClaims": 20,
+  "initialStates": "two-distinct-branches-passed",
+  "invalidStateEnvelopesRejected": 3,
+  "protectedInputs": "unchanged",
+  "primaryType": "text",
+  "capabilityFlags": [],
+  "hostExtensionsRequired": [],
+  "remoteRuntime": [],
+  "characterBook": "absent-by-design",
+  "fullReasoningOutput": "not-requested",
+  "runtime": "v24.19.0",
+  "modelTokens": "not-measured",
+  "promptCharacters": {
+    "description": 3107,
+    "personality": 168,
+    "scenario": 1560,
+    "mes_example": 509
+  },
+  "limitations": [
+    "Source anchors prove references exist, not full semantic fidelity.",
+    "No model generation, client import, character portrayal, state persistence, or human acceptance has been tested."
+  ],
+  "realHost": "pending-user-import-third-party-client",
+  "driver": "pending"
+}

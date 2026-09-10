@@ -1,0 +1,16 @@
+{
+  "formal_relationships": 172,
+  "temp_inputs": 49,
+  "temp_mapped_formal": 40,
+  "new_directed_relationships": 132,
+  "tier_a_incident_directions": 145,
+  "represented_characters": 50,
+  "stage_nodes": 582,
+  "family_records": 36,
+  "unknown_dimension_slots": 1436,
+  "records_with_unknown": 172,
+  "disputed_claims": 0,
+  "marked_asymmetric_directions": 51,
+  "marked_asymmetric_pairs": 29,
+  "unpaired_directions": 14
+}

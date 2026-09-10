@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "REL004",
+    "field": "anchors",
+    "before": [
+      [
+        24896,
+        24907
+      ],
+      [
+        25700,
+        25749
+      ]
+    ],
+    "after": [
+      [
+        25000,
+        25078
+      ],
+      [
+        25700,
+        25749
+      ]
+    ],
+    "reason": "E377实际照料段位于25000–25130；剔除初稿近似锚。"
+  },
+  {
+    "id": "REL063",
+    "field": "anchors",
+    "before": [
+      [
+        23445,
+        23470
+      ]
+    ],
+    "after": [
+      [
+        23425,
+        23438
+      ]
+    ],
+    "reason": "原文23432–23436明确很要好的朋友为最好关系模式；初稿锚偏后。"
+  },
+  {
+    "id": "REL063",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0081",
+        "claim": "A：互认同学与魔法身份，后来面对其告别。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ]
+        ],
+        "story_phase": "历史：旧队；早年战场互识；离队为林安婚后两年、距重逢十三年",
+        "evidence_navigation": [
+          "E256",
+          "E257"
+        ],
+        "claim_metadata": {
+          "text": "A：互认同学与魔法身份，后来面对其告别。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：从怀疑同名到台上确认，重逢。",
+        "sequence": 2,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：从怀疑同名到台上确认，重逢。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0083",
+        "claim": "A：讨论支援、共同悼念安雅。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            18347,
+            18406
+          ],
+          [
+            18407,
+            18450
+          ],
+          [
+            18455,
+            18537
+          ],
+          [
+            18538,
+            18596
+          ],
+          [
+            18597,
+            18644
+          ],
+          [
+            18645,
+            18718
+          ],
+          [
+            18719,
+            18779
+          ]
+        ],
+        "story_phase": "当代中段；演唱会散场后墓园私谈",
+        "evidence_navigation": [
+          "E262",
+          "E263",
+          "E265",
+          "E266",
+          "E267",
+          "E268",
+          "E269"
+        ],
+        "claim_metadata": {
+          "text": "A：讨论支援、共同悼念安雅。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0097",
+        "claim": "A：并肩战斗。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            21680,
+            21766
+          ],
+          [
+            21767,
+            21838
+          ],
+          [
+            21839,
+            21876
+          ]
+        ],
+        "story_phase": "当代中段；翠胸伤后",
+        "evidence_navigation": [
+          "E328",
+          "E329",
+          "E330",
+          "E331"
+        ],
+        "claim_metadata": {
+          "text": "A：并肩战斗。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0102",
+        "claim": "A：分享白的风险并接受合作。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            22905,
+            22978
+          ],
+          [
+            22979,
+            23012
+          ],
+          [
+            23013,
+            23176
+          ]
+        ],
+        "story_phase": "当代中段；夜谈后到新年首日",
+        "evidence_navigation": [
+          "E346",
+          "E347",
+          "E348",
+          "E349"
+        ],
+        "claim_metadata": {
+          "text": "A：分享白的风险并接受合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0104",
+        "claim": "D：认为两人只适合挚友，不以同住和玩笑写成恋情。"
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0081",
+        "claim": "A：互认同学与魔法身份，后来面对其告别。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ]
+        ],
+        "story_phase": "历史：旧队；早年战场互识；离队为林安婚后两年、距重逢十三年",
+        "evidence_navigation": [
+          "E256",
+          "E257"
+        ],
+        "claim_metadata": {
+          "text": "A：互认同学与魔法身份，后来面对其告别。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：从怀疑同名到台上确认，重逢。",
+        "sequence": 2,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：从怀疑同名到台上确认，重逢。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0083",
+        "claim": "A：讨论支援、共同悼念安雅。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            18347,
+            18406
+          ],
+          [
+            18407,
+            18450
+          ],
+          [
+            18455,
+            18537
+          ],
+          [
+            18538,
+            18596
+          ],
+          [
+            18597,
+            18644
+          ],
+          [
+            18645,
+            18718
+          ],
+          [
+            18719,
+            18779
+          ]
+        ],
+        "story_phase": "当代中段；演唱会散场后墓园私谈",
+        "evidence_navigation": [
+          "E262",
+          "E263",
+          "E265",
+          "E266",
+          "E267",
+          "E268",
+          "E269"
+        ],
+        "claim_metadata": {
+          "text": "A：讨论支援、共同悼念安雅。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0097",
+        "claim": "A：并肩战斗。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            21680,
+            21766
+          ],
+          [
+            21767,
+            21838
+          ],
+          [
+            21839,
+            21876
+          ]
+        ],
+        "story_phase": "当代中段；翠胸伤后",
+        "evidence_navigation": [
+          "E328",
+          "E329",
+          "E330",
+          "E331"
+        ],
+        "claim_metadata": {
+          "text": "A：并肩战斗。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0102",
+        "claim": "A：分享白的风险并接受合作。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            22905,
+            22978
+          ],
+          [
+            22979,
+            23012
+          ],
+          [
+            23013,
+            23176
+          ]
+        ],
+        "story_phase": "当代中段；夜谈后到新年首日",
+        "evidence_navigation": [
+          "E346",
+          "E347",
+          "E348",
+          "E349"
+        ],
+        "claim_metadata": {
+          "text": "A：分享白的风险并接受合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0103",
+        "claim": "A：当段内心叙述把玛当很要好很重要的朋友，认为朋友是最好的关系模式；不确立情侣。",
+        "source_ranges": [
+          [
+            23425,
+            23438
+          ]
+        ],
+        "sequence": 6,
+        "story_phase": "当代中段；新年第四天叙述后；1月5日课明确计划2月10日出发、3月3日考核",
+        "evidence_navigation": [
+          "E350",
+          "E352",
+          "E353"
+        ],
+        "claim_metadata": {
+          "text": "A：当段内心叙述把玛当很要好很重要的朋友，认为朋友是最好的关系模式；不确立情侣。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "将朋友圈定位回EV0103所含回叙窗口，不挂后一个教学事件。"
+  },
+  {
+    "id": "REL018",
+    "field": "dimensions",
+    "before": {
+      "熟悉度": "A：旧队老友",
+      "信任": "A：战斗合作、具体秘密讨论",
+      "情感亲近": "A：友情、关切与告别不甘",
+      "恋爱倾向": "F：旧话“你没选我”不能单独确认全部动机或被接受"
+    },
+    "after": {
+      "熟悉度": "A：旧队老友",
+      "信任": "A：战斗合作、具体秘密讨论",
+      "情感亲近": "A：友情、关切与告别不甘",
+      "恋爱倾向": "A：23432–23436后叙确认曾有更进一步想法及模糊表白；F：当代是否仍追求未明确；双方恋爱未成立。"
+    },
+    "reason": "不能因避免过度恋爱化而漏掉后叙明确的历史进一步想法。"
+  },
+  {
+    "id": "REL018",
+    "field": "anchors",
+    "before": [],
+    "after": [
+      [
+        18031,
+        18105
+      ],
+      [
+        23425,
+        23438
+      ]
+    ],
+    "reason": "回接末次审计C087与明确后叙，非仅旧告别台词推断。"
+  },
+  {
+    "id": "REL018",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0081",
+        "claim": "A：战场互认身份后同队；离城告别。D：前途、不甘、被排除感并存。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ]
+        ],
+        "story_phase": "历史：旧队；早年战场互识；离队为林安婚后两年、距重逢十三年",
+        "evidence_navigation": [
+          "E256",
+          "E257"
+        ],
+        "claim_metadata": {
+          "text": "A：战场互认身份后同队；离城告别。D：前途、不甘、被排除感并存。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：台上认出并抛花互动。",
+        "sequence": 2,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：台上认出并抛花互动。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0083",
+        "claim": "A：为误估舞台感受致歉，表达支援并悼安雅。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            18347,
+            18406
+          ],
+          [
+            18407,
+            18450
+          ],
+          [
+            18455,
+            18537
+          ],
+          [
+            18538,
+            18596
+          ],
+          [
+            18597,
+            18644
+          ],
+          [
+            18645,
+            18718
+          ],
+          [
+            18719,
+            18779
+          ]
+        ],
+        "story_phase": "当代中段；演唱会散场后墓园私谈",
+        "evidence_navigation": [
+          "E262",
+          "E263",
+          "E265",
+          "E266",
+          "E267",
+          "E268",
+          "E269"
+        ],
+        "claim_metadata": {
+          "text": "A：为误估舞台感受致歉，表达支援并悼安雅。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0087",
+        "claim": "A：看见失控后关切治疗。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            19462,
+            19483
+          ],
+          [
+            19484,
+            19529
+          ],
+          [
+            19530,
+            19585
+          ]
+        ],
+        "story_phase": "当代中段；办公室旧友讨论",
+        "evidence_navigation": [
+          "E283",
+          "E284",
+          "E285"
+        ],
+        "claim_metadata": {
+          "text": "A：看见失控后关切治疗。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0097",
+        "claim": "A：实际战斗支援。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            21680,
+            21766
+          ],
+          [
+            21767,
+            21838
+          ],
+          [
+            21839,
+            21876
+          ]
+        ],
+        "story_phase": "当代中段；翠胸伤后",
+        "evidence_navigation": [
+          "E328",
+          "E329",
+          "E330",
+          "E331"
+        ],
+        "claim_metadata": {
+          "text": "A：实际战斗支援。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0102",
+        "claim": "A：知道白秘密后议风险，愿再一同看烟花。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            22905,
+            22978
+          ],
+          [
+            22979,
+            23012
+          ],
+          [
+            23013,
+            23176
+          ]
+        ],
+        "story_phase": "当代中段；夜谈后到新年首日",
+        "evidence_navigation": [
+          "E346",
+          "E347",
+          "E348",
+          "E349"
+        ],
+        "claim_metadata": {
+          "text": "A：知道白秘密后议风险，愿再一同看烟花。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0107",
+        "claim": "A：借木家史提醒谎言保护的矛盾。",
+        "sequence": 8,
+        "source_ranges": [
+          [
+            24503,
+            24603
+          ],
+          [
+            24604,
+            24678
+          ],
+          [
+            24604,
+            24792
+          ],
+          [
+            24712,
+            24748
+          ]
+        ],
+        "story_phase": "当代中段；一月末庙会前后",
+        "evidence_navigation": [
+          "E369",
+          "E370",
+          "E371",
+          "E372"
+        ],
+        "claim_metadata": {
+          "text": "A：借木家史提醒谎言保护的矛盾。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0081",
+        "claim": "A：战场互认身份后同队；离城告别。D：前途、不甘、被排除感并存。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ]
+        ],
+        "story_phase": "历史：旧队；早年战场互识；离队为林安婚后两年、距重逢十三年",
+        "evidence_navigation": [
+          "E256",
+          "E257"
+        ],
+        "claim_metadata": {
+          "text": "A：战场互认身份后同队；离城告别。D：前途、不甘、被排除感并存。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：台上认出并抛花互动。",
+        "sequence": 2,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：台上认出并抛花互动。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0083",
+        "claim": "A：为误估舞台感受致歉，表达支援并悼安雅。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            18347,
+            18406
+          ],
+          [
+            18407,
+            18450
+          ],
+          [
+            18455,
+            18537
+          ],
+          [
+            18538,
+            18596
+          ],
+          [
+            18597,
+            18644
+          ],
+          [
+            18645,
+            18718
+          ],
+          [
+            18719,
+            18779
+          ]
+        ],
+        "story_phase": "当代中段；演唱会散场后墓园私谈",
+        "evidence_navigation": [
+          "E262",
+          "E263",
+          "E265",
+          "E266",
+          "E267",
+          "E268",
+          "E269"
+        ],
+        "claim_metadata": {
+          "text": "A：为误估舞台感受致歉，表达支援并悼安雅。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0087",
+        "claim": "A：看见失控后关切治疗。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            19462,
+            19483
+          ],
+          [
+            19484,
+            19529
+          ],
+          [
+            19530,
+            19585
+          ]
+        ],
+        "story_phase": "当代中段；办公室旧友讨论",
+        "evidence_navigation": [
+          "E283",
+          "E284",
+          "E285"
+        ],
+        "claim_metadata": {
+          "text": "A：看见失控后关切治疗。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0097",
+        "claim": "A：实际战斗支援。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            21680,
+            21766
+          ],
+          [
+            21767,
+            21838
+          ],
+          [
+            21839,
+            21876
+          ]
+        ],
+        "story_phase": "当代中段；翠胸伤后",
+        "evidence_navigation": [
+          "E328",
+          "E329",
+          "E330",
+          "E331"
+        ],
+        "claim_metadata": {
+          "text": "A：实际战斗支援。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0102",
+        "claim": "A：知道白秘密后议风险，愿再一同看烟花。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            22905,
+            22978
+          ],
+          [
+            22979,
+            23012
+          ],
+          [
+            23013,
+            23176
+          ]
+        ],
+        "story_phase": "当代中段；夜谈后到新年首日",
+        "evidence_navigation": [
+          "E346",
+          "E347",
+          "E348",
+          "E349"
+        ],
+        "claim_metadata": {
+          "text": "A：知道白秘密后议风险，愿再一同看烟花。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0103",
+        "claim": "A：后叙补其历史关系进一步想法与模糊表白；林的当代立场为重要朋友。",
+        "source_ranges": [
+          [
+            23425,
+            23438
+          ]
+        ],
+        "sequence": 7,
+        "story_phase": "历史更进一步意向由当代回叙确认；不是当代新表白",
+        "evidence_navigation": [
+          "E350",
+          "E352",
+          "E353"
+        ],
+        "claim_metadata": {
+          "text": "A：后叙补其历史关系进一步想法与模糊表白；林的当代立场为重要朋友。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0107",
+        "claim": "A：借木家史提醒谎言保护的矛盾。",
+        "sequence": 8,
+        "source_ranges": [
+          [
+            24503,
+            24603
+          ],
+          [
+            24604,
+            24678
+          ],
+          [
+            24604,
+            24792
+          ],
+          [
+            24712,
+            24748
+          ]
+        ],
+        "story_phase": "当代中段；一月末庙会前后",
+        "evidence_navigation": [
+          "E369",
+          "E370",
+          "E371",
+          "E372"
+        ],
+        "claim_metadata": {
+          "text": "A：借木家史提醒谎言保护的矛盾。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "后文解释既有告别，存读者获知节点，不把它当本章新表白。"
+  },
+  {
+    "id": "REL033",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A：父母带回孤儿，作为妹妹共同生活，后被组织分开。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            36895,
+            37055
+          ]
+        ],
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：父母带回孤儿，作为妹妹共同生活，后被组织分开。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0174",
+        "claim": "A：隐瞒共同过去，在同伴面前与箭交涉节点合作。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            31955,
+            32066
+          ],
+          [
+            32067,
+            32111
+          ]
+        ],
+        "story_phase": "当代考核；迷宫后段，与外场密谈并行",
+        "evidence_navigation": [
+          "E481",
+          "E482"
+        ],
+        "claim_metadata": {
+          "text": "A：隐瞒共同过去，在同伴面前与箭交涉节点合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0136",
+        "claim": "A：被箭夺魔，旧纠葛仍在。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            34390,
+            34445
+          ],
+          [
+            34446,
+            34493
+          ],
+          [
+            34494,
+            34550
+          ],
+          [
+            34551,
+            34601
+          ],
+          [
+            34602,
+            34656
+          ]
+        ],
+        "story_phase": "当代考核；第三场第一日到首夜",
+        "evidence_navigation": [
+          "E519",
+          "E520",
+          "E521",
+          "E522",
+          "E523"
+        ],
+        "claim_metadata": {
+          "text": "A：被箭夺魔，旧纠葛仍在。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0152",
+        "claim": "A：食祭逼迫互杀；D：箭声称只一人能活。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            36748,
+            36873
+          ]
+        ],
+        "story_phase": "当代考核末场；末场食祭结界发动",
+        "evidence_navigation": [
+          "E020",
+          "E021"
+        ],
+        "claim_metadata": {
+          "text": "A：食祭逼迫互杀；D：箭声称只一人能活。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0179",
+        "claim": "A：放弃动手、让她回家；仍有爱、怨与自保矛盾，非从来没有杀意。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            37099,
+            37161
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭开始后",
+        "evidence_navigation": [
+          "E023"
+        ],
+        "claim_metadata": {
+          "text": "A：放弃动手、让她回家；仍有爱、怨与自保矛盾，非从来没有杀意。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0156",
+        "claim": "A：转为四人合作。",
+        "sequence": 7,
+        "source_ranges": [
+          [
+            37391,
+            37470
+          ],
+          [
+            38523,
+            38593
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭内部持续",
+        "evidence_navigation": [
+          "E027",
+          "E036"
+        ],
+        "claim_metadata": {
+          "text": "A：转为四人合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "A：父母带回孤儿，作为妹妹共同生活，后被组织分开。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            36895,
+            37055
+          ]
+        ],
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：父母带回孤儿，作为妹妹共同生活，后被组织分开。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0178",
+        "claim": "A：被带入组织后曾重聚，作为祭子相互支持半年；食祭前互说通过后一起回家，随后不同试场及不同派遣分离。",
+        "source_ranges": [
+          [
+            36943,
+            37024
+          ]
+        ],
+        "sequence": 2,
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：被带入组织后曾重聚，作为祭子相互支持半年；食祭前互说通过后一起回家，随后不同试场及不同派遣分离。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0174",
+        "claim": "A：隐瞒共同过去，在同伴面前与箭交涉节点合作。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            31955,
+            32066
+          ],
+          [
+            32067,
+            32111
+          ]
+        ],
+        "story_phase": "当代考核；迷宫后段，与外场密谈并行",
+        "evidence_navigation": [
+          "E481",
+          "E482"
+        ],
+        "claim_metadata": {
+          "text": "A：隐瞒共同过去，在同伴面前与箭交涉节点合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0136",
+        "claim": "A：被箭夺魔，旧纠葛仍在。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            34390,
+            34445
+          ],
+          [
+            34446,
+            34493
+          ],
+          [
+            34494,
+            34550
+          ],
+          [
+            34551,
+            34601
+          ],
+          [
+            34602,
+            34656
+          ]
+        ],
+        "story_phase": "当代考核；第三场第一日到首夜",
+        "evidence_navigation": [
+          "E519",
+          "E520",
+          "E521",
+          "E522",
+          "E523"
+        ],
+        "claim_metadata": {
+          "text": "A：被箭夺魔，旧纠葛仍在。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0152",
+        "claim": "A：食祭逼迫互杀；D：箭声称只一人能活。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            36748,
+            36873
+          ]
+        ],
+        "story_phase": "当代考核末场；末场食祭结界发动",
+        "evidence_navigation": [
+          "E020",
+          "E021"
+        ],
+        "claim_metadata": {
+          "text": "A：食祭逼迫互杀；D：箭声称只一人能活。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0179",
+        "claim": "A：放弃动手、让她回家；仍有爱、怨与自保矛盾，非从来没有杀意。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            37099,
+            37161
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭开始后",
+        "evidence_navigation": [
+          "E023"
+        ],
+        "claim_metadata": {
+          "text": "A：放弃动手、让她回家；仍有爱、怨与自保矛盾，非从来没有杀意。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0156",
+        "claim": "A：转为四人合作。",
+        "sequence": 7,
+        "source_ranges": [
+          [
+            37391,
+            37470
+          ],
+          [
+            38523,
+            38593
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭内部持续",
+        "evidence_navigation": [
+          "E027",
+          "E036"
+        ],
+        "claim_metadata": {
+          "text": "A：转为四人合作。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "补足共同童年之后的共同受训、回家承诺和再次分离，避免直接跳到考试仇视。"
+  },
+  {
+    "id": "REL033",
+    "field": "family",
+    "before": {
+      "称呼": "A：小雨、妹妹、姐妹。",
+      "主观家庭认同": "A：共同成长、重新表达家与姐妹牵挂。",
+      "双方情感承诺": "A：各有让对方活下去的行为；不补永远和好誓约。",
+      "实际共同生活": "A：少女之前共同吃住学习，后分离。",
+      "社会公开关系": "A：吴家内部认作姐妹；外人早期不知共同过去。",
+      "法律亲属关系": "F：有抚养安排，无可核法律收养手续。",
+      "血缘关系": "A：并非亲姐妹，吴惜雨为组织送来孤儿。"
+    },
+    "after": {
+      "称呼": "A：小雨、妹妹、姐妹。",
+      "主观家庭认同": "A：共同成长、重新表达家与姐妹牵挂。",
+      "双方情感承诺": "A：历史食祭前双方约一起回家（L36982–36985）；后来未共同履行；末场让生存机会不等永久恢复。",
+      "实际共同生活": "A：吴家童年；后又在组织共同受训半年，经历两次分离。",
+      "社会公开关系": "A：吴家内部认作姐妹；外人早期不知共同过去。",
+      "法律亲属关系": "D：天牛明言法理上不是妹妹、家中从无此孩子（L37012）；A：他说出这句话。F：无独立手续核验，不把其自述当司法认定。",
+      "血缘关系": "A：并非亲姐妹，吴惜雨为组织送来孤儿。"
+    },
+    "reason": "补有直接台词的法律否认和曾有互诺，不把未知写成原著毫无说法。"
+  },
+  {
+    "id": "REL033",
+    "field": "anchors",
+    "before": [
+      [
+        36895,
+        36920
+      ],
+      [
+        37102,
+        37161
+      ]
+    ],
+    "after": [
+      [
+        36895,
+        37024
+      ],
+      [
+        37102,
+        37161
+      ]
+    ],
+    "reason": "直接核验童年、受训、法理自述、互杀到合作的分期。"
+  },
+  {
+    "id": "REL036",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A：进入吴家、与姐姐共同生活后被带走。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            36895,
+            37055
+          ]
+        ],
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：进入吴家、与姐姐共同生活后被带走。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0174",
+        "claim": "A：讥讽姐姐在新队友前的面具；已有旧识而非新认识。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            31955,
+            32066
+          ],
+          [
+            32067,
+            32111
+          ]
+        ],
+        "story_phase": "当代考核；迷宫后段，与外场密谈并行",
+        "evidence_navigation": [
+          "E481",
+          "E482"
+        ],
+        "claim_metadata": {
+          "text": "A：讥讽姐姐在新队友前的面具；已有旧识而非新认识。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0152",
+        "claim": "D：互杀框架下声称胜者吞噬。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            36748,
+            36873
+          ]
+        ],
+        "story_phase": "当代考核末场；末场食祭结界发动",
+        "evidence_navigation": [
+          "E020",
+          "E021"
+        ],
+        "claim_metadata": {
+          "text": "D：互杀框架下声称胜者吞噬。",
+          "grades": [
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF"
+          ]
+        }
+      },
+      {
+        "event": "EV0179",
+        "claim": "A/D：说自己以为被抛弃，听到动画旧话后动摇；试图自伤让姐姐活，未死亡。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            37099,
+            37161
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭开始后",
+        "evidence_navigation": [
+          "E023"
+        ],
+        "claim_metadata": {
+          "text": "A/D：说自己以为被抛弃，听到动画旧话后动摇；试图自伤让姐姐活，未死亡。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0156",
+        "claim": "A：继续合作求生。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            37391,
+            37470
+          ],
+          [
+            38523,
+            38593
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭内部持续",
+        "evidence_navigation": [
+          "E027",
+          "E036"
+        ],
+        "claim_metadata": {
+          "text": "A：继续合作求生。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "A：进入吴家、与姐姐共同生活后被带走。",
+        "sequence": 1,
+        "source_ranges": [
+          [
+            36895,
+            37055
+          ]
+        ],
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：进入吴家、与姐姐共同生活后被带走。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0178",
+        "claim": "A：被带入组织后曾重聚，作为祭子相互支持半年；食祭前互说通过后一起回家，随后不同试场及不同派遣分离。",
+        "source_ranges": [
+          [
+            36943,
+            37024
+          ]
+        ],
+        "sequence": 2,
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "A：被带入组织后曾重聚，作为祭子相互支持半年；食祭前互说通过后一起回家，随后不同试场及不同派遣分离。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0174",
+        "claim": "A：讥讽姐姐在新队友前的面具；已有旧识而非新认识。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            31955,
+            32066
+          ],
+          [
+            32067,
+            32111
+          ]
+        ],
+        "story_phase": "当代考核；迷宫后段，与外场密谈并行",
+        "evidence_navigation": [
+          "E481",
+          "E482"
+        ],
+        "claim_metadata": {
+          "text": "A：讥讽姐姐在新队友前的面具；已有旧识而非新认识。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0152",
+        "claim": "D：互杀框架下声称胜者吞噬。",
+        "sequence": 4,
+        "source_ranges": [
+          [
+            36748,
+            36873
+          ]
+        ],
+        "story_phase": "当代考核末场；末场食祭结界发动",
+        "evidence_navigation": [
+          "E020",
+          "E021"
+        ],
+        "claim_metadata": {
+          "text": "D：互杀框架下声称胜者吞噬。",
+          "grades": [
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF"
+          ]
+        }
+      },
+      {
+        "event": "EV0179",
+        "claim": "A/D：说自己以为被抛弃，听到动画旧话后动摇；试图自伤让姐姐活，未死亡。",
+        "sequence": 5,
+        "source_ranges": [
+          [
+            37099,
+            37161
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭开始后",
+        "evidence_navigation": [
+          "E023"
+        ],
+        "claim_metadata": {
+          "text": "A/D：说自己以为被抛弃，听到动画旧话后动摇；试图自伤让姐姐活，未死亡。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0156",
+        "claim": "A：继续合作求生。",
+        "sequence": 6,
+        "source_ranges": [
+          [
+            37391,
+            37470
+          ],
+          [
+            38523,
+            38593
+          ]
+        ],
+        "story_phase": "当代考核末场；食祭内部持续",
+        "evidence_navigation": [
+          "E027",
+          "E036"
+        ],
+        "claim_metadata": {
+          "text": "A：继续合作求生。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "补足共同童年之后的共同受训、回家承诺和再次分离，避免直接跳到考试仇视。"
+  },
+  {
+    "id": "REL036",
+    "field": "family",
+    "before": {
+      "称呼": "A：姐姐、姐妹、薄荷。",
+      "主观家庭认同": "A/D：认吴家与姐姐，怕再次被弃。",
+      "双方情感承诺": "A：生存让步与行动；未写永久恢复原生活。",
+      "实际共同生活": "A：童年，组织带走后分开。",
+      "社会公开关系": "A：吴家内部姐妹；新队友获知有限。",
+      "法律亲属关系": "F：未证具体法律手续。",
+      "血缘关系": "A：非亲姐妹。"
+    },
+    "after": {
+      "称呼": "A：姐姐、姐妹、薄荷。",
+      "主观家庭认同": "A/D：认吴家与姐姐，怕再次被弃。",
+      "双方情感承诺": "A：历史食祭前双方约一起回家（L36982–36985）；后来未共同履行；末场让生存机会不等永久恢复。",
+      "实际共同生活": "A：吴家童年；后又在组织共同受训半年，经历两次分离。",
+      "社会公开关系": "A：吴家内部姐妹；新队友获知有限。",
+      "法律亲属关系": "D：天牛明言法理上不是妹妹、家中从无此孩子（L37012）；A：他说出这句话。F：无独立手续核验，不把其自述当司法认定。",
+      "血缘关系": "A：非亲姐妹。"
+    },
+    "reason": "补有直接台词的法律否认和曾有互诺，不把未知写成原著毫无说法。"
+  },
+  {
+    "id": "REL036",
+    "field": "anchors",
+    "before": [],
+    "after": [
+      [
+        36895,
+        37024
+      ],
+      [
+        37102,
+        37161
+      ]
+    ],
+    "reason": "直接核验童年、受训、法理自述、互杀到合作的分期。"
+  },
+  {
+    "id": "REL141",
+    "field": "boundary",
+    "before": "EV0072同游戏者原文江可，与CH050江媛不得未核强并。",
+    "after": "EV0072原文为江媛；EV0072 occurrence写江可属上游错名，见本轮Review。",
+    "reason": "源文14997/15004–15025确认同一前座朋友，排除初稿未核而暂分的误报。"
+  },
+  {
+    "id": "REL141",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0082",
+        "claim": "A：与江相约看演出，分开座位而仍有交际。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：与江相约看演出，分开座位而仍有交际。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0072",
+        "claim": "A：前后座逐步交流、成为朋友，接受游戏推荐；不合群同盟是江的说法。",
+        "source_ranges": [
+          [
+            14995,
+            15025
+          ]
+        ],
+        "sequence": 1,
+        "story_phase": "当代中段；十一月中；维护公告11月28不等当天",
+        "evidence_navigation": [
+          "E210",
+          "E211",
+          "E212",
+          "E213",
+          "E214",
+          "E215",
+          "E216"
+        ],
+        "claim_metadata": {
+          "text": "A：前后座逐步交流、成为朋友，接受游戏推荐；不合群同盟是江的说法。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0080",
+        "claim": "A：拒陌生男生票却接受朋友演出邀请。",
+        "source_ranges": [
+          [
+            17688,
+            17711
+          ]
+        ],
+        "sequence": 2,
+        "story_phase": "当代中段；约斗同日下午；夏晋叶为前天",
+        "evidence_navigation": [
+          "E250",
+          "E251",
+          "E252",
+          "E253",
+          "E254"
+        ],
+        "claim_metadata": {
+          "text": "A：拒陌生男生票却接受朋友演出邀请。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：与江相约看演出，分开座位而仍有交际。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：与江相约看演出，分开座位而仍有交际。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "补早期交友阶段，保留江主动的同盟说法与小不记得加入的反应。"
+  },
+  {
+    "id": "REL142",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0082",
+        "claim": "A：同场演出与朋友联系；D：听巧遇和亲戚解释仍有疑惑。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：同场演出与朋友联系；D：听巧遇和亲戚解释仍有疑惑。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0072",
+        "claim": "A：主动和小璐交流、推荐游戏；D：称不合群同盟，小璐不认有过正式加入。",
+        "source_ranges": [
+          [
+            14995,
+            15025
+          ]
+        ],
+        "sequence": 1,
+        "story_phase": "当代中段；十一月中；维护公告11月28不等当天",
+        "evidence_navigation": [
+          "E210",
+          "E211",
+          "E212",
+          "E213",
+          "E214",
+          "E215",
+          "E216"
+        ],
+        "claim_metadata": {
+          "text": "A：主动和小璐交流、推荐游戏；D：称不合群同盟，小璐不认有过正式加入。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0080",
+        "claim": "A：主动邀请小璐看演唱会。",
+        "source_ranges": [
+          [
+            17688,
+            17711
+          ]
+        ],
+        "sequence": 2,
+        "story_phase": "当代中段；约斗同日下午；夏晋叶为前天",
+        "evidence_navigation": [
+          "E250",
+          "E251",
+          "E252",
+          "E253",
+          "E254"
+        ],
+        "claim_metadata": {
+          "text": "A：主动邀请小璐看演唱会。",
+          "grades": [
+            "A"
+          ],
+          "statuses": [
+            "CONFIRMED"
+          ]
+        }
+      },
+      {
+        "event": "EV0082",
+        "claim": "A：同场演出与朋友联系；D：听巧遇和亲戚解释仍有疑惑。",
+        "sequence": 3,
+        "source_ranges": [
+          [
+            17903,
+            17964
+          ],
+          [
+            17965,
+            18030
+          ],
+          [
+            18031,
+            18105
+          ],
+          [
+            18106,
+            18179
+          ],
+          [
+            18222,
+            18279
+          ],
+          [
+            18280,
+            18346
+          ]
+        ],
+        "story_phase": "当代中段；周六演唱会与散场后台",
+        "evidence_navigation": [
+          "E255",
+          "E256",
+          "E257",
+          "E258",
+          "E260",
+          "E261"
+        ],
+        "claim_metadata": {
+          "text": "A：同场演出与朋友联系；D：听巧遇和亲戚解释仍有疑惑。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "补反向明确行为，不以两人都不合群直接证明友情。"
+  },
+  {
+    "id": "REL154",
+    "field": "dimensions",
+    "before": {
+      "敬意": "D：接受其解释与教导",
+      "熟悉度": "A：历史同伴"
+    },
+    "after": {
+      "熟悉度": "A：历史上曾请教、争论；没有因其为老大而确认塞米私人尊敬。",
+      "依赖": "A：曾求其帮助离开而遭拒。"
+    },
+    "reason": "源文22014–22020明确反对家园说法并求助被拒，纠正初稿“接受解释”的过度肯定。"
+  },
+  {
+    "id": "REL154",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0168",
+        "claim": "A：大杰克重伤背景；D：塞米此前从其听到解释。"
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0168",
+        "claim": "A：此前就家园意义请教又争论，求带离被拒；之后战争中见大杰克重伤。D：大杰克说法不等塞米赞同。",
+        "source_ranges": [
+          [
+            21989,
+            22053
+          ]
+        ],
+        "sequence": 1,
+        "story_phase": "间界战争前的家园争论至战争受伤，均为历史",
+        "evidence_navigation": [
+          "E333",
+          "E334"
+        ],
+        "claim_metadata": {
+          "text": "A：此前就家园意义请教又争论，求带离被拒；之后战争中见大杰克重伤。D：大杰克说法不等塞米赞同。",
+          "grades": [
+            "A",
+            "D"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED"
+          ]
+        }
+      }
+    ],
+    "reason": "补明确分歧，保留非对称观点。"
+  },
+  {
+    "id": "REL001",
+    "field": "anchors",
+    "before": [
+      [
+        20854,
+        20854
+      ],
+      [
+        23697,
+        23701
+      ]
+    ],
+    "after": [
+      [
+        12400,
+        12412
+      ],
+      [
+        20854,
+        20854
+      ],
+      [
+        23697,
+        23701
+      ],
+      [
+        23442,
+        23448
+      ]
+    ],
+    "reason": "TEMP019支持窗确含亡妻后父职与复仇纠结；EV0058事件主体却是早年晋级，分时层保留。"
+  },
+  {
+    "id": "REL123",
+    "field": "categories",
+    "before": [
+      "师生",
+      "组织从属"
+    ],
+    "after": [
+      "组织接收",
+      "师承待核"
+    ],
+    "reason": "L37018–37020只直接支持天牛称被蜂带走；被带走不能单独证明师生制度。"
+  },
+  {
+    "id": "REL123",
+    "field": "end",
+    "before": "箭的导师为蜂；身份关系不使她全知蜂的计划。",
+    "after": "D：天牛称吴惜雨被蜂带走。C：据兽子分派背景可推测师承，但目前未安全确认，不沿用上游肯定式导师标签。",
+    "reason": "CH027/CH044关系导航的导师表述需要补足独立依据。"
+  },
+  {
+    "id": "REL123",
+    "field": "dimensions",
+    "before": {
+      "责任": "A：组织师承；私人尊敬未知"
+    },
+    "after": {
+      "熟悉度": "D：天牛转述蜂接走吴惜雨；完整接触史未知。",
+      "责任": "C：师承/管理职责仅候选推断；F：具体授课与职责未知。"
+    },
+    "reason": "从接收安排到导师关系的推断单列，不升级A。"
+  },
+  {
+    "id": "REL123",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A/D：后叙组织带走经历、不同导师路径。"
+      },
+      {
+        "event": "EV0152",
+        "claim": "A/D：参与食祭、自己的规则主张另分。"
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "A：天牛在薄荷请求带妹妹回家时说吴惜雨已被蜂带走。D：该去向内容；C：师承候选，非已经展示授课。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ]
+      }
+    ],
+    "reason": "保留具体说话人、受话人和准确范围；不以EV0154蜂自己行动填充他对箭的私人状态。"
+  },
+  {
+    "id": "REL123",
+    "field": "boundary",
+    "before": "CH044与CH069同一性未决，不能移用历史蜂敌对关系。",
+    "after": "天牛→薄荷的转述不等箭本人知/认可师生关系；是否有足够直接师承证据登记本轮Review。CH044/CH069同一性仍待核。",
+    "reason": "知识和身份不能由推断静默补全。"
+  },
+  {
+    "id": "REL123",
+    "field": "anchors",
+    "before": [
+      [
+        36943,
+        37055
+      ]
+    ],
+    "after": [
+      [
+        36995,
+        37020
+      ]
+    ],
+    "reason": "缩到直接源句及必要前文。"
+  },
+  {
+    "id": "REL124",
+    "field": "categories",
+    "before": [
+      "师生",
+      "组织利用"
+    ],
+    "after": [
+      "组织接收",
+      "师承待核"
+    ],
+    "reason": "L37018–37020只直接支持天牛称被蜂带走；被带走不能单独证明师生制度。"
+  },
+  {
+    "id": "REL124",
+    "field": "end",
+    "before": "作为箭的导师关联兽子计划；具体全部私下命令未写。",
+    "after": "D：天牛称吴惜雨被蜂带走。C：据兽子分派背景可推测师承，但目前未安全确认，不沿用上游肯定式导师标签。",
+    "reason": "CH027/CH044关系导航的导师表述需要补足独立依据。"
+  },
+  {
+    "id": "REL124",
+    "field": "dimensions",
+    "before": {
+      "责任": "A：师承及组织关系，不等善意照护"
+    },
+    "after": {
+      "熟悉度": "D：天牛转述蜂接走吴惜雨；完整接触史未知。",
+      "责任": "C：师承/管理职责仅候选推断；F：具体授课与职责未知。"
+    },
+    "reason": "从接收安排到导师关系的推断单列，不升级A。"
+  },
+  {
+    "id": "REL124",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A/D：导师关系后叙。"
+      },
+      {
+        "event": "EV0154",
+        "claim": "A：当代蜂执行袭考计划；不自动证明箭知全案。"
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "A：天牛在薄荷请求带妹妹回家时说吴惜雨已被蜂带走。D：该去向内容；C：师承候选，非已经展示授课。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ]
+      }
+    ],
+    "reason": "保留具体说话人、受话人和准确范围；不以EV0154蜂自己行动填充他对箭的私人状态。"
+  },
+  {
+    "id": "REL124",
+    "field": "boundary",
+    "before": "不得以师父一词包装成无条件亲情。",
+    "after": "天牛→薄荷的转述不等箭本人知/认可师生关系；是否有足够直接师承证据登记本轮Review。CH044/CH069同一性仍待核。",
+    "reason": "知识和身份不能由推断静默补全。"
+  },
+  {
+    "id": "REL124",
+    "field": "anchors",
+    "before": [
+      [
+        36943,
+        37055
+      ]
+    ],
+    "after": [
+      [
+        36995,
+        37020
+      ]
+    ],
+    "reason": "缩到直接源句及必要前文。"
+  },
+  {
+    "id": "REL037",
+    "field": "family",
+    "before": null,
+    "after": {
+      "称呼": "D：旧紫钻招揽时说成为家人和部下。",
+      "主观家庭认同": "D：首领要求；黑猫的完整家庭自认未被此句独立确认。",
+      "双方情感承诺": "F：实际接受领导，不等完整双向家庭承诺。",
+      "实际共同生活": "A：组织逃亡与据点；不推法定家庭共居。",
+      "社会公开关系": "A：正副首领；不等社会登记家属。",
+      "法律亲属关系": "F：未证。",
+      "血缘关系": "F：未证，不因家人措辞确立血亲。"
+    },
+    "reason": "将明确出现的家人招揽按七层展开，避免仅在维度文字里隐含。"
+  },
+  {
+    "id": "REL038",
+    "field": "family",
+    "before": null,
+    "after": {
+      "称呼": "D：旧紫钻招揽时说成为家人和部下。",
+      "主观家庭认同": "D：首领要求；黑猫的完整家庭自认未被此句独立确认。",
+      "双方情感承诺": "F：实际接受领导，不等完整双向家庭承诺。",
+      "实际共同生活": "A：组织逃亡与据点；不推法定家庭共居。",
+      "社会公开关系": "A：正副首领；不等社会登记家属。",
+      "法律亲属关系": "F：未证。",
+      "血缘关系": "F：未证，不因家人措辞确立血亲。"
+    },
+    "reason": "将明确出现的家人招揽按七层展开，避免仅在维度文字里隐含。"
+  },
+  {
+    "id": "REL123",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A：天牛在薄荷请求带妹妹回家时说吴惜雨已被蜂带走。D：该去向内容；C：师承候选，非已经展示授课。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "D：在天牛告知薄荷的安排中，吴惜雨是被蜂带走的一方。A：转述发生。F：吴惜雨本人当时是否知道、接受或把蜂当老师未证；C：师承仅候选。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ],
+        "sequence": 1,
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "D：在天牛告知薄荷的安排中，吴惜雨是被蜂带走的一方。A：转述发生。F：吴惜雨本人当时是否知道、接受或把蜂当老师未证；C：师承仅候选。",
+          "grades": [
+            "A",
+            "C",
+            "D",
+            "F"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED",
+            "INFERRED",
+            "UNKNOWN"
+          ]
+        }
+      }
+    ],
+    "reason": "检查发现两向共用报告整段，现显式拆接收对象的视角，保留其个人认知未知。"
+  },
+  {
+    "id": "REL124",
+    "field": "stages",
+    "before": [
+      {
+        "event": "EV0178",
+        "claim": "A：天牛在薄荷请求带妹妹回家时说吴惜雨已被蜂带走。D：该去向内容；C：师承候选，非已经展示授课。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "event": "EV0178",
+        "claim": "D：天牛将蜂描述为接走吴惜雨的烬侍。A：转述发生。F：蜂自己的授课行为、职责说明与私人态度未获直接确认；C：导师推断未升级。",
+        "source_ranges": [
+          [
+            36995,
+            37020
+          ]
+        ],
+        "sequence": 1,
+        "story_phase": "吴家童年／被带走／共同受训／分派的历史；具体子段见主张",
+        "evidence_navigation": [
+          "E022"
+        ],
+        "claim_metadata": {
+          "text": "D：天牛将蜂描述为接走吴惜雨的烬侍。A：转述发生。F：蜂自己的授课行为、职责说明与私人态度未获直接确认；C：导师推断未升级。",
+          "grades": [
+            "A",
+            "C",
+            "D",
+            "F"
+          ],
+          "statuses": [
+            "CHARACTER_BELIEF",
+            "CONFIRMED",
+            "INFERRED",
+            "UNKNOWN"
+          ]
+        }
+      }
+    ],
+    "reason": "接收方和被接收方不沿同一心理描述；同一第三方报告可支持两条有向安排，不证明双方表态。"
+  }
+]
