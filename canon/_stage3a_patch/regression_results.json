@@ -1,0 +1,616 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "events_ALL_STABLE_IDS_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "characters_ALL_STABLE_IDS_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "relationships_ALL_STABLE_IDS_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "knowledge_ALL_STABLE_IDS_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "NO_EVENT_OR_REL_FACT_MUTATION",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ALL_365_EXISTING_K_STATES_TRUTH_GRADES_PRESERVED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "NO_NEW_K_OR_TRANSITION",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "NO_NEW_REL_OR_DIMENSION",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ALL_CH_TIERS_PSYCH_SNAPSHOTS_PRESERVED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "EVERY_CHANGED_RECORD_FIELD_LOGGED",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "TEXT_PATCH_REPLAY_EXACT",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "CR001_RED_STAGES_DISAMBIGUATED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR001_MIRROR_characters/CH005_红思与.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR001_MIRROR_knowledge/by_character/CH005_knowledge.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR001_EV0053_REL056_K055_K056_K057_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR002_DIRECTIONAL_VIEW_ONLY",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR002_DISCOVERABLE_IN_MATRIX",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_REASON_NO_SECRET_GRANT",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_K015_K226_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR004_BIDIRECTIONAL_REFERENCE_RESOLVES",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR004_ORIGIN_TIME_EQUALS_EXISTING_T005",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR004_WINDOW_EV0003_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "NO_ELIGIBLE_ORIGIN",
+        "source": [],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0067_BEFORE",
+      "status": "PASS",
+      "detail": {
+        "route": "NO_ELIGIBLE_ORIGIN",
+        "source": [],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0067_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0078_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0090_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0092_BEFORE",
+      "status": "PASS",
+      "detail": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0092_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "DIRECT_EXISTING_STATE",
+        "source": [
+          {
+            "knowledge_id": "K098",
+            "transition": "K098-T001",
+            "state": "DISBELIEVES",
+            "content": "父亲林昀和翠雀正在恋爱",
+            "source": "自己重新理解",
+            "acquired_event": "EV0092",
+            "as_of": "年关前倒数第二日到跨年夜",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "DISBELIEVES否定恋爱；不确认同人"
+      }
+    },
+    {
+      "name": "CR004_WINDOW_EV0117_AFTER",
+      "status": "PASS",
+      "detail": {
+        "route": "DIRECT_EXISTING_STATE",
+        "source": [
+          {
+            "knowledge_id": "K098",
+            "transition": "K098-T001",
+            "state": "DISBELIEVES",
+            "content": "父亲林昀和翠雀正在恋爱",
+            "source": "自己重新理解",
+            "acquired_event": "EV0092",
+            "as_of": "年关前倒数第二日到跨年夜",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "DISBELIEVES否定恋爱；不确认同人"
+      }
+    },
+    {
+      "name": "CR004_NAV_DOES_NOT_GRANT_OTHER_CHARACTER",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_NO_K018_EV0004",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_NO_K018_EV0024",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_NO_K018_EV0055",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_NO_K018_EV0067",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CR003_NO_K018_EV0158",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH005_EV0017",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH005_EV0053",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH005_EV0054",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH006_EV0158",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH010_EV0024",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH010_EV0055",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH002_EV0067",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PRODUCTION_QUERY_UNCHANGED_CH002_EV0092",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "SOURCE_CURRENT_AUDIT_PERFORMANCE_FINAL_UNCHANGED",
+      "status": "PASS",
+      "detail": {
+        "files": 290,
+        "changed": [],
+        "new": []
+      }
+    },
+    {
+      "name": "V1_HISTORY_ARCHIVE_EXACT",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "STAGE2C_HISTORY_UNCHANGED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ONLY_ALLOWED_OLD_FILES_CHANGED",
+      "status": "PASS",
+      "detail": {
+        "modified": [
+          "canon/BASELINE_MANIFEST.md",
+          "canon/README.md",
+          "canon/characters/CH005_红思与.md",
+          "canon/characters/CH006_安雅.md",
+          "canon/characters/CH010_摩可.md",
+          "canon/characters/CH029_现任紫钻.md",
+          "canon/characters/records.json",
+          "canon/knowledge/K018.md",
+          "canon/knowledge/K098.md",
+          "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+          "canon/knowledge/records.json",
+          "canon/relationships/RELATIONSHIP_MATRIX.md",
+          "canon/knowledge/by_character/CH002_knowledge.md",
+          "canon/knowledge/by_character/CH005_knowledge.md",
+          "canon/knowledge/by_character/CH010_knowledge.md"
+        ],
+        "outside": []
+      }
+    },
+    {
+      "name": "REQUIRED_PUBLIC_REPORTS_PRESENT",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CHANGED_DOCUMENT_LOCAL_LINKS",
+      "status": "PASS",
+      "detail": {
+        "count": 2269,
+        "bad": []
+      }
+    }
+  ],
+  "queries": [
+    {
+      "event": "EV0003",
+      "before": false,
+      "expected": "NO_ELIGIBLE_ORIGIN",
+      "actual": {
+        "route": "NO_ELIGIBLE_ORIGIN",
+        "source": [],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0067",
+      "before": true,
+      "expected": "NO_ELIGIBLE_ORIGIN",
+      "actual": {
+        "route": "NO_ELIGIBLE_ORIGIN",
+        "source": [],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0067",
+      "before": false,
+      "expected": "EXPLICIT_CROSS_NAVIGATION",
+      "actual": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0078",
+      "before": false,
+      "expected": "EXPLICIT_CROSS_NAVIGATION",
+      "actual": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0090",
+      "before": false,
+      "expected": "EXPLICIT_CROSS_NAVIGATION",
+      "actual": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0092",
+      "before": true,
+      "expected": "EXPLICIT_CROSS_NAVIGATION",
+      "actual": {
+        "route": "EXPLICIT_CROSS_NAVIGATION",
+        "source": [
+          {
+            "knowledge_id": "K018",
+            "transition": "K018-T005",
+            "state": "DISBELIEVES",
+            "content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+            "source": "自行压下猜测改信恋爱",
+            "acquired_event": "EV0067",
+            "as_of": "就任次日多次来访至随后两日",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "只取恋爱误解片段，不复制K018的state到K098，不背书其他因果"
+      }
+    },
+    {
+      "event": "EV0092",
+      "before": false,
+      "expected": "DIRECT_EXISTING_STATE",
+      "actual": {
+        "route": "DIRECT_EXISTING_STATE",
+        "source": [
+          {
+            "knowledge_id": "K098",
+            "transition": "K098-T001",
+            "state": "DISBELIEVES",
+            "content": "父亲林昀和翠雀正在恋爱",
+            "source": "自己重新理解",
+            "acquired_event": "EV0092",
+            "as_of": "年关前倒数第二日到跨年夜",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "DISBELIEVES否定恋爱；不确认同人"
+      }
+    },
+    {
+      "event": "EV0117",
+      "before": false,
+      "expected": "DIRECT_EXISTING_STATE",
+      "actual": {
+        "route": "DIRECT_EXISTING_STATE",
+        "source": [
+          {
+            "knowledge_id": "K098",
+            "transition": "K098-T001",
+            "state": "DISBELIEVES",
+            "content": "父亲林昀和翠雀正在恋爱",
+            "source": "自己重新理解",
+            "acquired_event": "EV0092",
+            "as_of": "年关前倒数第二日到跨年夜",
+            "share": "NO_AUTOMATIC_SHARING",
+            "validity": "PERSISTENT_AS_KNOWLEDGE",
+            "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+          }
+        ],
+        "interpretation": "DISBELIEVES否定恋爱；不确认同人"
+      }
+    }
+  ],
+  "production_query_unchanged": [
+    {
+      "character": "CH005",
+      "event": "EV0017",
+      "unchanged": true
+    },
+    {
+      "character": "CH005",
+      "event": "EV0053",
+      "unchanged": true
+    },
+    {
+      "character": "CH005",
+      "event": "EV0054",
+      "unchanged": true
+    },
+    {
+      "character": "CH006",
+      "event": "EV0158",
+      "unchanged": true
+    },
+    {
+      "character": "CH010",
+      "event": "EV0024",
+      "unchanged": true
+    },
+    {
+      "character": "CH010",
+      "event": "EV0055",
+      "unchanged": true
+    },
+    {
+      "character": "CH002",
+      "event": "EV0067",
+      "unchanged": true
+    },
+    {
+      "character": "CH002",
+      "event": "EV0092",
+      "unchanged": true
+    }
+  ],
+  "protected_files": 290,
+  "modified_old_files": [
+    "canon/BASELINE_MANIFEST.md",
+    "canon/README.md",
+    "canon/characters/CH005_红思与.md",
+    "canon/characters/CH006_安雅.md",
+    "canon/characters/CH010_摩可.md",
+    "canon/characters/CH029_现任紫钻.md",
+    "canon/characters/records.json",
+    "canon/knowledge/K018.md",
+    "canon/knowledge/K098.md",
+    "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "canon/knowledge/records.json",
+    "canon/relationships/RELATIONSHIP_MATRIX.md",
+    "canon/knowledge/by_character/CH002_knowledge.md",
+    "canon/knowledge/by_character/CH005_knowledge.md",
+    "canon/knowledge/by_character/CH010_knowledge.md"
+  ],
+  "counts": {
+    "EV": 192,
+    "CH": 70,
+    "REL": 172,
+    "relationship_stages": 583,
+    "K": 235,
+    "knowledge_states": 365,
+    "new_stable_ids": 0
+  },
+  "scope": "仅四条Patch局部回归；K098采用显式导航方案，未扩建生产查询器。未执行全文审计或Stage2C全量重建。"
+}

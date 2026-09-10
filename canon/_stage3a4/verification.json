@@ -1,0 +1,393 @@
+{
+  "stage": "Stage 3A.4",
+  "status": "PASS",
+  "version": "V1.2",
+  "baseline_state": "FROZEN",
+  "fup": "RESOLVED",
+  "conclusion": "REJECT_CAUSAL_INTERPRETATION",
+  "checks": [
+    {
+      "name": "only-four-existing-metadata-files-change",
+      "status": "PASS",
+      "detail": [
+        "canon/BASELINE_MANIFEST.md",
+        "canon/CHANGELOG_FUP3A001.md",
+        "canon/README.md",
+        "canon/STAGE3A_PATCH_FOLLOWUPS.md"
+      ]
+    },
+    {
+      "name": "new-files-scope",
+      "status": "PASS",
+      "detail": [
+        "canon/STAGE3A4_BASELINE_V1_2_FREEZE_REVIEW.md",
+        "canon/_stage3a4/BASELINE_MANIFEST_V1_1.md",
+        "canon/_stage3a4/baseline_v1_1_canon.zip",
+        "canon/_stage3a4/baseline_v1_2_manifest.json",
+        "canon/_stage3a4/before_metadata.zip",
+        "canon/_stage3a4/freeze_time.json",
+        "canon/_stage3a4/input_hashes.json",
+        "canon/_stage3a4/metadata_changes.json",
+        "canon/_stage3a4/preflight.json",
+        "canon/_stage3a4/verification.json",
+        "canon/_stage3a4/verify_freeze.py"
+      ]
+    },
+    {
+      "name": "all-protected-files-and-paths-unchanged",
+      "status": "PASS",
+      "detail": {
+        "source": 1,
+        "audit": 242,
+        "current": 1,
+        "performance": 28,
+        "final": 0
+      }
+    },
+    {
+      "name": "all-other-existing-files-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "pre-freeze-backup:BASELINE_MANIFEST.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "pre-freeze-backup:CHANGELOG_FUP3A001.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "historical-body-retained:CHANGELOG_FUP3A001.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "pre-freeze-backup:README.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "pre-freeze-backup:STAGE3A_PATCH_FOLLOWUPS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "historical-body-retained:STAGE3A_PATCH_FOLLOWUPS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:01_master_timeline.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:events/records.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:knowledge/K018.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:knowledge/K098.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:knowledge/KNOWLEDGE_TRANSITIONS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:knowledge/by_character/CH002_knowledge.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact-approved-FUP-postimage:knowledge/records.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "V1.1-archive-hashes",
+      "status": "PASS",
+      "detail": 654
+    },
+    {
+      "name": "V1.1-archive-complete-including-exclusions",
+      "status": "PASS",
+      "detail": 659
+    },
+    {
+      "name": "V1.1-original-markdown-manifest",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "V1-and-V1.1-original-artifacts-preserved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stable-event-ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stable-knowledge-ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stable-transition-ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all-knowledge-truth-top-grade-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all-acquisition-points-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "EV0067-state",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "K018-T005-state",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "K098-window-and-navigation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "K098-original-transitions-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "EV0092-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-identity-grant:EV0067:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-identity-grant:EV0067:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-identity-grant:EV0092:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-identity-grant:EV0092:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-identity-grant:EV0158:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "romance-correction-query",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "early-K098-still-manual",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sync-final-conclusion",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sync-actual-state-and-navigation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "rejected-mechanism-explicitly-deleted",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-pending-mechanism-execution-tag",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "recorded-Canon-scenes-seven-all-pass",
+      "status": "PASS",
+      "detail": [
+        "A1",
+        "A2",
+        "A3",
+        "A4-new",
+        "A5-new",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "name": "recorded-Novel-scenes-five-all-pass",
+      "status": "PASS",
+      "detail": [
+        "B1",
+        "B2",
+        "B4-new",
+        "B5-new",
+        "B3"
+      ]
+    },
+    {
+      "name": "recorded-OOC-fifteen-hold",
+      "status": "PASS",
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "name": "old-OOC8-withdrawn",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sync-count-discrepancy-disclosed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "current-version-and-FUP:README.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "current-version-and-FUP:BASELINE_MANIFEST.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "current-version-and-FUP:CHANGELOG_FUP3A001.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "current-version-and-FUP:STAGE3A_PATCH_FOLLOWUPS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "current-version-and-FUP:STAGE3A4_BASELINE_V1_2_FREEZE_REVIEW.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "change-id-consistency",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "V1.2-version-status",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "manifest-coverage-no-omissions",
+      "status": "PASS",
+      "detail": {
+        "covered": 675,
+        "excluded": [
+          "BASELINE_MANIFEST.md",
+          "_stage3a4/baseline_v1_2_manifest.json",
+          "_stage3a4/verification.json"
+        ]
+      }
+    },
+    {
+      "name": "V1.2-file-hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no-unlisted-exclusions",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "metadata-local-file-links",
+      "status": "PASS",
+      "detail": {
+        "count": 104,
+        "errors": []
+      }
+    }
+  ],
+  "passed": 58,
+  "failed": 0,
+  "input_files": 961,
+  "unchanged_existing_files": 957,
+  "changed_existing_files": [
+    "canon/BASELINE_MANIFEST.md",
+    "canon/CHANGELOG_FUP3A001.md",
+    "canon/README.md",
+    "canon/STAGE3A_PATCH_FOLLOWUPS.md"
+  ],
+  "new_files": [
+    "canon/STAGE3A4_BASELINE_V1_2_FREEZE_REVIEW.md",
+    "canon/_stage3a4/BASELINE_MANIFEST_V1_1.md",
+    "canon/_stage3a4/baseline_v1_1_canon.zip",
+    "canon/_stage3a4/baseline_v1_2_manifest.json",
+    "canon/_stage3a4/before_metadata.zip",
+    "canon/_stage3a4/freeze_time.json",
+    "canon/_stage3a4/input_hashes.json",
+    "canon/_stage3a4/metadata_changes.json",
+    "canon/_stage3a4/preflight.json",
+    "canon/_stage3a4/verification.json",
+    "canon/_stage3a4/verify_freeze.py"
+  ],
+  "protected_files": 272,
+  "manifest_files": 675,
+  "hashes": {
+    "markdown_manifest": "ccb1222ccaded683b91bc13f6e50279d6eebfbf9a0bd87ad1408360e806db743",
+    "machine_manifest": "c2482dd586288dc9973fda61623db458c75aaeb36b3ba7aa9ea370b6427f9b41"
+  },
+  "scope": "Read-only freeze checks; recorded Performance cases reviewed, no fresh model/runtime execution; no full Stage2C rerun"
+}

@@ -1,0 +1,437 @@
+[
+  {
+    "patch_id": "F3A2-001",
+    "followup": "FUP-3A-001",
+    "path": "events/records.json",
+    "record": "EV0067",
+    "field": "later_informed",
+    "before": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐经自行压下猜测改信恋爱获“林昀＝翠雀” → REJECTED",
+    "after": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐依据月圆夜见闻和摩丝说法持有恋爱误解，仍分别看待爸爸与翠雀；未获同一身份信息",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-002",
+    "followup": "FUP-3A-001",
+    "path": "01_master_timeline.md",
+    "record": null,
+    "field": "text",
+    "before": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐经自行压下猜测改信恋爱获“林昀＝翠雀” → REJECTED",
+    "after": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐依据月圆夜见闻和摩丝说法持有恋爱误解，仍分别看待爸爸与翠雀；未获同一身份信息",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-003",
+    "followup": "FUP-3A-001",
+    "path": "events/records.json",
+    "record": "EV0067",
+    "field": "knowledge",
+    "before": [
+      [
+        "白静萱",
+        "林昀翠雀将婚及收养",
+        "UNKNOWN",
+        "MISUNDERSTOOD",
+        "摩可、夏、小璐及温和回应拼接"
+      ],
+      [
+        "林小璐",
+        "林昀＝翠雀",
+        "SUSPECTED",
+        "REJECTED",
+        "自行压下猜测改信恋爱"
+      ]
+    ],
+    "after": [
+      [
+        "白静萱",
+        "林昀翠雀将婚及收养",
+        "UNKNOWN",
+        "MISUNDERSTOOD",
+        "摩可、夏、小璐及温和回应拼接"
+      ],
+      [
+        "林小璐",
+        "林昀＝翠雀",
+        "UNKNOWN",
+        "UNKNOWN",
+        "仍以两人/恋爱关系解释；没有同一身份披露，不据E193旧摘要补猜中与主动否定"
+      ]
+    ],
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-004",
+    "followup": "FUP-3A-001",
+    "path": "01_master_timeline.md",
+    "record": null,
+    "field": "text",
+    "before": "|林小璐|林昀＝翠雀|SUSPECTED → REJECTED|自行压下猜测改信恋爱|",
+    "after": "|林小璐|林昀＝翠雀|UNKNOWN → UNKNOWN|仍以两人/恋爱关系解释；未获同一身份信息，不补猜中与主动否定|",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-005",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/records.json",
+    "record": "K018-T005",
+    "field": "state_record",
+    "before": {
+      "subject": "CH002",
+      "event": "EV0067",
+      "from_state": "SUSPECTS",
+      "to_state": "DISBELIEVES",
+      "known_content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+      "source": "自行压下猜测改信恋爱",
+      "source_subjects": [],
+      "acquisition": {
+        "epoch": "CURRENT",
+        "event": "EV0067",
+        "point": 14075,
+        "description": "就任次日多次来访至随后两日",
+        "order_policy": "历史用偏序，不按回忆在正文的行号；当代用实际发生/获知子段末行作边界。"
+      },
+      "first_acquisition_note": "本命题对此主体有证据的节点；UNKNOWN前态不声称这是生命中第一次接触。",
+      "source_ranges": [
+        [
+          13593,
+          13700
+        ],
+        [
+          13701,
+          13817
+        ],
+        [
+          13818,
+          13876
+        ],
+        [
+          13877,
+          14010
+        ],
+        [
+          14011,
+          14075
+        ]
+      ],
+      "evidence_navigation": [
+        "E191",
+        "E192",
+        "E193",
+        "E194",
+        "E195"
+      ],
+      "knowledge_grade": "D",
+      "certainty": "不接受此命题",
+      "correctness": "CORRECT_WITHIN_SCOPE",
+      "observation": "自行压下猜测改信恋爱",
+      "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
+      "disclosure_state": "NOT_DISCLOSED",
+      "sharing": "NO_AUTOMATIC_SHARING",
+      "validity": "PERSISTENT_AS_KNOWLEDGE",
+      "temp_origin": "K_TEMP_020",
+      "id": "K018-T005"
+    },
+    "after": {
+      "subject": "CH002",
+      "event": "EV0067",
+      "from_state": "UNAWARE",
+      "to_state": "UNAWARE",
+      "known_content": "我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。",
+      "source": "当期小璐视角与恋爱误解；无同一身份披露",
+      "source_subjects": [],
+      "acquisition": {
+        "epoch": "CURRENT",
+        "event": "EV0067",
+        "point": 14075,
+        "description": "就任次日多次来访至随后两日",
+        "order_policy": "历史用偏序，不按回忆在正文的行号；当代用实际发生/获知子段末行作边界。"
+      },
+      "first_acquisition_note": "本命题对此主体有证据的节点；UNKNOWN前态不声称这是生命中第一次接触。",
+      "source_ranges": [
+        [
+          13593,
+          13700
+        ],
+        [
+          13701,
+          13817
+        ],
+        [
+          13818,
+          13876
+        ],
+        [
+          13877,
+          14010
+        ],
+        [
+          14011,
+          14075
+        ]
+      ],
+      "evidence_navigation": [
+        "E191",
+        "E192",
+        "E193",
+        "E194",
+        "E195"
+      ],
+      "knowledge_grade": "A",
+      "certainty": "本时点未识破同一身份；不证明她终生从未产生任何疑问",
+      "correctness": "UNKNOWN",
+      "observation": "月圆夜父亲离家、翠雀救援及摩丝的暧昧说法；梦境被本人解释为母亲认可后妈",
+      "interpretation": "源文只支持当期的两人/恋爱解释，不支持她先猜同人再主动否定。E193旧摘要的电话线索不得移给小璐；恋爱片段只沿K098限定导航读取，不能授予K018。",
+      "disclosure_state": "NOT_DISCLOSED",
+      "sharing": "NO_AUTOMATIC_SHARING",
+      "validity": "PERSISTENT_AS_KNOWLEDGE",
+      "temp_origin": "K_TEMP_020",
+      "id": "K018-T005"
+    },
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-006",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/records.json",
+    "record": "K098",
+    "field": "cross_references",
+    "before": [
+      {
+        "kind": "ORIGIN_NAVIGATION_ONLY",
+        "knowledge_id": "K018",
+        "transition_id": "K018-T005",
+        "subject": "CH002",
+        "event": "EV0067",
+        "point": 14075,
+        "content_scope": "仅导航该节点所含的父亲与翠雀恋爱误解片段；K018的DISBELIEVES是在否定同一身份，不能复制成K098的认知状态。",
+        "valid_until_transition": "K098-T001",
+        "source_ranges": [
+          [
+            13835,
+            13854
+          ],
+          [
+            13969,
+            13983
+          ]
+        ],
+        "qualification": "原文支持持有恋爱误解；不以此额外证实先猜同人再否定的因果，见STAGE3A_PATCH_FOLLOWUPS。节点是保守接管位置，不宣称首次产生该想法。"
+      }
+    ],
+    "after": [
+      {
+        "kind": "ORIGIN_NAVIGATION_ONLY",
+        "knowledge_id": "K018",
+        "transition_id": "K018-T005",
+        "subject": "CH002",
+        "event": "EV0067",
+        "point": 14075,
+        "content_scope": "仅投影CH002在既有EV0067来源锚点持有的恋爱误解，不把K018的UNAWARE转换成K098状态，不提供同一身份秘密。",
+        "valid_until_transition": "K098-T001",
+        "source_ranges": [
+          [
+            13835,
+            13854
+          ],
+          [
+            13969,
+            13983
+          ]
+        ],
+        "qualification": "FUP-3A-001已核证为REJECT_CAUSAL_INTERPRETATION；原节点的先猜同人再否定撤回。来源锚点仍为保守接管位置，不宣称首次产生恋爱想法；本导航需由调用者按主体/时间显式读取。",
+        "known_content_fragment": "爸爸与翠雀有秘密的情侣关系，是爸爸在月圆夜把翠雀找来。"
+      }
+    ],
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-007",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "### K018-T005｜CH002｜SUSPECTS → DISBELIEVES",
+    "after": "### K018-T005｜CH002｜UNAWARE → UNAWARE",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-008",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "- 当时可知内容：我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
+    "after": "- 当时可知内容：我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-009",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "- 来源/方式：自行压下猜测改信恋爱",
+    "after": "- 来源/方式：当期小璐视角与恋爱误解；无同一身份披露",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-010",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "- Observation（实际接触的线索）：自行压下猜测改信恋爱",
+    "after": "- Observation（实际接触的线索）：月圆夜父亲离家、翠雀救援及摩丝的暧昧说法；梦境被本人解释为母亲认可后妈",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-011",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "### K018-T005｜CH002｜UNAWARE → UNAWARE\n\n- 获取节点：[EV0067](../01_master_timeline.md#ev0067)；CURRENT；就任次日多次来访至随后两日。当代子段边界：14075。\n- 当时可知内容：我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。\n- 来源/方式：当期小璐视角与恋爱误解；无同一身份披露；已具名来源：按来源文字，不补幕后传信人。\n- Observation（实际接触的线索）：月圆夜父亲离家、翠雀救援及摩丝的暧昧说法；梦境被本人解释为母亲认可后妈\n- Interpretation（如何理解）：仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。\n- 确信：不接受此命题；内容正确性：CORRECT_WITHIN_SCOPE；认知证据层：D。\n- 时效：PERSISTENT_AS_KNOWLEDGE；本命题对此主体有证据的节点；UNKNOWN前态不声称这是生命中第一次接触。\n- 披露/共享：NOT_DISCLOSED是本节点未登记对外传播的默认；具体有据传播读下节，不能据默认推出永远没说。跨角色自动共享：禁止。\n- 证据：[L13593–13700](../../source/下班，然后变成魔法少女_第1-282章.txt#L13593)、[L13701–13817](../../source/下班，然后变成魔法少女_第1-282章.txt#L13701)、[L13818–13876](../../source/下班，然后变成魔法少女_第1-282章.txt#L13818)、[L13877–14010](../../source/下班，然后变成魔法少女_第1-282章.txt#L13877)、[L14011–14075](../../source/下班，然后变成魔法少女_第1-282章.txt#L14011)\n\n",
+    "after": "### K018-T005｜CH002｜UNAWARE → UNAWARE\n\n- 获取节点：[EV0067](../01_master_timeline.md#ev0067)；CURRENT；就任次日多次来访至随后两日。当代子段边界：14075。\n- 当时可知内容：我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。\n- 来源/方式：当期小璐视角与恋爱误解；无同一身份披露；已具名来源：按来源文字，不补幕后传信人。\n- Observation（实际接触的线索）：月圆夜父亲离家、翠雀救援及摩丝的暧昧说法；梦境被本人解释为母亲认可后妈\n- Interpretation（如何理解）：源文只支持当期的两人/恋爱解释，不支持她先猜同人再主动否定。E193旧摘要的电话线索不得移给小璐；恋爱片段只沿K098限定导航读取，不能授予K018。\n- 确信：不接受此命题；内容正确性：CORRECT_WITHIN_SCOPE；认知证据层：D。\n- 时效：PERSISTENT_AS_KNOWLEDGE；本命题对此主体有证据的节点；UNKNOWN前态不声称这是生命中第一次接触。\n- 披露/共享：NOT_DISCLOSED是本节点未登记对外传播的默认；具体有据传播读下节，不能据默认推出永远没说。跨角色自动共享：禁止。\n- 证据：[L13593–13700](../../source/下班，然后变成魔法少女_第1-282章.txt#L13593)、[L13701–13817](../../source/下班，然后变成魔法少女_第1-282章.txt#L13701)、[L13818–13876](../../source/下班，然后变成魔法少女_第1-282章.txt#L13818)、[L13877–14010](../../source/下班，然后变成魔法少女_第1-282章.txt#L13877)、[L14011–14075](../../source/下班，然后变成魔法少女_第1-282章.txt#L14011)\n\n",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-012",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "- 确信：不接受此命题；内容正确性：CORRECT_WITHIN_SCOPE；认知证据层：D。",
+    "after": "- 确信：本时点未识破同一身份；不证明她终生从未产生任何疑问；内容正确性：UNKNOWN；认知证据层：A。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-013",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K018.md",
+    "record": null,
+    "field": "text",
+    "before": "## Stage 3A Patch｜误解链交叉导航（不新增T节点）\n\n[K018](K018.md)的`K018-T005`（CH002／EV0067）包含“改认为二人在恋爱”的误解片段；[L13835–13854](../../source/下班，然后变成魔法少女_第1-282章.txt:13835)、[L13969–13983](../../source/下班，然后变成魔法少女_第1-282章.txt:13969)支持当期持有该解释。[K098](K098.md)的`K098-T001`（EV0092）记录后来不再相信，依据[L20728–20746](../../source/下班，然后变成魔法少女_第1-282章.txt:20728)，其中L20746是林昀听取陈述后的概括。\n\n恢复EV0067之后、EV0092之前的快照时，先查询同主体同阶段的K018，沿`cross_references`读取限定恋爱误解片段；到EV0092再采用K098-T001的DISBELIEVES。K018的DISBELIEVES否定“同一身份”，不能直接当成否定“恋爱”。早于源节点不授予；不能跨主体共享。\n\n本次选用导航方案：235个K和365个T节点不变，原查询函数不新增隐式联查。只过滤K098的states在早期仍没有直接节点，调用者须依本交叉导航补读K018；不会伪称已为K098新增MISUNDERSTANDS状态。\n\n“先猜中同一人再主动否定”的更强因果在本次所读关键段未获直接核实，保留原记录并另列[后续复核](../STAGE3A_PATCH_FOLLOWUPS.md)，不由本导航升级为新事实。",
+    "after": "## Stage 3A.2｜FUP-3A-001 核证后的误解链导航\n\n[K018-T005](K018.md)仍是 CH002／EV0067／L14075 的保守来源锚点，但其同人命题状态已纠正为 **UNAWARE → UNAWARE**；「先猜同人再主动否定」不再作为当期事实。既有来源中的恋爱误解有[L13835–13854](../../source/下班，然后变成魔法少女_第1-282章.txt:13835)、[L13969–13983](../../source/下班，然后变成魔法少女_第1-282章.txt:13969)支持。\n\n恢复该锚点之后、K098-T001／EV0092／L20884 之前的窗口，调用者沿 **K098.cross_references** 按 CH002、CURRENT、来源 point 与纠正截止节点读取 `known_content_fragment`；这是已核证恋爱误解的限定投影，不要求生产查询把 K018 放进 allowed，也不允许从 denied 的秘密命题抽取额外知识。早于锚点、不同比较时间层或其他主体均不授予。\n\n到 EV0092 后优先采用[K098-T001](K098.md)的原 **DISBELIEVES**，不得继续注入旧恋爱说。纠正由[L20745–20746](../../source/下班，然后变成魔法少女_第1-282章.txt:20745)的林昀概括及[L20800–20805](../../source/下班，然后变成魔法少女_第1-282章.txt:20800)的小璐内心回顾共同支持。K018 的 UNAWARE 与 K098 的 DISBELIEVES 是不同命题，不能互换。\n\n生产 `query_knowledge.py` 未改；早期直接过滤 K098.states 仍无节点，须显式补读导航。235 个 K、365 个 T 不变，两个原有锚点不动。原 Stage 3A 导航及旧状态完整保存在[本轮前像](../_fup3a001/before.zip)与[变更日志](../CHANGELOG_FUP3A001.md)；裁定见[FUP Review](../FUP3A001_REVIEW.md)。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-014",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/K098.md",
+    "record": null,
+    "field": "text",
+    "before": "## Stage 3A Patch｜误解链交叉导航（不新增T节点）\n\n[K018](K018.md)的`K018-T005`（CH002／EV0067）包含“改认为二人在恋爱”的误解片段；[L13835–13854](../../source/下班，然后变成魔法少女_第1-282章.txt:13835)、[L13969–13983](../../source/下班，然后变成魔法少女_第1-282章.txt:13969)支持当期持有该解释。[K098](K098.md)的`K098-T001`（EV0092）记录后来不再相信，依据[L20728–20746](../../source/下班，然后变成魔法少女_第1-282章.txt:20728)，其中L20746是林昀听取陈述后的概括。\n\n恢复EV0067之后、EV0092之前的快照时，先查询同主体同阶段的K018，沿`cross_references`读取限定恋爱误解片段；到EV0092再采用K098-T001的DISBELIEVES。K018的DISBELIEVES否定“同一身份”，不能直接当成否定“恋爱”。早于源节点不授予；不能跨主体共享。\n\n本次选用导航方案：235个K和365个T节点不变，原查询函数不新增隐式联查。只过滤K098的states在早期仍没有直接节点，调用者须依本交叉导航补读K018；不会伪称已为K098新增MISUNDERSTANDS状态。\n\n“先猜中同一人再主动否定”的更强因果在本次所读关键段未获直接核实，保留原记录并另列[后续复核](../STAGE3A_PATCH_FOLLOWUPS.md)，不由本导航升级为新事实。",
+    "after": "## Stage 3A.2｜FUP-3A-001 核证后的误解链导航\n\n[K018-T005](K018.md)仍是 CH002／EV0067／L14075 的保守来源锚点，但其同人命题状态已纠正为 **UNAWARE → UNAWARE**；「先猜同人再主动否定」不再作为当期事实。既有来源中的恋爱误解有[L13835–13854](../../source/下班，然后变成魔法少女_第1-282章.txt:13835)、[L13969–13983](../../source/下班，然后变成魔法少女_第1-282章.txt:13969)支持。\n\n恢复该锚点之后、K098-T001／EV0092／L20884 之前的窗口，调用者沿 **K098.cross_references** 按 CH002、CURRENT、来源 point 与纠正截止节点读取 `known_content_fragment`；这是已核证恋爱误解的限定投影，不要求生产查询把 K018 放进 allowed，也不允许从 denied 的秘密命题抽取额外知识。早于锚点、不同比较时间层或其他主体均不授予。\n\n到 EV0092 后优先采用[K098-T001](K098.md)的原 **DISBELIEVES**，不得继续注入旧恋爱说。纠正由[L20745–20746](../../source/下班，然后变成魔法少女_第1-282章.txt:20745)的林昀概括及[L20800–20805](../../source/下班，然后变成魔法少女_第1-282章.txt:20800)的小璐内心回顾共同支持。K018 的 UNAWARE 与 K098 的 DISBELIEVES 是不同命题，不能互换。\n\n生产 `query_knowledge.py` 未改；早期直接过滤 K098.states 仍无节点，须显式补读导航。235 个 K、365 个 T 不变，两个原有锚点不动。原 Stage 3A 导航及旧状态完整保存在[本轮前像](../_fup3a001/before.zip)与[变更日志](../CHANGELOG_FUP3A001.md)；裁定见[FUP Review](../FUP3A001_REVIEW.md)。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-015",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/by_character/CH002_knowledge.md",
+    "record": null,
+    "field": "text",
+    "before": "- [K018](../K018.md) `K018-T005`｜EV0067／CURRENT／**DISBELIEVES**：我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。\n",
+    "after": "",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-016",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/by_character/CH002_knowledge.md",
+    "record": null,
+    "field": "text",
+    "before": "## 明确不知道的重要事项",
+    "after": "## 明确不知道的重要事项\n\n- [K018](../K018.md) `K018-T005`｜EV0067／CURRENT／**UNAWARE**：我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-017",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/by_character/CH002_knowledge.md",
+    "record": null,
+    "field": "text",
+    "before": "## Stage 3A Patch｜恋爱误解的阶段导航\n\n[K098](../K098.md)与[K018](../K018.md)现已双向交叉导航：EV0067后从K018-T005读取当期恋爱误解片段；EV0092采用K098-T001的不再相信。直接K098查询在早期没有T节点，需要按本导航补读；既有状态值不互换，也不授予林翠同人秘密。此为导航补全，不是增加确认知识。“先猜中再否定”的因果另见[待核项](../../STAGE3A_PATCH_FOLLOWUPS.md)。",
+    "after": "## Stage 3A.2｜恋爱误解与身份未知分开读取\n\nK018-T005 已纠正为 UNAWARE→UNAWARE；不再假定先猜同人再主动否定。EV0067 后、EV0092 前的恋爱误解仍按 [K098.cross_references](../K098.md) 的限定片段与原锚点显式恢复；EV0092 后采用 K098-T001 的不再相信。早期生产查询不再把 K018-T005 放入 allowed；不能因此抹去有源的恋爱误解。见[核证结论](../../FUP3A001_REVIEW.md)及[Changelog](../../CHANGELOG_FUP3A001.md)。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-018",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "record": null,
+    "field": "text",
+    "before": "|[K018](K018.md) K018-T005|CH002|SUSPECTS|DISBELIEVES|[EV0067](../01_master_timeline.md#ev0067)|自行压下猜测改信恋爱：我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。|L13593–13700,L13701–13817,L13818–13876,L13877–14010,L14011–14075|",
+    "after": "|[K018](K018.md) K018-T005|CH002|UNAWARE|UNAWARE|[EV0067](../01_master_timeline.md#ev0067)|当期小璐视角与恋爱误解；无同一身份披露：我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。|L13593–13700,L13701–13817,L13818–13876,L13877–14010,L14011–14075|",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-019",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "record": null,
+    "field": "text",
+    "before": "## Stage 3A Patch｜跨命题衔接（非新增Transition）\n\nCH002：[K018-T005](K018.md)／EV0067的恋爱误解片段 → [K098-T001](K098.md)／EV0092的不再相信。前者DISBELIEVES针对“同一人”，后者DISBELIEVES针对“恋爱”，不可混成同一命题。来源限定与恢复方法见[K098交叉导航](K098.md)。本表仍为365个原T节点。",
+    "after": "## Stage 3A.2｜跨命题衔接（非新增 Transition）\n\nCH002：EV0067 的恋爱误解 → EV0092 的不再相信。K018-T005 的同一身份命题改为 UNAWARE→UNAWARE，原恋爱片段继续由 [K098 交叉导航](K098.md)按主体及原时点投影；K098-T001 原 DISBELIEVES 不变。不是从 K018 的未知反推恋爱，也不是从 K098 的否定确认同人。365 个原 T ID 与锚点均保留，详见 [FUP Review](../FUP3A001_REVIEW.md)。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-020",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/by_character/CH002_knowledge.md",
+    "record": null,
+    "field": "text",
+    "before": "- **S02｜EV0090**：原认知摘要“知道浊化训练；身世机制未知”。本库保守查询可返回21条状态，拦截/待核1条；不是该人物所有生活常识总量。",
+    "after": "- **S02｜EV0090**：原认知摘要“知道浊化训练；身世机制未知”。本库保守查询可返回20条状态，拦截/待核2条；不是该人物所有生活常识总量。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-021",
+    "followup": "FUP-3A-001",
+    "path": "knowledge/by_character/CH002_knowledge.md",
+    "record": null,
+    "field": "text",
+    "before": "- **S03｜EV0099**：原认知摘要“知道此次实战效果，未知全上限”。本库保守查询可返回27条状态，拦截/待核1条；不是该人物所有生活常识总量。",
+    "after": "- **S03｜EV0099**：原认知摘要“知道此次实战效果，未知全上限”。本库保守查询可返回26条状态，拦截/待核2条；不是该人物所有生活常识总量。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-022",
+    "followup": "FUP-3A-001",
+    "path": "STAGE3A_PATCH_FOLLOWUPS.md",
+    "record": null,
+    "field": "text",
+    "before": "- 状态：**OPEN / SOURCE_CHAIN_REVIEW_REQUIRED**。",
+    "after": "- 当前状态：**RESOLVED**；Stage 3A.2 核证结论 **REJECT_CAUSAL_INTERPRETATION**，详见 [FUP3A001_REVIEW](FUP3A001_REVIEW.md)。\n- 以下为 Stage 3A 建项时的历史快照，保留原判断与后续路径，不作为当前待核状态。\n- 历史状态：**OPEN / SOURCE_CHAIN_REVIEW_REQUIRED**。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-023",
+    "followup": "FUP-3A-001",
+    "path": "STAGE3A_PATCH_FOLLOWUPS.md",
+    "record": null,
+    "field": "append",
+    "before": null,
+    "after": "## Stage 3A.2 结案\n\nFUP-3A-001 = **RESOLVED**；结论 **REJECT_CAUSAL_INTERPRETATION**（任务 A/B/C 中属于 C：指定因果链不足以成立，连其首两步的顺序也未由所引原文确认）。电话试探及同人确认属于夏凉；小璐的完整恋爱推理并未写出先猜同人再主动否定。不得再把这一机制用作 CANON_PATTERN 或稳定 INTERPRETIVE_MODEL。\n\nEV0067 与 K018-T005 的相应无据归因已最小纠错；客观 truth、所有稳定编号、原时点及恋爱误解窗口不变。证据、前后像、局部回归、Performance 同步建议见 [Review](FUP3A001_REVIEW.md)和[Changelog](CHANGELOG_FUP3A001.md)。Performance 仍只读，尚未执行本次建议。V1.1 是保留的历史冻结基线，工作副本含本补丁，未自动冻结新版本。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-024",
+    "followup": "FUP-3A-001",
+    "path": "README.md",
+    "record": null,
+    "field": "text",
+    "before": "# Canon Reference｜CANON_BASELINE_V1.1",
+    "after": "# Canon Reference｜CANON_BASELINE_V1.1\n\n> **Stage 3A.2 当前工作副本说明：** 已应用 FUP-3A-001 的有日志最小纠错，当前工作副本不再与 V1.1 字节相同。**CANON_BASELINE_V1.1 = FROZEN 仅指保留的历史基线**；本轮没有建立或冻结 V1.2。当前增量依据是 [FUP3A001_REVIEW](FUP3A001_REVIEW.md)及 [CHANGELOG_FUP3A001](CHANGELOG_FUP3A001.md)，文件前后哈希见 [_fup3a001/verification.json](_fup3a001/verification.json)。以下原 V1.1 说明及统计作为历史保留；既有编号数量不变。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  },
+  {
+    "patch_id": "F3A2-025",
+    "followup": "FUP-3A-001",
+    "path": "BASELINE_MANIFEST.md",
+    "record": null,
+    "field": "text",
+    "before": "# CANON_BASELINE_V1.1｜冻结清单",
+    "after": "# CANON_BASELINE_V1.1｜冻结清单\n\n> **Stage 3A.2 当前工作副本说明：** 已应用 FUP-3A-001 的有日志最小纠错，当前工作副本不再与 V1.1 字节相同。**CANON_BASELINE_V1.1 = FROZEN 仅指保留的历史基线**；本轮没有建立或冻结 V1.2。当前增量依据是 [FUP3A001_REVIEW](FUP3A001_REVIEW.md)及 [CHANGELOG_FUP3A001](CHANGELOG_FUP3A001.md)，文件前后哈希见 [_fup3a001/verification.json](_fup3a001/verification.json)。以下原 V1.1 说明及统计作为历史保留；既有编号数量不变。",
+    "reason": "核查原著及人物视角，撤回无据同人猜测/主动否定；保留恋爱误解与未识破边界，或同步其必要导航/版本状态。"
+  }
+]

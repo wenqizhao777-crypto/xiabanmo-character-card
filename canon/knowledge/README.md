@@ -1,7 +1,7 @@
 # Canon认知与信息壁垒数据库
 
-**Stage 2B-4：完成。最终检查结果见 [Review](../STAGE2B4_REVIEW.md)。**
-正式ID：K001–K235。207个TEMP均有处理去向；不更改原TEMP、Timeline、Character或Relationship。
+**Stage 2C整合回归：已完成核证；当前冻结状态见[最终Review](../STAGE2C_FINAL_REVIEW.md)。** 原Stage 2B-4 [Review](../STAGE2B4_REVIEW.md)保留历史。
+正式ID：K001–K235。207个TEMP均有处理去向；TEMP原始记录保留；Stage 2C已核证整合上游，见总Review。
 
 本库分三件事：命题客观是否为真；谁在何时凭什么接触了多少；是否实际向另一个人披露。世界书有一条事实，不等角色或User能够读取。
 
@@ -12,7 +12,7 @@
 - [核心人物矩阵](KNOWLEDGE_MATRIX.md)、[认知变化索引](KNOWLEDGE_TRANSITIONS.md)、[披露链](DISCLOSURE_CHAINS.md)。
 - [38个快照对照](SNAPSHOT_CHECK.md)、[172条关系边界对照](RELATIONSHIP_CROSSWALK.md)、[70人物扫描](CHARACTER_SCAN.md)。
 - [结构化数据](records.json)、[只读查询](query_knowledge.py)、[群体定义](GROUP_SCOPE.md)。
-- [本阶段统计](_build2b4/stats.json)、[检查结果](_build2b4/check_result.json)。
+- [本阶段统计](../_stage2c/knowledge_stats.json)、[检查结果](../_stage2c/check_result.json)。
 
 ## Tier A入口
 
@@ -32,7 +32,7 @@
 新增从下一K号追加；不得按字母、人物或年代重排ID。`Kxxx-Tnnn`只标某条中的获取/修正节点，节点号不代表故事时间。临时导入号继续保留在映射中。
 `TRUE/FALSE/UNKNOWN`是命题真值；`CONFIRMED/PARTIAL/HEARD/SUSPECTS/MISUNDERSTANDS`等是主体状态。D口述可以证明“此人说过”，不能直接证明说法内容。
 范围：PUBLIC、COMMON、ORGANIZATION_INTERNAL、ROLE_RESTRICTED、PRIVATE、SECRET、HIGHLY_SECRET、UNKNOWN_SCOPE。PRIVATE及以上敏感项没有证据便不授予；PUBLIC只是可接触，不是所有人已读。
-上游有误只在Review登记。旧卡IF、原创坦白/会议、User全知与游戏规则均未采用。没有选择RP开局或进入下一阶段。
+上游修订已通过Stage 2C逐项核证，旧Review保留历史。旧卡IF、原创坦白/会议、User全知与游戏规则均未采用。没有选择RP开局或进入下一阶段。
 
 ## 命题总目录
 
@@ -54,7 +54,7 @@
 |[K014](K014.md)|红思与是已退役的朝颜|身份|TRUE|CH002,CH003,CH005|[EV0017](../01_master_timeline.md#ev0017)|False|True|False|False|
 |[K015](K015.md)|花级不等于持有花牌|能力机制|TRUE|CH010,ORG002|[EV0017](../01_master_timeline.md#ev0017)|False|True|False|False|
 |[K016](K016.md)|纪念日林昀外出是为与安雅的纪念日选礼|动机认知|TRUE|CH001,CH002,CH006|[EV0018](../01_master_timeline.md#ev0018)|True|True|False|False|
-|[K017](K017.md)|林昀在女儿坦白前已经知道她是白玫|人际关系|TRUE|CH001,CH002|[EV0020](../01_master_timeline.md#ev0020)|True|True|False|False|
+|[K017](K017.md)|林昀在女儿坦白前已经知道她是白玫|人际关系|TRUE|CH001,CH002|[EV0019](../01_master_timeline.md#ev0019)|True|True|False|False|
 |[K018](K018.md)|林昀与翠雀是同一人|秘密身份|TRUE|CH001,CH002,CH003,CH004,CH005,CH006,CH007|[EV0189](../01_master_timeline.md#ev0189)|True|True|False|False|
 |[K019](K019.md)|安雅曾与翠雀在旧方亭小队共同活动|人际关系|TRUE|CH001,CH002,CH003,CH006|[EV0020](../01_master_timeline.md#ev0020)|True|True|False|False|
 |[K020](K020.md)|安雅的魔法少女身份是樱且持终身资格|身份|TRUE|CH002,CH003,CH006|[EV0021](../01_master_timeline.md#ev0021)|True|True|False|False|

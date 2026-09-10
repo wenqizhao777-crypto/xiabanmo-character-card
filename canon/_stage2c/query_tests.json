@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "QT001",
+    "category": "认知",
+    "question": "CH003在EV0019结束能否使用K018？",
+    "expected": "SUSPECTS",
+    "actual": [
+      [
+        "SUSPECTS",
+        "林昀与翠雀是同一人"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH003",
+      "EV0019",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT002",
+    "category": "认知",
+    "question": "CH003在EV0036结束能否使用K018？",
+    "expected": "CONFIRMED",
+    "actual": [
+      [
+        "CONFIRMED",
+        "林昀与翠雀是同一人"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH003",
+      "EV0036",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT003",
+    "category": "认知",
+    "question": "CH002在EV0158结束能否使用K018？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH002",
+      "EV0158",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT004",
+    "category": "认知",
+    "question": "CH004在EV0158结束能否使用K018？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH004",
+      "EV0158",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT005",
+    "category": "认知",
+    "question": "CH009在EV0155结束能否使用K185？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH009",
+      "EV0155",
+      "K185"
+    ]
+  },
+  {
+    "id": "QT006",
+    "category": "认知",
+    "question": "CH009在EV0157结束能否使用K185？",
+    "expected": "HEARD",
+    "actual": [
+      [
+        "HEARD",
+        "女王在眼前声称队长是她的孩子，我此前并不知道这条关系。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH009",
+      "EV0157",
+      "K185"
+    ]
+  },
+  {
+    "id": "QT007",
+    "category": "认知",
+    "question": "CH001在EV0163结束能否使用K182？",
+    "expected": "PARTIAL",
+    "actual": [
+      [
+        "PARTIAL",
+        "妮妮说国度昨晚通知返国培训，预计今天动身；之后应有人送摩可的正式任职文件和魔镜。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH001",
+      "EV0163",
+      "K182"
+    ]
+  },
+  {
+    "id": "QT008",
+    "category": "认知",
+    "question": "CH010在EV0163结束能否使用K182？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH010",
+      "EV0163",
+      "K182"
+    ]
+  },
+  {
+    "id": "QT009",
+    "category": "认知",
+    "question": "CH004在EV0032结束能否使用K187？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH004",
+      "EV0032",
+      "K187"
+    ]
+  },
+  {
+    "id": "QT010",
+    "category": "认知",
+    "question": "CH004在EV0055结束能否使用K187？",
+    "expected": "PARTIAL",
+    "actual": [
+      [
+        "PARTIAL",
+        "敌人说樱死了，并说她是小璐的母亲。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH004",
+      "EV0055",
+      "K187"
+    ]
+  },
+  {
+    "id": "QT011",
+    "category": "认知",
+    "question": "CH002在EV0019结束能否使用K017？",
+    "expected": "CONFIRMED",
+    "actual": [
+      [
+        "CONFIRMED",
+        "爸爸在我坦白前就知道我是魔法少女，具体何时和如何知道尚未解释。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH002",
+      "EV0019",
+      "K017"
+    ]
+  },
+  {
+    "id": "QT012",
+    "category": "认知",
+    "question": "CH002在EV0020结束能否使用K017？",
+    "expected": "CONFIRMED",
+    "actual": [
+      [
+        "CONFIRMED",
+        "爸爸说在我上电视那天就知道我是魔法少女。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH002",
+      "EV0020",
+      "K017"
+    ]
+  },
+  {
+    "id": "QT013",
+    "category": "认知",
+    "question": "夏凉在电话试证前是否已确认？",
+    "expected": "尚无CONFIRMED",
+    "actual": [
+      {
+        "knowledge_id": "K018",
+        "transition": "K018-T001",
+        "state": "SUSPECTS",
+        "content": "林昀与翠雀是同一人",
+        "source": "铃声联动与遗落说辞",
+        "acquired_event": "EV0019",
+        "as_of": "纪念日遇袭，出战前",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CH003",
+      "EV0036",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT014",
+    "category": "认知",
+    "question": "CH007在EV0082之前能否使用K187？",
+    "expected": "CONFIRMED",
+    "actual": [
+      [
+        "CONFIRMED",
+        "猫眼在安雅死亡后、葬礼前通知樱死了。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH007",
+      "EV0082",
+      "K187"
+    ]
+  },
+  {
+    "id": "QT015",
+    "category": "Reader/Future",
+    "question": "CH003在EV0110结束能否使用K039？",
+    "expected": "MISUNDERSTANDS",
+    "actual": [
+      [
+        "MISUNDERSTANDS",
+        "仍认为小前辈原为女性后变男性；纠正话题被打断。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH003",
+      "EV0110",
+      "K039"
+    ]
+  },
+  {
+    "id": "QT016",
+    "category": "Reader/Future",
+    "question": "CH030在EV0137结束能否使用K154？",
+    "expected": "MISUNDERSTANDS",
+    "actual": [
+      [
+        "MISUNDERSTANDS",
+        "龙胆是矢车菊的女儿"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH030",
+      "EV0137",
+      "K154"
+    ]
+  },
+  {
+    "id": "QT017",
+    "category": "Reader/Future",
+    "question": "CH030在EV0149结束能否使用K154？",
+    "expected": "DISBELIEVES",
+    "actual": [
+      [
+        "DISBELIEVES",
+        "此前新人/女儿解释已被本人揭伪装推翻。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH030",
+      "EV0149",
+      "K154"
+    ]
+  },
+  {
+    "id": "QT018",
+    "category": "Reader/Future",
+    "question": "CH030在EV0149结束能否使用K018？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH030",
+      "EV0149",
+      "K018"
+    ]
+  },
+  {
+    "id": "QT019",
+    "category": "Reader/Future",
+    "question": "CH001在EV0128结束能否使用K140？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH001",
+      "EV0128",
+      "K140"
+    ]
+  },
+  {
+    "id": "QT020",
+    "category": "Reader/Future",
+    "question": "CH005在EV0097结束能否使用K105？",
+    "expected": "DISBELIEVES",
+    "actual": [
+      [
+        "DISBELIEVES",
+        "翠纠正杯量比较：低比例不等不同人的绝对余量，更不等当场濒死。"
+      ]
+    ],
+    "result": "PASS",
+    "references": [
+      "CH005",
+      "EV0097",
+      "K105"
+    ]
+  },
+  {
+    "id": "QT021",
+    "category": "Reader/Future",
+    "question": "CH002在EV0132结束能否使用K147？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH002",
+      "EV0132",
+      "K147"
+    ]
+  },
+  {
+    "id": "QT022",
+    "category": "Reader/Future",
+    "question": "CH002在EV0031结束能否使用K186？",
+    "expected": "DENY：不能肯定授予",
+    "actual": [],
+    "result": "PASS",
+    "references": [
+      "CH002",
+      "EV0031",
+      "K186"
+    ]
+  },
+  {
+    "id": "QT023",
+    "category": "认知",
+    "question": "田胜失忆后能否用事件库恢复福利院旧知识？",
+    "expected": "拒绝UNKNOWN_RETENTION",
+    "actual": [
+      {
+        "knowledge_id": "K025",
+        "transition": "K025-T001",
+        "state": "UNKNOWN_RETENTION",
+        "reason": "EV0170记忆缺口后未证还保留这部分早期现场信息；须有新的实际获知证据，不能回填。"
+      },
+      {
+        "knowledge_id": "K183",
+        "transition": "K183-T002",
+        "state": "UNKNOWN_RETENTION",
+        "reason": "EV0170记忆缺口后未证还保留这部分早期现场信息；须有新的实际获知证据，不能回填。"
+      },
+      {
+        "knowledge_id": "K183",
+        "transition": "K183-T001",
+        "state": "MEMORY_LOSS",
+        "content": "只记得躲藏等救援，又觉得与实际经历不符；具体救人片段有缺口。",
+        "source": "记忆与既往直接行动冲突",
+        "acquired_event": "EV0170",
+        "as_of": "翠雀出差期间",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "reason": "本状态不提供该秘密的肯定知识；不得用客观层补齐。"
+      },
+      {
+        "knowledge_id": "K196",
+        "transition": "K196-T001",
+        "state": "UNKNOWN_RETENTION",
+        "reason": "EV0170记忆缺口后未证还保留这部分早期现场信息；须有新的实际获知证据，不能回填。"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CH031",
+      "EV0170",
+      "K025"
+    ]
+  },
+  {
+    "id": "QT024",
+    "category": "时间",
+    "question": "安雅在原著末尾是否能接收新信息？",
+    "expected": "DECEASED_NO_NEW_KNOWLEDGE",
+    "actual": "DECEASED_NO_NEW_KNOWLEDGE",
+    "result": "PASS",
+    "references": [
+      "CH006",
+      "EV0182"
+    ]
+  },
+  {
+    "id": "QT025",
+    "category": "Reader/Future",
+    "question": "林昀自己的历史亲历是否被一概当读者泄漏删去？",
+    "expected": "保留自己的限定亲历",
+    "actual": [
+      {
+        "knowledge_id": "K186",
+        "transition": "K186-T001",
+        "state": "HEARD",
+        "content": "女王解释战争与少女力量对她的依存；并未给出可独立核验的全貌。",
+        "source": "直接听到部分答复；推论非完整真相",
+        "acquired_event": "EV0176",
+        "as_of": "1979战后，蔷薇宫召见",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "render_as": "作为此人过去亲历或接收的限定内容；不可宣称当时状态延续为如今现状。"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CH001",
+      "K186"
+    ]
+  },
+  {
+    "id": "QT026",
+    "category": "认知",
+    "question": "小璐知道爸爸早知，是否也已经知道电视渠道？",
+    "expected": "确认早知；渠道尚未解释",
+    "actual": [
+      {
+        "knowledge_id": "K017",
+        "transition": "K017-T002",
+        "state": "CONFIRMED",
+        "content": "爸爸在我坦白前就知道我是魔法少女，具体何时和如何知道尚未解释。",
+        "source": "坦白与父亲回应",
+        "acquired_event": "EV0019",
+        "as_of": "纪念日遇袭出战前，父女坦白现场",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CR021",
+      "L4176",
+      "K017"
+    ]
+  },
+  {
+    "id": "QT027",
+    "category": "认知",
+    "question": "小璐何时获得上电视当天就知情的解释？",
+    "expected": "EV0020补渠道",
+    "actual": [
+      {
+        "knowledge_id": "K017",
+        "transition": "K017-T001",
+        "state": "CONFIRMED",
+        "content": "爸爸说在我上电视那天就知道我是魔法少女。",
+        "source": "返程父亲明确说明",
+        "acquired_event": "EV0020",
+        "as_of": "当日战后返程",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CR021",
+      "K017"
+    ]
+  },
+  {
+    "id": "QT028",
+    "category": "能力",
+    "question": "薄雪当期是否修好翠雀旧伤？",
+    "expected": "没有可感知改善；微量/未来未知",
+    "actual": [
+      {
+        "knowledge_id": "K036",
+        "transition": "K036-T001",
+        "state": "PARTIAL",
+        "content": "我暗中接引白的魔力试过旧伤，没有可感知改善；不排除过于微小的效果，也不判断她未来永远无效。",
+        "source": "实际无可感效果",
+        "acquired_event": "EV0035",
+        "as_of": "八月末提案，开学后距提案十天建成",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CR031",
+      "L6798–6804",
+      "K036"
+    ]
+  },
+  {
+    "id": "QT029",
+    "category": "能力",
+    "question": "血蝠融入箭的身体是否仍能凝符？",
+    "expected": "所见仍能；区别反向融入",
+    "actual": [
+      {
+        "knowledge_id": "K156",
+        "transition": "K156-T001",
+        "state": "PARTIAL",
+        "content": "血蝠融入箭的身体后，她仍能凝符；我先前把完整人形当必要条件的推断不完整。这与箭整个人融进血蝠的状态不同。",
+        "source": "敌改变融合方式；旧条件非全貌",
+        "acquired_event": "EV0138",
+        "as_of": "云境第二日",
+        "share": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+      }
+    ],
+    "result": "PASS",
+    "references": [
+      "CR031",
+      "L35087–35100",
+      "K156"
+    ]
+  },
+  {
+    "id": "QT030",
+    "category": "Unknown",
+    "question": "结尾是否已写幻命织华的胜负结果？",
+    "expected": "UNKNOWN且无角色获授",
+    "actual": {
+      "truth": "UNKNOWN",
+      "granted": 0
+    },
+    "result": "PASS",
+    "references": [
+      "EV0158",
+      "K178"
+    ]
+  },
+  {
+    "id": "QT031",
+    "category": "Reader/Future",
+    "question": "角色查询是否带出客观真值、读者揭示？",
+    "expected": "不返回这些字段",
+    "actual": {
+      "allowed": 28,
+      "forbidden": []
+    },
+    "result": "PASS",
+    "references": [
+      "query_knowledge.py"
+    ]
+  },
+  {
+    "id": "QT032",
+    "category": "时间",
+    "question": "EV0001的林昀是什么身份？",
+    "expected": "高升任职、取回旧宝石，尚非局长",
+    "actual": {
+      "node": "S01｜EV0001之后",
+      "身份": "林昀／封存身份的旧魔法少女",
+      "所属": "高升；旧队是历史",
+      "位置": "LOC027",
+      "能力": "刚取出旧宝石，尚未完成本次救援",
+      "伤势": "旧宝石裂纹及历史损伤保留",
+      "关系": "丧妻，父女疏离",
+      "认知": "已认白玫；小璐不知已被认出",
+      "心理": "A哀伤、想靠近女儿"
+    },
+    "result": "PASS",
+    "references": [
+      "CH001:S01",
+      "EV0001"
+    ]
+  },
+  {
+    "id": "QT033",
+    "category": "组织",
+    "question": "EV0063是否已任方亭局长？",
+    "expected": "已任；巡查使与局长分属机构",
+    "actual": {
+      "node": "S03｜EV0063之后",
+      "身份": "方亭局长／巡查使／导师",
+      "所属": "ORG007／ORG003",
+      "位置": "LOC004",
+      "能力": "战后恢复及研究院介入前后按EV0065续接",
+      "伤势": "不默认完全健康",
+      "关系": "新旧队与局方职责并行",
+      "认知": "已获局方案情；未发生后续国度揭面",
+      "心理": "A承担教导与工作"
+    },
+    "result": "PASS",
+    "references": [
+      "CH001:S03",
+      "EV0063"
+    ]
+  },
+  {
+    "id": "QT034",
+    "category": "能力",
+    "question": "白玫获救初期是否已有王钥？",
+    "expected": "尚无",
+    "actual": "种级、基础不熟，无王钥",
+    "result": "PASS",
+    "references": [
+      "CH002:S01",
+      "EV0003"
+    ]
+  },
+  {
+    "id": "QT035",
+    "category": "能力",
+    "question": "EV0099是否新析王钥且立即全熟练？",
+    "expected": "新析，非全熟练",
+    "actual": "新析王钥，非已熟练掌握全部用法",
+    "result": "PASS",
+    "references": [
+      "CH002:S03",
+      "EV0099"
+    ]
+  },
+  {
+    "id": "QT036",
+    "category": "能力",
+    "question": "夏凉首次爆炸组合能否连发？",
+    "expected": "无法再来一发",
+    "actual": "爆炸组合首次实作，无法再来一发",
+    "result": "PASS",
+    "references": [
+      "CH003:S03",
+      "EV0089"
+    ]
+  },
+  {
+    "id": "QT037",
+    "category": "能力",
+    "question": "红公开退役时是否实际不能见妖精？",
+    "expected": "不能以表面状态否定受控改造与感知",
+    "actual": {
+      "node": "S01｜EV0017",
+      "身份": "公开为退役朝颜／局方职员；实际已受摩丝控制改造",
+      "所属": "ORG007",
+      "位置": "LOC004",
+      "能力": "原认证及正常少女能力已退役；兽化改造与妖精感知不可据表面退役状态抹去，尚未后来的治疗复归",
+      "伤势": "表面成年日常体；隐藏受控改造已存在，不等健康普通人",
+      "关系": "林昀旧后辈",
+      "认知": "本人受控且禁思禁言；已能与妮妮交流。旁人尚按其退役自述理解，林昀至EV0049才发现能见摩可的异常",
+      "心理": "A工作与个人情感并行"
+    },
+    "result": "PASS",
+    "references": [
+      "CR028",
+      "CH005:S01"
+    ]
+  },
+  {
+    "id": "QT038",
+    "category": "能力",
+    "question": "十四岁墨荷是否已有义肢/终局心解？",
+    "expected": "未有终局心解；未发生右臂损失",
+    "actual": {
+      "node": "S01｜EV0118历史",
+      "身份": "妮娜／墨荷，十四岁",
+      "所属": "ORG008",
+      "位置": "LOC013",
+      "能力": "白牌握今相关成长；未有终局心解",
+      "伤势": "未发生后来的右臂损失",
+      "关系": "照顾妹妹、接受队長",
+      "认知": "知道当期战事，不知道未来死亡",
+      "心理": "A关照与紧张"
+    },
+    "result": "PASS",
+    "references": [
+      "CH009:S01",
+      "EV0118"
+    ]
+  },
+  {
+    "id": "QT039",
+    "category": "关系",
+    "question": "林保护女儿能否证明全面信任？",
+    "expected": "UNKNOWN心理程度；保留行为事实",
+    "actual": {
+      "text": "F：心理信任程度UNKNOWN。已确认行为另列：A：给予成长与公开评级的决定空间；不是全面放任。行为只支持该次托付/协作，不自动确认全面互信。",
+      "grades": [
+        "F"
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "behavior_evidence": "A：给予成长与公开评级的决定空间；不是全面放任"
+    },
+    "result": "PASS",
+    "references": [
+      "REL001"
+    ]
+  },
+  {
+    "id": "QT040",
+    "category": "恋爱",
+    "question": "表白时林是否得知红情意并接受恋情？",
+    "expected": "知情并明确拒绝；两个方向独立",
+    "actual": {
+      "红→林": [
+        {
+          "event": "EV0054",
+          "claim": "A：恢复后明确表白，听见拒绝。",
+          "sequence": 4,
+          "source_ranges": [
+            [
+              11641,
+              11718
+            ],
+            [
+              11719,
+              11758
+            ]
+          ],
+          "story_phase": "当代前段；红兽化请求处死之后",
+          "evidence_navigation": [
+            "E161",
+            "E162"
+          ],
+          "claim_metadata": {
+            "text": "A：恢复后明确表白，听见拒绝。",
+            "grades": [
+              "A"
+            ],
+            "statuses": [
+              "CONFIRMED"
+            ]
+          }
+        }
+      ],
+      "林→红": [
+        {
+          "event": "EV0054",
+          "claim": "A：救援并明确不能成为恋人，说明不讨厌她；非因为她衰老。",
+          "sequence": 2,
+          "source_ranges": [
+            [
+              11641,
+              11718
+            ],
+            [
+              11719,
+              11758
+            ]
+          ],
+          "story_phase": "当代前段；红兽化请求处死之后",
+          "evidence_navigation": [
+            "E161",
+            "E162"
+          ],
+          "claim_metadata": {
+            "text": "A：救援并明确不能成为恋人，说明不讨厌她；非因为她衰老。",
+            "grades": [
+              "A"
+            ],
+            "statuses": [
+              "CONFIRMED"
+            ]
+          }
+        }
+      ]
+    },
+    "result": "PASS",
+    "references": [
+      "REL012",
+      "REL014",
+      "EV0054"
+    ]
+  },
+  {
+    "id": "QT041",
+    "category": "家庭",
+    "question": "白叫妈妈是否已经完成法律收养？",
+    "expected": "情感承诺有据，EV0092尚无手续",
+    "actual": {
+      "称呼": {
+        "text": "A：以翠说妈妈，以林回应爸爸。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "主观家庭认同": {
+        "text": "A：主动承担对孩子的长期引导与承诺。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "双方情感承诺": {
+        "text": "A：EV0071/EV0078明确成立。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "实际共同生活": {
+        "text": "A：基地照护，不虚构两名家长同住。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "社会公开关系": {
+        "text": "A：私下约定与个别公开例外并存。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "法律亲属关系": {
+        "text": "A：EV0092当时未法律收养；末尾未见完成手续。",
+        "grades": [
+          "A"
+        ],
+        "statuses": [
+          "CONFIRMED"
+        ]
+      },
+      "血缘关系": {
+        "text": "F：未确认与林或安雅血亲。",
+        "grades": [
+          "F"
+        ],
+        "statuses": [
+          "UNKNOWN"
+        ]
+      }
+    },
+    "result": "PASS",
+    "references": [
+      "REL015",
+      "EV0071",
+      "EV0092"
+    ]
+  },
+  {
+    "id": "QT042",
+    "category": "家庭",
+    "question": "白生日结束仍只称叔叔老师吗？",
+    "expected": "已经重新回应爸爸与妈妈",
+    "actual": "事件结束已再次得到爸爸回应、重新拥抱翠雀叫妈妈；不等法律收养或知林翠同一",
+    "result": "PASS",
+    "references": [
+      "CR019",
+      "EV0078",
+      "CH004:S03"
+    ]
+  },
+  {
+    "id": "QT043",
+    "category": "家庭",
+    "question": "小璐是亲生还是养女？",
+    "expected": "亲生，法定文书未知不否定血缘",
+    "actual": {
+      "text": "A：林昀与安雅亲生女儿；C138纠正旧卡养女。",
+      "grades": [
+        "A"
+      ],
+      "statuses": [
+        "CONFIRMED"
+      ]
+    },
+    "result": "PASS",
+    "references": [
+      "REL001",
+      "EV0184"
+    ]
+  },
+  {
+    "id": "QT044",
+    "category": "组织",
+    "question": "摩可启程时是否随队赴国？",
+    "expected": "拒归留方亭；后续未证离开",
+    "actual": {
+      "node": "S03｜EV0109",
+      "身份": "留守而拒归的播种者",
+      "所属": "ORG010／园丁身世需分层",
+      "位置": "方亭留守，未随入国",
+      "能力": "感知与兑换职责仍在",
+      "伤势": "未明不是自动满健康",
+      "关系": "队友出行；无离队裁决",
+      "认知": "知道拒绝理由但未告诉所有人",
+      "心理": "拒绝原因F"
+    },
+    "result": "PASS",
+    "references": [
+      "CH010:S03",
+      "EV0109"
+    ]
+  },
+  {
+    "id": "QT045",
+    "category": "组织",
+    "question": "604与582考核小队成员如何分配？",
+    "expected": "木棉花烛604；卷山582",
+    "actual": {
+      "CH052": "ORG013出身／604相关考核队",
+      "CH054": "ORG013／604相关",
+      "CH055": "临时582队",
+      "CH056": "临时582队"
+    },
+    "result": "PASS",
+    "references": [
+      "CR027"
+    ]
+  },
+  {
+    "id": "QT046",
+    "category": "地点",
+    "question": "揭露身份的阳台属于哪里？",
+    "expected": "夏凉家，LOC028作住所导航",
+    "actual": "夏凉家阳台（L7141–7145）；家庭住所导航LOC028，阳台未建独立地点ID",
+    "result": "PASS",
+    "references": [
+      "CR020",
+      "CR032",
+      "L7145"
+    ]
+  },
+  {
+    "id": "QT047",
+    "category": "地点",
+    "question": "出生命名是否已经定位在家庭住宅？",
+    "expected": "现场UNKNOWN，不用住所代替",
+    "actual": "出生/命名具体场所UNKNOWN；家庭生活场所另见LOC027，不把家址当本次出生地点",
+    "result": "PASS",
+    "references": [
+      "CR032",
+      "L18464–18472"
+    ]
+  },
+  {
+    "id": "QT048",
+    "category": "地点",
+    "question": "末场结界是否已发动并吸入兽子？",
+    "expected": "事件已发动；不据此宣告全城损毁",
+    "actual": "食祭结界吸入兽子，隔开正常考场协作。箭对薄荷提出只能一人活着离开的规则。",
+    "result": "PASS",
+    "references": [
+      "EV0152",
+      "LOC024"
+    ]
+  },
+  {
+    "id": "QT049",
+    "category": "Unknown",
+    "question": "静默替代调用与末句繁开唱名是否已消除张力？",
+    "expected": "DISPUTED保留，不能概括所有能力必须出声",
+    "actual": "｜变身、衣装与唱名\n\n- 类型：形态机制\n- 状态：CONFIRMED\n- 证据等级：A（分项等级以下列标记为准）\n- 来源层：NOVEL_TEXT；审计/时间轴只作导航。\n- 适用范围：通常魔法少女及有标识的伪装个案\n- 定义：变身外形、衣装、魔力身与公开身份是不同层次。\n- Layer 1／客观表现〔A〕：翠雀会静默变身；龙胆衣装覆盖真实变身；宝石损伤期曾不受控变身。\n- Layer 2／已确认机制〔A〕：唱名是便利调用方式，受静默不等绝对失去变身/繁开能力。\n- 使用／成立条件：有相应力量与操作条件；不能仅因未念口令判无能力。\n- 资源／消耗：具体变身消耗未量化；失控周期属翠雀个案。\n- Layer 3／人物理论〔D〕：未另立未证理论。\n- Layer 4／推断〔C〕：不将上述表现之外的猜测升级为机制；本项需要保留的未证解释见理论及未知栏。\n- 限制／不能推出的结论：芽后外貌稳定不等不可经后期魔力身调整；魔衣不是无穷仓库；假衣装不改变本体身份。\n- 阶段变化／例外：初始衣装→芽本相稳定→成年/满任期附近可调整魔力身外貌；龙胆属于伪装而非新开华。\n- 原著定位：[L1985–L2003](../source/下班，然后变成魔法少女_第1-282章.txt:1985)；[L13135–L13164](../source/下班，然后变成魔法少女_第1-282章.txt:13135)；[L24283–L24336](../source/下班，然后变成魔法少女_第1-282章.txt:24283)；[L26375–L26378](../source/下班，然后变成魔法少女_第1-282章.txt:26375)；[L36318–L36321](../source/下班，然后变成魔法少女_第1-282章.txt:36318)；[L38819–L38825](../source/下班，然后变成魔法少女_第1-282章.txt:38819)\n- 关联Event：[EV0063](01_master_timeline.md#ev0063)、[EV0106](01_master_timeline.md#ev0106)、[EV0150](01_master_timeline.md#ev0150)\n- 关联条目：[PS002](03_power_system.md#ps002)、[WR006](02_world_rules.md#wr006)\n- 争议／未知〔F，若有张力则DISPUTED〕：衣装全部收纳规则、调整流程未知；“永远外貌不变”的早期绝对措辞须受后文收窄。\n- 文本措辞张力〔DISPUTED〕：L36319明说唱名只是省动作、静默后仍可繁开；L38819又用“需要唱名、仪式、变身步骤”概述。保留两处，不以末句抹掉已确认的替代调用方式，也不推导任意无仪式瞬发。\n\n<a",
+    "result": "PASS",
+    "references": [
+      "PS004",
+      "WQ014",
+      "CR033"
+    ]
+  },
+  {
+    "id": "QT050",
+    "category": "Unknown",
+    "question": "女王唯一亲源说法是否已变成客观生物学事实？",
+    "expected": "UNKNOWN；当面说法作为角色听闻",
+    "actual": {
+      "truth": "UNKNOWN",
+      "states": [
+        [
+          "CH009",
+          "HEARD"
+        ],
+        [
+          "CH001",
+          "PARTIAL"
+        ]
+      ]
+    },
+    "result": "PASS",
+    "references": [
+      "K185",
+      "CR015"
+    ]
+  },
+  {
+    "id": "QT051",
+    "category": "Canon/IF",
+    "question": "是否已经替用户决定重做骰子的具体规则？",
+    "expected": "U006延后，不给其选择补内容",
+    "actual": "期|正文披露顺序、故事发生时间和角色获知节点分列；后文历史补叙不在当代重新发生。|[EV0180](01_master_timeline.md#ev0180)、[EV0181](01_master_timeline.md#ev0181)|\n|组织和成员混同|正式制度、领导下令、成员私自行动、敌人供述分别保存；祖母绿私下项目不是研究院向公众提供的服务。|[ORG004](04_organizations.md#org004)、[ORG011](04_organizations.md#org011)|\n|历史编制和现行名单混写|战时重编、损失、流亡与现代组织分阶段；旧紫钻和新紫钻分人。|[ORG005](04_organizations.md#org005)、[ORG008](04_organizations.md#org008)|\n|损毁、暴露、移居后保留旧状态|机构仍办公不证明原大楼完全重建；失踪不等死亡；暂住不等永久同居；受邀进入不等公众开放。|[LOC004](05_locations.md#loc004)、[LOC008](05_locations.md#loc008)、[LOC015](05_locations.md#loc015)|\n|地名和空间误合并|方亭湿地公园与国度彩云湿地、真实局大楼与复制巢穴、各扇界门分别定位。没有里程便不推地图距离。|[LOC012](05_locations.md#loc012)、[LOC017](05_locations.md#loc017)、[LOC026](05_locations.md#loc026)|\n|能力互相拼装或以名称补规则|基础能力、繁开、奇境及叠加效果分别写条件；情热加奇境的本相投影不可提前为普通杯子能力；复调与复用不无证合并。|[PS013](03_power_system.md#ps013)、[PS033](03_power_system.md#ps033)|\n|治愈等于无伤、复活或可无限重复|区分本体、魔力身、本相及灵魂；具体修复成功不意味着毁去部件归还。|[PS003](03_power_system.md#ps003)、[PS027](03_power_system.md#ps027)|\n|亲密、血缘与法律关系混写|亲密不自动恋爱，承诺照护不等收养手续，本名和血缘信息不等秘密身份公开；本轮不建立正式关系库。|[关系TEMP](relationships/TEMP_INDEX.md)、[LOC027](05_locations.md#loc027)|\n|作者废稿、类比、未批准补充进入正文层|保留来源类别；U004 B1仅允许逐份审议补充候选，目前没有可自动采用的新补充。|[用户裁决](../audit/USER_DECISIONS.md)、[来源规则](00_source_policy.md)|\n|RP反向改Canon|Canon保存原著能力条件与未知；U006尚未决定骰子和能力边界的具体优先规则，整体重做留待用户。不得把任何未来骰子、CG、好感或OC默认写成原著事实。|[用户裁决](../audit/USER_DECISIONS.md)、[PS005](03_power_system.md#ps005)|\n|文件结束被当作故事结束|末尾只到幻命织华唱名；女王生死、黑猫胜负、食祭终局和考核发牌不填答案。|[EV0158](01_master_timeline.md#ev0158)、[WQ004](UNRESOLVED.md#wq004)、[WQ027](UNRESOLVED.md#wq027)|\n\n后续新增或修订时：在主条目记录新证据、旧判断、变化原因与适用阶段；再更新未解导航。若要改Stage 2A的既有事件，先处理[本轮建议](STAGE2B1_REVIEW.md)，不得只改世界模块而让时间轴静默产生相反版本。\n\n<!-- STAGE2B2_APPEND_BEGIN -->\n\n## Stage 2B-2新增人物误读边界\n\n|风险|边界|人物索引|\n|---|---|---|\n|同代号就合人、异代号就拆人|翠雀是妮姆到林昀的传承；矢车菊／林昀／龙胆同人；紫钻有前后任。按事件确认，不仅按字符串去重。|CH001、CH020、CH014、CH029|\n|物种外观或代理体变成新人物|猫形摩可、狗形妮妮、塞米和黑猫不同；祖的妖精玩偶不是播种者；朝颜临时体不是另一名独立侄女。|CH005、CH008–CH011、CH028|\n|正文异文与旧表错误混为真别名|木棉、猫尾以原著为准，保留旧索引纠错；羊踟蹰／羊踯躅保留原文异文待规范。|CH021、CH052、CH059；Review R001–R002|\n|条件判断变为身份合并|“若活着，大概率更名”不证明当代蜂就是历史蜂之使徒，也不证明两者必不同。|CH044、CH069|\n|构建初稿重新覆盖已核验修订|人物库重渲染必须经refine.py应用本轮修正，不能直接把初稿当最终Canonical记录。|characters/_build2b2/README.md|\n\n原有表格与所有历史边界未删除。详见[人物构建检查](STAGE2B2_REVIEW.md)。\n<!-- STAGE2B2_APPEND_END -->\n",
+    "result": "PASS",
+    "references": [
+      "audit/USER_DECISIONS.md",
+      "CR023"
+    ]
+  },
+  {
+    "id": "QT052",
+    "category": "时间",
+    "question": "EV0190是否因高ID/后叙误作当代？",
+    "expected": "HISTORY",
+    "actual": "HISTORY",
+    "result": "PASS",
+    "references": [
+      "EV0190",
+      "CR024"
+    ]
+  },
+  {
+    "id": "QT053",
+    "category": "时间",
+    "question": "EV0191是否因高ID/后叙误作当代？",
+    "expected": "HISTORY",
+    "actual": "HISTORY",
+    "result": "PASS",
+    "references": [
+      "EV0191",
+      "CR024"
+    ]
+  },
+  {
+    "id": "QT054",
+    "category": "时间",
+    "question": "EV0192是否因高ID/后叙误作当代？",
+    "expected": "HISTORY",
+    "actual": "HISTORY",
+    "result": "PASS",
+    "references": [
+      "EV0192",
+      "CR024"
+    ]
+  },
+  {
+    "id": "QT055",
+    "category": "时间",
+    "question": "比试条件撤回会后总结是否提前给会前？",
+    "expected": "会前拒绝，会后仅总结",
+    "actual": {
+      "before": [],
+      "after": [
+        {
+          "knowledge_id": "K090",
+          "transition": "K090-T002",
+          "state": "PARTIAL",
+          "content": "两队导师曾将战胜柏安作为参考条件，后撤销",
+          "source": "导师说明；细节未知",
+          "acquired_event": "EV0085",
+          "as_of": "柏安入住后至62晚餐",
+          "share": "NO_AUTOMATIC_SHARING",
+          "validity": "PERSISTENT_AS_KNOWLEDGE",
+          "render_as": "只能表达此主体的当时说法/理解/否定，不能输出为客观真相。"
+        }
+      ]
+    },
+    "result": "PASS",
+    "references": [
+      "K090",
+      "CR035"
+    ]
+  }
+]

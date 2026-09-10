@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "version": "CANON_BASELINE_V1.1",
+  "checked_files": 654,
+  "mismatches": [],
+  "unlisted": [],
+  "protected_changes": [],
+  "new_outside_canon": [],
+  "V1_byte_exact": true,
+  "module_hash_errors": [],
+  "local_regression": "PASS",
+  "local_checks": 49,
+  "version_consistency": true,
+  "version_change_chain": true,
+  "markdown_manifest_sha256": "de17b056a00bca4932fbb96c3733d4a93e23481289f2003be3219be9fc57e159",
+  "machine_manifest_sha256": "36670c6b34d2abb56ff28dce713e4ebc965985b79412a845817ecda10e313254",
+  "regression_receipt_sha256": "461aebec79c9d28dc8b8607cf7341fd825fe71ef08342f91d81ca69b79f4853a",
+  "note": "Read-only on baseline content; only this verification receipt is written."
+}

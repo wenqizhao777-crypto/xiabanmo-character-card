@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "baseline": "CANON_BASELINE_V1",
+  "manifested_files": 638,
+  "changed": [],
+  "unmanifested": [],
+  "core_inputs_unchanged": true,
+  "regression_status": "PASS",
+  "checks": 43,
+  "manifest_markdown_sha256": "78bf743c95c948b7cd66da6823c81ef5b9d00ee0d9dbae73aeabacce6553d308",
+  "manifest_json_sha256": "5d2937c33ba513172f424953667e2cac8538b395e8883b02988d93d7490efe52"
+}

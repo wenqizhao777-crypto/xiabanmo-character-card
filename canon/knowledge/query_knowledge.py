@@ -22,7 +22,7 @@ def lookup(character,event,before=False):
  records=load('records.json');events,edges=context()
  if event not in events:raise ValueError('未定义Event；请先明确Canon节点，不能按日期猜。')
  if character not in {f'CH{i:03}' for i in range(1,71)}:raise ValueError('未定义Character ID')
- epoch='HISTORY' if int(event[2:]) in HISTORY else 'CURRENT'
+ epoch=events[event].get('knowledge_epoch', 'HISTORY' if int(event[2:]) in HISTORY else 'CURRENT')
  cutoff=(min(a for a,b in events[event]['source_ranges'])-1 if before else max(b for a,b in events[event]['source_ranges'])) if epoch=='CURRENT' else None
  hist_before=ancestors(event,edges)
  if before:hist_before.discard(event)

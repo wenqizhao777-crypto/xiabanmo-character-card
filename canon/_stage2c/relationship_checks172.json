@@ -1,0 +1,2314 @@
+[
+  {
+    "relationship": "REL001",
+    "source": "CH001",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K001",
+      "K003",
+      "K007",
+      "K013",
+      "K016",
+      "K017",
+      "K018",
+      "K019",
+      "K022",
+      "K033",
+      "K041",
+      "K063",
+      "K066",
+      "K074",
+      "K080",
+      "K081",
+      "K089",
+      "K096",
+      "K098",
+      "K100",
+      "K101",
+      "K109",
+      "K110",
+      "K117",
+      "K124",
+      "K127",
+      "K132",
+      "K148",
+      "K151",
+      "K154",
+      "K184",
+      "K187",
+      "K191",
+      "K194",
+      "K224",
+      "K227",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。小璐截至末尾不知父亲=翠雀；父女与导师依恋需并存。"
+  },
+  {
+    "relationship": "REL002",
+    "source": "CH002",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K001",
+      "K003",
+      "K007",
+      "K013",
+      "K016",
+      "K017",
+      "K018",
+      "K019",
+      "K022",
+      "K033",
+      "K041",
+      "K063",
+      "K066",
+      "K074",
+      "K080",
+      "K081",
+      "K089",
+      "K096",
+      "K098",
+      "K100",
+      "K101",
+      "K109",
+      "K110",
+      "K117",
+      "K124",
+      "K127",
+      "K132",
+      "K148",
+      "K151",
+      "K154",
+      "K184",
+      "K187",
+      "K191",
+      "K194",
+      "K224",
+      "K227",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。小璐截至末尾不知父亲=翠雀；父女与导师依恋需并存。"
+  },
+  {
+    "relationship": "REL003",
+    "source": "CH001",
+    "target": "CH003",
+    "formal_knowledge": [
+      "K005",
+      "K007",
+      "K008",
+      "K013",
+      "K018",
+      "K019",
+      "K022",
+      "K033",
+      "K038",
+      "K039",
+      "K041",
+      "K073",
+      "K080",
+      "K087",
+      "K094",
+      "K101",
+      "K110",
+      "K117",
+      "K132",
+      "K157"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0036确认同一人，EV0110仍误会性别来源；不等知道完整身世。"
+  },
+  {
+    "relationship": "REL004",
+    "source": "CH003",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K005",
+      "K007",
+      "K008",
+      "K013",
+      "K018",
+      "K019",
+      "K022",
+      "K033",
+      "K038",
+      "K039",
+      "K041",
+      "K073",
+      "K080",
+      "K087",
+      "K094",
+      "K101",
+      "K110",
+      "K117",
+      "K132",
+      "K157"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0036确认同一人，EV0110仍误会性别来源；不等知道完整身世。"
+  },
+  {
+    "relationship": "REL005",
+    "source": "CH002",
+    "target": "CH003",
+    "formal_knowledge": [
+      "K007",
+      "K013",
+      "K014",
+      "K018",
+      "K019",
+      "K020",
+      "K022",
+      "K033",
+      "K041",
+      "K058",
+      "K080",
+      "K090",
+      "K101",
+      "K103",
+      "K106",
+      "K110",
+      "K117",
+      "K132",
+      "K192",
+      "K193",
+      "K205"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL006",
+    "source": "CH001",
+    "target": "CH040",
+    "formal_knowledge": [
+      "K008",
+      "K009",
+      "K010"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL007",
+    "source": "CH001",
+    "target": "CH012",
+    "formal_knowledge": [
+      "K033",
+      "K060",
+      "K063"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL008",
+    "source": "CH004",
+    "target": "CH010",
+    "formal_knowledge": [
+      "K023"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL009",
+    "source": "CH004",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K018",
+      "K032",
+      "K034",
+      "K036",
+      "K041",
+      "K048",
+      "K049",
+      "K069",
+      "K072",
+      "K073",
+      "K075",
+      "K082",
+      "K087",
+      "K099",
+      "K101",
+      "K110",
+      "K117",
+      "K132",
+      "K184",
+      "K187",
+      "K217",
+      "K224",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。白仍把林与翠当不同人；爸爸妈妈称谓不暴露同一性。"
+  },
+  {
+    "relationship": "REL010",
+    "source": "CH001",
+    "target": "CH006",
+    "formal_knowledge": [
+      "K008",
+      "K016",
+      "K018",
+      "K019",
+      "K053",
+      "K081",
+      "K088",
+      "K127",
+      "K187",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL011",
+    "source": "CH003",
+    "target": "CH048",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL012",
+    "source": "CH005",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K006",
+      "K018",
+      "K050",
+      "K052",
+      "K053",
+      "K077",
+      "K092",
+      "K093",
+      "K101",
+      "K105",
+      "K180",
+      "K202",
+      "K203",
+      "K214",
+      "K229"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。历史EV0050解除变身后知同一人；侄女为掩护。"
+  },
+  {
+    "relationship": "REL013",
+    "source": "CH005",
+    "target": "CH006",
+    "formal_knowledge": [
+      "K018",
+      "K053"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL014",
+    "source": "CH001",
+    "target": "CH005",
+    "formal_knowledge": [
+      "K006",
+      "K018",
+      "K050",
+      "K052",
+      "K053",
+      "K077",
+      "K092",
+      "K093",
+      "K101",
+      "K105",
+      "K180",
+      "K202",
+      "K203",
+      "K214",
+      "K229"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。历史EV0050解除变身后知同一人；侄女为掩护。"
+  },
+  {
+    "relationship": "REL015",
+    "source": "CH001",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K018",
+      "K032",
+      "K034",
+      "K036",
+      "K041",
+      "K048",
+      "K049",
+      "K069",
+      "K072",
+      "K073",
+      "K075",
+      "K082",
+      "K087",
+      "K099",
+      "K101",
+      "K110",
+      "K117",
+      "K132",
+      "K184",
+      "K187",
+      "K217",
+      "K224",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。白仍把林与翠当不同人；爸爸妈妈称谓不暴露同一性。"
+  },
+  {
+    "relationship": "REL016",
+    "source": "CH013",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K033",
+      "K076",
+      "K100"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL017",
+    "source": "CH001",
+    "target": "CH016",
+    "formal_knowledge": [
+      "K212",
+      "K213"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL018",
+    "source": "CH007",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K018",
+      "K064",
+      "K085",
+      "K086",
+      "K087",
+      "K088",
+      "K091",
+      "K092",
+      "K093",
+      "K096",
+      "K101",
+      "K110",
+      "K187",
+      "K215",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。旧战场双方解变才互认，舞台前重逢确认也有过程。"
+  },
+  {
+    "relationship": "REL019",
+    "source": "CH007",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K018",
+      "K096",
+      "K101",
+      "K103",
+      "K110",
+      "K187",
+      "K227",
+      "K233"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL020",
+    "source": "CH007",
+    "target": "CH023",
+    "formal_knowledge": [
+      "K101",
+      "K103",
+      "K233",
+      "K234"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL021",
+    "source": "CH013",
+    "target": "CH038",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL022",
+    "source": "CH028",
+    "target": "CH009",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL023",
+    "source": "CH024",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K043",
+      "K066",
+      "K101",
+      "K114"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。木的怪大叔/局长认识与翠雀救援分开；未识同一人。"
+  },
+  {
+    "relationship": "REL024",
+    "source": "CH001",
+    "target": "CH009",
+    "formal_knowledge": [
+      "K120",
+      "K122",
+      "K123",
+      "K125",
+      "K126",
+      "K128",
+      "K129",
+      "K140",
+      "K160",
+      "K163",
+      "K185",
+      "K186",
+      "K207",
+      "K208",
+      "K211"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。战史、当代爪痕立场及女王身世宣称分别按节点；不凭本索引名字知所有秘密。"
+  },
+  {
+    "relationship": "REL025",
+    "source": "CH001",
+    "target": "CH020",
+    "formal_knowledge": [
+      "K167",
+      "K168"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL026",
+    "source": "CH009",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K120",
+      "K122",
+      "K123",
+      "K125",
+      "K126",
+      "K128",
+      "K129",
+      "K140",
+      "K160",
+      "K163",
+      "K185",
+      "K186",
+      "K207",
+      "K208",
+      "K211"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。战史、当代爪痕立场及女王身世宣称分别按节点；不凭本索引名字知所有秘密。"
+  },
+  {
+    "relationship": "REL027",
+    "source": "CH001",
+    "target": "CH026",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL028",
+    "source": "CH001",
+    "target": "CH017",
+    "formal_knowledge": [
+      "K148",
+      "K185",
+      "K186",
+      "K225"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL029",
+    "source": "CH002",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K018",
+      "K096",
+      "K101",
+      "K103",
+      "K110",
+      "K187",
+      "K227",
+      "K233"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL030",
+    "source": "CH009",
+    "target": "CH028",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL031",
+    "source": "CH002",
+    "target": "CH027",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL032",
+    "source": "CH004",
+    "target": "CH027",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL033",
+    "source": "CH026",
+    "target": "CH027",
+    "formal_knowledge": [
+      "K172",
+      "K175",
+      "K218"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL034",
+    "source": "CH027",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL035",
+    "source": "CH027",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL036",
+    "source": "CH027",
+    "target": "CH026",
+    "formal_knowledge": [
+      "K172",
+      "K175",
+      "K218"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL037",
+    "source": "CH009",
+    "target": "CH014",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL038",
+    "source": "CH014",
+    "target": "CH009",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL039",
+    "source": "CH006",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K008",
+      "K016",
+      "K018",
+      "K019",
+      "K053",
+      "K081",
+      "K088",
+      "K127",
+      "K187",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL040",
+    "source": "CH006",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K016",
+      "K018",
+      "K019",
+      "K020",
+      "K081",
+      "K127",
+      "K187",
+      "K193",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL041",
+    "source": "CH003",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K007",
+      "K013",
+      "K014",
+      "K018",
+      "K019",
+      "K020",
+      "K022",
+      "K033",
+      "K041",
+      "K058",
+      "K080",
+      "K090",
+      "K101",
+      "K103",
+      "K106",
+      "K110",
+      "K117",
+      "K132",
+      "K192",
+      "K193",
+      "K205"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL042",
+    "source": "CH002",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K018",
+      "K041",
+      "K058",
+      "K059",
+      "K090",
+      "K101",
+      "K103",
+      "K110",
+      "K117",
+      "K132",
+      "K143",
+      "K150",
+      "K172",
+      "K175",
+      "K184",
+      "K187",
+      "K188",
+      "K222",
+      "K224",
+      "K231",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL043",
+    "source": "CH004",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K018",
+      "K041",
+      "K058",
+      "K059",
+      "K090",
+      "K101",
+      "K103",
+      "K110",
+      "K117",
+      "K132",
+      "K143",
+      "K150",
+      "K172",
+      "K175",
+      "K184",
+      "K187",
+      "K188",
+      "K222",
+      "K224",
+      "K231",
+      "K235"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL044",
+    "source": "CH003",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K018",
+      "K041",
+      "K058",
+      "K073",
+      "K087",
+      "K090",
+      "K101",
+      "K103",
+      "K110",
+      "K117",
+      "K132"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL045",
+    "source": "CH004",
+    "target": "CH003",
+    "formal_knowledge": [
+      "K018",
+      "K041",
+      "K058",
+      "K073",
+      "K087",
+      "K090",
+      "K101",
+      "K103",
+      "K110",
+      "K117",
+      "K132"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL046",
+    "source": "CH010",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K023"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL047",
+    "source": "CH001",
+    "target": "CH010",
+    "formal_knowledge": [
+      "K004",
+      "K011",
+      "K182",
+      "K225",
+      "K226"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL048",
+    "source": "CH010",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K004",
+      "K011",
+      "K182",
+      "K225",
+      "K226"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL049",
+    "source": "CH010",
+    "target": "CH002",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL050",
+    "source": "CH002",
+    "target": "CH010",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL051",
+    "source": "CH010",
+    "target": "CH003",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL052",
+    "source": "CH003",
+    "target": "CH010",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL053",
+    "source": "CH010",
+    "target": "CH011",
+    "formal_knowledge": [
+      "K182",
+      "K225"
+    ],
+    "review": "R003：EV0163该厨房对话的听者是翠雀，不是摩可；不能据此授权摩可本次新获安排。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL054",
+    "source": "CH011",
+    "target": "CH010",
+    "formal_knowledge": [
+      "K182",
+      "K225"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL055",
+    "source": "CH011",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K182",
+      "K225"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL056",
+    "source": "CH005",
+    "target": "CH011",
+    "formal_knowledge": [
+      "K056"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL057",
+    "source": "CH011",
+    "target": "CH005",
+    "formal_knowledge": [
+      "K056"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL058",
+    "source": "CH012",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K033",
+      "K060",
+      "K063"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL059",
+    "source": "CH012",
+    "target": "CH005",
+    "formal_knowledge": [
+      "K054"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL060",
+    "source": "CH005",
+    "target": "CH012",
+    "formal_knowledge": [
+      "K054"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL061",
+    "source": "CH012",
+    "target": "CH011",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL062",
+    "source": "CH011",
+    "target": "CH012",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL063",
+    "source": "CH001",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K018",
+      "K064",
+      "K085",
+      "K086",
+      "K087",
+      "K088",
+      "K091",
+      "K092",
+      "K093",
+      "K096",
+      "K101",
+      "K110",
+      "K187",
+      "K215",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。旧战场双方解变才互认，舞台前重逢确认也有过程。"
+  },
+  {
+    "relationship": "REL064",
+    "source": "CH007",
+    "target": "CH006",
+    "formal_knowledge": [
+      "K018",
+      "K088",
+      "K187",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL065",
+    "source": "CH006",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K018",
+      "K088",
+      "K187",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL066",
+    "source": "CH002",
+    "target": "CH006",
+    "formal_knowledge": [
+      "K016",
+      "K018",
+      "K019",
+      "K020",
+      "K081",
+      "K127",
+      "K187",
+      "K193",
+      "K227"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL067",
+    "source": "CH004",
+    "target": "CH006",
+    "formal_knowledge": [
+      "K018",
+      "K187"
+    ],
+    "review": "R004：EV0032对白隐瞒死亡；不能把“逐步得知其死亡”合挂此点。真正死讯接EV0055。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL068",
+    "source": "CH006",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K018",
+      "K187"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL069",
+    "source": "CH008",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K068",
+      "K079",
+      "K110",
+      "K119",
+      "K146",
+      "K184",
+      "K200",
+      "K209"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL070",
+    "source": "CH001",
+    "target": "CH008",
+    "formal_knowledge": [
+      "K068",
+      "K079",
+      "K110",
+      "K119",
+      "K146",
+      "K184",
+      "K200",
+      "K209"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL071",
+    "source": "CH008",
+    "target": "CH005",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL072",
+    "source": "CH005",
+    "target": "CH008",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL073",
+    "source": "CH008",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K110",
+      "K184"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL074",
+    "source": "CH004",
+    "target": "CH008",
+    "formal_knowledge": [
+      "K110",
+      "K184"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL075",
+    "source": "CH009",
+    "target": "CH020",
+    "formal_knowledge": [
+      "K161"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL076",
+    "source": "CH020",
+    "target": "CH009",
+    "formal_knowledge": [
+      "K161"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL077",
+    "source": "CH020",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K167",
+      "K168"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL078",
+    "source": "CH016",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K212",
+      "K213"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL079",
+    "source": "CH017",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K148",
+      "K185",
+      "K186",
+      "K225"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL080",
+    "source": "CH017",
+    "target": "CH016",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL081",
+    "source": "CH009",
+    "target": "CH017",
+    "formal_knowledge": [
+      "K185",
+      "K186",
+      "K219",
+      "K220"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL082",
+    "source": "CH017",
+    "target": "CH009",
+    "formal_knowledge": [
+      "K185",
+      "K186",
+      "K219",
+      "K220"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL083",
+    "source": "CH023",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K101",
+      "K103",
+      "K233",
+      "K234"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL084",
+    "source": "CH002",
+    "target": "CH023",
+    "formal_knowledge": [
+      "K089",
+      "K090",
+      "K101",
+      "K103",
+      "K106",
+      "K205",
+      "K233"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL085",
+    "source": "CH023",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K089",
+      "K090",
+      "K101",
+      "K103",
+      "K106",
+      "K205",
+      "K233"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL086",
+    "source": "CH022",
+    "target": "CH024",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL087",
+    "source": "CH024",
+    "target": "CH022",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL088",
+    "source": "CH007",
+    "target": "CH024",
+    "formal_knowledge": [
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL089",
+    "source": "CH024",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL090",
+    "source": "CH007",
+    "target": "CH025",
+    "formal_knowledge": [
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL091",
+    "source": "CH025",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL092",
+    "source": "CH007",
+    "target": "CH022",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL093",
+    "source": "CH022",
+    "target": "CH007",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL094",
+    "source": "CH001",
+    "target": "CH022",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL095",
+    "source": "CH022",
+    "target": "CH001",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL096",
+    "source": "CH001",
+    "target": "CH021",
+    "formal_knowledge": [
+      "K040",
+      "K044"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL097",
+    "source": "CH021",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K040",
+      "K044"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL098",
+    "source": "CH001",
+    "target": "CH013",
+    "formal_knowledge": [
+      "K033",
+      "K076",
+      "K100"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL099",
+    "source": "CH013",
+    "target": "CH014",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL100",
+    "source": "CH014",
+    "target": "CH013",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL101",
+    "source": "CH038",
+    "target": "CH013",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL102",
+    "source": "CH013",
+    "target": "CH065",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL103",
+    "source": "CH015",
+    "target": "CH019",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL104",
+    "source": "CH019",
+    "target": "CH015",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL105",
+    "source": "CH019",
+    "target": "CH001",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL106",
+    "source": "CH001",
+    "target": "CH019",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL107",
+    "source": "CH015",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K128",
+      "K130",
+      "K159"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL108",
+    "source": "CH001",
+    "target": "CH015",
+    "formal_knowledge": [
+      "K128",
+      "K130",
+      "K159"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL109",
+    "source": "CH008",
+    "target": "CH015",
+    "formal_knowledge": [
+      "K171"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL110",
+    "source": "CH015",
+    "target": "CH008",
+    "formal_knowledge": [
+      "K171"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL111",
+    "source": "CH014",
+    "target": "CH015",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL112",
+    "source": "CH015",
+    "target": "CH014",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL113",
+    "source": "CH030",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K033",
+      "K154",
+      "K169"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0137错误矢女儿解释→EV0149确认少女代号链，林男身未告。"
+  },
+  {
+    "relationship": "REL114",
+    "source": "CH001",
+    "target": "CH030",
+    "formal_knowledge": [
+      "K033",
+      "K154",
+      "K169"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0137错误矢女儿解释→EV0149确认少女代号链，林男身未告。"
+  },
+  {
+    "relationship": "REL115",
+    "source": "CH032",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K033",
+      "K136",
+      "K154",
+      "K169"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0149仅确认少女代号链；男性身份未告。"
+  },
+  {
+    "relationship": "REL116",
+    "source": "CH001",
+    "target": "CH032",
+    "formal_knowledge": [
+      "K033",
+      "K136",
+      "K154",
+      "K169"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。EV0149仅确认少女代号链；男性身份未告。"
+  },
+  {
+    "relationship": "REL117",
+    "source": "CH030",
+    "target": "CH051",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL118",
+    "source": "CH051",
+    "target": "CH030",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL119",
+    "source": "CH002",
+    "target": "CH026",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL120",
+    "source": "CH026",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL121",
+    "source": "CH004",
+    "target": "CH026",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL122",
+    "source": "CH026",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K172",
+      "K175"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL123",
+    "source": "CH027",
+    "target": "CH044",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL124",
+    "source": "CH044",
+    "target": "CH027",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL125",
+    "source": "CH031",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K025",
+      "K196"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL126",
+    "source": "CH004",
+    "target": "CH031",
+    "formal_knowledge": [
+      "K025",
+      "K196"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL127",
+    "source": "CH001",
+    "target": "CH034",
+    "formal_knowledge": [
+      "K088"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL128",
+    "source": "CH034",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K088"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL129",
+    "source": "CH001",
+    "target": "CH033",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL130",
+    "source": "CH033",
+    "target": "CH001",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL131",
+    "source": "CH029",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K150",
+      "K151"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL132",
+    "source": "CH002",
+    "target": "CH029",
+    "formal_knowledge": [
+      "K150",
+      "K151"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL133",
+    "source": "CH007",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K018",
+      "K087",
+      "K101",
+      "K103",
+      "K110",
+      "K187"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL134",
+    "source": "CH004",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K018",
+      "K087",
+      "K101",
+      "K103",
+      "K110",
+      "K187"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL135",
+    "source": "CH003",
+    "target": "CH055",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL136",
+    "source": "CH055",
+    "target": "CH003",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL137",
+    "source": "CH003",
+    "target": "CH056",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL138",
+    "source": "CH056",
+    "target": "CH003",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL139",
+    "source": "CH055",
+    "target": "CH056",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL140",
+    "source": "CH056",
+    "target": "CH055",
+    "formal_knowledge": [
+      "K138"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL141",
+    "source": "CH002",
+    "target": "CH050",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL142",
+    "source": "CH050",
+    "target": "CH002",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL143",
+    "source": "CH007",
+    "target": "CH018",
+    "formal_knowledge": [
+      "K092"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL144",
+    "source": "CH001",
+    "target": "CH018",
+    "formal_knowledge": [
+      "K092",
+      "K232"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL145",
+    "source": "CH005",
+    "target": "CH018",
+    "formal_knowledge": [
+      "K092"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL146",
+    "source": "CH001",
+    "target": "CH047",
+    "formal_knowledge": [
+      "K030",
+      "K198"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL147",
+    "source": "CH047",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K030",
+      "K198"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL148",
+    "source": "CH002",
+    "target": "CH052",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL149",
+    "source": "CH052",
+    "target": "CH002",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL150",
+    "source": "CH045",
+    "target": "CH015",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL151",
+    "source": "CH015",
+    "target": "CH045",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL152",
+    "source": "CH009",
+    "target": "CH044",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL153",
+    "source": "CH044",
+    "target": "CH009",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL154",
+    "source": "CH028",
+    "target": "CH064",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL155",
+    "source": "CH002",
+    "target": "CH028",
+    "formal_knowledge": [
+      "K106",
+      "K107",
+      "K205"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL156",
+    "source": "CH028",
+    "target": "CH002",
+    "formal_knowledge": [
+      "K106",
+      "K107",
+      "K205"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL157",
+    "source": "CH005",
+    "target": "CH013",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL158",
+    "source": "CH013",
+    "target": "CH005",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL159",
+    "source": "CH007",
+    "target": "CH013",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL160",
+    "source": "CH013",
+    "target": "CH007",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL161",
+    "source": "CH001",
+    "target": "CH031",
+    "formal_knowledge": [
+      "K066"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL162",
+    "source": "CH031",
+    "target": "CH001",
+    "formal_knowledge": [
+      "K066"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH001统一林昀／矢车菊／翠雀／龙胆客观主体；同名归一不合并对方眼中的不同身份。别名知识须逐一查K_TEMP，不从CH归一推出全知。"
+  },
+  {
+    "relationship": "REL163",
+    "source": "CH035",
+    "target": "CH004",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL164",
+    "source": "CH029",
+    "target": "CH017",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL165",
+    "source": "CH017",
+    "target": "CH029",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL166",
+    "source": "CH050",
+    "target": "CH007",
+    "formal_knowledge": [],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL167",
+    "source": "CH005",
+    "target": "CH007",
+    "formal_knowledge": [
+      "K018",
+      "K092",
+      "K093",
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL168",
+    "source": "CH007",
+    "target": "CH005",
+    "formal_knowledge": [
+      "K018",
+      "K092",
+      "K093",
+      "K101",
+      "K103"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL169",
+    "source": "CH039",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K224"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL170",
+    "source": "CH004",
+    "target": "CH039",
+    "formal_knowledge": [
+      "K224"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL171",
+    "source": "CH067",
+    "target": "CH004",
+    "formal_knowledge": [
+      "K072"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  },
+  {
+    "relationship": "REL172",
+    "source": "CH004",
+    "target": "CH067",
+    "formal_knowledge": [
+      "K072"
+    ],
+    "review": "没有由该关系自动生成知识；信任/依恋/合作与知道对方完整情感分开。",
+    "original_boundary": "只列相关事件的K_TEMP导航。它们可能由其他人持有；须核holder/渠道/时点，不批量赋予Source或Target。",
+    "identity_boundary": "CH为客观主体索引；角色是否知道目标真名、家庭或秘密，仍按阶段证据。"
+  }
+]

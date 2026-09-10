@@ -1,0 +1,877 @@
+{
+  "task": "FUP-3A-001",
+  "date": "2026-09-11",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "existing-file-change-allowlist",
+      "status": "PASS",
+      "detail": {
+        "changed": [
+          "canon/01_master_timeline.md",
+          "canon/BASELINE_MANIFEST.md",
+          "canon/README.md",
+          "canon/STAGE3A_PATCH_FOLLOWUPS.md",
+          "canon/events/records.json",
+          "canon/knowledge/K018.md",
+          "canon/knowledge/K098.md",
+          "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+          "canon/knowledge/by_character/CH002_knowledge.md",
+          "canon/knowledge/records.json"
+        ],
+        "allowed": [
+          "canon/01_master_timeline.md",
+          "canon/BASELINE_MANIFEST.md",
+          "canon/README.md",
+          "canon/STAGE3A_PATCH_FOLLOWUPS.md",
+          "canon/events/records.json",
+          "canon/knowledge/K018.md",
+          "canon/knowledge/K098.md",
+          "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+          "canon/knowledge/by_character/CH002_knowledge.md",
+          "canon/knowledge/records.json"
+        ]
+      }
+    },
+    {
+      "check": "old-byte-archive-authentic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "protected-inputs-byte-identical",
+      "status": "PASS",
+      "detail": {
+        "files": 271,
+        "by_directory": {
+          "source": 1,
+          "current": 1,
+          "audit": 242,
+          "performance": 27,
+          "final": 0
+        }
+      }
+    },
+    {
+      "check": "no-new-files-outside-approved-canon-review",
+      "status": "PASS",
+      "detail": [
+        "canon/CHANGELOG_FUP3A001.md",
+        "canon/FUP3A001_REVIEW.md",
+        "canon/_fup3a001/before.zip",
+        "canon/_fup3a001/changes.json",
+        "canon/_fup3a001/input_hashes.json",
+        "canon/_fup3a001/patch.py",
+        "canon/_fup3a001/verification.json",
+        "canon/_fup3a001/verify.py"
+      ]
+    },
+    {
+      "check": "sequential-local-patch-ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-002-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-004-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/01_master_timeline.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-025-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/BASELINE_MANIFEST.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-024-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/README.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-022-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/STAGE3A_PATCH_FOLLOWUPS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-001-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-003-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/events/records.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-007-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-008-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-009-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-010-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-011-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-012-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-013-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/knowledge/K018.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-014-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/knowledge/K098.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-018-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-019-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-015-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-016-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-017-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-020-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-021-unique-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/knowledge/by_character/CH002_knowledge.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-005-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "F3A2-006-before",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "full-log-replay:canon/knowledge/records.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "event-count-and-stable-order",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "knowledge-count-and-stable-order",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "transition-ids-and-order",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all-knowledge-truth-and-top-grade-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all-other-events-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "EV0067-only-two-fields",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "EV0067-white-chain-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "EV0067-no-guessed-identity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all-other-knowledge-records-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "K018-only-T005-content",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "T005-only-authorized-fields",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "T005-unaware-and-unmodified-time",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "K098-only-navigation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "K098-correction-and-truth-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "navigation-old-anchor-and-end-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "navigation-explicit-subject-belief",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all-character-files-and-original-snapshots-unchanged",
+      "status": "PASS",
+      "detail": 88
+    },
+    {
+      "check": "all-directed-relationship-files-unchanged",
+      "status": "PASS",
+      "detail": 189
+    },
+    {
+      "check": "production-query-engine-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0003:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0003:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0003:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0003:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0036:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0036:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0036:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0036:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0050:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0050:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0050:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0050:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0067:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0067:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0067:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0067:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0078:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0078:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0078:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0078:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0090:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0090:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0090:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0090:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0092:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0092:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0092:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0092:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0099:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0099:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0099:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0099:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0117:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0117:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0117:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0117:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0156:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0156:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0156:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0156:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0158:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0158:False",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-no-identity-grant:EV0158:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "query-only-controlled-delta:EV0158:True",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "profile-snapshot-query-counts",
+      "status": "PASS",
+      "detail": {
+        "EV0003": [
+          3,
+          0
+        ],
+        "EV0090": [
+          20,
+          2
+        ],
+        "EV0099": [
+          26,
+          2
+        ],
+        "EV0156": [
+          44,
+          2
+        ]
+      }
+    },
+    {
+      "check": "profile-rendered-counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "manual-navigation:CH002:EV0003:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "NONE",
+        "actual": "NONE"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0067:True",
+      "status": "PASS",
+      "detail": {
+        "expected": "NONE",
+        "actual": "NONE"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0067:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "FRAGMENT",
+        "actual": "FRAGMENT"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0078:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "FRAGMENT",
+        "actual": "FRAGMENT"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0090:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "FRAGMENT",
+        "actual": "FRAGMENT"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0092:True",
+      "status": "PASS",
+      "detail": {
+        "expected": "FRAGMENT",
+        "actual": "FRAGMENT"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0092:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "CORRECTION",
+        "actual": "CORRECTION"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0117:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "CORRECTION",
+        "actual": "CORRECTION"
+      }
+    },
+    {
+      "check": "manual-navigation:CH010:EV0067:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "NONE",
+        "actual": "NONE"
+      }
+    },
+    {
+      "check": "manual-navigation:CH002:EV0050:False",
+      "status": "PASS",
+      "detail": {
+        "expected": "NONE",
+        "actual": "NONE"
+      }
+    },
+    {
+      "check": "query-does-not-auto-project-early-K098",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH001:EV0036",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH001:EV0067",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH001:EV0092",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH001:EV0158",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH003:EV0036",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH003:EV0067",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH003:EV0092",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH003:EV0158",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH010:EV0036",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH010:EV0067",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH010:EV0092",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "other-subject-query-identical:CH010:EV0158",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "historical-v1.1-machine-manifest-unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "v1.1-deltas-exactly-authorized",
+      "status": "PASS",
+      "detail": [
+        "01_master_timeline.md",
+        "README.md",
+        "STAGE3A_PATCH_FOLLOWUPS.md",
+        "events/records.json",
+        "knowledge/K018.md",
+        "knowledge/K098.md",
+        "knowledge/KNOWLEDGE_TRANSITIONS.md",
+        "knowledge/by_character/CH002_knowledge.md",
+        "knowledge/records.json"
+      ]
+    },
+    {
+      "check": "current-baseline-banner:README.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "current-baseline-banner:BASELINE_MANIFEST.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "changed-report-local-file-links",
+      "status": "PASS",
+      "detail": {
+        "checked": 3387,
+        "errors": []
+      }
+    },
+    {
+      "check": "source-content-hash",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:4190-4196",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:4230-4255",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:7194-7198",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:13780-13785",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:13844-13854",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source-anchor:20800-20805",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "followup-resolved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "review-formal-conclusion",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "passed": 141,
+  "failed": 0,
+  "original_files": 951,
+  "original_files_unchanged": 941,
+  "modified_existing_files": [
+    "canon/01_master_timeline.md",
+    "canon/BASELINE_MANIFEST.md",
+    "canon/README.md",
+    "canon/STAGE3A_PATCH_FOLLOWUPS.md",
+    "canon/events/records.json",
+    "canon/knowledge/K018.md",
+    "canon/knowledge/K098.md",
+    "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "canon/knowledge/by_character/CH002_knowledge.md",
+    "canon/knowledge/records.json"
+  ],
+  "protected_files": 271,
+  "new_files": [
+    "canon/CHANGELOG_FUP3A001.md",
+    "canon/FUP3A001_REVIEW.md",
+    "canon/_fup3a001/before.zip",
+    "canon/_fup3a001/changes.json",
+    "canon/_fup3a001/input_hashes.json",
+    "canon/_fup3a001/patch.py",
+    "canon/_fup3a001/verification.json",
+    "canon/_fup3a001/verify.py"
+  ],
+  "counts": {
+    "events": 192,
+    "knowledge": 235,
+    "transitions": 365
+  },
+  "snapshots": {
+    "EV0003": [
+      3,
+      0
+    ],
+    "EV0090": [
+      20,
+      2
+    ],
+    "EV0099": [
+      26,
+      2
+    ],
+    "EV0156": [
+      44,
+      2
+    ]
+  },
+  "historical_v1_1_expected_deltas": [
+    "01_master_timeline.md",
+    "README.md",
+    "STAGE3A_PATCH_FOLLOWUPS.md",
+    "events/records.json",
+    "knowledge/K018.md",
+    "knowledge/K098.md",
+    "knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "knowledge/by_character/CH002_knowledge.md",
+    "knowledge/records.json"
+  ],
+  "scope": "Local static/data/query regression. Manual-navigation contract checked separately. No Performance edits, model generation, human acceptance or new baseline freeze."
+}

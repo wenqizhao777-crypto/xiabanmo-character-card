@@ -1885,7 +1885,7 @@
     "truth": "TRUE",
     "grade": "A",
     "scope": "PRIVATE",
-    "boundary": "EV0019只构成暴露线索；明确解释获知时间在EV0020 L4299–4311。",
+    "boundary": "EV0019 L4176已确认父早知；EV0020才获电视时点及红补告的具体解释，两层不能压成同一获取。",
     "canon_status": "CONFIRMED",
     "source_layer": "NOVEL_TEXT",
     "temp_ids": [
@@ -1895,11 +1895,13 @@
       {
         "subject": "CH002",
         "event": "EV0020",
-        "from_state": "SUSPECTS",
+        "from_state": "CONFIRMED",
         "to_state": "CONFIRMED",
         "known_content": "爸爸说在我上电视那天就知道我是魔法少女。",
-        "source": "当面坦白",
-        "source_subjects": [],
+        "source": "返程父亲明确说明",
+        "source_subjects": [
+          "CH001"
+        ],
         "acquisition": {
           "epoch": "CURRENT",
           "event": "EV0020",
@@ -1920,27 +1922,71 @@
         "knowledge_grade": "A",
         "certainty": "确信本条限定内容",
         "correctness": "CORRECT_WITHIN_SCOPE",
-        "observation": "当面坦白",
+        "observation": "返程问答",
         "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
         "disclosure_state": "NOT_DISCLOSED",
         "sharing": "NO_AUTOMATIC_SHARING",
         "validity": "PERSISTENT_AS_KNOWLEDGE",
         "temp_origin": "K_TEMP_019",
         "id": "K017-T001"
+      },
+      {
+        "subject": "CH002",
+        "event": "EV0019",
+        "from_state": "SUSPECTS",
+        "to_state": "CONFIRMED",
+        "known_content": "爸爸在我坦白前就知道我是魔法少女，具体何时和如何知道尚未解释。",
+        "source": "坦白与父亲回应",
+        "source_subjects": [
+          "CH001"
+        ],
+        "acquisition": {
+          "epoch": "CURRENT",
+          "event": "EV0019",
+          "point": 4178,
+          "description": "纪念日遇袭出战前，父女坦白现场",
+          "order_policy": "历史用偏序，不按回忆在正文的行号；当代用实际发生/获知子段末行作边界。"
+        },
+        "first_acquisition_note": "本命题对此主体有证据的节点；UNKNOWN前态不声称这是生命中第一次接触。",
+        "source_ranges": [
+          [
+            4157,
+            4178
+          ]
+        ],
+        "evidence_navigation": [
+          "E077"
+        ],
+        "knowledge_grade": "A",
+        "certainty": "确信本条限定内容",
+        "correctness": "CORRECT_WITHIN_SCOPE",
+        "observation": "父亲指出隐瞒身份已久；自己回应果然早就知道",
+        "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
+        "disclosure_state": "NOT_DISCLOSED",
+        "sharing": "NO_AUTOMATIC_SHARING",
+        "validity": "PERSISTENT_AS_KNOWLEDGE",
+        "temp_origin": "K_TEMP_019",
+        "id": "K017-T002"
       }
     ],
     "reader_revelations": [],
     "disclosures": [],
     "evidence_navigation": [
+      "E077",
       "E079"
     ],
     "source_ranges": [
+      [
+        4157,
+        4178
+      ],
       [
         4299,
         4311
       ]
     ],
     "events": [
+      "EV0019",
       "EV0020"
     ],
     "character_refs": [
@@ -1959,7 +2005,7 @@
     "important_unknown": false,
     "has_error": false,
     "secret": true,
-    "first_documented_event": "EV0020",
+    "first_documented_event": "EV0019",
     "first_event_note": "正文最早导航事件，不作为全局获取时间；获取时间以各T节点为准。",
     "verification": "207TEMP逐项语义整理＋189Event语义对照＋70CH/172REL边界扫描＋高风险源段复核；不冒称本阶段重新全文逐字阅读。"
   },
@@ -2150,10 +2196,10 @@
       {
         "subject": "CH002",
         "event": "EV0067",
-        "from_state": "SUSPECTS",
-        "to_state": "DISBELIEVES",
-        "known_content": "我猜过爸爸和翠雀可能同一人，却自行否定，改认为二人在恋爱。",
-        "source": "自行压下猜测改信恋爱",
+        "from_state": "UNAWARE",
+        "to_state": "UNAWARE",
+        "known_content": "我仍分别看待爸爸与翠雀，把月圆夜的离家和救援解释为爸爸找来了翠雀，认为二人在恋爱；未识破同一身份。",
+        "source": "当期小璐视角与恋爱误解；无同一身份披露",
         "source_subjects": [],
         "acquisition": {
           "epoch": "CURRENT",
@@ -2192,11 +2238,11 @@
           "E194",
           "E195"
         ],
-        "knowledge_grade": "D",
-        "certainty": "不接受此命题",
-        "correctness": "CORRECT_WITHIN_SCOPE",
-        "observation": "自行压下猜测改信恋爱",
-        "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
+        "knowledge_grade": "A",
+        "certainty": "本时点未识破同一身份；不证明她终生从未产生任何疑问",
+        "correctness": "UNKNOWN",
+        "observation": "月圆夜父亲离家、翠雀救援及摩丝的暧昧说法；梦境被本人解释为母亲认可后妈",
+        "interpretation": "源文只支持当期的两人/恋爱解释，不支持她先猜同人再主动否定。E193旧摘要的电话线索不得移给小璐；恋爱片段只沿K098限定导航读取，不能授予K018。",
         "disclosure_state": "NOT_DISCLOSED",
         "sharing": "NO_AUTOMATIC_SHARING",
         "validity": "PERSISTENT_AS_KNOWLEDGE",
@@ -2814,7 +2860,18 @@
     "secret": true,
     "first_documented_event": "EV0189",
     "first_event_note": "正文最早导航事件，不作为全局获取时间；获取时间以各T节点为准。",
-    "verification": "207TEMP逐项语义整理＋189Event语义对照＋70CH/172REL边界扫描＋高风险源段复核；不冒称本阶段重新全文逐字阅读。"
+    "verification": "207TEMP逐项语义整理＋189Event语义对照＋70CH/172REL边界扫描＋高风险源段复核；不冒称本阶段重新全文逐字阅读。",
+    "cross_references": [
+      {
+        "kind": "MISCONCEPTION_CONTINUATION",
+        "knowledge_id": "K098",
+        "transition_id": "K098-T001",
+        "subject": "CH002",
+        "event": "EV0092",
+        "origin_transition_id": "K018-T005",
+        "content_scope": "恋爱误解片段后来被放下，仍未由此确认林翠同人。原有两命题的truth和各自state不互换。"
+      }
+    ]
   },
   {
     "id": "K019",
@@ -4923,7 +4980,7 @@
         "event": "EV0035",
         "from_state": "UNKNOWN",
         "to_state": "PARTIAL",
-        "known_content": "薄雪的当期治疗能修好翠雀旧本相伤",
+        "known_content": "我暗中接引白的魔力试过旧伤，没有可感知改善；不排除过于微小的效果，也不判断她未来永远无效。",
         "source": "实际无可感效果",
         "source_subjects": [],
         "acquisition": {
@@ -4948,7 +5005,7 @@
         ],
         "knowledge_grade": "A",
         "certainty": "仅掌握所列片段，未证全貌",
-        "correctness": "UNKNOWN",
+        "correctness": "CORRECT_WITHIN_SCOPE",
         "observation": "实际无可感效果",
         "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
         "disclosure_state": "NOT_DISCLOSED",
@@ -11509,7 +11566,7 @@
     "truth": "TRUE",
     "grade": "A",
     "scope": "ROLE_RESTRICTED",
-    "boundary": "两次公布时间分别保留；不是国度统一资格制度。",
+    "boundary": "EV0085跨提议至撤回；当前专属获取节点只登记撤回后的限定总结，不将整件事末态用于中段。不是国度统一资格制度；中段查询须按源行补核，不能从会后节点倒推。",
     "canon_status": "CONFIRMED",
     "source_layer": "NOVEL_TEXT",
     "temp_ids": [
@@ -13142,7 +13199,31 @@
     "secret": true,
     "first_documented_event": "EV0092",
     "first_event_note": "正文最早导航事件，不作为全局获取时间；获取时间以各T节点为准。",
-    "verification": "207TEMP逐项语义整理＋189Event语义对照＋70CH/172REL边界扫描＋高风险源段复核；不冒称本阶段重新全文逐字阅读。"
+    "verification": "207TEMP逐项语义整理＋189Event语义对照＋70CH/172REL边界扫描＋高风险源段复核；不冒称本阶段重新全文逐字阅读。",
+    "cross_references": [
+      {
+        "kind": "ORIGIN_NAVIGATION_ONLY",
+        "knowledge_id": "K018",
+        "transition_id": "K018-T005",
+        "subject": "CH002",
+        "event": "EV0067",
+        "point": 14075,
+        "content_scope": "仅投影CH002在既有EV0067来源锚点持有的恋爱误解，不把K018的UNAWARE转换成K098状态，不提供同一身份秘密。",
+        "valid_until_transition": "K098-T001",
+        "source_ranges": [
+          [
+            13835,
+            13854
+          ],
+          [
+            13969,
+            13983
+          ]
+        ],
+        "qualification": "FUP-3A-001已核证为REJECT_CAUSAL_INTERPRETATION；原节点的先猜同人再否定撤回。来源锚点仍为保守接管位置，不宣称首次产生恋爱想法；本导航需由调用者按主体/时间显式读取。",
+        "known_content_fragment": "爸爸与翠雀有秘密的情侣关系，是爸爸在月圆夜把翠雀找来。"
+      }
+    ]
   },
   {
     "id": "K099",
@@ -22652,7 +22733,7 @@
         "event": "EV0138",
         "from_state": "SUSPECTS",
         "to_state": "PARTIAL",
-        "known_content": "箭根薯必须维持完整人形才能施符",
+        "known_content": "血蝠融入箭的身体后，她仍能凝符；我先前把完整人形当必要条件的推断不完整。这与箭整个人融进血蝠的状态不同。",
         "source": "敌改变融合方式；旧条件非全貌",
         "source_subjects": [],
         "acquisition": {
@@ -22689,7 +22770,7 @@
         ],
         "knowledge_grade": "A",
         "certainty": "仅掌握所列片段，未证全貌",
-        "correctness": "UNKNOWN",
+        "correctness": "CORRECT_WITHIN_SCOPE",
         "observation": "敌改变融合方式；旧条件非全貌",
         "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
         "disclosure_state": "NOT_DISCLOSED",
@@ -23976,7 +24057,7 @@
     "truth": "TRUE",
     "grade": "A",
     "scope": "SECRET",
-    "boundary": "土狗于末场前亲见揭伪；矢旧名另连035，不含男身。",
+    "boundary": "土狗于末场前亲见揭伪；矢旧名另连K033，不含男身。",
     "canon_status": "CONFIRMED",
     "source_layer": "NOVEL_TEXT",
     "temp_ids": [
@@ -30670,7 +30751,7 @@
         "event": "EV0163",
         "from_state": "UNKNOWN",
         "to_state": "CONFIRMED",
-        "known_content": "我与摩可共同成长，向它说明返国和职务安排。",
+        "known_content": "我与摩可在花园共同成长；这次向翠雀说明返国和职务安排。",
         "source": "本人经历及谈话",
         "source_subjects": [],
         "acquisition": {
@@ -30695,7 +30776,7 @@
         "correctness": "CORRECT_WITHIN_SCOPE",
         "observation": "本人经历及谈话",
         "interpretation": "仅上述知识范围；完整机制/动机/来源和未来结果不由此推定。",
-        "disclosure_state": "NOT_DISCLOSED",
+        "disclosure_state": "PARTIALLY_DISCLOSED",
         "sharing": "NO_AUTOMATIC_SHARING",
         "validity": "PERSISTENT_AS_KNOWLEDGE",
         "temp_origin": null,

@@ -1,0 +1,158 @@
+{
+  "modified": [
+    {
+      "path": "canon/BASELINE_MANIFEST.md",
+      "before": "78bf743c95c948b7cd66da6823c81ef5b9d00ee0d9dbae73aeabacce6553d308",
+      "after": "de17b056a00bca4932fbb96c3733d4a93e23481289f2003be3219be9fc57e159"
+    },
+    {
+      "path": "canon/README.md",
+      "before": "922e43eb35a5b91cc1c2372c6b1020a9e7633a41db4e350b5f7ce2ecb35955a6",
+      "after": "bb5d280a7253d55fe7e6af120ee89218e65c727400348dab679550a8b1878db9"
+    },
+    {
+      "path": "canon/characters/CH005_红思与.md",
+      "before": "00927bcc33a48551323f96c048dde43391faca3ec84a92f6dd255e03b8558573",
+      "after": "49aa9ceb8b49d0d4d8ffa7d9e585071ece88e9a87f5301c990f0ead6ea666037"
+    },
+    {
+      "path": "canon/characters/CH006_安雅.md",
+      "before": "08c336ab7a5493fd204460a8a13c4d5e3cd0c8f59503ab3945663817cccfd4b4",
+      "after": "37682fa91119e314b59365fcb1f57f0300036b3a204da6c40db71907e79ba254"
+    },
+    {
+      "path": "canon/characters/CH010_摩可.md",
+      "before": "4992b30f2e84b5b326d5de2fd473aaaa3ad71a9b5ad3c54e4d978c842f51c1dd",
+      "after": "aa7ed8ea5a1790bbb4a8674a99eae159768ebfa279b8fc603fc04d992a3f5c99"
+    },
+    {
+      "path": "canon/characters/CH029_现任紫钻.md",
+      "before": "f9246f8d16754f6c33dabb58d565ef6bead0591433cca43f7ff32c9e3fa414d6",
+      "after": "c2db8c1e4767cdae5c24773cc97a3a2d90f69e80f69459a1d701e3423f937f79"
+    },
+    {
+      "path": "canon/characters/records.json",
+      "before": "3c121e09f5a7b9acd34b7503053b2bdf7b65e40e4b1c20a0b4fe2713da3d245d",
+      "after": "1ed702b611cd798212d4c850cb98b3fdb7d31ef7acb0faa9f03fd9acd6a8aad8"
+    },
+    {
+      "path": "canon/knowledge/K018.md",
+      "before": "e7a192d4f6a5bc72de3f390eea384b163fba4eaf92c312f81dfdbac0d2da1e3b",
+      "after": "e2d58e84e12e984fca8e6efb90eb579ddced1de4dc09d52b2f07ac0e5a1c8500"
+    },
+    {
+      "path": "canon/knowledge/K098.md",
+      "before": "71c2d81bf3b7eddf3e653c468b6a5e7393edfc9b4ff86a542eaa58f5e050c3ee",
+      "after": "7715d1d2c8bead12a26640e1f3d5a61f9d10af48289c9b9074510d3c5a8358dd"
+    },
+    {
+      "path": "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+      "before": "13ffa722536dc1ae96ec9b280a3642c59fc28fb3be1a55faf6363dff2f7583a2",
+      "after": "1de00e35ae8d29b4113b43c7579092f8daf56805e6b52cb6c5b2b2fb9a29be4b"
+    },
+    {
+      "path": "canon/knowledge/records.json",
+      "before": "97617ee0df80e4b0ec28baef2fbc53b97ee43560e4a98491c82c3c6d9e6564f0",
+      "after": "063dacf9b9c26f6839a1158c7558d8f6915de89d7b93f767eed04703733661c1"
+    },
+    {
+      "path": "canon/relationships/RELATIONSHIP_MATRIX.md",
+      "before": "f3837c0419b457799af5c41eeb523ae656d55d834480883b25dc0ca7a3a9c046",
+      "after": "8b2c4b58cb8bb1d85509abd1923f8f97cf377a4dd8a3f45ee8cf91b1990de206"
+    },
+    {
+      "path": "canon/knowledge/by_character/CH002_knowledge.md",
+      "before": "6d2c9a72037770d1023b4ebef8dc1c2c9d2cf722099f5f425e59e2c3fa7d4750",
+      "after": "2214e9f0acffb8c3dff10c8ebd99c2c433573c0fdacbc1120505c50b8edef50b"
+    },
+    {
+      "path": "canon/knowledge/by_character/CH005_knowledge.md",
+      "before": "39f5ea48ccee88f37fc461a8acf8bc0e88c2dbb8a122af9498ac21153a942ad6",
+      "after": "4eee09f840a717ae42663bacb5c10a7d686362702a2c2c5ae8dfb9e52695c9a1"
+    },
+    {
+      "path": "canon/knowledge/by_character/CH010_knowledge.md",
+      "before": "16213c79c76f14958d4ae474180298b0f434e8eea33c8ace06e61744a695d363",
+      "after": "9dd5478fa84b7af5847c16d0b22c8bfe7562e261f02fdf669da56c6bc7838cb0"
+    }
+  ],
+  "added": [
+    {
+      "path": "canon/CHANGELOG_STAGE3A_PATCH.md",
+      "sha256": "e8daf3cc85803bceec5573c25d51f2497ad776238062eb5293013fd8d46f9173",
+      "kind": "PUBLIC_REPORT"
+    },
+    {
+      "path": "canon/STAGE3A_CANON_PATCH_REVIEW.md",
+      "sha256": "5b085d75ebff5a4842658b17a623152b7c27bf420958235a743aa462bd5de415",
+      "kind": "PUBLIC_REPORT"
+    },
+    {
+      "path": "canon/STAGE3A_PATCH_FOLLOWUPS.md",
+      "sha256": "b3e0606e849eb77b1d877eff2194ff7149f27abd86e340ec949124062fa5ee98",
+      "kind": "PUBLIC_REPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/apply_patch.py",
+      "sha256": "13b3232d8bf2722f2bf65fa1687887bf368c469105ca62fe49e52c14b4b89833",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/BASELINE_MANIFEST_V1.md",
+      "sha256": "78bf743c95c948b7cd66da6823c81ef5b9d00ee0d9dbae73aeabacce6553d308",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/baseline_v1_1_manifest.json",
+      "sha256": "36670c6b34d2abb56ff28dce713e4ebc965985b79412a845817ecda10e313254",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/baseline_v1_canon.zip",
+      "sha256": "5660da454876e4646680c6eca42ccb6ce6a7abd8cd4ad1e15b29cd6bedd49fc2",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/baseline_v1_manifest.json",
+      "sha256": "5d2937c33ba513172f424953667e2cac8538b395e8883b02988d93d7490efe52",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/check_patch.py",
+      "sha256": "cbf907df12bcbe2ba606bfbe4eea4440ef6e35b4798cec35e6aecf23c6c51c78",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/finalize_patch.py",
+      "sha256": "64699e71e21851f19548aa1522bead5b9e14aff9d7b69bb573653297ef89410c",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/input_baseline.json",
+      "sha256": "63b0d460df51564c862c1e28cb0d2120f992ea77d9d58fc922c5ee5d0c2f8270",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/manifest_verification.json",
+      "sha256": null,
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/patch_changes.json",
+      "sha256": "d1ce215893ea1340298c318b4fde5ee4b2c613e04d57d84d53eb4e37ed5ac2c2",
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/regression_results.json",
+      "sha256": null,
+      "kind": "PATCH_SUPPORT"
+    },
+    {
+      "path": "canon/_stage3a_patch/version_changes.json",
+      "sha256": "348b3f007058e687054bc2de088d3dfad6cf373698665e1a4f730827a9544321",
+      "kind": "PATCH_SUPPORT"
+    }
+  ],
+  "deleted": [],
+  "note": "本文件自指排除；可重跑的检查/冻结验证回执不在此填固定哈希。完整稳定哈希见当前 Manifest，两个 Manifest 与局部检查回执哈希见最终验证回执。"
+}

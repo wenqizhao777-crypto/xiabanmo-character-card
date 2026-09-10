@@ -127,6 +127,13 @@
         269,
         271
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K001"
+    ],
+    "formal_relationship_refs": [
+      "REL001"
     ]
   },
   {
@@ -220,7 +227,12 @@
       "P_TEMP_001",
       "P_TEMP_003"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K002"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0003",
@@ -348,6 +360,14 @@
         874,
         876
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K003",
+      "K191"
+    ],
+    "formal_relationship_refs": [
+      "REL002"
     ]
   },
   {
@@ -453,7 +473,12 @@
         874,
         876
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K004"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0005",
@@ -578,6 +603,15 @@
         1283,
         1285
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K005",
+      "K192"
+    ],
+    "formal_relationship_refs": [
+      "REL003",
+      "REL005"
     ]
   },
   {
@@ -680,7 +714,12 @@
         1340,
         1342
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K006"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0007",
@@ -787,7 +826,12 @@
       "P_TEMP_006",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K007"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0008",
@@ -902,7 +946,14 @@
       "P_TEMP_002",
       "P_TEMP_001"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K008"
+    ],
+    "formal_relationship_refs": [
+      "REL005"
+    ]
   },
   {
     "id": "EV0009",
@@ -1014,6 +1065,13 @@
         2166,
         2171
       ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K009"
+    ],
+    "formal_relationship_refs": [
+      "REL006"
     ]
   },
   {
@@ -1112,7 +1170,12 @@
       "P_TEMP_008",
       "P_TEMP_009"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K010"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0011",
@@ -1224,7 +1287,12 @@
     "character_refs": [
       "P_TEMP_004"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K006"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0012",
@@ -1315,7 +1383,13 @@
       "P_TEMP_001",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL001",
+      "REL002"
+    ]
   },
   {
     "id": "EV0013",
@@ -1432,7 +1506,15 @@
       "P_TEMP_007",
       "P_TEMP_010"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K011",
+      "K012"
+    ],
+    "formal_relationship_refs": [
+      "REL007"
+    ]
   },
   {
     "id": "EV0014",
@@ -1523,7 +1605,12 @@
       "P_TEMP_002",
       "P_TEMP_011"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL002"
+    ]
   },
   {
     "id": "EV0015",
@@ -1627,6 +1714,12 @@
         2918,
         2920
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL001",
+      "REL003"
     ]
   },
   {
@@ -1768,7 +1861,15 @@
       "P_TEMP_004",
       "P_TEMP_006"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K013"
+    ],
+    "formal_relationship_refs": [
+      "REL003",
+      "REL004"
+    ]
   },
   {
     "id": "EV0017",
@@ -1882,7 +1983,13 @@
       "P_TEMP_006",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K014",
+      "K015"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0018",
@@ -1999,7 +2106,14 @@
       "P_TEMP_006",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K016"
+    ],
+    "formal_relationship_refs": [
+      "REL003"
+    ]
   },
   {
     "id": "EV0019",
@@ -2040,10 +2154,10 @@
     "knowledge": [
       [
         "林小璐",
-        "父亲知道白玫身份",
+        "父亲在自己坦白前已知道少女身份；具体何时及渠道未明",
         "SUSPECTED",
         "CONFIRMED",
-        "当面坦白"
+        "当面坦白与父亲回应，L4157–4178"
       ],
       [
         "夏凉",
@@ -2117,7 +2231,15 @@
       "P_TEMP_002",
       "P_TEMP_006"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K017",
+      "K018"
+    ],
+    "formal_relationship_refs": [
+      "REL002"
+    ]
   },
   {
     "id": "EV0020",
@@ -2157,6 +2279,13 @@
         "UNKNOWN",
         "PARTIALLY_CONFIRMED",
         "照片及辨认"
+      ],
+      [
+        "林小璐",
+        "父亲从电视得知的时间及后来红的告知",
+        "PARTIALLY_CONFIRMED",
+        "CONFIRMED",
+        "返程明确问答L4299–4311"
       ]
     ],
     "relationships": [],
@@ -2199,7 +2328,8 @@
     ],
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
     "knowledge_refs": [
-      "K_TEMP_021"
+      "K_TEMP_021",
+      "K_TEMP_019"
     ],
     "relationship_refs": [],
     "character_refs": [
@@ -2207,7 +2337,14 @@
       "P_TEMP_002",
       "P_TEMP_006"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K017",
+      "K019",
+      "K193"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0021",
@@ -2326,7 +2463,13 @@
         4394,
         4438
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K020",
+      "K021"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0022",
@@ -2421,7 +2564,13 @@
       "P_TEMP_004",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K022",
+      "K194"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0023",
@@ -2512,7 +2661,13 @@
       "P_TEMP_004",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL001",
+      "REL002"
+    ]
   },
   {
     "id": "EV0024",
@@ -2615,7 +2770,15 @@
       "P_TEMP_012",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K023",
+      "K195"
+    ],
+    "formal_relationship_refs": [
+      "REL008"
+    ]
   },
   {
     "id": "EV0025",
@@ -2715,7 +2878,12 @@
       "P_TEMP_012",
       "P_TEMP_015"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K024"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0026",
@@ -2825,7 +2993,14 @@
       "P_TEMP_014",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K025",
+      "K026",
+      "K196"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0027",
@@ -2918,7 +3093,13 @@
       "P_TEMP_005",
       "P_TEMP_017"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K027",
+      "K197"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0028",
@@ -3024,7 +3205,12 @@
       "P_TEMP_018",
       "P_TEMP_019"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K028"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0029",
@@ -3129,7 +3315,12 @@
       "P_TEMP_004",
       "P_TEMP_018"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K029"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0030",
@@ -3218,7 +3409,13 @@
       "P_TEMP_019",
       "P_TEMP_007"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K030",
+      "K198"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0031",
@@ -3337,7 +3534,12 @@
         6308,
         6326
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K031"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0032",
@@ -3461,7 +3663,16 @@
       "P_TEMP_012",
       "P_TEMP_020"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K032",
+      "K033",
+      "K034"
+    ],
+    "formal_relationship_refs": [
+      "REL009"
+    ]
   },
   {
     "id": "EV0033",
@@ -3550,7 +3761,12 @@
       "P_TEMP_001",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL002"
+    ]
   },
   {
     "id": "EV0034",
@@ -3658,7 +3874,13 @@
       "P_TEMP_021",
       "P_TEMP_022"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K010",
+      "K035"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0035",
@@ -3756,7 +3978,12 @@
       "P_TEMP_024",
       "P_TEMP_025"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K036"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0036",
@@ -3837,7 +4064,7 @@
         7291
       ]
     ],
-    "location": "基地",
+    "location": "夏凉家阳台；L7141–7145。",
     "claim_scope": "事件中直接呈现的行动及结果按A/CONFIRMED；说法、判断、评价、未兑现计划按下列限制单独读取。",
     "qualified_claims": [
       {
@@ -3878,7 +4105,15 @@
       "P_TEMP_004",
       "P_TEMP_006"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K018"
+    ],
+    "formal_relationship_refs": [
+      "REL003",
+      "REL004"
+    ]
   },
   {
     "id": "EV0037",
@@ -3912,22 +4147,14 @@
       "红思与"
     ],
     "witnesses": "现场直接参加各自行动者：林昀、安雅、玛格丽特、苏胜紫、沃波、红思与。仅限其直接经历部分；不含不在场的回忆/转述过程。",
-    "later_informed": "夏凉经当代出游中翠雀口述获“旧队成员与加入顺序” → PARTIALLY_CONFIRMED",
+    "later_informed": "夏凉在当代EV0039听翠雀回述；并非参与历史组队或在历史节点已知。",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "最初林安两人同行",
     "occurrence": "林昀为护安雅变身，两人组队；玛格丽特来城加入，沃波找到苏胜紫；高中红被矢车菊救后为第五人入队",
     "direct_result": "所属：两人→四人旧队→红加入五人阶段",
     "long_term": "后续/补叙状态续接：EV0111。边表示对照与回接，不自行增添因果或传播。",
     "changes": "所属：两人→四人旧队→红加入五人阶段",
-    "knowledge": [
-      [
-        "夏凉",
-        "旧队成员与加入顺序",
-        "UNKNOWN",
-        "PARTIALLY_CONFIRMED",
-        "当代出游中翠雀口述"
-      ]
-    ],
+    "knowledge": [],
     "relationships": [
       [
         "林昀",
@@ -3976,9 +4203,7 @@
       ]
     ],
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
-    "knowledge_refs": [
-      "K_TEMP_039"
-    ],
+    "knowledge_refs": [],
     "relationship_refs": [
       "REL_TEMP_013"
     ],
@@ -3990,7 +4215,12 @@
       "P_TEMP_029",
       "P_TEMP_007"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL010"
+    ]
   },
   {
     "id": "EV0038",
@@ -4120,7 +4350,14 @@
       "P_TEMP_006",
       "P_TEMP_030"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K038"
+    ],
+    "formal_relationship_refs": [
+      "REL011"
+    ]
   },
   {
     "id": "EV0039",
@@ -4178,6 +4415,13 @@
         "UNKNOWN",
         "MISUNDERSTOOD",
         "以男性不可能变身否定真实可能"
+      ],
+      [
+        "夏凉",
+        "旧队成员与加入顺序",
+        "UNKNOWN",
+        "PARTIALLY_CONFIRMED",
+        "当代出游中翠雀口述"
       ]
     ],
     "relationships": [],
@@ -4228,7 +4472,8 @@
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
     "knowledge_refs": [
       "K_TEMP_041",
-      "K_TEMP_042"
+      "K_TEMP_042",
+      "K_TEMP_039"
     ],
     "relationship_refs": [],
     "character_refs": [
@@ -4237,7 +4482,14 @@
       "P_TEMP_031",
       "P_TEMP_032"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K033",
+      "K037",
+      "K039"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0040",
@@ -4338,7 +4590,12 @@
       "P_TEMP_016",
       "P_TEMP_033"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K040"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0041",
@@ -4461,7 +4718,12 @@
         8733,
         8735
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K041"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0042",
@@ -4605,7 +4867,13 @@
       "P_TEMP_037",
       "P_TEMP_038"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K042",
+      "K043"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0043",
@@ -4735,7 +5003,12 @@
       "P_TEMP_004",
       "P_TEMP_039"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K044"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0044",
@@ -4841,7 +5114,12 @@
       "P_TEMP_039",
       "P_TEMP_040"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K045"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0045",
@@ -4962,7 +5240,12 @@
       "P_TEMP_040",
       "P_TEMP_041"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K046"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0046",
@@ -5070,7 +5353,12 @@
       "P_TEMP_041",
       "P_TEMP_042"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K047"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0047",
@@ -5180,7 +5468,12 @@
       "P_TEMP_002",
       "P_TEMP_014"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K048"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0048",
@@ -5322,7 +5615,13 @@
       "P_TEMP_007",
       "P_TEMP_003"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K049",
+      "K050"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0049",
@@ -5476,7 +5775,13 @@
       "P_TEMP_007",
       "P_TEMP_003"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K051",
+      "K052"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0050",
@@ -5602,7 +5907,14 @@
       "P_TEMP_001",
       "P_TEMP_043"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K018"
+    ],
+    "formal_relationship_refs": [
+      "REL012"
+    ]
   },
   {
     "id": "EV0051",
@@ -5714,7 +6026,14 @@
       "P_TEMP_028",
       "P_TEMP_044"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K053"
+    ],
+    "formal_relationship_refs": [
+      "REL013"
+    ]
   },
   {
     "id": "EV0052",
@@ -5815,7 +6134,12 @@
         11600,
         11602
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K054"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0053",
@@ -5915,7 +6239,13 @@
         11639,
         11641
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K055",
+      "K056"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0054",
@@ -6039,6 +6369,14 @@
         11706,
         11757
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K057"
+    ],
+    "formal_relationship_refs": [
+      "REL012",
+      "REL014"
     ]
   },
   {
@@ -6167,7 +6505,13 @@
       "P_TEMP_005",
       "P_TEMP_010"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K058",
+      "K059"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0056",
@@ -6283,7 +6627,13 @@
       "P_TEMP_006",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K033",
+      "K060"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0057",
@@ -6394,7 +6744,12 @@
       "P_TEMP_005",
       "P_TEMP_046"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K061"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0058",
@@ -6428,15 +6783,9 @@
     "long_term": "UNKNOWN：本节点尚无单列的后续结果。",
     "changes": "能力：蕾→后来花；伤势：花园战留下无法正常痊愈的损伤",
     "knowledge": [],
-    "relationships": [
-      [
-        "林昀",
-        "女儿",
-        "复仇冲动与避免其失依相牵制"
-      ]
-    ],
+    "relationships": [],
     "related_events": [],
-    "note": "年号与年龄来源分开，不反推生日；1979详细事件见EV0141等。",
+    "note": "年号与年龄来源分开，不反推生日；1979详细事件见EV0141等。 L12400–12412的亡妻后回顾独立为EV0192，非本事件少年时层。",
     "verification": "SOURCE_ANCHORS_RECHECKED",
     "revealed_at": [
       [
@@ -6470,9 +6819,7 @@
     ],
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
     "knowledge_refs": [],
-    "relationship_refs": [
-      "REL_TEMP_019"
-    ],
+    "relationship_refs": [],
     "character_refs": [
       "P_TEMP_001",
       "P_TEMP_043",
@@ -6483,7 +6830,10 @@
         12414,
         12416
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0059",
@@ -6585,7 +6935,12 @@
       "P_TEMP_010",
       "P_TEMP_048"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K062"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0060",
@@ -6691,7 +7046,14 @@
       "P_TEMP_010",
       "P_TEMP_023"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K063"
+    ],
+    "formal_relationship_refs": [
+      "REL002"
+    ]
   },
   {
     "id": "EV0061",
@@ -6774,7 +7136,12 @@
       "P_TEMP_027",
       "P_TEMP_035"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K064"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0062",
@@ -6870,7 +7237,12 @@
       "P_TEMP_004",
       "P_TEMP_022"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K065"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0063",
@@ -6990,7 +7362,12 @@
         13134,
         13136
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K066"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0064",
@@ -7075,7 +7452,13 @@
       "P_TEMP_050",
       "P_TEMP_051"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K067",
+      "K199"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0065",
@@ -7197,7 +7580,12 @@
       "P_TEMP_001",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K068"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0066",
@@ -7216,7 +7604,7 @@
     ],
     "time_layer": "当代中段",
     "time_tier": "T2",
-    "time": "蛾死后获救；卷二25当日返国",
+    "time": "蛾死后获救并进入基地；尚未到EV0163返国计划",
     "participants": [
       "妮妮",
       "摩可",
@@ -7274,7 +7662,10 @@
         15459,
         15461
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0067",
@@ -7321,7 +7712,7 @@
       "三新人"
     ],
     "witnesses": "现场直接参加各自行动者：林昀、白静萱、田胜、三新人。仅限其直接经历部分；不含不在场的回忆/转述过程。",
-    "later_informed": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐经自行压下猜测改信恋爱获“林昀＝翠雀” → REJECTED",
+    "later_informed": "白静萱经摩可、夏、小璐及温和回应拼接获“林昀翠雀将婚及收养” → MISUNDERSTOOD；林小璐依据月圆夜见闻和摩丝说法持有恋爱误解，仍分别看待爸爸与翠雀；未获同一身份信息",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "白获樱死讯，误信林翠恋爱可收养",
     "occurrence": "白请求虐杀，林要求改变目的；白叫爸爸，基地讨论与林来访均未确认婚姻收养，翠明确无结婚意愿",
@@ -7339,9 +7730,9 @@
       [
         "林小璐",
         "林昀＝翠雀",
-        "SUSPECTED",
-        "REJECTED",
-        "自行压下猜测改信恋爱"
+        "UNKNOWN",
+        "UNKNOWN",
+        "仍以两人/恋爱关系解释；没有同一身份披露，不据E193旧摘要补猜中与主动否定"
       ]
     ],
     "relationships": [],
@@ -7409,7 +7800,13 @@
       "P_TEMP_014",
       "P_TEMP_023"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K018",
+      "K069"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0068",
@@ -7512,7 +7909,13 @@
         14445,
         14447
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K070",
+      "K200"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0069",
@@ -7640,7 +8043,12 @@
       "P_TEMP_012",
       "P_TEMP_056"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K071"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0070",
@@ -7755,7 +8163,13 @@
       "P_TEMP_054",
       "P_TEMP_004"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K072",
+      "K201"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0071",
@@ -7872,6 +8286,14 @@
         14871,
         14873
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K073"
+    ],
+    "formal_relationship_refs": [
+      "REL009",
+      "REL015"
     ]
   },
   {
@@ -7933,7 +8355,7 @@
     "later_informed": "翠雀经小璐承认与形象线索获“小璐为曙草付费原因” → PARTIALLY_CONFIRMED",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "小璐少校内朋友，思念母亲",
-    "occurrence": "拒男生表白，与江可交流；玩游戏将曙草投射母亲，主动付费误选648，发现教辅款花错后认错；翠安抚并将款作巡逻礼物",
+    "occurrence": "拒男生表白，与江媛交流；玩游戏将曙草投射母亲，主动付费误选648，发现教辅款花错后认错；翠安抚并将款作巡逻礼物",
     "direct_result": "关系：小璐与江→可聊天朋友；认知：翠知道抽卡与亡母联系",
     "long_term": "UNKNOWN：本节点尚无单列的后续结果。",
     "changes": "关系：小璐与江→可聊天朋友；认知：翠知道抽卡与亡母联系",
@@ -8044,7 +8466,14 @@
       "P_TEMP_004",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K074"
+    ],
+    "formal_relationship_refs": [
+      "REL001"
+    ]
   },
   {
     "id": "EV0073",
@@ -8186,7 +8615,14 @@
       "P_TEMP_001",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K033",
+      "K075",
+      "K076"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0074",
@@ -8310,7 +8746,13 @@
       "P_TEMP_060",
       "P_TEMP_058"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K077",
+      "K202"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0075",
@@ -8455,7 +8897,14 @@
       "P_TEMP_060",
       "P_TEMP_058"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K078"
+    ],
+    "formal_relationship_refs": [
+      "REL016"
+    ]
   },
   {
     "id": "EV0076",
@@ -8583,7 +9032,13 @@
         17087,
         17089
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K079",
+      "K203"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0077",
@@ -8759,7 +9214,14 @@
       "P_TEMP_023",
       "P_TEMP_060"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K066",
+      "K080",
+      "K081"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0078",
@@ -8939,6 +9401,15 @@
         17535,
         17589
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K073",
+      "K082"
+    ],
+    "formal_relationship_refs": [
+      "REL009",
+      "REL015"
     ]
   },
   {
@@ -9033,7 +9504,14 @@
       "P_TEMP_001",
       "P_TEMP_061"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K083"
+    ],
+    "formal_relationship_refs": [
+      "REL017"
+    ]
   },
   {
     "id": "EV0080",
@@ -9169,7 +9647,12 @@
       "P_TEMP_035",
       "P_TEMP_004"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K084"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0081",
@@ -9275,7 +9758,14 @@
       "P_TEMP_044",
       "P_TEMP_026"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K085"
+    ],
+    "formal_relationship_refs": [
+      "REL018"
+    ]
   },
   {
     "id": "EV0082",
@@ -9437,7 +9927,13 @@
       "P_TEMP_062",
       "P_TEMP_057"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K086",
+      "K087"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0083",
@@ -9618,7 +10114,14 @@
       "P_TEMP_023",
       "P_TEMP_063"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K088"
+    ],
+    "formal_relationship_refs": [
+      "REL018"
+    ]
   },
   {
     "id": "EV0084",
@@ -9690,6 +10193,11 @@
         "玛格丽特",
         "林小璐",
         "安抚低估→承认误判并尊重拒绝触碰"
+      ],
+      [
+        "玛格丽特",
+        "白蓟",
+        "对其私比挑衅作负面纪律判断；阳台说明的听者为小璐"
       ]
     ],
     "related_events": [
@@ -9769,14 +10277,23 @@
       "K_TEMP_094"
     ],
     "relationship_refs": [
-      "REL_TEMP_027"
+      "REL_TEMP_027",
+      "REL_TEMP_028"
     ],
     "character_refs": [
       "P_TEMP_064",
       "P_TEMP_004",
       "P_TEMP_027"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K089"
+    ],
+    "formal_relationship_refs": [
+      "REL019",
+      "REL020"
+    ]
   },
   {
     "id": "EV0085",
@@ -9923,7 +10440,13 @@
       "P_TEMP_060",
       "P_TEMP_064"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K090",
+      "K091"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0086",
@@ -10056,7 +10579,12 @@
       "P_TEMP_060",
       "P_TEMP_027"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K092"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0087",
@@ -10167,7 +10695,12 @@
       "P_TEMP_060",
       "P_TEMP_027"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K093"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0088",
@@ -10307,7 +10840,12 @@
       "P_TEMP_002",
       "P_TEMP_016"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K094"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0089",
@@ -10384,7 +10922,7 @@
       [
         "玛格丽特",
         "白蓟",
-        "保护导师冲突→批评其偷用信息差"
+        "观战与技术解释；私比批评已在EV0084，败后道歉接EV0090"
       ]
     ],
     "related_events": [
@@ -10480,7 +11018,14 @@
       "P_TEMP_027",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K095"
+    ],
+    "formal_relationship_refs": [
+      "REL020"
+    ]
   },
   {
     "id": "EV0090",
@@ -10616,7 +11161,14 @@
       "P_TEMP_035",
       "P_TEMP_065"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K096"
+    ],
+    "formal_relationship_refs": [
+      "REL020"
+    ]
   },
   {
     "id": "EV0091",
@@ -10727,7 +11279,12 @@
       "P_TEMP_058",
       "P_TEMP_059"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K097"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0092",
@@ -10898,7 +11455,13 @@
       "P_TEMP_002",
       "P_TEMP_014"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K098",
+      "K099"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0093",
@@ -11031,7 +11594,15 @@
       "P_TEMP_058",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K100",
+      "K204"
+    ],
+    "formal_relationship_refs": [
+      "REL001"
+    ]
   },
   {
     "id": "EV0094",
@@ -11167,7 +11738,13 @@
         21353,
         21355
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K101",
+      "K102"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0095",
@@ -11266,6 +11843,11 @@
         21540,
         21542
       ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL021"
     ]
   },
   {
@@ -11402,7 +11984,13 @@
         21615,
         21617
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K103",
+      "K104"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0097",
@@ -11526,7 +12114,12 @@
         21837,
         21839
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K105"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0098",
@@ -11628,6 +12221,14 @@
         22071,
         22073
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K106",
+      "K205"
+    ],
+    "formal_relationship_refs": [
+      "REL022"
     ]
   },
   {
@@ -11775,7 +12376,12 @@
       "P_TEMP_012",
       "P_TEMP_035"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K107"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0100",
@@ -11890,7 +12496,12 @@
       "P_TEMP_076",
       "P_TEMP_059"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K108"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0101",
@@ -12000,7 +12611,15 @@
       "P_TEMP_004",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K109"
+    ],
+    "formal_relationship_refs": [
+      "REL001",
+      "REL002"
+    ]
   },
   {
     "id": "EV0102",
@@ -12116,7 +12735,12 @@
       "P_TEMP_027",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K110"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0103",
@@ -12243,7 +12867,12 @@
         23549,
         23551
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K111"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0104",
@@ -12370,7 +12999,12 @@
       "P_TEMP_027",
       "P_TEMP_060"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K110"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0105",
@@ -12543,7 +13177,15 @@
       "P_TEMP_035",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K066",
+      "K112"
+    ],
+    "formal_relationship_refs": [
+      "REL023"
+    ]
   },
   {
     "id": "EV0106",
@@ -12673,7 +13315,12 @@
       "P_TEMP_052",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K113"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0107",
@@ -12809,7 +13456,13 @@
       "P_TEMP_064",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K114",
+      "K115"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0108",
@@ -12926,7 +13579,12 @@
       "P_TEMP_058",
       "P_TEMP_059"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K116"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0109",
@@ -13132,7 +13790,13 @@
       "P_TEMP_079",
       "P_TEMP_080"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K117",
+      "K118"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0110",
@@ -13287,7 +13951,12 @@
         25888,
         25928
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K119"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0111",
@@ -13397,7 +14066,15 @@
       "P_TEMP_084",
       "P_TEMP_085"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K120"
+    ],
+    "formal_relationship_refs": [
+      "REL024",
+      "REL025"
+    ]
   },
   {
     "id": "EV0112",
@@ -13516,7 +14193,13 @@
       "P_TEMP_052",
       "P_TEMP_023"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K121",
+      "K206"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0113",
@@ -13663,6 +14346,15 @@
         26426,
         26428
       ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K122",
+      "K123",
+      "K207"
+    ],
+    "formal_relationship_refs": [
+      "REL026"
     ]
   },
   {
@@ -13812,7 +14504,14 @@
       "P_TEMP_086",
       "P_TEMP_014"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K124"
+    ],
+    "formal_relationship_refs": [
+      "REL012"
+    ]
   },
   {
     "id": "EV0115",
@@ -13983,7 +14682,14 @@
       "P_TEMP_004",
       "P_TEMP_086"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K125",
+      "K126",
+      "K208"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0116",
@@ -14150,7 +14856,15 @@
       "P_TEMP_006",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K127"
+    ],
+    "formal_relationship_refs": [
+      "REL005",
+      "REL009"
+    ]
   },
   {
     "id": "EV0117",
@@ -14355,7 +15069,13 @@
       "P_TEMP_087",
       "P_TEMP_078"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K018",
+      "K128"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0118",
@@ -14558,7 +15278,15 @@
       "P_TEMP_084",
       "P_TEMP_085"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K129"
+    ],
+    "formal_relationship_refs": [
+      "REL024",
+      "REL026"
+    ]
   },
   {
     "id": "EV0119",
@@ -14658,7 +15386,12 @@
       "P_TEMP_004",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K125"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0120",
@@ -14856,7 +15589,13 @@
       "P_TEMP_052",
       "P_TEMP_088"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K130",
+      "K131"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0121",
@@ -14984,7 +15723,12 @@
       "P_TEMP_004",
       "P_TEMP_023"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K132"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0122",
@@ -15121,7 +15865,12 @@
       "P_TEMP_089",
       "P_TEMP_090"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K133"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0123",
@@ -15268,7 +16017,13 @@
       "P_TEMP_091",
       "P_TEMP_092"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K134",
+      "K135"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0124",
@@ -15389,7 +16144,12 @@
         30647,
         30649
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K136"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0125",
@@ -15526,11 +16286,16 @@
       "P_TEMP_100",
       "P_TEMP_101"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K137"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0126",
-    "title": "夏队遭醉鱼草后撤与实体穿墙初试",
+    "title": "夏队撤退与引离干预术式维持的植物墙",
     "source_layer": "NOVEL_TEXT",
     "evidence_grade": "A",
     "status": "CONFIRMED",
@@ -15572,9 +16337,9 @@
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "夏引离仅认可传魔构造，遭毒攻击",
     "occurrence": "姐妹扇风配合，夏双层镜与爆术佯攻后低耗牵引撤走；山提送墙，夏小镜试出稀枝并恢复无罚",
-    "direct_result": "战术：遭压制→三人脱离；能力：引离传墙性质开始验证",
+    "direct_result": "战术：三人脱离；能力：小镜令术式维持的植物墙稀疏，撤镜后恢复。传送维持术式是夏的解释，不证明任意物质或活人传送。",
     "long_term": "后续/补叙状态续接：EV0125、EV0127、EV0129、EV0172。边表示对照与回接，不自行增添因果或传播。",
-    "changes": "战术：遭压制→三人脱离；能力：引离传墙性质开始验证",
+    "changes": "战术：三人脱离；能力：小镜令术式维持的植物墙稀疏，撤镜后恢复。传送维持术式是夏的解释，不证明任意物质或活人传送。",
     "knowledge": [
       [
         "夏凉、姐妹",
@@ -15654,7 +16419,12 @@
       "P_TEMP_103",
       "P_TEMP_104"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K138"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0127",
@@ -15817,7 +16587,12 @@
       "P_TEMP_106",
       "P_TEMP_107"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K139"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0128",
@@ -15925,7 +16700,12 @@
         31956,
         31958
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K140"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0129",
@@ -16080,7 +16860,12 @@
       "P_TEMP_112",
       "P_TEMP_106"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K141"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0130",
@@ -16247,7 +17032,13 @@
       "P_TEMP_114",
       "P_TEMP_101"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K138",
+      "K142"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0131",
@@ -16393,7 +17184,15 @@
       "P_TEMP_004",
       "P_TEMP_115"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K143",
+      "K144"
+    ],
+    "formal_relationship_refs": [
+      "REL027"
+    ]
   },
   {
     "id": "EV0132",
@@ -16586,7 +17385,14 @@
       "P_TEMP_116",
       "P_TEMP_097"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K145",
+      "K146",
+      "K209"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0133",
@@ -16737,7 +17543,13 @@
       "P_TEMP_096",
       "P_TEMP_117"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K147",
+      "K148"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0134",
@@ -16774,7 +17586,7 @@
     "time": "第二场次日对战",
     "participants": [
       "林小璐",
-      "木芙蓉",
+      "木棉",
       "夏凉",
       "青葙",
       "翠雀",
@@ -16871,7 +17683,12 @@
       "P_TEMP_094",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K149"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0135",
@@ -17013,7 +17830,15 @@
       "P_TEMP_004",
       "P_TEMP_052"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K150",
+      "K151"
+    ],
+    "formal_relationship_refs": [
+      "REL002"
+    ]
   },
   {
     "id": "EV0136",
@@ -17162,7 +17987,13 @@
       "P_TEMP_109",
       "P_TEMP_105"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K152",
+      "K153"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0137",
@@ -17280,7 +18111,13 @@
         34685,
         34687
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K154",
+      "K155"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0138",
@@ -17409,7 +18246,12 @@
       "P_TEMP_012",
       "P_TEMP_094"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K156"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0139",
@@ -17525,7 +18367,12 @@
       "P_TEMP_123",
       "P_TEMP_101"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K157"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0140",
@@ -17629,7 +18476,12 @@
       "P_TEMP_004",
       "P_TEMP_124"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K158"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0141",
@@ -17745,7 +18597,12 @@
       "P_TEMP_083",
       "P_TEMP_125"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K159"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0142",
@@ -17853,7 +18710,13 @@
       "P_TEMP_083",
       "P_TEMP_126"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K160",
+      "K161"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0143",
@@ -17957,7 +18820,13 @@
       "P_TEMP_127",
       "P_TEMP_128"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K162",
+      "K210"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0144",
@@ -18057,7 +18926,12 @@
       "P_TEMP_086",
       "P_TEMP_129"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K163"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0145",
@@ -18187,7 +19061,13 @@
         36356,
         36358
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K164",
+      "K165"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0146",
@@ -18209,7 +19089,6 @@
     "time": "1979立秋战后两小时",
     "participants": [
       "林昀",
-      "女王",
       "妖精及伤者"
     ],
     "witnesses": "矢车菊及现场妖精；女王不在此前清理伤员现场。",
@@ -18229,13 +19108,7 @@
         "亲见与对方自述"
       ]
     ],
-    "relationships": [
-      [
-        "林昀",
-        "女王",
-        "听解释→抗议并拒任"
-      ]
-    ],
+    "relationships": [],
     "related_events": [
       "EV0145",
       "EV0176"
@@ -18280,12 +19153,9 @@
     "knowledge_refs": [
       "K_TEMP_177"
     ],
-    "relationship_refs": [
-      "REL_TEMP_038"
-    ],
+    "relationship_refs": [],
     "character_refs": [
       "P_TEMP_001",
-      "P_TEMP_096",
       "P_TEMP_130"
     ],
     "review_context_ranges": [
@@ -18297,7 +19167,12 @@
         38094,
         38096
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K166"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0147",
@@ -18396,7 +19271,13 @@
         38239,
         38285
       ]
-    ]
+    ],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K167",
+      "K211"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0148",
@@ -18514,7 +19395,15 @@
       "P_TEMP_026",
       "P_TEMP_132"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K168"
+    ],
+    "formal_relationship_refs": [
+      "REL025",
+      "REL026"
+    ]
   },
   {
     "id": "EV0149",
@@ -18637,7 +19526,12 @@
         36258,
         36260
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K169"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0150",
@@ -18745,11 +19639,16 @@
         36324,
         36326
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K170"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0151",
-    "title": "金蛇交易奇境与祖母绿循环对抗",
+    "title": "金蛇交易回撤与祖母绿干预过往交易",
     "source_layer": "NOVEL_TEXT",
     "evidence_grade": "A",
     "status": "CONFIRMED",
@@ -18788,10 +19687,10 @@
     "later_informed": "祖母绿经亲历、账目和保留经历获“金蛇交易对抗状态” → PARTIALLY_CONFIRMED",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "金蛇潜入目标仍兽源",
-    "occurrence": "券契受抵押和规律限制，市集交易含未来五十年；祖保留支出与循环经历查账，金蛇回撤取回魔力",
-    "direct_result": "能力验证：交易与回撤条件显露；认知：祖保留循环经历",
+    "occurrence": "券契受抵押和规律限制，市集交易含未来五十年；金蛇回撤取回魔力，祖的消耗和空间环路仍在；祖出现在金蛇的过往交易记忆中并阻止再次回撤。",
+    "direct_result": "能力：交易回撤被制约；金蛇认识到过往交易也受到祖的干预，但干预类别UNKNOWN。",
     "long_term": "后续/补叙状态续接：EV0150、EV0152、EV0153。边表示对照与回接，不自行增添因果或传播。",
-    "changes": "能力验证：交易与回撤条件显露；认知：祖保留循环经历",
+    "changes": "能力：交易回撤被制约；金蛇认识到过往交易也受到祖的干预，但干预类别UNKNOWN。",
     "knowledge": [
       [
         "祖母绿",
@@ -18805,7 +19704,8 @@
     "related_events": [
       "EV0150",
       "EV0152",
-      "EV0153"
+      "EV0153",
+      "EV0190"
     ],
     "note": "祖机制类别UNKNOWN，不直接命名时间回溯；金蛇未掌繁开",
     "verification": "SOURCE_ANCHORS_RECHECKED",
@@ -18877,7 +19777,12 @@
         36734,
         36736
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K171"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0152",
@@ -18981,7 +19886,12 @@
         37146,
         37148
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K172"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0153",
@@ -19075,7 +19985,12 @@
         37243,
         37245
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K173"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0154",
@@ -19184,7 +20099,12 @@
         37390,
         37392
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K174"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0155",
@@ -19214,22 +20134,14 @@
       "黑猫"
     ],
     "witnesses": "女王与黑猫处时间夹隙；场外人员不是这段完整私谈的目击者。",
-    "later_informed": "黑猫经对质后续现场听到，内容D获“女王与翠雀亲子宣称” → PARTIALLY_CONFIRMED",
+    "later_informed": "本事件未发生亲子宣称；黑猫后来在EV0157获知D称谓，不提前到本节点。",
     "meaningfully_unaware": "历史中墨荷未听蔷薇宫身世对话；本场晚些时候才听亲子称谓。",
     "before": "黑猫另任与旧史未向所有人公开",
     "occurrence": "黑猫追问当年放兽与宝石毒害，女王承认曾下放兽命令；叙述揭示黑猫义肢具有两份本源位格。",
     "direct_result": "对质未化解冲突，随后转入与翠雀交战。",
     "long_term": "后续/补叙状态续接：EV0128、EV0153、EV0154、EV0156、EV0157。边表示对照与回接，不自行增添因果或传播。",
     "changes": "冲突：刺杀前→当面对质；认知：黑猫获女王答复，读者获义肢来源层级",
-    "knowledge": [
-      [
-        "黑猫",
-        "女王与翠雀亲子宣称",
-        "UNKNOWN",
-        "PARTIALLY_CONFIRMED",
-        "对质后续现场听到，内容D"
-      ]
-    ],
+    "knowledge": [],
     "relationships": [],
     "related_events": [
       "EV0128",
@@ -19279,9 +20191,7 @@
       ]
     ],
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
-    "knowledge_refs": [
-      "K_TEMP_186"
-    ],
+    "knowledge_refs": [],
     "relationship_refs": [],
     "character_refs": [
       "P_TEMP_096",
@@ -19296,7 +20206,10 @@
         37652,
         37654
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0156",
@@ -19404,7 +20317,12 @@
         37390,
         37392
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K175"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0157",
@@ -19504,7 +20422,8 @@
     "verification_scope": "本轮局部原文锚点回查＋全文审计末次证据导航；不表示本轮重新逐字阅读全部支持区间。",
     "knowledge_refs": [
       "K_TEMP_188",
-      "K_TEMP_189"
+      "K_TEMP_189",
+      "K_TEMP_186"
     ],
     "relationship_refs": [],
     "character_refs": [
@@ -19512,7 +20431,13 @@
       "P_TEMP_074",
       "P_TEMP_096"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K176",
+      "K185"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0158",
@@ -19629,7 +20554,13 @@
         38708,
         38710
       ]
-    ]
+    ],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K177",
+      "K178"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0159",
@@ -19738,7 +20669,10 @@
       "P_TEMP_012",
       "P_TEMP_005"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0160",
@@ -19836,7 +20770,12 @@
       "P_TEMP_140",
       "P_TEMP_141"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K179"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0161",
@@ -19923,7 +20862,12 @@
       "P_TEMP_001",
       "P_TEMP_007"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K180"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0162",
@@ -20047,7 +20991,15 @@
       "P_TEMP_002",
       "P_TEMP_027"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K181"
+    ],
+    "formal_relationship_refs": [
+      "REL019",
+      "REL029"
+    ]
   },
   {
     "id": "EV0163",
@@ -20069,24 +21021,23 @@
     "time": "鸢进入方亭前后",
     "participants": [
       "妮妮",
-      "摩可",
       "翠雀"
     ],
-    "witnesses": "现场直接参加各自行动者：妮妮、摩可、翠雀。仅限其直接经历部分；不含不在场的回忆/转述过程。",
-    "later_informed": "摩可经妮妮说明获“妮妮返国及任职手续” → PARTIALLY_CONFIRMED",
+    "witnesses": "妮妮与翠雀厨房对话；本段没有摩可在场证据。",
+    "later_informed": "翠雀听妮妮讲返国计划和园丁成长经历；不默认再传播给摩可。",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "见所列关联前置事件；本节点只记录下列独立变化。",
-    "occurrence": "妮妮向摩可解释共同成长关系与返国安排，播种者职务不能按个人友情任意转让。",
+    "occurrence": "妮妮向翠雀说明昨夜获返国培训通知、预计当天动身；摩可正式任职文件及魔镜待送达。妮妮向翠解释二者各自魔力源诞生于花园、从小为伙伴，非血缘姐妹。",
     "direct_result": "所在地安排：方亭驻留→返国待后续指派",
     "long_term": "后续/补叙状态续接：EV0066。边表示对照与回接，不自行增添因果或传播。",
     "changes": "所在地安排：方亭驻留→返国待后续指派",
     "knowledge": [
       [
-        "摩可",
-        "妮妮返国及任职手续",
-        "UNKNOWN",
+        "翠雀",
+        "妮妮返国安排、摩可任职文件待递及园丁成长背景",
+        "SUSPECTED",
         "PARTIALLY_CONFIRMED",
-        "妮妮说明"
+        "妮妮厨房告知；不等摩可在场"
       ]
     ],
     "relationships": [],
@@ -20128,10 +21079,14 @@
     "relationship_refs": [],
     "character_refs": [
       "P_TEMP_045",
-      "P_TEMP_005",
       "P_TEMP_004"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K182"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0164",
@@ -20217,7 +21172,10 @@
       "P_TEMP_052",
       "P_TEMP_007"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0165",
@@ -20289,7 +21247,10 @@
     "character_refs": [
       "P_TEMP_004"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0166",
@@ -20363,7 +21324,10 @@
       "P_TEMP_069",
       "P_TEMP_142"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0167",
@@ -20440,7 +21404,10 @@
       "P_TEMP_144",
       "P_TEMP_145"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0168",
@@ -20532,7 +21499,13 @@
       "P_TEMP_147",
       "P_TEMP_086"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL022",
+      "REL030"
+    ]
   },
   {
     "id": "EV0169",
@@ -20608,7 +21581,10 @@
       "P_TEMP_059",
       "P_TEMP_148"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0170",
@@ -20703,7 +21679,12 @@
       "P_TEMP_014",
       "P_TEMP_149"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K183"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0171",
@@ -20788,7 +21769,12 @@
       "P_TEMP_004",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K184"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0172",
@@ -20864,7 +21850,10 @@
       "P_TEMP_006",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0173",
@@ -20942,7 +21931,10 @@
       "P_TEMP_150",
       "P_TEMP_138"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0174",
@@ -21047,7 +22039,17 @@
       "P_TEMP_002",
       "P_TEMP_012"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL031",
+      "REL032",
+      "REL033",
+      "REL034",
+      "REL035",
+      "REL036"
+    ]
   },
   {
     "id": "EV0175",
@@ -21126,7 +22128,10 @@
       "P_TEMP_102",
       "P_TEMP_151"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0176",
@@ -21175,7 +22180,13 @@
         "直接听到部分答复；推论非完整真相"
       ]
     ],
-    "relationships": [],
+    "relationships": [
+      [
+        "林昀",
+        "女王",
+        "听解释→抗议并拒任"
+      ]
+    ],
     "related_events": [
       "EV0146",
       "EV0147"
@@ -21217,12 +22228,24 @@
       "K_TEMP_198",
       "K_TEMP_199"
     ],
-    "relationship_refs": [],
+    "relationship_refs": [
+      "REL_TEMP_038"
+    ],
     "character_refs": [
       "P_TEMP_001",
       "P_TEMP_096"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K185",
+      "K186",
+      "K212",
+      "K213"
+    ],
+    "formal_relationship_refs": [
+      "REL028"
+    ]
   },
   {
     "id": "EV0177",
@@ -21311,7 +22334,10 @@
       "P_TEMP_152",
       "P_TEMP_153"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0178",
@@ -21341,10 +22367,10 @@
     "later_informed": "本节点未指明新的事后转述者；后续传播见关联事件。",
     "meaningfully_unaware": "未明示的不知情不作全称判断；具体保密/误解边见知识TEMP与备注。",
     "before": "见所列关联前置事件；本节点只记录下列独立变化。",
-    "occurrence": "吴惜雨进入吴晰晴家庭成为妹妹；后续被组织带走等经历形成两人的不同处境与误解。",
-    "direct_result": "关系：陌生→共同家庭姐妹→分离；认知：彼此是否被抛弃形成误解",
+    "occurrence": "吴惜雨进入吴家；被带走后姐妹重聚，共同受训半年，食祭前互诺一起回家。食祭后天牛安排薄荷回家潜伏，称吴惜雨无法理姐妹身份且已被蜂带走；法理内容为天牛说法D。",
+    "direct_result": "家庭/行动：共同养育→隔离后重聚受训→互诺回家→不同任务分派；未裁定司法身份。",
     "long_term": "后续/补叙状态续接：EV0131、EV0152。边表示对照与回接，不自行增添因果或传播。",
-    "changes": "关系：陌生→共同家庭姐妹→分离；认知：彼此是否被抛弃形成误解",
+    "changes": "家庭/行动：共同养育→隔离后重聚受训→互诺回家→不同任务分派；未裁定司法身份。",
     "knowledge": [],
     "relationships": [],
     "related_events": [
@@ -21388,7 +22414,10 @@
       "P_TEMP_156",
       "P_TEMP_157"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0179",
@@ -21473,7 +22502,12 @@
       "P_TEMP_109",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K172"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0180",
@@ -21549,7 +22583,10 @@
       "P_TEMP_158",
       "P_TEMP_159"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0181",
@@ -21640,7 +22677,13 @@
       "P_TEMP_086",
       "P_TEMP_160"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL037",
+      "REL038"
+    ]
   },
   {
     "id": "EV0182",
@@ -21726,7 +22769,12 @@
       "P_TEMP_026",
       "P_TEMP_161"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K187"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0183",
@@ -21828,7 +22876,13 @@
       "P_TEMP_026",
       "P_TEMP_162"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL010",
+      "REL039"
+    ]
   },
   {
     "id": "EV0184",
@@ -21930,7 +22984,13 @@
       "P_TEMP_027",
       "P_TEMP_028"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL001",
+      "REL040"
+    ]
   },
   {
     "id": "EV0185",
@@ -22004,7 +23064,10 @@
       "P_TEMP_072",
       "P_TEMP_163"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0186",
@@ -22101,7 +23164,12 @@
       "P_TEMP_012",
       "P_TEMP_002"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K188"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0187",
@@ -22124,12 +23192,10 @@
     "time": "旧队时期拒邀；满十年退役，最后联络距当代十二年",
     "participants": [
       "苏胜紫",
-      "玛格丽特",
-      "林昀",
-      "红思与"
+      "玛格丽特"
     ],
     "witnesses": "只就发生字段中各自参与的场景知情；历史内容另依来源性质。",
-    "later_informed": "玛格丽特经最后一次通话听本人说法获“苏胜紫准备去间界” → PARTIALLY_CONFIRMED",
+    "later_informed": "玛在当代EV0086向林昀和红思与转述；二者并非历史末次通话参与者。",
     "meaningfully_unaware": "见备注与知识TEMP。",
     "before": "见关联节点中的前态。",
     "occurrence": "苏胜紫自述拒研究院邀请，任满十年退役离方亭；玛后来转述最后通话中苏说要去间界，此后失联。",
@@ -22184,11 +23250,14 @@
     "relationship_refs": [],
     "character_refs": [
       "P_TEMP_028",
-      "P_TEMP_027",
-      "P_TEMP_001",
-      "P_TEMP_007"
+      "P_TEMP_027"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K092"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0188",
@@ -22282,7 +23351,12 @@
       "P_TEMP_007",
       "P_TEMP_003"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "CURRENT",
+    "formal_knowledge_refs": [
+      "K189"
+    ],
+    "formal_relationship_refs": []
   },
   {
     "id": "EV0189",
@@ -22376,6 +23450,259 @@
       "P_TEMP_164",
       "P_TEMP_026"
     ],
-    "review_context_ranges": []
+    "review_context_ranges": [],
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [
+      "K190"
+    ],
+    "formal_relationship_refs": []
+  },
+  {
+    "id": "EV0190",
+    "title": "郁金香骗局清算与阿比梅尔衰落",
+    "source_layer": "NOVEL_TEXT",
+    "evidence_grade": "A",
+    "status": "CONFIRMED",
+    "audit_navigation": [
+      "E017"
+    ],
+    "source_ranges": [
+      [
+        36410,
+        36424
+      ]
+    ],
+    "time_layer": "历史回溯",
+    "time_tier": "T3",
+    "time": "海蒂出生之前；具体年份UNKNOWN",
+    "participants": [
+      "阿比梅尔家族",
+      "财政院",
+      "民治院"
+    ],
+    "witnesses": "按所列直接叙述/当事人经历；读者后叙不授予旁人知情。",
+    "later_informed": "未单列无证传播；后文回述与历史时点分开。",
+    "meaningfully_unaware": "无证主体不默认知情。",
+    "before": "见发生与历史限定；未给精确年份。",
+    "occurrence": "阿比梅尔成员参与炒作郁金香；泡沫破裂后财政院与民治院联手清算，涉事职员被革职送战场、商人受处罚，家族商业与政治影响衰落。",
+    "direct_result": "组织/经济：显赫氏族→被清算与衰落；不等全部后代有罪。",
+    "long_term": "组织/经济：显赫氏族→被清算与衰落；不等全部后代有罪。",
+    "changes": "组织/经济：显赫氏族→被清算与衰落；不等全部后代有罪。",
+    "knowledge": [],
+    "relationships": [],
+    "related_events": [
+      "EV0151"
+    ],
+    "note": "阿比梅尔受财政院与民治院清算、革职及家族衰落有直接叙述；数百年前描述氏族地位，不等骗局发生年。",
+    "verification": "STAGE2C_SOURCE_VERIFIED",
+    "revealed_at": [
+      [
+        36410,
+        36424
+      ]
+    ],
+    "location": "原文限定位置；精确地点不足保持UNKNOWN",
+    "claim_scope": "事件中直接呈现的行动及结果按A/CONFIRMED；说法、判断、评价、未兑现计划按下列限制单独读取。",
+    "qualified_claims": [
+      {
+        "grade": "D",
+        "status": "CHARACTER_BELIEF",
+        "scope": "人物说法、诊断解释、价值判断的内容；其说出/作出行为本身可为A。"
+      },
+      {
+        "grade": "C",
+        "status": "INFERRED",
+        "scope": "发生与备注中的猜测、预感及未直接验证的机制，不自动升级。"
+      }
+    ],
+    "checked_anchors": [
+      [
+        36410,
+        36424
+      ]
+    ],
+    "verification_scope": "本条源窗逐行核证；CR/CC保留新增依据。",
+    "knowledge_refs": [],
+    "relationship_refs": [],
+    "character_refs": [],
+    "review_context_ranges": [
+      [
+        36410,
+        36424
+      ]
+    ],
+    "integration_origin": "CR003",
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
+  },
+  {
+    "id": "EV0191",
+    "title": "资格认证制度创设与后续扩展",
+    "source_layer": "NOVEL_TEXT",
+    "evidence_grade": "A",
+    "status": "CONFIRMED",
+    "audit_navigation": [
+      "E499"
+    ],
+    "source_ranges": [
+      [
+        33136,
+        33144
+      ]
+    ],
+    "time_layer": "历史回溯",
+    "time_tier": "T3",
+    "time": "早于当代考核；各次制度变更年份UNKNOWN",
+    "participants": [
+      "魔事院",
+      "研究院",
+      "考试院"
+    ],
+    "witnesses": "按所列直接叙述/当事人经历；读者后叙不授予旁人知情。",
+    "later_informed": "未单列无证传播；后文回述与历史时点分开。",
+    "meaningfully_unaware": "无证主体不默认知情。",
+    "before": "见发生与历史限定；未给精确年份。",
+    "occurrence": "魔事院与研究院草拟资格制度控制讨伐风险；早期仅魔装及基础能力两项实战，后续白/字牌权义与测试分化，当代白牌有四门笔试及四项实战。",
+    "direct_result": "制度：讨伐保护资格→扩展权义荣誉及分化测试；评级不等开华。",
+    "long_term": "制度：讨伐保护资格→扩展权义荣誉及分化测试；评级不等开华。",
+    "changes": "制度：讨伐保护资格→扩展权义荣誉及分化测试；评级不等开华。",
+    "knowledge": [],
+    "relationships": [],
+    "related_events": [
+      "EV0132",
+      "EV0123"
+    ],
+    "note": "初创由魔事院与研究院草拟，以保护为目的；后世测试与权义分化有据，具体创设年UNKNOWN。",
+    "verification": "STAGE2C_SOURCE_VERIFIED",
+    "revealed_at": [
+      [
+        33136,
+        33144
+      ]
+    ],
+    "location": "原文限定位置；精确地点不足保持UNKNOWN",
+    "claim_scope": "事件中直接呈现的行动及结果按A/CONFIRMED；说法、判断、评价、未兑现计划按下列限制单独读取。",
+    "qualified_claims": [
+      {
+        "grade": "D",
+        "status": "CHARACTER_BELIEF",
+        "scope": "人物说法、诊断解释、价值判断的内容；其说出/作出行为本身可为A。"
+      },
+      {
+        "grade": "C",
+        "status": "INFERRED",
+        "scope": "发生与备注中的猜测、预感及未直接验证的机制，不自动升级。"
+      }
+    ],
+    "checked_anchors": [
+      [
+        33136,
+        33144
+      ]
+    ],
+    "verification_scope": "本条源窗逐行核证；CR/CC保留新增依据。",
+    "knowledge_refs": [],
+    "relationship_refs": [],
+    "character_refs": [],
+    "review_context_ranges": [
+      [
+        33136,
+        33144
+      ]
+    ],
+    "integration_origin": "CR004",
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": []
+  },
+  {
+    "id": "EV0192",
+    "title": "安雅死后林昀在复仇与养育责任间挣扎",
+    "source_layer": "NOVEL_TEXT",
+    "evidence_grade": "A",
+    "status": "CONFIRMED",
+    "audit_navigation": [
+      "E173"
+    ],
+    "source_ranges": [
+      [
+        12400,
+        12412
+      ]
+    ],
+    "time_layer": "历史回溯",
+    "time_tier": "T3",
+    "time": "安雅死后至开篇复出；末句对当代救援回接",
+    "participants": [
+      "林昀"
+    ],
+    "witnesses": "按所列直接叙述/当事人经历；读者后叙不授予旁人知情。",
+    "later_informed": "未单列无证传播；后文回述与历史时点分开。",
+    "meaningfully_unaware": "无证主体不默认知情。",
+    "before": "见发生与历史限定；未给精确年份。",
+    "occurrence": "得知安雅死讯后，林昀自责并想复仇，又担心自己出事使女儿失依，尝试以普通父亲身份养育；女儿遇险后重新选择行动。",
+    "direct_result": "心理/行动：丧妻自责与责任冲突→复出守护；不表示十五岁已婚育。",
+    "long_term": "心理/行动：丧妻自责与责任冲突→复出守护；不表示十五岁已婚育。",
+    "changes": "心理/行动：丧妻自责与责任冲突→复出守护；不表示十五岁已婚育。",
+    "knowledge": [],
+    "relationships": [
+      [
+        "林昀",
+        "林小璐",
+        "复仇冲动与避免女儿失依相牵制"
+      ]
+    ],
+    "related_events": [
+      "EV0182",
+      "EV0001",
+      "EV0059"
+    ],
+    "note": "父职/复仇矛盾是安雅死后至复出；支持窗口虽在少年能力回顾之后，不能套十五岁。",
+    "verification": "STAGE2C_SOURCE_VERIFIED",
+    "revealed_at": [
+      [
+        12400,
+        12412
+      ]
+    ],
+    "location": "原文限定位置；精确地点不足保持UNKNOWN",
+    "claim_scope": "事件中直接呈现的行动及结果按A/CONFIRMED；说法、判断、评价、未兑现计划按下列限制单独读取。",
+    "qualified_claims": [
+      {
+        "grade": "D",
+        "status": "CHARACTER_BELIEF",
+        "scope": "人物说法、诊断解释、价值判断的内容；其说出/作出行为本身可为A。"
+      },
+      {
+        "grade": "C",
+        "status": "INFERRED",
+        "scope": "发生与备注中的猜测、预感及未直接验证的机制，不自动升级。"
+      }
+    ],
+    "checked_anchors": [
+      [
+        12400,
+        12412
+      ]
+    ],
+    "verification_scope": "本条源窗逐行核证；CR/CC保留新增依据。",
+    "knowledge_refs": [],
+    "relationship_refs": [
+      "REL_TEMP_019"
+    ],
+    "character_refs": [],
+    "review_context_ranges": [
+      [
+        12400,
+        12412
+      ]
+    ],
+    "integration_origin": "CR009",
+    "knowledge_epoch": "HISTORY",
+    "formal_knowledge_refs": [],
+    "formal_relationship_refs": [
+      "REL001"
+    ]
   }
 ]

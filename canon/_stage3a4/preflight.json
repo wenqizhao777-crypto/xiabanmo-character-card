@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-11T00:32:37+08:00",
+  "input_files": 961,
+  "v1_1_verified_entries": 654,
+  "v1_1_archive_files": 659,
+  "route": "code-quality-workflow",
+  "documents": [
+    "ST-A0"
+  ],
+  "library_snapshot": "2026-08-18",
+  "candidates": [],
+  "decision": "No Refactor / Local Fix Only: version metadata freeze",
+  "fact_edits_authorized_this_run": false,
+  "changed_existing_budget": [
+    "README.md",
+    "BASELINE_MANIFEST.md",
+    "STAGE3A_PATCH_FOLLOWUPS.md",
+    "CHANGELOG_FUP3A001.md"
+  ],
+  "authorization": "User attached Stage_3A4_Canon_Baseline_V1.2_Freeze_GPT6 (1).md"
+}

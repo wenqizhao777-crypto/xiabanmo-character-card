@@ -1,0 +1,2011 @@
+[
+  {
+    "path": "canon/01_master_timeline.md",
+    "status": "MODIFIED",
+    "before_sha256": "8367eaffb4d0fd9e73d8bbe96fb732a0a0c5eeb62c0861c4fbfc0c12dcd856ab",
+    "after_sha256": "dd46ecc789df9d354e3b88f57d9a1c825d6b46c9beebed3d7a86c1324570be31",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/02_world_rules.md",
+    "status": "MODIFIED",
+    "before_sha256": "b6505410f7d6ecd755246c62957cc455a66f00abba89ed6d145f90ea719cacdc",
+    "after_sha256": "a93ac418254a27250636f4c52746f781ebf94e7b0f4412875e2c6b47a0e211d8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/04_organizations.md",
+    "status": "MODIFIED",
+    "before_sha256": "c427b1c4df3a147336ecb95bb9552caa44baada85c0bf6ea11424722b2d76ba5",
+    "after_sha256": "58b85804dcd8dea815be68191db04cba39cb4da170899c499a90fc9544e5432a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/05_locations.md",
+    "status": "MODIFIED",
+    "before_sha256": "58b8a09c7ebb2fd23fb52e0861520e7cbd1f1d6589b221ea32faae13d58a75a5",
+    "after_sha256": "864222e82fcce213829e91d01f1ee7442a3ad0a833131a0255473d53693a0ca8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/BASELINE_MANIFEST.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "78bf743c95c948b7cd66da6823c81ef5b9d00ee0d9dbae73aeabacce6553d308",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/CANON_QUERY_TESTS.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "27576bcb213e9f23378fa0495c6366ad6176a8dfeb7f11a4d8d3e9f230f70ab0",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/CHANGELOG_STAGE2C.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "3a321b646356d4e8b723affef7e1a11dab217652b405b277986bf1c6fb7b5c15",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/INFERENCE_GUARDRAILS.md",
+    "status": "MODIFIED",
+    "before_sha256": "4be71bf0f36bf78d7b1a0648a363196369c3ae35a28b31349f1a1c01004f3de7",
+    "after_sha256": "9e648804c1e99a11c3e307bc05c17d5fabcc833e6556c703ee78400ce6880a8c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/README.md",
+    "status": "MODIFIED",
+    "before_sha256": "36850db1f037448981c0aa09200159836b556388142432f2b00d98ccb1a78b80",
+    "after_sha256": "922e43eb35a5b91cc1c2372c6b1020a9e7633a41db4e350b5f7ce2ecb35955a6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/SNAPSHOT_REGRESSION.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "22d2b7836e78b2bf7e2053f6e3d86bbd4b863e63bc3a39cbfbf29590dba5eb45",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/STAGE2C_FINAL_REVIEW.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "471d4f645e02d6760e696f945c462019c25f577991d04727f912bced8aa6b430",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/STAGE2C_REVIEW_QUEUE.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "df87002ce6aaec85e26ab1b7d27c318be9113aa849c512a8cf6ac3650a4e53f9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/UNRESOLVED.md",
+    "status": "MODIFIED",
+    "before_sha256": "7dea433500c79c698e98dde383bc04421adfbe78d4e8afa1ebd9c9572c9f087f",
+    "after_sha256": "bae720195245ced28c635f75ed3323e1264552b90212eace34d39c0a6912041b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/USER_DECISIONS_PENDING_STAGE2C.md",
+    "status": "ADDED",
+    "before_sha256": null,
+    "after_sha256": "83e5c500f1cb544b503c0756f1984c3ac69fc58b672cf01e6a6936b2021640d9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH001_林昀.md",
+    "status": "MODIFIED",
+    "before_sha256": "45d8d9fcb0e2ce82938668a2447ae6081cdcf5a81c83bc63a7002f1126d5668f",
+    "after_sha256": "078dc0bb64d49724c87d4c5e2a869c3962c479c1c1ce4c64e411dcd7010035bb",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH002_林小璐.md",
+    "status": "MODIFIED",
+    "before_sha256": "58e34e7d9a64b0545e26c3743442566c65993a51f73d2428f83e289dbfd7efee",
+    "after_sha256": "2ec4868ff27ee17c9057297af04a85ea2bfa314d3af6edd09472ffb61cedd15f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH003_夏凉.md",
+    "status": "MODIFIED",
+    "before_sha256": "fb3a67aa9c8afbeeba74722a508653113a7d2d61c5d2b3af3240de8df5dbd620",
+    "after_sha256": "2bbbc7d11cad197bd0438c1a60caabe4a31919cb18b81f43df2f7c5baab04eb3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH004_白静萱.md",
+    "status": "MODIFIED",
+    "before_sha256": "3e0c694d7021da7c6090f05a426ec429da07abffb57bc7c6c58d4dbd0414b498",
+    "after_sha256": "0316487c907bda2cf0971e726e9b2331c72754067de5e72d9bb1ee6d4bce9b07",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH005_红思与.md",
+    "status": "MODIFIED",
+    "before_sha256": "624f9174853596d89b56c76290f89bd88cb81c0f89679eff1cac9d7724a92e07",
+    "after_sha256": "00927bcc33a48551323f96c048dde43391faca3ec84a92f6dd255e03b8558573",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH006_安雅.md",
+    "status": "MODIFIED",
+    "before_sha256": "c8b65599bba5b40820cfe5c0cbeb413899921c5d776913018fccbdb877ebe2be",
+    "after_sha256": "08c336ab7a5493fd204460a8a13c4d5e3cd0c8f59503ab3945663817cccfd4b4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH007_麻生圆香.md",
+    "status": "MODIFIED",
+    "before_sha256": "cc33dd8714227d186b7dc6dbdf08a362d7142ffe6e727b321f9b30bfbebd5405",
+    "after_sha256": "cf626b6af174bc13ce3259189739d306eee0966c4d6cdb5ee7785af7c7a18657",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH008_祖母绿.md",
+    "status": "MODIFIED",
+    "before_sha256": "38aacc51812a4101423032b06346c72886de36a9ccc85ff743153c9532056f95",
+    "after_sha256": "95d5b4c952b5daf83f2e609e06dec3943530612bf1c68babab4bcf1c69078827",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH009_妮娜·克瑞吉欧斯.md",
+    "status": "MODIFIED",
+    "before_sha256": "10ffc3caee6fc72a8adfa59edeaed68e40860f0b3054887243af07b0f758e093",
+    "after_sha256": "2c582f5d1a528772fd8bf7a1e73ed1d91be6be018c760dd4dac73538d8dca147",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH010_摩可.md",
+    "status": "MODIFIED",
+    "before_sha256": "316e8af9ad97e0220353d9880e60fc64766ab4d3401a89916b54cf64bd57a76c",
+    "after_sha256": "4992b30f2e84b5b326d5de2fd473aaaa3ad71a9b5ad3c54e4d978c842f51c1dd",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH011_妮妮.md",
+    "status": "MODIFIED",
+    "before_sha256": "9713b3bc3a22e7b8bc19dccd5ad8ff5e790b1f7b38baf74419cbab2d04a0ac2f",
+    "after_sha256": "1cf1f413e2b9613f8b362864abee35bb1f271ff5b0eddb42cb661c1dc33b775d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH012_摩丝.md",
+    "status": "MODIFIED",
+    "before_sha256": "01919a7bdad55c59578e66962e932ec3da9ec58dfedd2eac2cedefad7012848e",
+    "after_sha256": "ee4e466409e0a5f6b7ada6d10367931f742eb6df0de28da43ac69d6c933861ae",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH013_陆红豆.md",
+    "status": "MODIFIED",
+    "before_sha256": "f2dc2ea0eaa5c6a510188af9350eb4a45f5b0fe7a26bb67c537ef61df8841eea",
+    "after_sha256": "57f9db67966e6ab5666b44544f40cd56477ec722592875b99eeffd1ba83e7cfd",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH014_妃黛莉.md",
+    "status": "MODIFIED",
+    "before_sha256": "d8c0bcf1cb0966140f1f92b5a00fa770dd2727ab9cdc67d00a34130b4938608a",
+    "after_sha256": "03e04fa91975f6782a1937775e41df4756ab1354a7000222912503231891ceba",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH015_海蒂·阿比梅尔.md",
+    "status": "MODIFIED",
+    "before_sha256": "fe1a35ce5b44dc9765d2710037f0381f3fe4fa69875e055e0834c914ec36e05a",
+    "after_sha256": "76473431f1219c612b19bf01e4f6ec2aa92943495bc484789181a55c89eb6885",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH016_林格.md",
+    "status": "MODIFIED",
+    "before_sha256": "835a86bb5289bef4895596ec02c4dbdc890fcb1b67d9059dc0a1649dc05ee6fa",
+    "after_sha256": "04b9a2a467256e4cc9fae1c63ee7c16c2ac680ad0d503c0b9fb7edc5f0cc065c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH017_女王.md",
+    "status": "MODIFIED",
+    "before_sha256": "3b3841b1fc147a8c11ac5272438db74e39c51eaad6bdd8b108f84e85492c1d9d",
+    "after_sha256": "59c42ddcbb3c9350cf7917079650ad525bc1ee93638c78a3b48224d7bf227700",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH018_苏胜紫.md",
+    "status": "MODIFIED",
+    "before_sha256": "deac3db464ff170518b0a6fe5c8bf0b174f18061c3454eae498ef3915eacf8f3",
+    "after_sha256": "f55b0031793e10f2d21b29a19447bc23e732b76bd44d3bfe6e7a2d0a0ec3ad05",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH019_迈尔柔娜·阿比梅尔.md",
+    "status": "MODIFIED",
+    "before_sha256": "327f41c7bfac0f7e6741609d2ece4e7fba81956e861020d811d8064716aa2b18",
+    "after_sha256": "f39a6793f2e1d49eb47d21109d9cf81ab43e866ea4446ed677cccb352b1d0107",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH020_妮姆.md",
+    "status": "MODIFIED",
+    "before_sha256": "cdabe048c40502116152d281d525df9134cfd6d6a59b8feb47551b01f5f697a8",
+    "after_sha256": "6ab22b3e3774e0e8b7f0e8b30f43cc228a693de3421b6b125a037b7144c96eaf",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH021_猫尾.md",
+    "status": "MODIFIED",
+    "before_sha256": "d776a4d1cd717394af5b8b0431ea30e01b879c524441caa4143ef4c6e6cbc8c7",
+    "after_sha256": "ff0284591b52da0089df754849192a5b33a6d4f67302fbe0e5cc6e7ecc6b3551",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH022_灯盏.md",
+    "status": "MODIFIED",
+    "before_sha256": "f646524bd2bb9739949fd2de74429f0a9f29bf0a65e34328decb71998724b09e",
+    "after_sha256": "e46244e45fc3204206fa7f1f3e2462f701c37f8bfac83f45bcc12db0b7b537e4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH023_白蓟.md",
+    "status": "MODIFIED",
+    "before_sha256": "c7134bc637c47c85b3fef74fdf76a5ac07201a2d3f238e27b3e20d9327f82aec",
+    "after_sha256": "92a86e452f637cae3f6d0477ce124988e69727c838d583a993ec00fa721730b7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH024_木百合.md",
+    "status": "MODIFIED",
+    "before_sha256": "b8fdf5846b48dc752f7e34a43dc543d1d96a4c6d056c5df558e484c5eccbcd4a",
+    "after_sha256": "afd6abb6d8c9b19caab7708e3a61f8de4bf18e2579c80f5404e921cef84a4f68",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH025_含羞草.md",
+    "status": "MODIFIED",
+    "before_sha256": "e7d2a759f4a79d1eeebf67b58473e766b7d1a8719d9eff7bb22846559effc962",
+    "after_sha256": "a7532508a4ddc379ddc945b02143fec11124bf20cf2905c5c2280112e5a3ef2d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH026_吴晰晴.md",
+    "status": "MODIFIED",
+    "before_sha256": "21d86608108421dd88ce07c3d7d26b061d31f25fb414fdd8c3b8fc23a388c92d",
+    "after_sha256": "34ffbbf3a7d1113daabee72c4111f2d3d2adc0a592a7651898fc8191fc790c10",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH027_吴惜雨.md",
+    "status": "MODIFIED",
+    "before_sha256": "656d73778965801221f8ffd92bca07ed8c8f3d17143ff33e64cf2e9c911b554a",
+    "after_sha256": "de714957205d779758f8607d174f5436225e30f9382d39c9071ba587769f38e7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH028_塞米.md",
+    "status": "MODIFIED",
+    "before_sha256": "2fedb74931f4d5be7ac23761fbc4cef16d36e4f0c075680beb8e3bcd6b445e56",
+    "after_sha256": "a11bd24b9f78957687111f368c19591c03a5101ce2017b5cfdc73ee79cdd1e5b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH029_现任紫钻.md",
+    "status": "MODIFIED",
+    "before_sha256": "6d37fd5e98feac2d056cd84dc8e041a01d201e5b124a4f03813699e6d009cdc4",
+    "after_sha256": "f9246f8d16754f6c33dabb58d565ef6bead0591433cca43f7ff32c9e3fa414d6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH030_黎皎然.md",
+    "status": "MODIFIED",
+    "before_sha256": "bd5781592e53dc4c3b8a65e566952c411e74c1d605b4012d8edc6482811a6490",
+    "after_sha256": "131c5f4de2969ee4177f9120f76e7d7702078bf0805d9c20dd626ecfbd65c0cb",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH031_田胜.md",
+    "status": "MODIFIED",
+    "before_sha256": "124fdfe8ee8ffbc70dbb70360759f4ea26411c6c75f6d564b045c53261660b66",
+    "after_sha256": "c23440f28faa000adafb5c87a764b0b9e318a5061e11e98a325c483d8ba85160",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH032_狗尾草.md",
+    "status": "MODIFIED",
+    "before_sha256": "2786a0ac25599a2060e23f567bad0cc982af5e6c3ba6fa1c8b1c5bd084b71d38",
+    "after_sha256": "03f3ed315645ce93269fc3800e68e661d4c454bcc7c5b86b8e1f55fff3aed6a1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH033_折鹤兰.md",
+    "status": "MODIFIED",
+    "before_sha256": "4ed9cea038539e21ca6cd9b551cf5c842d77e324167965c8cf78d785604bc04f",
+    "after_sha256": "caff5030dfdd9a6e4366888522462292feace905ba596b3cbefc2d136e07bd74",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH034_金绿猫眼.md",
+    "status": "MODIFIED",
+    "before_sha256": "2131f56a09fdb12168c55504f9e5fc899ab941859460d05fc0b8ad046c42702b",
+    "after_sha256": "c7cacdab2307c94a23da2df93e5e16b7a8ee4df739636d2a4af2b44efc2d0ecf",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH035_刘文琴.md",
+    "status": "MODIFIED",
+    "before_sha256": "df38a401117026a2132d9c832e0cb4dfcde02507d38e24ba64650b379ea17ad3",
+    "after_sha256": "490bc2828ac47aaa239ff01a70f57a3b7aeaf86055a412aee260c54f3acbc873",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH036_麻雀.md",
+    "status": "MODIFIED",
+    "before_sha256": "91a34721c5e9af71b980755c466c4cb017b3d3d35aa1bbb736e4875cf2d4bc63",
+    "after_sha256": "9bdbb6f518488114822ed69ea075fb4b4c21d39cd63181db7d8c5d24f7e9cafe",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH037_蛛.md",
+    "status": "MODIFIED",
+    "before_sha256": "7ccc963d2f402602651ade453b3d38954885efce5be9eae7c8da47c05ee6d12f",
+    "after_sha256": "30b13d2f7b31c18c685b320c2c387c5aaf52fcbd3a9ccf0b28435303a75ff520",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH038_陆红豆的师父.md",
+    "status": "MODIFIED",
+    "before_sha256": "666ab5fdaf3d8d2d94879f275c121ffd39ebc486fe28f008282df85ba446983c",
+    "after_sha256": "a3af9bdff141fd4b866cd1c9d4d3bb92cab5140197243639ceed750921971682",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH039_兵触三.md",
+    "status": "MODIFIED",
+    "before_sha256": "ab5aecfd09a31b3b99b7acc5eda6bd23bd8f28b0d135b338db1d4624099ce5a8",
+    "after_sha256": "5dc478748b791f562bfad3b583c9b6d0a6c936b3542314f93a4d0b572d3c871c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH040_荼蘼.md",
+    "status": "MODIFIED",
+    "before_sha256": "2e60e23ffe7bc5f2640972f40ac853a89000636a5d8b55b938d0fe0e43e21eb6",
+    "after_sha256": "76e7097cc845c6d5ebf0e68d48d7466f06b7f8e77672d65b8c54217b351a865f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH041_刘观山.md",
+    "status": "MODIFIED",
+    "before_sha256": "25a365e08273f140ab7eb1271b74dcb964cdd9bf7763fc506dbef5906fbfb134",
+    "after_sha256": "18bc0a767d7fe2f708bd04d2b96f283034a0afa35597abbb75ed1571733628fe",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH042_沃波.md",
+    "status": "MODIFIED",
+    "before_sha256": "c6ccd18099d827ef05cbb5b6048b4cbda3c11872a84f70c5c8e2efb979c9c8f3",
+    "after_sha256": "1ac1381f7c6e0a4110ce8b6df39e18112b458e8120a9620533cd11bf39d78f84",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH043_波利.md",
+    "status": "MODIFIED",
+    "before_sha256": "42e65dc6c3a186e1e4e311dac620a941b0c9f40514d2e426cb33050e80e42921",
+    "after_sha256": "359e09fce94ec6c68aaa2c1ed1c3c5a3ec3b85f5cac57acce1913ed20a7d8cb6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH044_蜂.md",
+    "status": "MODIFIED",
+    "before_sha256": "cf98e4eeeceaf79a95e4cded264cafa218e53fac75fe8292faa249f72bbc0852",
+    "after_sha256": "67c80dcc98cc3f3ba1b0747285246af4922fba37aa27928a2816d7cb688e2232",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH045_遗鸥.md",
+    "status": "MODIFIED",
+    "before_sha256": "cf077644c6ecdea69f69d85bc9fb71695be35de632f446ea3093dd8bd044cb2a",
+    "after_sha256": "eea07fae6796da9f00bc5a86a00578afb9e024a8e44b17042671b6ca2ffd1c67",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH046_褐鹈.md",
+    "status": "MODIFIED",
+    "before_sha256": "f7196d010c461af0a0b7e3b203d190f2b8193f83ff9d34ad19b2b0ed72b22bce",
+    "after_sha256": "800ddf24863f02e7922a4c5f0a3f0cb1761c54b2a0047182b6292d0af3df9280",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH047_王腾飞.md",
+    "status": "MODIFIED",
+    "before_sha256": "27a603ce0ddbde3b1602ba3f7edacb955dd466ded893f019bc317fbf05d096fa",
+    "after_sha256": "f4239840d4913a5efabeb9573f64c14612761145eed48794b6fc24b2028bca2d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH048_李雅晴.md",
+    "status": "MODIFIED",
+    "before_sha256": "fbedd5a88d0ca7661fbc156f49841e0a829e9f3ba78fa26d30867ee606b49b17",
+    "after_sha256": "004da17ee99bfc974994a8a8ce4eff2913057def3add736ff6fb7d497a74c411",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH049_李英伟.md",
+    "status": "MODIFIED",
+    "before_sha256": "e69d137b1fa364f183ffe6938544f268c4e47603a81e450c3b156ba71da56a5d",
+    "after_sha256": "0f237c1ec30789f3c7abbec4cbf021e2e5db0138ea2c1998eebc76e5679b12b6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH050_江媛.md",
+    "status": "MODIFIED",
+    "before_sha256": "c9db9910b5bb14d8d394a4012d8245b0172169cf230abb34f04a6dc0395b7136",
+    "after_sha256": "f5efcad6bd70ba7e72d5f2bb1c22db7b5686f875760322fc741eb06a0b98a233",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH051_蓝星.md",
+    "status": "MODIFIED",
+    "before_sha256": "7eeea66ac5aac7c865052ad7b30832cd8ac1e9768c789ad480914fef830ea14d",
+    "after_sha256": "9b3d12daf412263645696531d93f38ef7f1e090b542b065ddf67426c254ab091",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH052_木棉.md",
+    "status": "MODIFIED",
+    "before_sha256": "05edc5f07f89db656ea3e097281e4bc6b3dff50baebaa151e6301505eb1d7a5e",
+    "after_sha256": "85c4e62b9c5e7d7c0b6f344ef80ccdbf42309db0edd7449d12ede01effd97c76",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH053_青葙.md",
+    "status": "MODIFIED",
+    "before_sha256": "2911360f4643d47c699faf9b527d886da070b1d73df7793032c01f08be4235f1",
+    "after_sha256": "ae2b7695de382d257b5fff98188a6d96a8b029b395e51b70c8daa663742a5533",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH054_花烛.md",
+    "status": "MODIFIED",
+    "before_sha256": "a7ccaaa5a54561bb2de8a371936e2d02527b6711970f149f379d0323288d8a16",
+    "after_sha256": "efc43254bbfb1079824d0fcb1a9f3be67908f5b683381a0e01d6349c9794f4a8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH055_卷丹.md",
+    "status": "MODIFIED",
+    "before_sha256": "bcf935afa4b9aafed7bf1878f3c1d8b76c89e4419e83d04f2e32b51f1e80ee09",
+    "after_sha256": "fa9e88b3c330cf09dfed3412c099eb43a3e79006dbd99192feffa99d9f91d091",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH056_山丹.md",
+    "status": "MODIFIED",
+    "before_sha256": "10379733cac4c86b29e91908b4ac206e397b99366bb05d1cf5c05c2e04732d55",
+    "after_sha256": "1e2a8a41e0183b3b1c5398888a0e15867fe2c606fdc8330c36690e228facfeff",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH057_醉鱼草.md",
+    "status": "MODIFIED",
+    "before_sha256": "42d7ee5520dd9bd9c7e62e3bee20dce04259aa5842f48858869462a77015e16f",
+    "after_sha256": "302fec54cf39e74387b4744c004df5152f7f4e035753ec9f3cf9449bf837f82b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH058_鸽血红.md",
+    "status": "MODIFIED",
+    "before_sha256": "fd2433803f09fa850929cd23abb0d382f2884dbeddc717915af6ac0d61253d01",
+    "after_sha256": "47b0cd2f585cb866836d7c59bad0fcd4e79468558eca1ab968cb932200f2cd8b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH059_羊踟蹰.md",
+    "status": "MODIFIED",
+    "before_sha256": "d68ba4a5a1186a32843654ab8fa9563307ed47c99ce28b9310bce11f549c6774",
+    "after_sha256": "13b47a739c1b37bab0d04b837151364f5d6afd94e615776c84261dc41168c862",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH060_飞燕草.md",
+    "status": "MODIFIED",
+    "before_sha256": "b552ef83558a77c05ccb5843cf03315600d729209ec04cd528a7e89332395baa",
+    "after_sha256": "c5d0655987c8c96dcd6deac35c69c36daa0d0090782189ea90fc80ead6e269ae",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH061_迷迭香.md",
+    "status": "MODIFIED",
+    "before_sha256": "c9cc71469edd5207958df6c0b8f5be54d80a93a2d90c32e8bc6bf506ba605898",
+    "after_sha256": "f787c4ef9318ac99722c2bc5a1c83e2085f8e9848c217b6104ff84af18c75677",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH062_雪毬.md",
+    "status": "MODIFIED",
+    "before_sha256": "d2da3dab6121aa826bfe1b69e5d4e775bc5d89039aa06cd2279ac2eab2957fb6",
+    "after_sha256": "a42e918e0ebc0ca76317701b30bd01b5e01e5ce50a9aebb7e8dfa57564bec3bb",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH063_鹤望兰.md",
+    "status": "MODIFIED",
+    "before_sha256": "1dbd4d9412a8bfd0a284a0f0f8fab3ce2267a842dad8892eff428f16125e7ad8",
+    "after_sha256": "66c38a67eec8557e680590f0c11a59baee22fc3b17c0ee4b27e89634aa93cb0b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH064_大杰克.md",
+    "status": "MODIFIED",
+    "before_sha256": "ce03026cd1378b69048e800ecd4964eb2cf7df8653bafb074fc78f2cc9a6390d",
+    "after_sha256": "38a069e2a0185167b642e056c71bd00f74ec36372ba193919c5b5b8059c30b09",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH065_救过陆红豆的魔法少女.md",
+    "status": "MODIFIED",
+    "before_sha256": "a640a3a7586597d1cf1bb790e0a177372312d0eb8a7f36ca9bd41b755c6f3c2a",
+    "after_sha256": "7c35292ecff01077628d5ca0619a25466e68cd75e84a22ea0f2484a220b6fedb",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH066_研究院主任（规则权重使用者）.md",
+    "status": "MODIFIED",
+    "before_sha256": "616eeb79a4e19b832d3942b54dec276df4b842a3119fae510382dc4daba90246",
+    "after_sha256": "e56193985bc7ba12bac4d945ece7163e07a44d004c585d685fd4c60a428a8a9c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH067_兵蜂七.md",
+    "status": "MODIFIED",
+    "before_sha256": "65e7555b60fc9277341576c7b63153305ee55e998a8d2fb22d6334d2cc2b6b47",
+    "after_sha256": "650d9f99b63c447a76f82809c1333a1764858ce7aae8be18afe2b8abf17633dc",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH068_蛇鞭菊.md",
+    "status": "MODIFIED",
+    "before_sha256": "03b4277069800a265a7d2388badc77671241c25f3a011d44c37a0faa52278128",
+    "after_sha256": "3c3a74464c2629500da53dc3ff473b22ed4dccc92f143b4d7ceb663196d0098e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH069_蜂之使徒（历史）.md",
+    "status": "MODIFIED",
+    "before_sha256": "58580d4cb762d2369093dda965fb8a893b66697c1e86d15c08d360bc5f78a46d",
+    "after_sha256": "065ccb9ea09f49309da9ba5b1ba35217c0ac8fdd2ab8ee82e41791c61f958726",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/CH070_月季.md",
+    "status": "MODIFIED",
+    "before_sha256": "3475662cbdb8a0ff3696abde0d464f7683c8d2570fc4f8ab067d11c9f7b42c54",
+    "after_sha256": "c908a6a8f281dae64586aa5721949a422dff3d84535a1e3a0ea79a93e5f43b02",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/README.md",
+    "status": "MODIFIED",
+    "before_sha256": "3ec8ed4f3c062f6f347181bc8944d99d12bd53cdadd87ca399c8d7ab51051c7d",
+    "after_sha256": "04bbc891431ccae3167986ddedf00808986ffd15a99abd04b557c75a8c8c4cb4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/characters/records.json",
+    "status": "MODIFIED",
+    "before_sha256": "a4f32a62094d0aad2c282fae97f81e153d871d3a6885c1ebfa923ed7bc2010a9",
+    "after_sha256": "3c121e09f5a7b9acd34b7503053b2bdf7b65e40e4b1c20a0b4fe2713da3d245d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/events/README.md",
+    "status": "MODIFIED",
+    "before_sha256": "4b274a3c6bf68f59622f7521d8f7d5d2ad4cad924b21f5e5a041a340a3f826a9",
+    "after_sha256": "74b2815f9b662710dc46367bed2d213b0059853f3c1bf9766782604f2c3d23be",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/events/STATE_CHAINS.md",
+    "status": "MODIFIED",
+    "before_sha256": "b8d12b4aac6ab1df21e9afc48b2460f8ee4dfc462427114ceddbf1ce07e928a7",
+    "after_sha256": "eb60dba262f4b3be2918feb64675a4fad4c418e0fc18493e8c0f57834769d0ab",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/events/records.json",
+    "status": "MODIFIED",
+    "before_sha256": "b4d8a5344231b93c60dc681479e0678e925ca5f40e0d08fb254cdca4129f491f",
+    "after_sha256": "e873cf0d34e4ab49e1e199fe9ec102c713d1bb49b11f3cf319b04fe5605382e7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/CHARACTER_SCAN.md",
+    "status": "MODIFIED",
+    "before_sha256": "6e05f9b4ad82626a070cb7bc445f57322d62bc5b3665e5e73dc5be43cd67bd0b",
+    "after_sha256": "ba6d781422463bf8cdf510b356f49ccfba4eea50fa4aea22f0d243202b905ee6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K017.md",
+    "status": "MODIFIED",
+    "before_sha256": "5eeddd466e18afe86bbe841b65e4682c6dd8806fff2f9fcb299b792b61320d5b",
+    "after_sha256": "1378271bf2e78d6bd2959c350d1c4d2abc9885fdbfa0ed9a8ec23d98986d9bb2",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K036.md",
+    "status": "MODIFIED",
+    "before_sha256": "8416b113df76748e08f79a4077b620933f465195cc07959c4e85ed0941af8de4",
+    "after_sha256": "0cee15ed767e64940a105e836323f5ecfc390e83b91f60216178db2ff8444c1d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K090.md",
+    "status": "MODIFIED",
+    "before_sha256": "38dd8cb4c8bf81785dd47d367e9be806fe4557abf60f282965faaeab9ce7db2a",
+    "after_sha256": "6f711bc55d41ff1c9e842cb0b6acdd7ec561e21645fe45ddde18b01ec6116d74",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K156.md",
+    "status": "MODIFIED",
+    "before_sha256": "2fac0928430bdf3719b9788881e3c5f81690b4187df7403ccf261e5547eb336b",
+    "after_sha256": "86d7543cb0442b64b0588f48dc5b41126ac1aca86ae4c73d97e92893958f4575",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K169.md",
+    "status": "MODIFIED",
+    "before_sha256": "79bf66bdb24a69a2fc9191083a1ffc1af88f1a9b00cb0e5dbaa32ba40ac8b6e8",
+    "after_sha256": "dfcf1aafeab79422dad774db0cc20578fa35b518064fff368d6f6cc861636f50",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/K225.md",
+    "status": "MODIFIED",
+    "before_sha256": "adb28dee84fbdec15aa61de28ea8ee730353c5c467f8e8b703d3f8841ba3f2e1",
+    "after_sha256": "c973bf3bce16f0c64fe67c2639be78aee759131073b11144d564392b07136cb0",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/KNOWLEDGE_MATRIX.md",
+    "status": "MODIFIED",
+    "before_sha256": "6768b03380e9549862e0e6e3584c81ad7a79f28aed0548a2c716a461be87aff8",
+    "after_sha256": "61476a6819b94a70243f83791a9692c7b4891d273769eb2d5926d17e8b36a500",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/KNOWLEDGE_TRANSITIONS.md",
+    "status": "MODIFIED",
+    "before_sha256": "3f464a5be4d8a28267e3cfefd8a66b556d34d55b59fa7243b55a99c07bca21b8",
+    "after_sha256": "13ffa722536dc1ae96ec9b280a3642c59fc28fb3be1a55faf6363dff2f7583a2",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/README.md",
+    "status": "MODIFIED",
+    "before_sha256": "ac31734cc4f8ede71ba55e8ff5dd1a2e472a04f89ab5d6bc59012c09082fe725",
+    "after_sha256": "3373e3db763e6f680d9afeb0f650e137c22b7854688f54240acef855f2fde290",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/RESTORE_POLICY.md",
+    "status": "MODIFIED",
+    "before_sha256": "d7512ac9828dd4a398147eb697f507f43f98c1c03ce33e8a760d539f4e8c8929",
+    "after_sha256": "5a7f395e87360e75a613ce6ec0b2559532500255c5c13726b7746c92ffd797e2",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/SNAPSHOT_CHECK.md",
+    "status": "MODIFIED",
+    "before_sha256": "d09a8e0bbc24c4d1e6fedd4c6c56af1fd8ef05ce60afac8c17c84868d978426e",
+    "after_sha256": "7b6da3617445d38e4c683f5d97d2e3b5e79df00a459c577b4f1855e38b8a8dd9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/TEMP_TO_K_MAP.md",
+    "status": "MODIFIED",
+    "before_sha256": "56ccf85d862132dac598d815017d864162013f97f5b58dce3dd85c074995099d",
+    "after_sha256": "7f0f54fe198447403c3eba4192a180ee79e1ebec51c6a4af51e444a491c9591d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/_build2b4/history_partial_order.json",
+    "status": "MODIFIED",
+    "before_sha256": "ceb3b2a93ca8541a27e9114095231ddd9e3b2b7741d6b0864f5cef3bc8f9694f",
+    "after_sha256": "a6d62f6bd73adb6c48be99d0d794b1e18d4fb52ee383fb9e1038b30c1f0d181c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/by_character/CH001_knowledge.md",
+    "status": "MODIFIED",
+    "before_sha256": "bae180beb5601ff084df0ad01939b662d60c1afdb9b14b600f37499d240260ec",
+    "after_sha256": "1fc0f84fa0efe9c643c6f3fed05390a6bc074cc1b9997e7092242c062736b2a3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/by_character/CH002_knowledge.md",
+    "status": "MODIFIED",
+    "before_sha256": "86b5199e799b4b006f06390b6230e58b3d36840e5b82c7c0287c9173086320eb",
+    "after_sha256": "6d2c9a72037770d1023b4ebef8dc1c2c9d2cf722099f5f425e59e2c3fa7d4750",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/by_character/CH005_knowledge.md",
+    "status": "MODIFIED",
+    "before_sha256": "f8eeaeff1ace7eecbf2d6ebd944b90d749bfd275f4cf121f7b009386c2b1e15c",
+    "after_sha256": "39f5ea48ccee88f37fc461a8acf8bc0e88c2dbb8a122af9498ac21153a942ad6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/by_character/CH007_knowledge.md",
+    "status": "MODIFIED",
+    "before_sha256": "4d1f4b71aa714c8b9f89b20233c48496fdbf221b7a51dfde8c5f0f6bc870fb36",
+    "after_sha256": "d0a6cb31833ede27febe00b38401e059d5e21c833d1cbf26b28e28ed5b6cf4f4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/query_knowledge.py",
+    "status": "MODIFIED",
+    "before_sha256": "d410798226e1c35606d32d2e9fbae8f95a0896fbe7b7208b6b53ad463993b117",
+    "after_sha256": "bf3527ba353cc025aee04ea74e4a623b130bfd2a654ec94fcf2287b41eff24f9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/records.json",
+    "status": "MODIFIED",
+    "before_sha256": "b65c449d89c41f45b4f61a9434cd3d4c047c8fda1c3bd0a2d32d28057bdd8f60",
+    "after_sha256": "97617ee0df80e4b0ec28baef2fbc53b97ee43560e4a98491c82c3c6d9e6564f0",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/knowledge/temp_to_k.json",
+    "status": "MODIFIED",
+    "before_sha256": "f279ffd42e5f4ec533d9932c6d5231639083515c82b2ce593dc5e95dfac02fb1",
+    "after_sha256": "2716fc18a654b8c1992591940da5026cb795d1286839bdf3e249976a34e8264d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/CHARACTER_RELATION_SCAN.md",
+    "status": "MODIFIED",
+    "before_sha256": "70e8941ec9c577af7689d3076c65df46b0a0f834c30e719cd29906dda22ca02c",
+    "after_sha256": "e02671a5b95398df98390f1a7ccf5aa949551cf26093c2c42684eb1ccfa7a0a8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/README.md",
+    "status": "MODIFIED",
+    "before_sha256": "3eea2b86c76227c669dc5dae1a4fd9bf9c096dcd2f4f6a61d99bce50547271c1",
+    "after_sha256": "b6317b980112e5b84d78f3a64637d547009eaf25497df9fd94f4930897bf18f6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL001.md",
+    "status": "MODIFIED",
+    "before_sha256": "7d279aa9dc0a2bc007c4b5b062a50b9bf95d599d4e6df95db1405968e778efd3",
+    "after_sha256": "9edd4bf0cf8583b6ce362fc89156f83d85ad293dbf02b6d63ed49fedce6229f9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL002.md",
+    "status": "MODIFIED",
+    "before_sha256": "4552ff5d44ec6dc6e654ee5fa97cf6b19dc389aa76938dcf6e5a0b17d70d0673",
+    "after_sha256": "f286a08e047310e95c72ae1792bdeccd2aa986c36fe1647229063915ce1b0f34",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL003.md",
+    "status": "MODIFIED",
+    "before_sha256": "316cc8d470d9c174f390deec39176f9409bd088152d853fb154f07def219c390",
+    "after_sha256": "88fb8f444cf7cf07838397ad5bd022c8316f86cb88f02336b32b75580c24ba10",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL004.md",
+    "status": "MODIFIED",
+    "before_sha256": "0e5fa29a5d680df62c5cfc3145dc4dc53281338900146b4b89cc678cc0a49188",
+    "after_sha256": "cb2fec2a546c489a97802d1a5806807c20a2eaa1d711920be0d6a12ee38cc3f4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL005.md",
+    "status": "MODIFIED",
+    "before_sha256": "a92da264052ff5385d8d7debcee8b16a9024714bc6dc54270fd1b009d8ba7078",
+    "after_sha256": "00277b6ed08eac07c3dc82fe526a03091936825083dbc10592d7cbd9bc1926fc",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL006.md",
+    "status": "MODIFIED",
+    "before_sha256": "1b20bfacc724e52bf6fd764cf8dc6a0d21d680c06c927dd1c2b2593d85021fc8",
+    "after_sha256": "57b0509a2e1cc522828256b42651dee9eb0f8109b1c0a4969cb87b205e8a96cc",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL007.md",
+    "status": "MODIFIED",
+    "before_sha256": "cb03c1cbe49d2345e962a1a81144901cda9a6363789ae112095875726bbf1637",
+    "after_sha256": "e460a1622987bfc2354f0852032e857b87aafe032f684ee005ca7dd2aab39567",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL008.md",
+    "status": "MODIFIED",
+    "before_sha256": "841e045a597479782012d1c9ffb5abefab083be04605992f926aeef8e0ab827c",
+    "after_sha256": "50599b34b1c3e0884250bc7fc3b073ab45f6707f5805ea73a011a7e012c55573",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL009.md",
+    "status": "MODIFIED",
+    "before_sha256": "dc9528a010e2ae4e85b83f67c4673a0a7fe793bd96960361983020114ad02beb",
+    "after_sha256": "cbee184705dd95de9895dd3a1da5544f20512a4148d200b4f2b2ca1ccd7c1896",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL010.md",
+    "status": "MODIFIED",
+    "before_sha256": "b156ff8ed6dbe852d8112598a52408387fe0aff13b25f7e0e901695e42fb74d4",
+    "after_sha256": "dbd1886529a7968508f5cc9e646ef035892b32f2de9bf499d79b66212dd3d018",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL011.md",
+    "status": "MODIFIED",
+    "before_sha256": "9eeced1a58a60fe68d1717827aca84dd87abaca6c94c9b2e8f76f6db911a3707",
+    "after_sha256": "42bf1ce707dce58c85915f96e38f2a124de3b120bfde8b2559844629bcb0615d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL012.md",
+    "status": "MODIFIED",
+    "before_sha256": "8c48cabd7d8e930a66de45b7b937833ef8411ec257152d238444e7b233e0a099",
+    "after_sha256": "039066925cca259e8bc19990394a866d9ea6cee714460cccd5285d5e57c2856a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL013.md",
+    "status": "MODIFIED",
+    "before_sha256": "1432372fe47712b58a93f4da73b89c7c240a7e9737a26e646c42eb4beed81013",
+    "after_sha256": "0b74e18982b31ce57a92bec24f68f8df5bd2647f06a848c3f18f3115e483b990",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL014.md",
+    "status": "MODIFIED",
+    "before_sha256": "9574978bd8c92761cd53f2523dda5d0cb62c0e9f5825d8ad7e8eab6eb145294d",
+    "after_sha256": "25bfc72296f389b2d7f428b7132a82a258afc431fb25261c87047cc0d3ce6bf5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL015.md",
+    "status": "MODIFIED",
+    "before_sha256": "da13d8779631c2ad47513ac7ab89505777fa91e493a1e19b004ea760482244a2",
+    "after_sha256": "8c687566b2adfe065df9fae8633e613a531ae9f1d2e66a0debcd30420dbdacf7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL016.md",
+    "status": "MODIFIED",
+    "before_sha256": "02a660fde3c33b2d85bb1ba977a895a82545f4e294558a1d772801bf6dab0d1b",
+    "after_sha256": "eaf22f76542b1ded8d6a1fdac306d3d723086c5c18d9952fadcf13aa677234ef",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL017.md",
+    "status": "MODIFIED",
+    "before_sha256": "c8e0f3c162dc1f151f6d035edaa73f2c6c4c23910b6d2b67b7208be0273ea1e6",
+    "after_sha256": "9ca68ae1638c46fa6599a5a85b0e3f6038b529c7e7b0ff98d7e42647dcdb1e22",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL018.md",
+    "status": "MODIFIED",
+    "before_sha256": "928ab9f7e8084ce367d456f90c7bc7d4d1fd53ae9050610e5e067ac7d1b4a2ac",
+    "after_sha256": "a33369dfab2c0c5d86fbcaad7f103d2374ce526c610c6ca64874850c03260f6c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL019.md",
+    "status": "MODIFIED",
+    "before_sha256": "a537fde0d45a4f57ce45282bfe5e247538c615b11a6507022cb971f7859d50f1",
+    "after_sha256": "dbda7037f9a64c9a169ba7d2a2be1265149881986d52f191599ce8eabd4f8413",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL020.md",
+    "status": "MODIFIED",
+    "before_sha256": "0b81ad2cd432dc684d0bd237826db55cd7c9fec48ffdd2ea592acdfd8e023a49",
+    "after_sha256": "81c07acd5a5c809b0d4a72549e68f5881bb17110f052fcfd665f299168cc6d3d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL021.md",
+    "status": "MODIFIED",
+    "before_sha256": "9a2dff6687da265547c6f6a3af1709d791284c429ecaf8017508a8d851d4aadf",
+    "after_sha256": "d5ab71ec7151d48ea338f7e5c696b69a3749c4426ef429b9b7e16ad4050836c7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL022.md",
+    "status": "MODIFIED",
+    "before_sha256": "b9ef37485b1312491d2bbeb14813b8983b6a28f1d987918134cc266d0e1a2f57",
+    "after_sha256": "14a6532ed79d373709055e397b087d6cadca3be6bed387fc87a58377eff2e92c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL023.md",
+    "status": "MODIFIED",
+    "before_sha256": "f3c24010d8a9d299efa306970a695fc3dc3eb731a9a568ac2be5cfcd2681389b",
+    "after_sha256": "2be4efc5e0ab7648eab113aab88daa9cd4d852d9d4eecbbdaa61d42b4d09cee9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL024.md",
+    "status": "MODIFIED",
+    "before_sha256": "09e222e9211d188a79e0980d54782aa5d31c6382e4ac189c415d5e1b3dfc2a59",
+    "after_sha256": "e0e340b6d8d9af66d5646e66c7dd241db057cb4cbbbda26364f536fcbce12471",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL025.md",
+    "status": "MODIFIED",
+    "before_sha256": "295e6f282728699e75a28912e9934ee7b6b394bd2d6351a7d2cbe04e2279f1fc",
+    "after_sha256": "c05d1af4bd85cef99d166b7afd7118e3ea70be888d4732ee44eeb1b170c1772d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL026.md",
+    "status": "MODIFIED",
+    "before_sha256": "dbb50776c62c7c1ec6bb4a5ecd127322a3f0a81834a32bc217581f8a69ea9eea",
+    "after_sha256": "782b903144db1ba08b1e386cfe5e5b76442501cc37c8754f692b0a65065d1134",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL027.md",
+    "status": "MODIFIED",
+    "before_sha256": "eb5b431850829b9c6d85c8673e281899dbf5a429c8e71b2d6d163e3afbc555d1",
+    "after_sha256": "d14fed5d695a4b4fce32fd612132296628983fa2143a10375e86045330731988",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL028.md",
+    "status": "MODIFIED",
+    "before_sha256": "b3b65644cc73a15a34c9e6d834f4af129f3338391083f4dbb51eb0c257ed9258",
+    "after_sha256": "beb7983acd7e438932279b4a6f0c4589a6f2bb3e7868bd90720968a06e3a7218",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL029.md",
+    "status": "MODIFIED",
+    "before_sha256": "9d433743875b3a5afab0fe8240f5a86826ce9c857e53e7c1136454d7ecfab3d7",
+    "after_sha256": "61364c684dc6560715765b03cee74c1840401e6d85bbced69ab6c5f599275380",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL030.md",
+    "status": "MODIFIED",
+    "before_sha256": "26cd6c6d32c6f8060290736118387da5bfd0ae6bff0563c4a547b66fc828b64c",
+    "after_sha256": "e2b57158daaffbc70d63b3a698802ae6ec41922d1f737b607d6e1ed3c7344b04",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL031.md",
+    "status": "MODIFIED",
+    "before_sha256": "3c69109e248ae2dcebe9f6d861b3dc52181de8e94904ab995750587e66af08cc",
+    "after_sha256": "226b685b278ad8647793d6b6abf54a90047b6bd2914776964e296c40eab8c69e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL032.md",
+    "status": "MODIFIED",
+    "before_sha256": "9f4ee5f9cb17512f344c47023e9cd944551088f60b3ff6b4567dd4b6841fc4cc",
+    "after_sha256": "4bb8f00b79fe8d1a27c020457157671357b55f884ecd024b573cdd6cb7e2690d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL033.md",
+    "status": "MODIFIED",
+    "before_sha256": "f9b9131e93692b82b195ca4b02da172b84b0e7d90ceb8d156f29d86c3f42e549",
+    "after_sha256": "4537a4ce58bd571ce56af5097f7730adcc5398f7f8a4724a083b7ba6df15e61b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL034.md",
+    "status": "MODIFIED",
+    "before_sha256": "637949240c4fc842617b9a12fecec76cc54aed8d266273cae16eff15d5753fd4",
+    "after_sha256": "6b3a7986057da2936a31509c984d9aab6b60239bcc6cda8b06b28c7d88d65d0f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL035.md",
+    "status": "MODIFIED",
+    "before_sha256": "c1506ec10262f42defc198463d7aedbe099c6dc6bdd845a5eed82a236165f3db",
+    "after_sha256": "4f3564528967860725bfe25d8cfa30f85155fefb82bfd152af98e9c3210508aa",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL036.md",
+    "status": "MODIFIED",
+    "before_sha256": "f93082185b964cc738e0286a183f8a375c0fbed5289abac910284305665eb050",
+    "after_sha256": "9f046caa72115e48a60c4b29ab3704097e997e91b357a83ff24de75c4eb80c6b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL037.md",
+    "status": "MODIFIED",
+    "before_sha256": "c567b9d99054a0ac25e1b0b761aede46631851cb5be75719dd27549a615d2c2d",
+    "after_sha256": "6ed73cb3f0e5c77b0fd506f3065b1bcffe5ce32fe790234bb0ba068f6ec30157",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL038.md",
+    "status": "MODIFIED",
+    "before_sha256": "7815a1d4a85f5806d62fd0c25359c91ca711c2f2f6a024e6fc536673bf1b5460",
+    "after_sha256": "5e67dbfdfab99fc1c9ad7063786784cd0f267b89998e7489cb299ca630fe16ba",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL039.md",
+    "status": "MODIFIED",
+    "before_sha256": "d329dbeea37bec0d8059a929618f045b1051438ff71f60f9f03fe9520bfc4444",
+    "after_sha256": "c512a79b319571332275d352d60c1067512b90498e3fb4794d04666940254251",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL040.md",
+    "status": "MODIFIED",
+    "before_sha256": "19019f5f84a8e79a5536ab00ae32e14580601a2d2bab972e030b08167931fa20",
+    "after_sha256": "1640bf352865226d70da6bc9071c900b23b6796cbcb0615faeeb1568347bf3c9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL041.md",
+    "status": "MODIFIED",
+    "before_sha256": "14913c2e9d98c070235950a66df922e25d4d97b06edde983b48498261096bf77",
+    "after_sha256": "6055df3ae03ac04ef1ceac25236e02b46dc4a33f539ea03cd5a3c5bbdaacac8d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL042.md",
+    "status": "MODIFIED",
+    "before_sha256": "ee58c1f76172b330039f13e3f69fe2700872c8404ca799ad4cd267c83acaf84d",
+    "after_sha256": "7704febdf2d37e834ef42a18bcc99742f4939f4276bfc98b6c1b750e8828cde2",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL043.md",
+    "status": "MODIFIED",
+    "before_sha256": "9662d4408ff8278c41fbfe0f20fd90eaec07c3ccb2edac1d3eb18cd4a95e2563",
+    "after_sha256": "8eb557f52c1ee94ffb94e21e02f08f195a8026d5b2664058f5ba2cc2c8cfc74a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL044.md",
+    "status": "MODIFIED",
+    "before_sha256": "615c227aa5f12405a76b0c3e910376066a8aac965bf855f78621bc07f47313ed",
+    "after_sha256": "c6c0bd50cd3764e6fc94f325baf49fb78ef3fecd73af26ebc3ac0a22e1ad0eb6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL045.md",
+    "status": "MODIFIED",
+    "before_sha256": "51a4ffeaea1551ac15cc794ce0de951fecd1a3457eb3cc594f83168be175b763",
+    "after_sha256": "562c61dd4631adb5bc020e0d0e5a939596ef79c17a3dc30a281e339700c9925b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL046.md",
+    "status": "MODIFIED",
+    "before_sha256": "e6ad308b1a6df81ceb77e309d444f27e36d8414eaa2bac551439c39ddc3650cf",
+    "after_sha256": "fe79a6771456482c9eae5e5f56437dd11de23ea5aad4d7ae4c39de2e70eccf0d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL047.md",
+    "status": "MODIFIED",
+    "before_sha256": "6394f11f0f028c46f1a78030499e8c72c58ab03c18d2e417c2cd0c7fb4c33466",
+    "after_sha256": "85ba2d0ac9f47fd07348ffb5ba23c053b5070b0e1e3269bfc80e0b75a30d76d5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL048.md",
+    "status": "MODIFIED",
+    "before_sha256": "90bab1045fe57f023c77962c9c07850fd462a898e2764b7ee257e60dd2e6ae9e",
+    "after_sha256": "4a4e8f63aa71904835b1f99e4ffaa3cdad6176df1d60f4f0b280222c8a5bcf1e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL049.md",
+    "status": "MODIFIED",
+    "before_sha256": "ba5a09e5f253f10ba79c5eb7eb03b4ede942056140b553950459669f173b452b",
+    "after_sha256": "aba453bf4e24c92ae4f83b174abca9fa40941b53e9f9f4622f802ae84f4effa9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL050.md",
+    "status": "MODIFIED",
+    "before_sha256": "c80bd074487ae89482c7e8f6418040f137dd2cb3567b87bba3750069908632fe",
+    "after_sha256": "bd216063330ab04f9355c00f068f3c7a7d578e6436987ec5d8f18bce97730cf3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL051.md",
+    "status": "MODIFIED",
+    "before_sha256": "24e22df3c960a656480c37f29aa80c350160e38420e5629097d3e36c41a9fdf0",
+    "after_sha256": "91d0294a3b3c9e19fe8be43e155ba8af603fd98fde6870b0eb04c41d9826147b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL052.md",
+    "status": "MODIFIED",
+    "before_sha256": "e6e65ccd7e420d5769ce348a127b1fc8491dfcdde5ff72241e95e942d61af0eb",
+    "after_sha256": "81eb0b56930db810b275b280220865594e688b81bf67a0f91e72753abd1e533c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL053.md",
+    "status": "MODIFIED",
+    "before_sha256": "baf5a73bb3515611d057f3718de691fb67c4b50ef438f51cf4afbe79ffa00efb",
+    "after_sha256": "230b334e8ae56b53e2899549d9e2be29b4483136255e5f982484cd224879381e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL054.md",
+    "status": "MODIFIED",
+    "before_sha256": "a8b1261412e95bf80605ceb2c0c6f202ca377d6e90b9d8cf19937d5d34c4abb9",
+    "after_sha256": "d80a2786f95b6c11b75563710662ae9fe741a716e0b907d6a809ab991225f8be",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL055.md",
+    "status": "MODIFIED",
+    "before_sha256": "b5ad2b974b4716a855729a143d47f9ce73fb02c373f666b377f3c5aea3d3c7a1",
+    "after_sha256": "11e83e3a90ede7aa36b905d0e71190dc175e2c3baa4657f36f711e91797ec961",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL056.md",
+    "status": "MODIFIED",
+    "before_sha256": "f97eea987f6c4416a406406a817df328736ce7ef8703a6b76b3f61af20ab2ddb",
+    "after_sha256": "5e1409aec995e09f63d937933c41ca2aa130c190a81a83e9367f2bf0b24b05c3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL057.md",
+    "status": "MODIFIED",
+    "before_sha256": "05eaf023d4c2ac36e626e1a281192d6b3feb1142b0e40d130ce39347f6bca295",
+    "after_sha256": "83b4592b67693ca864a01122f410368ea2768a477b865eb1a6cbe64729c18dba",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL058.md",
+    "status": "MODIFIED",
+    "before_sha256": "4c4a66290775798a8f038b9d9b44589bd371e20613e9ba92529eeed17bfcc16e",
+    "after_sha256": "9e07cf1b99bef5e9bc266d69e25aba69eeb135a3ad872fe7e625aac6af23729d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL059.md",
+    "status": "MODIFIED",
+    "before_sha256": "ccb212b3521a9b610f354664a2524a9e572f805f7b8410b8477647972b8a4161",
+    "after_sha256": "df5f7b96233047123a5ab2971092b748b25ec625f625240b179997f600bd918e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL060.md",
+    "status": "MODIFIED",
+    "before_sha256": "477e6fac1872face3608bf9e42fcb1ec4500e15d42e176fcd420fb8341eb7e75",
+    "after_sha256": "53cc68a452a6b535ce29b67857eae48b33300a05a820a8cbdc8b2a96fd3a8505",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL061.md",
+    "status": "MODIFIED",
+    "before_sha256": "ead5c32bbf14b8311bbaaa517b8835915ca1e276d4be386f58b9d59ec8421c7e",
+    "after_sha256": "4a1bf37b10580596bc77803b72bf54074ac20b4350834933103382a3daf0678c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL062.md",
+    "status": "MODIFIED",
+    "before_sha256": "ac676c600c2a8756122f68cc1bc5c47de1e9aa9969487ca65b194cf588ff2bfd",
+    "after_sha256": "b87d826682f53c9a6f11c9e299b5da570be774a17905b62e9310644de606090b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL063.md",
+    "status": "MODIFIED",
+    "before_sha256": "88eebe5d6926a58a99ca931b698228c8a109350929346acab1b0a3dc9743dfa8",
+    "after_sha256": "56be1740b1f23c09647fa16bb10cae6afac846fa2ce5ed15bbde47e9bbba3015",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL064.md",
+    "status": "MODIFIED",
+    "before_sha256": "1f2f1d673e607a9b163774a1226bedc6a29df42f7a9f6465bc0888dcb883f87a",
+    "after_sha256": "6b5d85f40fc6530ef49ad685e0f0745f83d8f4b37d8766127f0c8db561151b40",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL065.md",
+    "status": "MODIFIED",
+    "before_sha256": "6fda358b13a2b1ddebd0f9e655f2d3f68bec46382d72338cf29eef130096719a",
+    "after_sha256": "a7909718826ebef1acecb0b093a3036e6ae956ab0d0efd8c2fcfe5d8a83d9817",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL066.md",
+    "status": "MODIFIED",
+    "before_sha256": "5f15eacf0c9187c5c3d42ccf485a2d57ad3007ed91b49df15b7544bdfaf7ade4",
+    "after_sha256": "b2a9491e5a51a728d331aaeb795a21c3d4c7837e10097a58119c22d40adfa40f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL067.md",
+    "status": "MODIFIED",
+    "before_sha256": "4e5b3c6d77d73abdbb7fa5c9036610947efe6824e6689b651233637928692b1f",
+    "after_sha256": "4057fcd206a77ff44d6b4bcc4398c5847d07b7188906bf2d981cf8bd319e679d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL068.md",
+    "status": "MODIFIED",
+    "before_sha256": "e63b80bb3f50dbf48e7071c422ed1fc37adfd5ec8d4c9330ead8ef27fe663d59",
+    "after_sha256": "31d87c912d1e54e516b8e45781226ddc04a4b70b0c53449c3a0f3c1cf9787ad8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL069.md",
+    "status": "MODIFIED",
+    "before_sha256": "e59396538071b1eed8eb5f192583a73d17997556010a0c09e80103f98e844a5d",
+    "after_sha256": "b98eba08ad19377bebfd4f4df823437ed6c9c363161e8bceb6f87d198dd28bdd",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL070.md",
+    "status": "MODIFIED",
+    "before_sha256": "9d984da2a0cd499b8a376a95cc3c1a2d42a5df9024e9e16df37d2cd3d7466739",
+    "after_sha256": "cc1a598ad2d1dad749de3e6d9bfb024b130fb4bc519ac811a2374951720f9b26",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL071.md",
+    "status": "MODIFIED",
+    "before_sha256": "746ee17c735974b38a941d940b7408cb5214119817d5a2ee00337ba992b9a94f",
+    "after_sha256": "5c98a6cc5d3f52139d898ce1ebd9ff1ca818e9a1f9b066ca6e204bbeffacbc9f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL072.md",
+    "status": "MODIFIED",
+    "before_sha256": "8354ed025880eccc8a3d8bb01d500de1f07d4d5aae6d9e9ad29333c258288a31",
+    "after_sha256": "9ff518cedcf93161ee53622696f4fcf8aebbea22f71cb87d2ae89e208d5bb738",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL073.md",
+    "status": "MODIFIED",
+    "before_sha256": "4780e21bc21d615bce57bb90fa69dec4da4cdc54ee399d4a761cf4b1572f4ee7",
+    "after_sha256": "1142897e7ff151c9aff1b4f72a3fb6c0d85b597a5683f1c0d418bd503a1a75a8",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL074.md",
+    "status": "MODIFIED",
+    "before_sha256": "7fbdd2a99c50b6a9002c4ce471838df303017ea754fdf5942a4e562ef108450a",
+    "after_sha256": "a7080b66294de5075a71da7ae92c4726fbe960d4e695c5c7443066a735df3a4d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL075.md",
+    "status": "MODIFIED",
+    "before_sha256": "ac7d49231c8bd6fffa5bf153d80a9572c7b6987825c0e7d97c876dc3ceda7c9e",
+    "after_sha256": "b33781dbce21007ce5d4835123059d30045fc792a983cbffea37408d45dfb234",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL076.md",
+    "status": "MODIFIED",
+    "before_sha256": "65796831109e8f2db5a676ceb0d3ecd02cf5b9cdf038b433bdf1bb58e40c3c20",
+    "after_sha256": "fcda2a89b57c22801302ab34836da78b47c4ef193d95dd9ee622bd60c3f571c1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL077.md",
+    "status": "MODIFIED",
+    "before_sha256": "1d175878b6f4b38074a12727254e45e7a928f5c5206b51851c204b49daf05656",
+    "after_sha256": "3bce166fe42b22d31da408b2a907ee3262a4404c79031eb4b308550bcb21762a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL078.md",
+    "status": "MODIFIED",
+    "before_sha256": "bc37e51a987d229ef00479d8e7a2f7a205c4288ff216ca28427404e9cb7bae9f",
+    "after_sha256": "44087d2d1ca8f2819a3f049b96974b713f4cc31fb50a4a7aa6745e8ffbe33bdb",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL079.md",
+    "status": "MODIFIED",
+    "before_sha256": "8f7508957e4ba5bd6f314d58a9570544ca1e8024027a392943378c28305f0831",
+    "after_sha256": "83b1d8b334122764d57bc14eb1fe3f0415de8dce50f15f2059cb0ea801850194",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL080.md",
+    "status": "MODIFIED",
+    "before_sha256": "bec557c59139cb8521be08b486008afe694617568af2548c4b81b0ca21c1ba27",
+    "after_sha256": "726fecb1131b313ee192d0eb6d0316b28ff20e8579bc90e5db492f519335d717",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL081.md",
+    "status": "MODIFIED",
+    "before_sha256": "ea8d19b8ec26f8e264b677b54aba2eeb9c489291081631cff1b78d7cb27c16c3",
+    "after_sha256": "52614ffe54dd8cb1f442e187f1a4b6d6f3c4af1bfdd374d342069d6f7828f208",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL082.md",
+    "status": "MODIFIED",
+    "before_sha256": "a01a25777f44e747fb5cb1b69a4c0006b048652250ec74476adc7be4a054198f",
+    "after_sha256": "411c4d7961c74fa45af665748308551bdcc6e3d5ce20d284b92cc3ac0790e30d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL083.md",
+    "status": "MODIFIED",
+    "before_sha256": "e72d4220255371262f28019363953604ff99ce98de362fab60604762f5b3a1a2",
+    "after_sha256": "6eeee4d4a236cedcca9313d5bf508653fa7ad33e6cd17176a5f34f52848425ee",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL084.md",
+    "status": "MODIFIED",
+    "before_sha256": "be6fa15ee10ff1b4c5b2130e2d42bffc9864b27fed7daa49f181a6a96ed09f4e",
+    "after_sha256": "0526e2ae4a68c547065c1305976801dc9845e7e5b457e2e84d4465aab3729b9f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL085.md",
+    "status": "MODIFIED",
+    "before_sha256": "19731010f98d47f23ca1e8ea46d457a7f2abedfd9c1010cfe342da31d386ed99",
+    "after_sha256": "bfdcfcb84e97fe6f194d9c7c3dd4f6ccf426c412c98e181d1ddb5724e83dbee7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL086.md",
+    "status": "MODIFIED",
+    "before_sha256": "038c0d8d0aed96653a9deb690e1551e55c4c1b2af6bc4997652568bc29123f1c",
+    "after_sha256": "27c0713aba0f3595ce8ea908242dd07c16cb35beffa939ec79702244a06cbf96",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL087.md",
+    "status": "MODIFIED",
+    "before_sha256": "85032a1e6c8a8c2c7c08234a9421c166f9edefbb8af1681688c7b51901c8bb3e",
+    "after_sha256": "d5f59834743d598264822d1f313fd9a8accb24de1c58b21690ef8a6ba5639cf0",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL088.md",
+    "status": "MODIFIED",
+    "before_sha256": "ad109d9d14b379d4c4323bb3dc8fcfc08062d4d5edfb036a398d3533976a6c65",
+    "after_sha256": "5f6b93602e7977ecfa4a61c82ec2096c4ddf1f94398a2fec1bef2ba7b5772fbe",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL089.md",
+    "status": "MODIFIED",
+    "before_sha256": "490774407ed39510a09d3ae0ea8c786728f4b8686927915daf1413fe06a2a75e",
+    "after_sha256": "781162f4270838f0d509ed831f51e5f4042b6d76b2d1ce7b7bc4b9a1c349d591",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL090.md",
+    "status": "MODIFIED",
+    "before_sha256": "6e413dafcd2f89e1ee256b7db609266b0d80aa92c16d5135cb2af2da0d7b6f7e",
+    "after_sha256": "c67c259ee99feb33f372d6931bb4de492ded3a7452789e56cd5c8570daec805a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL091.md",
+    "status": "MODIFIED",
+    "before_sha256": "ae992270c4d4a0cd99d55dab9eac85683fb79d530a6b40401c786a82f2a3fe0e",
+    "after_sha256": "8082306dd816bc52521d4f989bd1fc72e84e422bac1b30e6d141c8a6d81ae9c2",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL092.md",
+    "status": "MODIFIED",
+    "before_sha256": "28e9122a70303ba9eb5411a47f1d82832124177b30a8f7fbaccd0548b4fe6aa7",
+    "after_sha256": "9937aa51af11f96a82b837094dd92b418a20c67e62ac9a259da496cb8fed32b5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL093.md",
+    "status": "MODIFIED",
+    "before_sha256": "9723c1af448d1f186768ad52f93b5a41630f07ff3a43cb7f86cf52e0ac4e258c",
+    "after_sha256": "29490054a7c888733cef49a9c8d5c58a1977e4efce1c83547c87b23613b14e9e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL094.md",
+    "status": "MODIFIED",
+    "before_sha256": "8b0adc32d6209e859aa5bc398bcba37c8740abf0a852795db2f3dbc165dc660a",
+    "after_sha256": "b1163495603ef8d47fd4712a4e5cc71c7f312bbb324d2343900fefe63d844eba",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL095.md",
+    "status": "MODIFIED",
+    "before_sha256": "440e0217cc456bfca2b39467cc59781cea44b3ef3c5d5c28b28f178cdef4cea8",
+    "after_sha256": "5c698469ca9a09f2d906c4ba02fb15c0c98990557732ca8b7a1523b7656602bc",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL096.md",
+    "status": "MODIFIED",
+    "before_sha256": "f3309bbec0afe02c88ec17d05e06f9b9fc1db860eae27c0d76fdef858fb7215f",
+    "after_sha256": "955d1502c6812186e5e093c73bb87b646090f38e43c1b7d5938d4aff63adbb80",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL097.md",
+    "status": "MODIFIED",
+    "before_sha256": "58112b624dd7207ec2290f5e1bf9939e82eda41676da653848df1ee72a5313ed",
+    "after_sha256": "1d6129cef20c021f3b90964024d668affe5861d0dc353289e2b71604e2de5a36",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL098.md",
+    "status": "MODIFIED",
+    "before_sha256": "70595e0eaa0c57145c2d0474cf04d496f1670e38657555a7d018e4dd1adaa706",
+    "after_sha256": "90749ad7592f9fcddc9160f59f8930cd0120fb53d52691dfd7cc4524c09eda7e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL099.md",
+    "status": "MODIFIED",
+    "before_sha256": "98d0a262d32189046eb04caef401a9cf9abb328bd1bb2d779d3ee598b7b5c484",
+    "after_sha256": "af31eaaaf3af686f37fbda4c7bef596ce20d03ae27f93fba6889e076357307f7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL100.md",
+    "status": "MODIFIED",
+    "before_sha256": "9011747c4372449be53c4abd852b4d6ad6617c6581049477029424089eefd3a2",
+    "after_sha256": "0e58248c2e2b8a8e61f4caab639893c174acc94cda0b1d0ed6cdcea2ccb1bda6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL101.md",
+    "status": "MODIFIED",
+    "before_sha256": "18a74136db17de53810ec3ef0214eec54e62069ecb4890cb3d29118ec78e0360",
+    "after_sha256": "b9bf3f1d7f0ddb6c9bf12997115a0e93040e7f46a351b7bd36c307517027826f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL102.md",
+    "status": "MODIFIED",
+    "before_sha256": "19f0156d0d6531ea18c88e82d4a4ad4a45c21f05e6f467bc2eebac95144e4466",
+    "after_sha256": "79314c2d7f59c24c6ab55c9e64218610f88203db987140f1d8659da2164bfc7f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL103.md",
+    "status": "MODIFIED",
+    "before_sha256": "84b71f55cfb5d41cd1332aed6f5abb8f3b2ab0bedfddaf9bc6aedb41c513ca59",
+    "after_sha256": "539ef1f4f0941c82459c4d4ab949717fec367bdb357e304ddc5ef567c3334485",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL104.md",
+    "status": "MODIFIED",
+    "before_sha256": "db7fc3e1680ead8d66ff9189f9dba9ddca03fbe3f2b3e074a46487475903592f",
+    "after_sha256": "7532e738b3000fe73d77370ff547cfc3813f0cb7bd09bdda7ffd6134ae606c4c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL105.md",
+    "status": "MODIFIED",
+    "before_sha256": "794ba1010fea43a8766b512b89bcdd9c40dc95827885e81ff3127e8726fd6e16",
+    "after_sha256": "474d9922c9e3d11e86252fb826f0f6084235f923acab48d186a3743818b908e4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL106.md",
+    "status": "MODIFIED",
+    "before_sha256": "314b5c7bd5e814aa79d7fc8cef9a45c4e71a65153c911d72d9d18c1e3fe81d18",
+    "after_sha256": "ced54a53875ba9732cb5b41daedbd6133ca89a70c37a6f282714c8c6018cd314",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL107.md",
+    "status": "MODIFIED",
+    "before_sha256": "1ce88b7d4c768786857e9484d5fcbeefd6090a6bbcfb7dfc383b3791d85bc303",
+    "after_sha256": "ea31bb6b0eefa853456d56cd7ecd12bff41eb9f4ba051b2deb9e54a7395d2375",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL108.md",
+    "status": "MODIFIED",
+    "before_sha256": "ee5228b6c6faea0919192518ea994ed6ab5dc74939d949217a4a976a37bf79f7",
+    "after_sha256": "52a190febb30be0036fedddad144afe952af6702f6545ac2f04cc578d169d19e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL109.md",
+    "status": "MODIFIED",
+    "before_sha256": "5d50df6a8ba8e98706ce839a2bf72248de1885db235feb244bc37980a9d9b03d",
+    "after_sha256": "cfe5ffa946ee2c54057425bf26dd1c71eb0291ab0d8b2f84e78a8af1930b6bce",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL110.md",
+    "status": "MODIFIED",
+    "before_sha256": "016c58a6e3e40aca6666ed67a86e34bbda9cb3ba596c589820f79fc1041c1f9e",
+    "after_sha256": "694cd9deda1a98bf909550313f244cfbaaf657e673f78c1f1a132090c77854d6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL111.md",
+    "status": "MODIFIED",
+    "before_sha256": "7834b2262c375b6f1f6ddeff599ad20880aa9eaf53553035d81e22ad09bb48c2",
+    "after_sha256": "125d7772075162fe155938e87960f2920b9beadb84b4d86e045ce783a32ab9a3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL112.md",
+    "status": "MODIFIED",
+    "before_sha256": "24e6f6fe82c8a9078f0e8c69cac927c30d8bbedcfaf0b416aec811c070d22cb1",
+    "after_sha256": "7f779fba53a0f6e3123dc117038c98649216a31b86058f4e7dfa4061d548ada3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL113.md",
+    "status": "MODIFIED",
+    "before_sha256": "084e4b4bfc0776472000bdb6bb24c45cf016a08913e4c1be52469074af54d51b",
+    "after_sha256": "7e98d1390c507a5be3e46f91471bb7b0787109b7f874097024d42b933b1ec970",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL114.md",
+    "status": "MODIFIED",
+    "before_sha256": "f78c3d927bf13bf9700f04a8ea3217d19d3d98faae2eadd99559ff3b5d9a8abb",
+    "after_sha256": "9220b9368fdcc97472b97379b3895bb3a25ef586a633d138f2c7c9f5b4cb0011",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL115.md",
+    "status": "MODIFIED",
+    "before_sha256": "3ccd83eec9fd7a4164d92fd76fa731b5f05db7bed9c8c5969fcfedcfb77bafe9",
+    "after_sha256": "c96bb4c749b14ff92d8e80a87df976cce4adc01e42b91655f7bba3aa5d8d083d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL116.md",
+    "status": "MODIFIED",
+    "before_sha256": "acb367f742871ee7a12b4b83910f634b3494ce89bcd45042558d9125500243be",
+    "after_sha256": "14bd2c443fa0c5c7fe22eff1f45edc002aa26ee4541d2dea867a2a62b31bbb0c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL117.md",
+    "status": "MODIFIED",
+    "before_sha256": "54c8f28d77e5935e04447eea5e3463305560c443301b4ee43b80aa5fcf50ccb0",
+    "after_sha256": "27ade36334bd1c5477437cc4b0f0ad222fcc5294010b33e67bbe08b117e0b52d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL118.md",
+    "status": "MODIFIED",
+    "before_sha256": "b9dc43fce9d44fc7505eaa296b52a3b4be0ee7c89d4af18d2db760f8c9ce5c11",
+    "after_sha256": "5a130957364cc7a54c0776675db682b6c2c7d27e3b29ad4cd1737c3d3b09f6d6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL119.md",
+    "status": "MODIFIED",
+    "before_sha256": "7367a4740ee3d8ddee5fd0b1424592995f7d6be7515e041d4e482551b1222a2d",
+    "after_sha256": "b4d93289519fa2a3c45f1ccb3406535aa229fa101e9db1376df04a0fe215aac1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL120.md",
+    "status": "MODIFIED",
+    "before_sha256": "bb4e731b4fd1337e5c8ad73a043bf53b97fee7eb04fe966e654a44acee16fd0e",
+    "after_sha256": "0df5ccd6aa11e37e710fcee69feb0ef6e9106b3613c876d0816ef8c1497a5832",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL121.md",
+    "status": "MODIFIED",
+    "before_sha256": "34fa41f3cc6b4fa41f168d72e701d2c59dbc5ed74a4499114d75f6f39a8f77a2",
+    "after_sha256": "459745093130adcf97fe8a3bdecebffae0a6f4eb71ee56921f6904d20b0289b6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL122.md",
+    "status": "MODIFIED",
+    "before_sha256": "ce7ce9700036adf50fcf2752efc6c14757114a7a13893a6543f4980f4a463105",
+    "after_sha256": "87b18059aafe5792da98fd482c986cce64e5d0ae61bec434e9d6b05f9e3d4828",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL123.md",
+    "status": "MODIFIED",
+    "before_sha256": "a06a24d52532bf9725b399b98bdd18f3afa1a82da774a51b40de2116f1c3d830",
+    "after_sha256": "f75f1065e195d5320bd53be8b0cbf493926a8164fc2a61dbf50a09905e9d07b3",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL124.md",
+    "status": "MODIFIED",
+    "before_sha256": "c6035403a03c2a83c21a2ed08297b6c59e299df508550926a968a0244b8377e3",
+    "after_sha256": "c9fcef86b067852b7c0885ed28d3563d4c08f7641ef53d62b0562b179e918a02",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL125.md",
+    "status": "MODIFIED",
+    "before_sha256": "95ff1a8323bd620858864297f41fa1918e285f6e416bc2d20082ba40f02d7f6c",
+    "after_sha256": "574cec489f433d1eaae4dbc2b281d5aa436fd8cadf0ff112050f7b58770327ca",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL126.md",
+    "status": "MODIFIED",
+    "before_sha256": "cb5ca2a7c12b58954743df7ee98e229b19405b4c3c5ed13fad5529bfcd30c887",
+    "after_sha256": "07931bf0e77d50e5f6aa061f4973f88ae1008b54c4fb12b81ee2c41f3b6c0cda",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL127.md",
+    "status": "MODIFIED",
+    "before_sha256": "709f0db47ce2e42ea1c6a34ee8c95403314782bdda5e600527f81090a86ee018",
+    "after_sha256": "7b53deff7c8121de92e8992abaa1461e7c15259f6cdfc581bc993f01699f2294",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL128.md",
+    "status": "MODIFIED",
+    "before_sha256": "18f4a726bbac7df72b670bfa7c89f6401299c6a4ce661ab44bd70a100c2d2bd8",
+    "after_sha256": "cc22f07925a3605f31a06c24f25191e37b71645d50e97faccc8b957182fe02f1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL129.md",
+    "status": "MODIFIED",
+    "before_sha256": "33e4523a3f3ba4ab288f15f510c09f440e3ab000aedc2d0d04388e4e34f2a661",
+    "after_sha256": "8fba22be85d4c14f4937174df78a0e6330448dced9580d3af6ebe0cd2672ccf1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL130.md",
+    "status": "MODIFIED",
+    "before_sha256": "823557f768672b9773fabb3d4fa3308f41c7f3d581d182f9d048ffe5ee06d5d0",
+    "after_sha256": "97f42d144fa80fcb4acb32991d688cf4004e3a5e99f7bbdb4f46a3c94aaf8738",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL131.md",
+    "status": "MODIFIED",
+    "before_sha256": "87c58b9c9ce1b34f3ba892e1a3357b0dfb5743409218c9117c3f3b1ca0678878",
+    "after_sha256": "1d8c63235c52c68e785a13ae6db1f2fb1d50194aa983fad7b479ebdd3716807c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL132.md",
+    "status": "MODIFIED",
+    "before_sha256": "19210d6c058325271d60b2b5806d22c17a14d7e82bfc8448419aa8c89c4c69bc",
+    "after_sha256": "a22c2a39931cae0d5b1530fa967973d36fc46ef0823452800cd4d6bd7f919f6d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL133.md",
+    "status": "MODIFIED",
+    "before_sha256": "7dc369c7623467f9512e803f1dd2613eea41d8c91c7f991eb9fd3968f628703a",
+    "after_sha256": "5c1258b2883ab47d5685f5ffd7f46c6efe0c8915e98ec0f40441e6a47f99a075",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL134.md",
+    "status": "MODIFIED",
+    "before_sha256": "102ceab08dd6c817f66ab6f3aeade23bcb47c54d4323ccbef2da592ce65d3200",
+    "after_sha256": "e0cc378cd5769f46ecfd32c54790553dd7fd3e56bcc429660b626ce3b2bb05ee",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL135.md",
+    "status": "MODIFIED",
+    "before_sha256": "983622a02bb337e2f70b3d603348d67cbb06858a168c0617d3a52d0bddc481e2",
+    "after_sha256": "4701549b9cc96f70c198ed1449451db886fbb6d682274701062b1e08a28b8b76",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL136.md",
+    "status": "MODIFIED",
+    "before_sha256": "ccbf58614f091b331e91841eadcc9b9332e333b8aa0f00093855f96d0bceac31",
+    "after_sha256": "7797cf9cd99f8d47a932c1d1674f7b511096ea3d6d0cb60fbcea186c092469c5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL137.md",
+    "status": "MODIFIED",
+    "before_sha256": "d21a1ce5bbb3fd02dc25894cc8ec3841c47b540d1eecc6bd7e4bd076f862b1c3",
+    "after_sha256": "2164211bf722632790cc5641f0ffba8f1c0e85533cc7ae0c1bb0c2be996def7a",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL138.md",
+    "status": "MODIFIED",
+    "before_sha256": "007ac4b08bd4052400e3e4d85cb8cdf5b6c9198ce891bf15efaa0bbc6e2435e7",
+    "after_sha256": "6f47946f9dea848397460f4a659ff6544ade6efba75fe8c16d49bd046705ed66",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL139.md",
+    "status": "MODIFIED",
+    "before_sha256": "05cc49fb109fad910c54bd63c2ecdacb66786ab4b8861479404c6f730093f312",
+    "after_sha256": "68e5c003e0607058e1d7f1bc90174e03ab0e0ca3c23457f3b397264a392020b4",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL140.md",
+    "status": "MODIFIED",
+    "before_sha256": "60b276e5683bc7138b5fb8e6df47bba3b935fbd70c2f01b560aaa8aba5905182",
+    "after_sha256": "f6fd4a6b1aa492cdb2515825da95c7505365ef07ff8732b6038930ecf7e898d7",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL141.md",
+    "status": "MODIFIED",
+    "before_sha256": "337235ed191bb0cdad74e36587b79321fdca64820c1efe487e9878e36f5fa3c6",
+    "after_sha256": "7d639a19e7cde996877aae79fc9252414c582e2c7f5d7b589fea8e02b8206cf6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL142.md",
+    "status": "MODIFIED",
+    "before_sha256": "a0b2b24c395933648c1141fcfed7ec6005f51448b1e7cc202be05eccfc33d544",
+    "after_sha256": "9a8cbf942bfec98537ad1f2255438c6bbd73008573664b21891707bed77ba588",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL143.md",
+    "status": "MODIFIED",
+    "before_sha256": "ca3f6b494e841cda87d6b2426ba5bdf22d9ac8eeec2eeebd77d55b5373934194",
+    "after_sha256": "ee2a27c541e778d182054acf538fd6fffc2f211db02d91d6f778b976e034d7b1",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL144.md",
+    "status": "MODIFIED",
+    "before_sha256": "2839ce0f48e658daaf3f2377aa220d16d66cd3ab1dfd28fc45426b286b28923c",
+    "after_sha256": "f29765a499b9819c83183d0dabc430f018599a2de9b07f2ac361e9dfc1c7973d",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL145.md",
+    "status": "MODIFIED",
+    "before_sha256": "f115bdedd1988289f3a8fc0ef9de9b15e6a9ef32a434af5c0bf649013f48f11b",
+    "after_sha256": "428fd26f04252771d740b7fb31a50c83f796c1de5c8ad615faf4cbac42ac0719",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL146.md",
+    "status": "MODIFIED",
+    "before_sha256": "ad05dbaf76215c4bcace3db82ebee9a0fe38a79bd5cbe3aeb902bf90dfb7a761",
+    "after_sha256": "54370588a0da6d8b2b3f18bf0170e43fb25844f5978edc0965c1d7cc90a67df9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL147.md",
+    "status": "MODIFIED",
+    "before_sha256": "d60bcd7e23b595639d72489087b010507f249bac1df3747c7b120547ea1244d3",
+    "after_sha256": "f2c4174001284aad1f12a8bc255712f08383e9113229a285743bfe185003956e",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL148.md",
+    "status": "MODIFIED",
+    "before_sha256": "23a4a6959623cabed7671cf4b58a2d39d4c822a5edfd0f441747e7f43a032f42",
+    "after_sha256": "e3d6ab218f44191b742fc1850a88adefb195b409e745e106a99739ccd58b99da",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL149.md",
+    "status": "MODIFIED",
+    "before_sha256": "0dd07ec5ac1235e341c8e3c0b226dbdba85be5782cd9faf6598538b1138a0ab5",
+    "after_sha256": "b1da2edbf1ae335aab8a9105bbb97add58a7e26e56d45b3680ce32b30cf2329b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL150.md",
+    "status": "MODIFIED",
+    "before_sha256": "251f1009d3475f2b2af79c1c90185b55ac65bc980286b0d46c652718b93cb5db",
+    "after_sha256": "83b89e030ec2aae30bcd144f9cc6ab822740da1b5c6983c4ff92e4c97db0f665",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL151.md",
+    "status": "MODIFIED",
+    "before_sha256": "0beecc8bb96fc8eba30151aed60220612ccb268fb72c8dd0904d0f2a052f0082",
+    "after_sha256": "6e9e5d058a082e3bc8867dfad91dcae89fc402b3b99e79139d1c30415a791e22",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL152.md",
+    "status": "MODIFIED",
+    "before_sha256": "e7da922abbd61efd1ce9305ca37e145fa6058d7d5cf67779f863380e2f34c2c9",
+    "after_sha256": "0bdd30796db8c276173955249e0e6b4a2fb01a4a8c977b05f58952864f9c5139",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL153.md",
+    "status": "MODIFIED",
+    "before_sha256": "3eabe8303f8d1d5efb99a5a53d816e5ad845076189322dfe8c06f7cd290f17c1",
+    "after_sha256": "262b5c7fc74b24638ac4399fce41400d8a6a4ec69072b5c9e2b56b0cb86602a0",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL154.md",
+    "status": "MODIFIED",
+    "before_sha256": "fa590076c86d53da03cab111a84c34d14f0a59dd6b48adffc26fcab66960b71b",
+    "after_sha256": "2e53261d8f2e8a604f2842adc23a237a64da101668ab871d6e8bdd4cd5f74fb9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL155.md",
+    "status": "MODIFIED",
+    "before_sha256": "ec6d3236869d0965a10da79bbd2a90055fa255cea67e701aa135817788fe2e43",
+    "after_sha256": "7c2e322f69e882a5381b6b8d31dde4782bf660f9d2ac3f4e61ad0921a8d3300b",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL156.md",
+    "status": "MODIFIED",
+    "before_sha256": "6657dcf4279dba23e72a768d5081f5a57dc5bc0166bf47014871abc20e1bde7c",
+    "after_sha256": "b28028318dda813c67414c706868538f3ce7ef03f1d7d263e7e9d8ea6844d98f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL157.md",
+    "status": "MODIFIED",
+    "before_sha256": "beb5cfacac9bb36a90682eef3be8bebaeece494df6a8ee62c1a0b1a3a99dcfbb",
+    "after_sha256": "54605c4cfafff1b94eacefafa2936c4208e7274971655bc4def86cb543888613",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL158.md",
+    "status": "MODIFIED",
+    "before_sha256": "af1044d7846533aaf92024a7778b281f5016a853e390a3fb2db3d142fdbbf0d5",
+    "after_sha256": "b666600ea77b72745d67a0b5855d00fb57de8727de999d046a4b8bb90babc2ae",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL159.md",
+    "status": "MODIFIED",
+    "before_sha256": "8e17ea43323882b3d5ceca82098d37042f3ad67b50ce950de4e006eb134ffcf3",
+    "after_sha256": "2d6bb89b3fb167cfea4396482202ee0d22de2ac4978ba68cfba63518d0f9ea54",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL160.md",
+    "status": "MODIFIED",
+    "before_sha256": "1024fd98702263fac93ab2e3fa34a8920d670b65dd3c26c2928209f3e9f0bf99",
+    "after_sha256": "e8c09fa8de665c0c81aa58062372790f34263bf5c62115bf549db2310f411de5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL161.md",
+    "status": "MODIFIED",
+    "before_sha256": "f726cabe04a7411d5e2ffaacb427b99c777b269ff05d2aa9623fed081c0b1ea7",
+    "after_sha256": "ba2549e6311e2be341a45e8f1b463c8715bc9f1cd007fa7b357885fbf519198c",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL162.md",
+    "status": "MODIFIED",
+    "before_sha256": "3740dc60ce7f303692f09dc56eb43437c42f831c9361d9e546d3919646bd2334",
+    "after_sha256": "496d0884341e49f2db312564261b43580286d89beea58fdb0a4e4eac8c1eaae9",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL163.md",
+    "status": "MODIFIED",
+    "before_sha256": "0a587e2e8709a0510be9f2d451e2f26a36d4bf57c573962a5b7b5bef84eef4d7",
+    "after_sha256": "f2909548cd13d44c08ffab14bf9f8c51558ac1481b4abad3c1e3e3f0f24d3435",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL164.md",
+    "status": "MODIFIED",
+    "before_sha256": "342df79173bfd59c7512d0681c4a3069ebe26ee7dad58f33b2c8384808259555",
+    "after_sha256": "73a2d11692ed02e877ae1b26c3ba2ce670379d2dc25bcd72b4c92da9856a3b4f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL165.md",
+    "status": "MODIFIED",
+    "before_sha256": "74c697605014bf5626598c7cb224c7983a6c31a782cdfbaf85d03ea6293df54c",
+    "after_sha256": "2656aaf8bb1b93b764ccf216fd4da45b75e11acbbeea7cab1c9d1e719e621080",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL166.md",
+    "status": "MODIFIED",
+    "before_sha256": "68c862ad314b17dddc2da0f1bb2c32a52b0c10622452cdfcf138e55b18750bb4",
+    "after_sha256": "b44fc657814f58dac4bae0771c2cab127f4ba47a5084b429345d1e52b5172fcf",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL167.md",
+    "status": "MODIFIED",
+    "before_sha256": "89457879fd9ecf870228b9aeb4a8f894db668b4dc326a884f1a2b0cce9b5e661",
+    "after_sha256": "7871051fe9ea91d1049518f5978da223050adf053c4964a46ee1d4e983252915",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL168.md",
+    "status": "MODIFIED",
+    "before_sha256": "aaa3c71906d5dd56ca74fd073031f557e748d7051ffd1e09e2672505efc598d0",
+    "after_sha256": "730d23b88114968562f1b648c8604ca6c8a23107e72b1656af305b61cffa8380",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL169.md",
+    "status": "MODIFIED",
+    "before_sha256": "2d7d6f2533ad0c19a9bff0be8779fcb11c375f8cf99a09b39cf3ca18e828072e",
+    "after_sha256": "1e5ec52b1ad2a05f86bc540aed8d3867933b3071e9658bbc32c88ad3e927b4a6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL170.md",
+    "status": "MODIFIED",
+    "before_sha256": "e259a2bed3aeba42185726b33da4f5a3ad5dbf5c73e02ab96196d20f337277d8",
+    "after_sha256": "c22b357a57d7bd0791a481567c9e39ef18b1b3ab2551f5933cc1e9b2501be630",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL171.md",
+    "status": "MODIFIED",
+    "before_sha256": "9ccea5bb0dafcaea7edff4b455411f1120eb5929ab0f568e6667c01f267ac1ab",
+    "after_sha256": "148b1338d54772be5e2a4f2801b9446546a2d1ebfcdfd421fb26387eacf8bb86",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/REL172.md",
+    "status": "MODIFIED",
+    "before_sha256": "3fd6f86a4ab5278de34d3c75cd2afe23039e2e524944c19c30025b71846809ba",
+    "after_sha256": "b0ecbb49b2046ed517b2c20c0305c6784f624d0e29b0a7d6223276178b15eee6",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/RELATIONSHIP_MATRIX.md",
+    "status": "MODIFIED",
+    "before_sha256": "b6ac80dca13b0a034ee72e57887cd91ebadbc0dc68c67a09aad92148bd53a186",
+    "after_sha256": "f3837c0419b457799af5c41eeb523ae656d55d834480883b25dc0ca7a3a9c046",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/TEMP_TO_REL_MAP.md",
+    "status": "MODIFIED",
+    "before_sha256": "273863ce2aae18c70571fa9ac6047865afb42177ddcb90186ae222263d767aa3",
+    "after_sha256": "25ad11868a169b7213bc97bba2fc4f0b8363b49cdc715c92635729fe48dc9ff5",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  },
+  {
+    "path": "canon/relationships/records.json",
+    "status": "MODIFIED",
+    "before_sha256": "b6b2f07dc7b38cb7da30298467bd1d7a58d09e7cd1648c5166b5c8c2d0d809e0",
+    "after_sha256": "470f678162bdfd1ded8e03c96eefd7c8554658b1331a983256bb5811977a144f",
+    "authority": "Stage2C CR/CC；派生页面由当前正式records渲染；新增回归报告不新增Canon事实"
+  }
+]

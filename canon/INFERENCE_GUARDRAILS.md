@@ -23,7 +23,7 @@
 |治愈等于无伤、复活或可无限重复|区分本体、魔力身、本相及灵魂；具体修复成功不意味着毁去部件归还。|[PS003](03_power_system.md#ps003)、[PS027](03_power_system.md#ps027)|
 |亲密、血缘与法律关系混写|亲密不自动恋爱，承诺照护不等收养手续，本名和血缘信息不等秘密身份公开；本轮不建立正式关系库。|[关系TEMP](relationships/TEMP_INDEX.md)、[LOC027](05_locations.md#loc027)|
 |作者废稿、类比、未批准补充进入正文层|保留来源类别；U004 B1仅允许逐份审议补充候选，目前没有可自动采用的新补充。|[用户裁决](../audit/USER_DECISIONS.md)、[来源规则](00_source_policy.md)|
-|RP反向改Canon|先依原著条件判断是否可能，再由以后游戏层处理可能范围内结果；不实现“高骰无视条件”。命运骰、CG、好感及OC默认均不写成本轮世界事实。|[用户裁决](../audit/USER_DECISIONS.md)、[PS005](03_power_system.md#ps005)|
+|RP反向改Canon|Canon保存原著能力条件与未知；U006尚未决定骰子和能力边界的具体优先规则，整体重做留待用户。不得把任何未来骰子、CG、好感或OC默认写成原著事实。|[用户裁决](../audit/USER_DECISIONS.md)、[PS005](03_power_system.md#ps005)|
 |文件结束被当作故事结束|末尾只到幻命织华唱名；女王生死、黑猫胜负、食祭终局和考核发牌不填答案。|[EV0158](01_master_timeline.md#ev0158)、[WQ004](UNRESOLVED.md#wq004)、[WQ027](UNRESOLVED.md#wq027)|
 
 后续新增或修订时：在主条目记录新证据、旧判断、变化原因与适用阶段；再更新未解导航。若要改Stage 2A的既有事件，先处理[本轮建议](STAGE2B1_REVIEW.md)，不得只改世界模块而让时间轴静默产生相反版本。

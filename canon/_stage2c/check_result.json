@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "events_STABLE_IDS",
+      "status": "PASS",
+      "detail": {
+        "count": 192,
+        "expected": 192
+      }
+    },
+    {
+      "name": "events_OLD_IDS_RETAINED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "characters_STABLE_IDS",
+      "status": "PASS",
+      "detail": {
+        "count": 70,
+        "expected": 70
+      }
+    },
+    {
+      "name": "characters_OLD_IDS_RETAINED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "relationships_STABLE_IDS",
+      "status": "PASS",
+      "detail": {
+        "count": 172,
+        "expected": 172
+      }
+    },
+    {
+      "name": "relationships_OLD_IDS_RETAINED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "knowledge_STABLE_IDS",
+      "status": "PASS",
+      "detail": {
+        "count": 235,
+        "expected": 235
+      }
+    },
+    {
+      "name": "knowledge_OLD_IDS_RETAINED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "WR_IDS",
+      "status": "PASS",
+      "detail": 14
+    },
+    {
+      "name": "PS_IDS",
+      "status": "PASS",
+      "detail": 38
+    },
+    {
+      "name": "ORG_IDS",
+      "status": "PASS",
+      "detail": 19
+    },
+    {
+      "name": "LOC_IDS",
+      "status": "PASS",
+      "detail": 36
+    },
+    {
+      "name": "FORMAL_REFERENCES_EXIST",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "ALL_SOURCE_WINDOWS_IN_BOUNDS",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "AUDIT_EVIDENCE_TARGETS",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "REL_172_DIRECTION_STAGE_FAMILY",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "REL_STAGE_COUNT_583",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "FAMILY_LAYERS_COUNT_36",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "UNKNOWN_DISPUTED_PRESERVATION",
+      "status": "PASS",
+      "detail": {
+        "old_REL_slots": 1436,
+        "changes": []
+      }
+    },
+    {
+      "name": "ALL_CHANGED_RECORD_FIELDS_LOGGED",
+      "status": "PASS",
+      "detail": {
+        "fields": 970,
+        "unlogged": []
+      }
+    },
+    {
+      "name": "CC_UNIQUE_CONTIGUOUS",
+      "status": "PASS",
+      "detail": 1013
+    },
+    {
+      "name": "CR_UNIQUE_CONTIGUOUS",
+      "status": "PASS",
+      "detail": 36
+    },
+    {
+      "name": "QUEUE_DECISIONS_ENUM",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CC_CR_BIDIRECTIONAL_LINKS",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ACCEPTED_CHANGES_IMPLEMENTED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "K_STRUCTURE_TIME_SCOPE_DEFAULT_DENY",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "K_365_UNIQUE_TRANSITIONS",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "OLD_K_TRANSITION_IDS_RETAINED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "K_NO_DUPLICATE_PROPOSITIONS",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ALL_207_TEMP_MAPPED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "HISTORICAL_ORDER_ACYCLIC",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "ALL_192_EVENTS_HAVE_EXPLICIT_EPOCH",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ACTUAL_QUERY_TESTS",
+      "status": "PASS",
+      "detail": {
+        "count": 55,
+        "failed": []
+      }
+    },
+    {
+      "name": "SIX_JOINT_CATEGORIES_ALL_TIER_A",
+      "status": "PASS",
+      "detail": {
+        "count": 60,
+        "failed": []
+      }
+    },
+    {
+      "name": "ALL_38_ORIGINAL_SNAPSHOTS_RECHECKED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "PUBLISHED_LINKS_AND_STABLE_ANCHORS",
+      "status": "PASS",
+      "detail": {
+        "count": 31961,
+        "bad": []
+      }
+    },
+    {
+      "name": "PUBLISHED_HTML_ANCHORS_UNIQUE",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "TIMELINE_EXACTLY_192_CURRENT_DETAILS",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "REL_DIRECTORY_STAGE_COUNTS_CURRENT",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "ALL_NON_CANON_INPUT_HASHES_UNCHANGED",
+      "status": "PASS",
+      "detail": {
+        "count": 262,
+        "changed": [],
+        "added": []
+      }
+    },
+    {
+      "name": "SOURCE_KNOWN_HASH",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CARD_KNOWN_HASH",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "HISTORICAL_REVIEWS_TEMP_IMMUTABLE",
+      "status": "PASS",
+      "detail": [
+        "canon/STAGE2B1_REVIEW.md",
+        "canon/STAGE2B2_REVIEW.md",
+        "canon/STAGE2B3_REVIEW.md",
+        "canon/STAGE2B4_REVIEW.md",
+        "canon/characters/LEGACY_P_TEMP_INDEX.md",
+        "canon/knowledge/TEMP_INDEX.md",
+        "canon/relationships/TEMP_INDEX.md"
+      ]
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "events": 192,
+    "world": 107,
+    "characters": 70,
+    "relationships": 172,
+    "relationship_stages": 583,
+    "family_records": 36,
+    "knowledge": 235,
+    "knowledge_transitions": 365,
+    "query_tests": 55,
+    "joint_scenarios": 60,
+    "original_snapshots": 38,
+    "CR": 36,
+    "CC": 1013,
+    "character_unknown": 99,
+    "relationship_unknown_dimensions": 1436,
+    "knowledge_important_unknown": 33
+  },
+  "links": 31961,
+  "input_hashes": {
+    "current/260808.png": "3d6a1d85f42d0980aac7ce9ff62f0a94d51f3c5c3272c3eaedf39ef1b8bd517d",
+    "source/下班，然后变成魔法少女_第1-282章.txt": "18819c3060f411fd8bbb24e859657d24a7628317aed18c9106831f73eb250fa2"
+  },
+  "protected_files": 262,
+  "scope": "全量结构/引用/变更链/哈希 + 60联合情境/38旧快照 + 55实际查询；语义判断来自Review逐条及事实逐项人工对照，不声称自动证明每句自然语言。"
+}
